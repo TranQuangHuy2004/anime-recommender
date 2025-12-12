@@ -14,9 +14,11 @@ class AnimeFetcher:
     Fetch and Save Anime as JSON
     '''
 
-    def __init__(self):
+    def __init__(self, continue_fetching=False, start_page=1):
         self.base_url = os.getenv("JIKAN_BASE_URL", "https://api.jikan.moe/v4")
         self.delay = 0.5  # Rate limiting delay
+        self.continue_fetching = continue_fetching
+        self.start_page = start_page
 
         # Create data directories
         self.data_dir = Path("data")
@@ -26,9 +28,27 @@ class AnimeFetcher:
         self.anime_dir.mkdir(parents=True, exist_ok=True)
         self.characters_dir.mkdir(parents=True, exist_ok=True)
 
-    def save_anime_json(self, anime_data):
+    def save_anime_json(self, anime_data, continue_fetching=False):
         """Save anime data as JSON file"""
         filename = self.anime_dir / "anime_data.json"
+
+        if continue_fetching and filename.exists():
+            # Load existing data and append new data
+            try:
+                with open(filename, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+
+                if anime_data:
+                    existing_data.extend(anime_data)
+                    anime_data = existing_data
+                    print(f"✅ Appended {len(anime_data)} new anime to existing file")
+                else:
+                    print("⚠️  No new anime to append")
+                    return filename
+
+            except json.JSONDecodeError as e:
+                print(f"⚠️  Error reading existing JSON file: {e}. Creating new file.")
+
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(anime_data, f, ensure_ascii=False, indent=2)
         return filename
@@ -56,6 +76,11 @@ class AnimeFetcher:
                 return json.load(f)
         return None
 
+    def get_existing_mal_ids(self):
+        """Get set of MAL IDs already in the JSON file"""
+        existing_data = self.load_anime_json()
+        return {anime['mal_id'] for anime in existing_data}
+
     def fetch_extract_anime_characters(self, mal_id):
         """Fetch and extract anime characters, then save to JSON file"""
         try:
@@ -64,15 +89,25 @@ class AnimeFetcher:
                 f"{self.base_url}/anime/{mal_id}/characters",
                 timeout=10
             )
+            # If rate limited, wait and retry
+            if characters_response.status_code == 429:
+                print(f"Rate limited for {mal_id}, waiting 60 seconds...")
+                time.sleep(60)
+                characters_response = requests.get(
+                    f"{self.base_url}/anime/{mal_id}/characters",
+                    timeout=10
+                )
+
             characters_data = []
             if characters_response.status_code == 200:
                 characters_data = characters_response.json()['data']
 
             for char in characters_data:
-                char["voice_actors"] = [
-                    va for va in char["voice_actors"]
-                    if va.get("language").lower().strip() == "japanese"
-                ]
+                if "voice_actors" in char:
+                    char["voice_actors"] = [
+                        va for va in char["voice_actors"]
+                        if va.get("language", "").lower().strip() == "japanese"
+                    ]
 
             self.save_characters_json(mal_id, characters_data)
             return characters_data
@@ -119,17 +154,22 @@ class AnimeFetcher:
             'demographics': [{'mal_id': d['mal_id'], 'name': d['name']} for d in anime.get('demographics', [])]
         }
 
-    def fetch_top_anime_with_characters(self, limit=50):
+    def fetch_top_anime_with_characters(self, limit=None):
         """Fetch top anime with full details and characters and save them as JSON files"""
         print(f"Fetching top {limit} anime with full details...")
 
         # First, get list of top anime IDs
         anime_data = []
-        page = 1
+        page = self.start_page
+        total_fetched = 0
+
+        # Get existing MAL IDs to avoid duplicates
+        existing_ids = self.get_existing_mal_ids()
+        print(f"Found {len(existing_ids)} existing anime in database")
 
         # print("Getting anime IDs...")
         with tqdm(total=limit, desc="Fetching anime") as pbar:
-            while len(anime_data) < limit:
+            while limit and total_fetched < limit:
                 try:
                     response = requests.get(
                         f"{self.base_url}/top/anime",
@@ -139,9 +179,13 @@ class AnimeFetcher:
 
                     data = response.json()
                     for anime in data.get('data', []):
-                        if len(anime_data) >= limit:
+                        if total_fetched >= limit:
                             break
-                        anime_data.append(self.extract_anime_data(anime))
+                        new_anime = self.extract_anime_data(anime)
+                        if not new_anime['mal_id'] in existing_ids:
+                            anime_data.append(new_anime)
+                            total_fetched += 1
+
                         pbar.update(1)
 
                     page += 1
@@ -152,7 +196,7 @@ class AnimeFetcher:
                     break
 
         print(f"✅ Successfully fetched top {len(anime_data)} anime")
-        self.save_anime_json(anime_data)
+        self.save_anime_json(anime_data, continue_fetching=self.continue_fetching)
 
         # Now fetch characters for each anime
         print(f"\nFetching characters info for {len(anime_data)} anime...")
@@ -188,9 +232,18 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Anime Data Fetcher")
     parser.add_argument('--mal_ids', nargs="*", type=int, default=None,
                         help='List of MAL IDs to fetch characters for (e.g., --mal_ids 1 20 30276). If omitted, fetch normally.')
+    parser.add_argument('--page', type=int, default=1,
+                        help='Page number to start fetching from (default: 1)')
+    parser.add_argument('--continue', dest='continue_fetch', action='store_true',
+                        help='Continue fetching and append to existing anime_data.json')
+    parser.add_argument('--limit', type=int, default=None,
+                        help='Total number of anime to fetch (default: None = fetch all pages)')
     args = parser.parse_args()
 
-    fetcher = AnimeFetcher()
+    fetcher = AnimeFetcher(
+        continue_fetching=args.continue_fetch,
+        start_page=args.page
+    )
 
     print("=" * 50)
     print("FETCHING DATA FROM JIKAN API")
@@ -198,11 +251,12 @@ if __name__ == "__main__":
 
     if args.mal_ids:
         # User gave specific mal_ids → fetch only these
-        print(f"Fetching characters for MAL IDs: {args.mal_ids}")
+        print(f"\nFetching characters for MAL IDs: {args.mal_ids}")
         for id in args.mal_ids:
             fetcher.fetch_extract_anime_characters(id)
     else:
         # Normal full fetching
-        anime_count, char_count, error_anime_id = fetcher.fetch_top_anime_with_characters(limit=int(os.getenv("MAX_ANIME", 20)))
+        print(f"\nFetching from page {args.page}")
+        anime_count, char_count, error_anime_id = fetcher.fetch_top_anime_with_characters(limit=args.limit)
         print(f"\nFetched: {anime_count} anime, {char_count} with characters")
         print(f"Anime that couldn't fetch characters: {error_anime_id}")
