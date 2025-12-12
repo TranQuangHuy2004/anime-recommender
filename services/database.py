@@ -14,6 +14,10 @@ CATEGORY_COLUMN_MAP = {
 
 
 class Database:
+    """
+    Ways to execute SQL query
+    """
+
     def __init__(self):
         self.conn_params = {
             "host": os.getenv("DB_HOST", "localhost"),
@@ -146,8 +150,8 @@ class Database:
 
     def insert_studio(self, studio_data):
         query = """
-        INSERT INTO studios (mal_id, name, type)
-        VALUES (%s, %s, %s)
+        INSERT INTO studios (mal_id, name)
+        VALUES (%s, %s)
         ON CONFLICT (mal_id) DO NOTHING
         RETURNING id
         """
@@ -156,8 +160,7 @@ class Database:
             with conn.cursor() as cur:
                 cur.execute(query, (
                     studio_data['mal_id'],
-                    studio_data['name'],
-                    studio_data.get('type')
+                    studio_data['name']
                 ))
                 result = cur.fetchone()
                 return result['id'] if result else None
@@ -170,14 +173,14 @@ class Database:
         """
         self.execute_query(query, (anime_id, studio_id))
 
-    def bulk_insert_studio(self, studio_rows):
+    def bulk_insert_studios(self, studio_rows):
         """
         Insert or update MANY studio rows at once using execute_values
 
         :param studio_rows: list of tuples
         """
         query = """
-        INSERT INTO studios (mal_id, name, type)
+        INSERT INTO studios (mal_id, name)
         VALUES %s
         ON CONFLICT (mal_id) DO NOTHING
         """
@@ -186,11 +189,11 @@ class Database:
             with conn.cursor() as cur:
                 execute_values(cur, query, studio_rows)
 
-    def bulk_link_anime_studio(self, anime_studio_rows):
+    def bulk_link_anime_studios(self, anime_studios):
         """
-        Insert or update MANY link_anime_studio rows at once using execute_values
+        Insert or update MANY anime_studios rows at once using execute_values
 
-        :param anime_studio_rows: list of tuples
+        :param anime_studios: list of tuples
         """
         query = """
         INSERT INTO anime_studios (anime_id, studio_id)
@@ -200,7 +203,7 @@ class Database:
 
         with self.get_connection() as conn:
             with conn.cursor() as cur:
-                execute_values(cur, query, anime_studio_rows)
+                execute_values(cur, query, anime_studios)
 
     # ========== GENRE/THEME/DEMOGRAPHIC METHODS ==========
 
@@ -222,7 +225,7 @@ class Database:
                 result = cur.fetchone()
                 return result['id'] if result else None
 
-    def link_anime_category(self, junction_table, anime_id, category_id):
+    def link_anime_categor(self, junction_table, anime_id, category_id):
         query = f"""
         INSERT INTO {junction_table} (anime_id, {CATEGORY_COLUMN_MAP[junction_table]})
         VALUES (%s, %s)
@@ -230,7 +233,7 @@ class Database:
         """
         self.execute_query(query, (anime_id, category_id))
 
-    def bulk_insert_category(self, table_name, category_rows):
+    def bulk_insert_categories(self, table_name, category_rows):
         """
         Generic bulk insert of update method for genres, themes, demographics
 
@@ -248,12 +251,12 @@ class Database:
             with conn.cursor() as cur:
                 execute_values(cur, query, category_rows)
 
-    def bulk_link_anime_category(self, junction_table, anime_category_rows):
+    def bulk_link_anime_categories(self, junction_table, anime_categories):
         """
-        Insert or update MANY link_anime_category rows at once using execute_values
+        Insert or update MANY anime_categories rows at once using execute_values
 
         :param junction_table: name of the junction table
-        :param anime_category_rows: list of tuples
+        :param anime_categories: list of tuples
         """
         query = f"""
         INSERT INTO {junction_table} (anime_id, {CATEGORY_COLUMN_MAP[junction_table]})
@@ -263,7 +266,7 @@ class Database:
 
         with self.get_connection() as conn:
             with conn.cursor() as cur:
-                execute_values(cur, query, anime_category_rows)
+                execute_values(cur, query, anime_categories)
 
     # ========== CHARACTER METHODS ==========
 
@@ -291,7 +294,7 @@ class Database:
                 result = cur.fetchone()
                 return result['id'] if result else None
 
-    def bulk_insert_character(self, character_rows):
+    def bulk_insert_characters(self, character_rows):
         """
         Insert or update MANY character rows at once using execute_values
 
@@ -310,7 +313,7 @@ class Database:
 
         with self.get_connection() as conn:
             with conn.cursor() as cur:
-                cur.execute(query, character_rows)
+                execute_values(cur, query, character_rows)
 
     # ========== VOICE ACTOR METHODS ==========
 
@@ -335,7 +338,7 @@ class Database:
                 result = cur.fetchone()
                 return result['id'] if result else None
 
-    def bulk_insert_voice_actor(self, voice_actor_rows):
+    def bulk_insert_voice_actors(self, voice_actor_rows):
         """
         Insert or update MANY voice actor rows at once using execute_values
 
@@ -348,12 +351,11 @@ class Database:
         ON CONFLICT (mal_id) DO UPDATE SET
             name = EXCLUDED.name,
             image_url = EXCLUDED.image_url
-        RETURNING id
         """
 
         with self.get_connection() as conn:
             with conn.cursor() as cur:
-                cur.execute(query, voice_actor_rows)
+                execute_values(cur, query, voice_actor_rows)
 
     # ========== ANIME-CHARACTER-VOICE ACTOR LINK ==========
 
@@ -365,11 +367,11 @@ class Database:
         """
         self.execute_query(query, (anime_id, character_id, voice_actor_id))
 
-    def bulk_link_anime_character_voice_actor(self, anime_character_voice_actor_rows):
+    def bulk_link_anime_characters_voice_actors(self, anime_characters_voice_actors):
         """
-        Insert or update MANY anime_character_voice rows at once using execute_values
+        Insert or update MANY anime_characters_voice_actors rows at once using execute_values
 
-        :param anime_character_voice_actor_rows: list of tuples
+        :param anime_characters_voice_actors: list of tuples
         """
 
         query = """
@@ -380,4 +382,4 @@ class Database:
 
         with self.get_connection() as conn:
             with conn.cursor() as cur:
-                cur.execute(query, anime_character_voice_actor_rows)
+                execute_values(cur, query, anime_characters_voice_actors)
