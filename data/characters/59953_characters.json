@@ -1,0 +1,705 @@
+[
+  {
+    "character": {
+      "mal_id": 269765,
+      "url": "https://myanimelist.net/character/269765/Mu_Qin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/613389.jpg?s=31d587e761fa6d692c75345cfc5e1185"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/613389.webp?s=31d587e761fa6d692c75345cfc5e1185",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/613389t.webp?s=31d587e761fa6d692c75345cfc5e1185"
+        }
+      },
+      "name": "Qin, Mu"
+    },
+    "role": "Main",
+    "favorites": 11,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 270962,
+      "url": "https://myanimelist.net/character/270962/Youyou_Si",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/613383.jpg?s=6eefae3c1472b007cfc471ecd6e18ed2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/613383.webp?s=6eefae3c1472b007cfc471ecd6e18ed2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/613383t.webp?s=6eefae3c1472b007cfc471ecd6e18ed2"
+        }
+      },
+      "name": "Si, Youyou"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284283,
+      "url": "https://myanimelist.net/character/284283/Shan_Ba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/613486.jpg?s=b96dc52a844997375afc15c5b8603068"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/613486.webp?s=b96dc52a844997375afc15c5b8603068",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/613486t.webp?s=b96dc52a844997375afc15c5b8603068"
+        }
+      },
+      "name": "Ba, Shan"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284231,
+      "url": "https://myanimelist.net/character/284231/Baihu_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613422.jpg?s=69f9e3af00ef6b1cd55784cd0a8f3dd0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613422.webp?s=69f9e3af00ef6b1cd55784cd0a8f3dd0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/613422t.webp?s=69f9e3af00ef6b1cd55784cd0a8f3dd0"
+        }
+      },
+      "name": "Baihu Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284215,
+      "url": "https://myanimelist.net/character/284215/Liuzhao_Dao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/613483.jpg?s=6331981a8b25637b52a27d531d3f616f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/613483.webp?s=6331981a8b25637b52a27d531d3f616f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/613483t.webp?s=6331981a8b25637b52a27d531d3f616f"
+        }
+      },
+      "name": "Dao, Liuzhao"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284280,
+      "url": "https://myanimelist.net/character/284280/Qingyun_Fu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/613478.jpg?s=b23d850433ac36babfe1c6be4b4219be"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/613478.webp?s=b23d850433ac36babfe1c6be4b4219be",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/613478t.webp?s=b23d850433ac36babfe1c6be4b4219be"
+        }
+      },
+      "name": "Fu, Qingyun"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284282,
+      "url": "https://myanimelist.net/character/284282/Yuanqing_Fu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/613477.jpg?s=d77485fba9fa9f40fdf7de8fac169df1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/613477.webp?s=d77485fba9fa9f40fdf7de8fac169df1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/613477t.webp?s=d77485fba9fa9f40fdf7de8fac169df1"
+        }
+      },
+      "name": "Fu, Yuanqing"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284277,
+      "url": "https://myanimelist.net/character/284277/Gai_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/613470.jpg?s=8b9885bb172c4fd1f0769577a487e5b9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/613470.webp?s=8b9885bb172c4fd1f0769577a487e5b9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/613470t.webp?s=8b9885bb172c4fd1f0769577a487e5b9"
+        }
+      },
+      "name": "Gai Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284235,
+      "url": "https://myanimelist.net/character/284235/Gong_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613426.jpg?s=b6c6e9f02f1738efa1ae2d5f3d495c93"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613426.webp?s=b6c6e9f02f1738efa1ae2d5f3d495c93",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/613426t.webp?s=b6c6e9f02f1738efa1ae2d5f3d495c93"
+        }
+      },
+      "name": "Gong Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284209,
+      "url": "https://myanimelist.net/character/284209/Linger_Hu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613391.jpg?s=b501a980e039b09cc1059b84844a7e11"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613391.webp?s=b501a980e039b09cc1059b84844a7e11",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/613391t.webp?s=b501a980e039b09cc1059b84844a7e11"
+        }
+      },
+      "name": "Hu, Linger"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284279,
+      "url": "https://myanimelist.net/character/284279/Jian_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613488.jpg?s=7931ef05da1ab1a0dcdd3be2ce2ab276"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613488.webp?s=7931ef05da1ab1a0dcdd3be2ce2ab276",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/613488t.webp?s=7931ef05da1ab1a0dcdd3be2ce2ab276"
+        }
+      },
+      "name": "Jian Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284290,
+      "url": "https://myanimelist.net/character/284290/Baigui_Jiang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613504.jpg?s=6e5ce9e24365bfd56cef12ba1ccdbe06"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613504.webp?s=6e5ce9e24365bfd56cef12ba1ccdbe06",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/613504t.webp?s=6e5ce9e24365bfd56cef12ba1ccdbe06"
+        }
+      },
+      "name": "Jiang, Baigui"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284214,
+      "url": "https://myanimelist.net/character/284214/Tianxing_Li",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Li, Tianxing"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284222,
+      "url": "https://myanimelist.net/character/284222/Xuan_Lin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/613498.jpg?s=e2190ccca6b6ccc58c0d3efae44afafb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/613498.webp?s=e2190ccca6b6ccc58c0d3efae44afafb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/613498t.webp?s=e2190ccca6b6ccc58c0d3efae44afafb"
+        }
+      },
+      "name": "Lin, Xuan"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 266707,
+      "url": "https://myanimelist.net/character/266707/Yuxiu_Ling",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/583305.jpg?s=ffa67054ddf346ac859e55d51836d27b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/583305.webp?s=ffa67054ddf346ac859e55d51836d27b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/583305t.webp?s=ffa67054ddf346ac859e55d51836d27b"
+        }
+      },
+      "name": "Ling, Yuxiu"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284281,
+      "url": "https://myanimelist.net/character/284281/Yushu_Ling",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613496.jpg?s=040fbd1d10cdda31abf8480c26ffffca"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613496.webp?s=040fbd1d10cdda31abf8480c26ffffca",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/613496t.webp?s=040fbd1d10cdda31abf8480c26ffffca"
+        }
+      },
+      "name": "Ling, Yushu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284288,
+      "url": "https://myanimelist.net/character/284288/Jiaonan_Long",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613501.jpg?s=c70203848d2236cde52fdfc485c4e96b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613501.webp?s=c70203848d2236cde52fdfc485c4e96b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/613501t.webp?s=c70203848d2236cde52fdfc485c4e96b"
+        }
+      },
+      "name": "Long, Jiaonan"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284220,
+      "url": "https://myanimelist.net/character/284220/Longzi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613484.jpg?s=132ada831d1a513a248cf216eadf55f9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613484.webp?s=132ada831d1a513a248cf216eadf55f9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/613484t.webp?s=132ada831d1a513a248cf216eadf55f9"
+        }
+      },
+      "name": "Longzi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284211,
+      "url": "https://myanimelist.net/character/284211/Ma_Ye",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/613395.jpg?s=5eda0eafe1a15aa0c10d8d2993d418f4"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/613395.webp?s=5eda0eafe1a15aa0c10d8d2993d418f4",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/613395t.webp?s=5eda0eafe1a15aa0c10d8d2993d418f4"
+        }
+      },
+      "name": "Ma Ye"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284232,
+      "url": "https://myanimelist.net/character/284232/Qinglong_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/613494.jpg?s=07488206ff3d8fdef72f8311ad9a00ef"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/613494.webp?s=07488206ff3d8fdef72f8311ad9a00ef",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/613494t.webp?s=07488206ff3d8fdef72f8311ad9a00ef"
+        }
+      },
+      "name": "Qinglong Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284216,
+      "url": "https://myanimelist.net/character/284216/Quezi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/613401.jpg?s=2996f61c0cb5eb7d76ab5acda87faebd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/613401.webp?s=2996f61c0cb5eb7d76ab5acda87faebd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/613401t.webp?s=2996f61c0cb5eb7d76ab5acda87faebd"
+        }
+      },
+      "name": "Quezi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284278,
+      "url": "https://myanimelist.net/character/284278/Shan_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/613489.jpg?s=a2b495b0ed76fb79d9ff9dda714efc83"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/613489.webp?s=a2b495b0ed76fb79d9ff9dda714efc83",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/613489t.webp?s=a2b495b0ed76fb79d9ff9dda714efc83"
+        }
+      },
+      "name": "Shan Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284213,
+      "url": "https://myanimelist.net/character/284213/Yunxiang_Si",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/613397.jpg?s=e9a3bbf65ede326187729758b563d870"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/613397.webp?s=e9a3bbf65ede326187729758b563d870",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/613397t.webp?s=e9a3bbf65ede326187729758b563d870"
+        }
+      },
+      "name": "Si, Yunxiang"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 278639,
+      "url": "https://myanimelist.net/character/278639/Muzhe_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/613411.jpg?s=e05df163bc9feacc87cd951d861d3805"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/613411.webp?s=e05df163bc9feacc87cd951d861d3805",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/613411t.webp?s=e05df163bc9feacc87cd951d861d3805"
+        }
+      },
+      "name": "Su, Muzhe"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284226,
+      "url": "https://myanimelist.net/character/284226/Yong_Wei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613502.jpg?s=8f0a309c1244ed343df14454adb32902"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613502.webp?s=8f0a309c1244ed343df14454adb32902",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/613502t.webp?s=8f0a309c1244ed343df14454adb32902"
+        }
+      },
+      "name": "Wei, Yong"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284210,
+      "url": "https://myanimelist.net/character/284210/Wen_Yuan_Zushi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613392.jpg?s=c57095273346a8c8c87fa3d0624c87a1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613392.webp?s=c57095273346a8c8c87fa3d0624c87a1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/613392t.webp?s=c57095273346a8c8c87fa3d0624c87a1"
+        }
+      },
+      "name": "Wen Yuan Zushi"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284223,
+      "url": "https://myanimelist.net/character/284223/Qinger_Xian",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613410.jpg?s=a115001f9314da1c1dbc795c4820f398"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613410.webp?s=a115001f9314da1c1dbc795c4820f398",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/613410t.webp?s=a115001f9314da1c1dbc795c4820f398"
+        }
+      },
+      "name": "Xian, Qinger"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284219,
+      "url": "https://myanimelist.net/character/284219/Xiazi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/613403.jpg?s=e5c49d393855cb2d1def80aeb7c44249"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/613403.webp?s=e5c49d393855cb2d1def80aeb7c44249",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/613403t.webp?s=e5c49d393855cb2d1def80aeb7c44249"
+        }
+      },
+      "name": "Xiazi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 278715,
+      "url": "https://myanimelist.net/character/278715/Ming_Xin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613412.jpg?s=beb184f67e1b40094ba6b445f59a0458"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613412.webp?s=beb184f67e1b40094ba6b445f59a0458",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/613412t.webp?s=beb184f67e1b40094ba6b445f59a0458"
+        }
+      },
+      "name": "Xin, Ming"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284233,
+      "url": "https://myanimelist.net/character/284233/Xuanwu_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613493.jpg?s=dc69e074c088960b9d57bbabb9908b53"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613493.webp?s=dc69e074c088960b9d57bbabb9908b53",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/613493t.webp?s=dc69e074c088960b9d57bbabb9908b53"
+        }
+      },
+      "name": "Xuanwu Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284212,
+      "url": "https://myanimelist.net/character/284212/Yaba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/613396.jpg?s=9ce6d301216e4ce3540be5973b1fbdfc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/613396.webp?s=9ce6d301216e4ce3540be5973b1fbdfc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/613396t.webp?s=9ce6d301216e4ce3540be5973b1fbdfc"
+        }
+      },
+      "name": "Yaba"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284230,
+      "url": "https://myanimelist.net/character/284230/Jingjing_Yan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613420.jpg?s=c851a2620bea665c42b344fdf7544f36"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613420.webp?s=c851a2620bea665c42b344fdf7544f36",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/613420t.webp?s=c851a2620bea665c42b344fdf7544f36"
+        }
+      },
+      "name": "Yan, Jingjing"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284221,
+      "url": "https://myanimelist.net/character/284221/Yanfeng_Di",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613405.jpg?s=c6433607a07eeaee151f92f900c51aff"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613405.webp?s=c6433607a07eeaee151f92f900c51aff",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/613405t.webp?s=c6433607a07eeaee151f92f900c51aff"
+        }
+      },
+      "name": "Yanfeng Di"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284218,
+      "url": "https://myanimelist.net/character/284218/Yaoshi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613482.jpg?s=8e6d0bbce7316afd8d7fc30d9663f2d8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/613482.webp?s=8e6d0bbce7316afd8d7fc30d9663f2d8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/613482t.webp?s=8e6d0bbce7316afd8d7fc30d9663f2d8"
+        }
+      },
+      "name": "Yaoshi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284284,
+      "url": "https://myanimelist.net/character/284284/Yu_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/613487.jpg?s=b1904c22bc38d82f213b39f3d0d56c8f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/613487.webp?s=b1904c22bc38d82f213b39f3d0d56c8f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/613487t.webp?s=b1904c22bc38d82f213b39f3d0d56c8f"
+        }
+      },
+      "name": "Yu Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284289,
+      "url": "https://myanimelist.net/character/284289/Chuyu_Yuyuan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/613503.jpg?s=a59cf9386fee431fc3b080731083e615"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/613503.webp?s=a59cf9386fee431fc3b080731083e615",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/613503t.webp?s=a59cf9386fee431fc3b080731083e615"
+        }
+      },
+      "name": "Yuyuan, Chuyu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284234,
+      "url": "https://myanimelist.net/character/284234/Zhuque_Tang_Tang_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613491.jpg?s=2807ef9307ca1571c56b7137a9a5c43f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613491.webp?s=2807ef9307ca1571c56b7137a9a5c43f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/613491t.webp?s=2807ef9307ca1571c56b7137a9a5c43f"
+        }
+      },
+      "name": "Zhuque Tang Tang Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

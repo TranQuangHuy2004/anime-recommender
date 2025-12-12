@@ -1,7 +1,8 @@
 import requests
 import time
-from services.database import Database
+import json
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 from tqdm import tqdm
 
@@ -9,22 +10,127 @@ load_dotenv()
 
 
 class AnimeFetcher:
+    '''
+    Fetch and Save Anime as JSON
+    '''
+
     def __init__(self):
         self.base_url = os.getenv("JIKAN_BASE_URL", "https://api.jikan.moe/v4")
-        self.db = Database()
-        self.delay = 0.5  # Delay between requests to respect rate limit
+        self.delay = 0.5  # Rate limiting delay
 
-    def fetch_top_anime(self, limit=100):
-        """Fetch top anime from MyAnimeList"""
-        all_anime = []
+        # Create data directories
+        self.data_dir = Path("data")
+        self.anime_dir = self.data_dir
+        self.characters_dir = self.data_dir / "characters"
+
+        self.anime_dir.mkdir(parents=True, exist_ok=True)
+        self.characters_dir.mkdir(parents=True, exist_ok=True)
+
+    def save_anime_json(self, anime_data):
+        """Save anime data as JSON file"""
+        filename = self.anime_dir / "anime_data.json"
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(anime_data, f, ensure_ascii=False, indent=2)
+        return filename
+
+    def save_characters_json(self, mal_id, characters_data):
+        """Save characters data as JSON file"""
+        filename = self.characters_dir / f"{mal_id}_characters.json"
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(characters_data, f, ensure_ascii=False, indent=2)
+        return filename
+
+    def load_anime_json(self):
+        """Load anime data from JSON file"""
+        filename = self.anime_dir / "anime_data.json"
+        if filename.exists():
+            with open(filename, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return None
+
+    def load_characters_json(self, mal_id):
+        """Load characters data from JSON file"""
+        filename = self.characters_dir / f"{mal_id}_characters.json"
+        if filename.exists():
+            with open(filename, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return None
+
+    def fetch_extract_anime_characters(self, mal_id):
+        """Fetch and extract anime characters, then save to JSON file"""
+        try:
+            # Fetch characters
+            characters_response = requests.get(
+                f"{self.base_url}/anime/{mal_id}/characters",
+                timeout=10
+            )
+            characters_data = []
+            if characters_response.status_code == 200:
+                characters_data = characters_response.json()['data']
+
+            for char in characters_data:
+                char["voice_actors"] = [
+                    va for va in char["voice_actors"]
+                    if va.get("language").lower().strip() == "japanese"
+                ]
+
+            self.save_characters_json(mal_id, characters_data)
+            return characters_data
+
+        except Exception as e:
+            print(f"Error fetching characters for anime {mal_id}: {e}")
+            return None
+
+    def extract_anime_data(self, anime):
+        """Extract all anime fields from API response"""
+        # Handle trailer
+        trailer_url = None
+        if anime.get('trailer') and anime['trailer'].get('embed_url'):
+            trailer_url = anime['trailer']['embed_url']
+
+        # Handle aired string
+        aired_string = None
+        if anime.get('aired') and anime['aired'].get('string'):
+            aired_string = anime['aired']['string']
+
+        return {
+            'mal_id': anime['mal_id'],
+            'image_url': anime['images']['webp']['large_image_url'] if anime.get('images', {}).get('webp', {}).get('large_image_url') else anime['images']['jpg']['image_url'],
+            'trailer_url': trailer_url,
+            'title': anime['title'],
+            'title_english': anime.get('title_english'),
+            'title_japanese': anime.get('title_japanese'),
+            'title_synonyms': anime.get('title_synonyms', []),
+            'synopsis': anime.get('synopsis', ''),
+            'type': anime.get('type'),
+            'source': anime.get('source'),
+            'episodes': anime.get('episodes'),
+            'status': anime.get('status'),
+            'aired': aired_string,
+            'duration': anime.get('duration'),
+            'rating': anime.get('rating'),
+            'score': anime.get('score'),
+            'popularity': anime.get('popularity'),
+            'season': anime.get('season'),
+            'year': anime.get('year'),
+            'studios': [{'mal_id': s['mal_id'], 'name': s['name']} for s in anime.get('studios', [])],
+            'genres': [{'mal_id': g['mal_id'], 'name': g['name']} for g in anime.get('genres', [])],
+            'themes': [{'mal_id': t['mal_id'], 'name': t['name']} for t in anime.get('themes', [])],
+            'demographics': [{'mal_id': d['mal_id'], 'name': d['name']} for d in anime.get('demographics', [])]
+        }
+
+    def fetch_top_anime_with_characters(self, limit=50):
+        """Fetch top anime with full details and characters and save them as JSON files"""
+        print(f"Fetching top {limit} anime with full details...")
+
+        # First, get list of top anime IDs
+        anime_data = []
         page = 1
 
-        print(f"Fetching top {limit} anime from MyAnimeList...")
-
-        with tqdm(total=limit) as pbar:
-            while len(all_anime) < limit:
+        # print("Getting anime IDs...")
+        with tqdm(total=limit, desc="Fetching anime") as pbar:
+            while len(anime_data) < limit:
                 try:
-                    # Fetch a page of anime
                     response = requests.get(
                         f"{self.base_url}/top/anime",
                         params={"page": page, "limit": 25}
@@ -32,59 +138,71 @@ class AnimeFetcher:
                     response.raise_for_status()
 
                     data = response.json()
-                    anime_list = data.get('data', [])
-
-                    if not anime_list:
-                        break
-
-                    # Process each anime
-                    for anime in anime_list:
-                        if len(all_anime) >= limit:
+                    for anime in data.get('data', []):
+                        if len(anime_data) >= limit:
                             break
-
-                        anime_data = self.extract_anime_data(anime)
-                        all_anime.append(anime_data)
+                        anime_data.append(self.extract_anime_data(anime))
                         pbar.update(1)
 
-                        # Insert into database
-                        self.db.insert_anime(anime_data)
-
                     page += 1
-                    time.sleep(self.delay)  # Rate limiting
+                    time.sleep(self.delay)
 
                 except Exception as e:
-                    print(f"Error fetching page {page}: {e}")
+                    print(f"Error fetching anime list page {page}: {e}")
                     break
 
-        print(f"✅ Successfully fetched {len(all_anime)} anime")
-        return all_anime
+        print(f"✅ Successfully fetched top {len(anime_data)} anime")
+        self.save_anime_json(anime_data)
 
-    def extract_anime_data(self, anime):
-        """Extract relevant fields from API response"""
-        return {
-            'mal_id': anime['mal_id'],
-            'title': anime['title'],
-            'title_english': anime.get('title_english'),
-            'synopsis': anime.get('synopsis', ''),
-            'type': anime.get('type'),
-            'episodes': anime.get('episodes'),
-            'score': anime.get('score'),
-            'genres': anime.get('genres', []),
-            'members': anime.get('members'),
-            'popularity': anime.get('popularity')
-        }
+        # Now fetch characters for each anime
+        print(f"\nFetching characters info for {len(anime_data)} anime...")
+        successful_chars = 0
+        error_anime_id = []
+
+        with tqdm(total=len(anime_data), desc="Fetching anime characters") as pbar:
+            for anime in anime_data:
+                try:
+                    # Fetch anime details and characters
+                    mal_id = anime['mal_id']
+                    characters_data = self.fetch_extract_anime_characters(mal_id)
+
+                    if characters_data:
+                        successful_chars += 1
+                    else:
+                        error_anime_id.append(mal_id)
+
+                    # time.sleep(self.delay)
+                    pbar.update(1)
+
+                except Exception as e:
+                    print(f"\nError processing characters for anime {mal_id}: {e}")
+                    pbar.update(1)
+                    continue
+
+        print(f"\n✅ Successfully fetched characters for {successful_chars} anime.")
+        return len(anime_data), successful_chars, error_anime_id
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Anime Data Fetcher")
+    parser.add_argument('--mal_ids', nargs="*", type=int, default=None,
+                        help='List of MAL IDs to fetch characters for (e.g., --mal_ids 1 20 30276). If omitted, fetch normally.')
+    args = parser.parse_args()
+
     fetcher = AnimeFetcher()
 
-    # Fetch a small batch for testing
-    limit = int(os.getenv("MAX_ANIME", 50))
-    anime_data = fetcher.fetch_top_anime(limit=limit)
+    print("=" * 50)
+    print("FETCHING DATA FROM JIKAN API")
+    print("=" * 50)
 
-    # Save to JSON for backup
-    import json
-    with open('data/anime_data.json', 'w', encoding='utf-8') as f:
-        json.dump(anime_data, f, ensure_ascii=False, indent=2)
-
-    print(f"✅ Data saved to data/anime_data.json")
+    if args.mal_ids:
+        # User gave specific mal_ids → fetch only these
+        print(f"Fetching characters for MAL IDs: {args.mal_ids}")
+        for id in args.mal_ids:
+            fetcher.fetch_extract_anime_characters(id)
+    else:
+        # Normal full fetching
+        anime_count, char_count, error_anime_id = fetcher.fetch_top_anime_with_characters(limit=int(os.getenv("MAX_ANIME", 20)))
+        print(f"\nFetched: {anime_count} anime, {char_count} with characters")
+        print(f"Anime that couldn't fetch characters: {error_anime_id}")

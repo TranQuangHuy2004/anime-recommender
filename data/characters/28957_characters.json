@@ -1,0 +1,87 @@
+[
+  {
+    "character": {
+      "mal_id": 425,
+      "url": "https://myanimelist.net/character/425/Ginko",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/303453.jpg?s=a49f70cdc8643c4b2a8406a8529b34dc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/303453.webp?s=a49f70cdc8643c4b2a8406a8529b34dc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/303453t.webp?s=a49f70cdc8643c4b2a8406a8529b34dc"
+        }
+      },
+      "name": "Ginko"
+    },
+    "role": "Main",
+    "favorites": 16468,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 216,
+          "url": "https://myanimelist.net/people/216/Yuto_Nakano",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/80247.jpg?s=4244b56905c6fa2642f6d0c028f2a9df"
+            }
+          },
+          "name": "Nakano, Yuto"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 131852,
+      "url": "https://myanimelist.net/character/131852/Kaya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/287987.jpg?s=9926cbc2c0f49d91ed220a9919f78c1f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/287987.webp?s=9926cbc2c0f49d91ed220a9919f78c1f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/287987t.webp?s=9926cbc2c0f49d91ed220a9919f78c1f"
+        }
+      },
+      "name": "Kaya"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 23855,
+          "url": "https://myanimelist.net/people/23855/Tomomi_Saito",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Saito, Tomomi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 138855,
+      "url": "https://myanimelist.net/character/138855/Yoshirou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/307547.jpg?s=4620feb8ef5ba152105e8c37591952df"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/307547.webp?s=4620feb8ef5ba152105e8c37591952df",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/307547t.webp?s=4620feb8ef5ba152105e8c37591952df"
+        }
+      },
+      "name": "Yoshirou"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

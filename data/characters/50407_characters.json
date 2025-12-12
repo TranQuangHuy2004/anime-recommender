@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 233890,
+      "url": "https://myanimelist.net/character/233890/Jingxuan_Wenren",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/520100.jpg?s=e46b2dd67cc7a072355663ab560c0e4f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/520100.webp?s=e46b2dd67cc7a072355663ab560c0e4f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/520100t.webp?s=e46b2dd67cc7a072355663ab560c0e4f"
+        }
+      },
+      "name": "Wenren, Jingxuan"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 190808,
+      "url": "https://myanimelist.net/character/190808/Yixuan_Wenren",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/520803.jpg?s=3b8d4fa0f48d946ce0f08d2801a52417"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/520803.webp?s=3b8d4fa0f48d946ce0f08d2801a52417",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/520803t.webp?s=3b8d4fa0f48d946ce0f08d2801a52417"
+        }
+      },
+      "name": "Wenren, Yixuan"
+    },
+    "role": "Main",
+    "favorites": 28,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 236290,
+      "url": "https://myanimelist.net/character/236290/Zeqi_Rongcheng",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/525721.jpg?s=4136bd3f994aea34eb7b51824317af3d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/525721.webp?s=4136bd3f994aea34eb7b51824317af3d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/525721t.webp?s=4136bd3f994aea34eb7b51824317af3d"
+        }
+      },
+      "name": "Rongcheng, Zeqi"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 235724,
+      "url": "https://myanimelist.net/character/235724/Ziye_Shentu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/524286.jpg?s=aa27037669a2f6ba21a04fbceed2463a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/524286.webp?s=aa27037669a2f6ba21a04fbceed2463a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/524286t.webp?s=aa27037669a2f6ba21a04fbceed2463a"
+        }
+      },
+      "name": "Shentu, Ziye"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

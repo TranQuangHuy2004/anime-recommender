@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 198578,
+      "url": "https://myanimelist.net/character/198578/Hanuman",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/511185.jpg?s=dff43a6d88fd3a4dcc8956f34a58fa2b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/511185.webp?s=dff43a6d88fd3a4dcc8956f34a58fa2b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/511185t.webp?s=dff43a6d88fd3a4dcc8956f34a58fa2b"
+        }
+      },
+      "name": "Hanuman"
+    },
+    "role": "Main",
+    "favorites": 14,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 63885,
+      "url": "https://myanimelist.net/character/63885/Rama",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/508375.jpg?s=accf01955faba8b1933d9e2ccbf72a68"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/508375.webp?s=accf01955faba8b1933d9e2ccbf72a68",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/508375t.webp?s=accf01955faba8b1933d9e2ccbf72a68"
+        }
+      },
+      "name": "Rama"
+    },
+    "role": "Main",
+    "favorites": 69,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 63957,
+      "url": "https://myanimelist.net/character/63957/Ravan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/168797.jpg?s=d28d6d97c40907fc6ca8dfa4baaadef2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/168797.webp?s=d28d6d97c40907fc6ca8dfa4baaadef2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/168797t.webp?s=d28d6d97c40907fc6ca8dfa4baaadef2"
+        }
+      },
+      "name": "Ravan"
+    },
+    "role": "Main",
+    "favorites": 13,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 63927,
+      "url": "https://myanimelist.net/character/63927/Sita",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/168749.jpg?s=a8f27d3c2b83a257e5621979f36d6f30"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/168749.webp?s=a8f27d3c2b83a257e5621979f36d6f30",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/168749t.webp?s=a8f27d3c2b83a257e5621979f36d6f30"
+        }
+      },
+      "name": "Sita"
+    },
+    "role": "Main",
+    "favorites": 35,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 63969,
+      "url": "https://myanimelist.net/character/63969/Lakshman",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/168809.jpg?s=251bb7cbe4308c55843fa5790e1a26e5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/168809.webp?s=251bb7cbe4308c55843fa5790e1a26e5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/168809t.webp?s=251bb7cbe4308c55843fa5790e1a26e5"
+        }
+      },
+      "name": "Lakshman"
+    },
+    "role": "Supporting",
+    "favorites": 13,
+    "voice_actors": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 188037,
+      "url": "https://myanimelist.net/character/188037/Ai_Hoshino",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/496453.jpg?s=586f73ec11e59e6a6acc659afe9fb660"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/496453.webp?s=586f73ec11e59e6a6acc659afe9fb660",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/496453t.webp?s=586f73ec11e59e6a6acc659afe9fb660"
+        }
+      },
+      "name": "Hoshino, Ai"
+    },
+    "role": "Main",
+    "favorites": 7744,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 186921,
+      "url": "https://myanimelist.net/character/186921/Ruby_Hoshino",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/496454.jpg?s=0bdb7d58a99eab12eb3de20b5a79033d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/496454.webp?s=0bdb7d58a99eab12eb3de20b5a79033d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/496454t.webp?s=0bdb7d58a99eab12eb3de20b5a79033d"
+        }
+      },
+      "name": "Hoshino, Ruby"
+    },
+    "role": "Main",
+    "favorites": 2635,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 185313,
+      "url": "https://myanimelist.net/character/185313/Aquamarine_Hoshino",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/512509.jpg?s=0fbc9c40821bab48c922aa336708bb33"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/512509.webp?s=0fbc9c40821bab48c922aa336708bb33",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/512509t.webp?s=0fbc9c40821bab48c922aa336708bb33"
+        }
+      },
+      "name": "Hoshino, Aquamarine"
+    },
+    "role": "Main",
+    "favorites": 5058,
+    "voice_actors": []
+  }
+]

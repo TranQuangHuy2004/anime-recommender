@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 175937,
+      "url": "https://myanimelist.net/character/175937/Cheng_Hua",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/394616.jpg?s=edfc1458dea9cb3cd58a5322180464a7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/394616.webp?s=edfc1458dea9cb3cd58a5322180464a7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/394616t.webp?s=edfc1458dea9cb3cd58a5322180464a7"
+        }
+      },
+      "name": "Hua, Cheng"
+    },
+    "role": "Main",
+    "favorites": 3466,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 174773,
+      "url": "https://myanimelist.net/character/174773/Lian_Xie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/555259.jpg?s=69f4c8e61a812a32f15730437c7be530"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/555259.webp?s=69f4c8e61a812a32f15730437c7be530",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/555259t.webp?s=69f4c8e61a812a32f15730437c7be530"
+        }
+      },
+      "name": "Xie, Lian"
+    },
+    "role": "Main",
+    "favorites": 2788,
+    "voice_actors": []
+  }
+]
