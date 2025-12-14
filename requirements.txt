@@ -1,8 +1,8 @@
 streamlit==1.52.1
-elasticsearch==9.2.0
+elasticsearch==8.11.0
 faiss-cpu==1.13.1
 psycopg2-binary==2.9.11
-jikanpy-v4==1.0.2
+# jikanpy-v4==1.0.2
 python-dotenv==1.2.1
 pandas==2.3.3
 numpy==2.3.5

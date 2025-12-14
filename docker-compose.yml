@@ -27,6 +27,7 @@ services:
       - discovery.type=single-node
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
       - xpack.security.enabled=false # Disable for development
+      - xpack.security.http.ssl.enabled=false
       - bootstrap.memory_lock=true
     ulimits:
       memlock:

@@ -55,7 +55,9 @@ class Database:
         with self.get_connection() as conn:
             with conn.cursor() as cur:
                 cur.execute(query, params or ())
-                if query.strip().upper().startswith("SELECT"):
+
+                # Check if cursor has results
+                if cur.description is not None:
                     return cur.fetchall()
                 return cur.rowcount
 

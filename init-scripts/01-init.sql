@@ -112,21 +112,23 @@ CREATE TABLE IF NOT EXISTS anime_characters (
 );
 
 -- Indexes for performance
-CREATE INDEX idx_anime_studios_anime_id ON anime_studios(anime_id);
-CREATE INDEX idx_anime_studios_studio_id ON anime_studios(studio_id);
+CREATE INDEX IF NOT EXISTS idx_anime_studios_anime_id ON anime_studios(anime_id);
+CREATE INDEX IF NOT EXISTS idx_anime_studios_studio_id ON anime_studios(studio_id);
 
-CREATE INDEX idx_anime_genres_anime_id ON anime_genres(anime_id);
-CREATE INDEX idx_anime_genres_genre_id ON anime_genres(genre_id);
+CREATE INDEX IF NOT EXISTS idx_anime_genres_anime_id ON anime_genres(anime_id);
+CREATE INDEX IF NOT EXISTS idx_anime_genres_genre_id ON anime_genres(genre_id);
 
-CREATE INDEX idx_anime_themes_anime_id ON anime_themes(anime_id);
-CREATE INDEX idx_anime_themes_theme_id ON anime_themes(theme_id);
+CREATE INDEX IF NOT EXISTS idx_anime_themes_anime_id ON anime_themes(anime_id);
+CREATE INDEX IF NOT EXISTS idx_anime_themes_theme_id ON anime_themes(theme_id);
 
-CREATE INDEX idx_anime_demographics_anime_id ON anime_demographics(anime_id);
-CREATE INDEX idx_anime_demographics_demographic_id ON anime_demographics(demographic_id);
+CREATE INDEX IF NOT EXISTS idx_anime_demographics_anime_id ON anime_demographics(anime_id);
+CREATE INDEX IF NOT EXISTS idx_anime_demographics_demographic_id ON anime_demographics(demographic_id);
 
-CREATE INDEX idx_anime_characters_anime_id ON anime_characters(anime_id);
-CREATE INDEX idx_anime_characters_character_id ON anime_characters(character_id);
-CREATE INDEX idx_anime_characters_voice_actor_id ON anime_characters(voice_actor_id);
+CREATE INDEX IF NOT EXISTS idx_anime_characters_anime_id ON anime_characters(anime_id);
+CREATE INDEX IF NOT EXISTS idx_anime_characters_character_id ON anime_characters(character_id);
+CREATE INDEX IF NOT EXISTS idx_anime_characters_voice_actor_id ON anime_characters(voice_actor_id);
+
+CREATE INDEX IF NOT EXISTS idx_characters_favorites ON characters(favorites DESC);
 
 -- CREATE INDEX IF NOT EXISTS idx_anime_score ON anime(score DESC);
 -- CREATE INDEX IF NOT EXISTS idx_anime_popularity ON anime(popularity);
