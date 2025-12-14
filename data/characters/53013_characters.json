@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 217817,
+      "url": "https://myanimelist.net/character/217817/Sasha_Yakovleva",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/488696.jpg?s=8cd99cf329a0d22387f5f6264af865f1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/488696.webp?s=8cd99cf329a0d22387f5f6264af865f1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/488696t.webp?s=8cd99cf329a0d22387f5f6264af865f1"
+        }
+      },
+      "name": "Yakovleva, Sasha"
+    },
+    "role": "Main",
+    "favorites": 25,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 215031,
+      "url": "https://myanimelist.net/character/215031/Maine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/489196.jpg?s=2683a2ea8712c76b4095405c5b6ef7ee"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/489196.webp?s=2683a2ea8712c76b4095405c5b6ef7ee",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/489196t.webp?s=2683a2ea8712c76b4095405c5b6ef7ee"
+        }
+      },
+      "name": "Maine"
+    },
+    "role": "Supporting",
+    "favorites": 433,
+    "voice_actors": []
+  }
+]

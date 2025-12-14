@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 26245,
+      "url": "https://myanimelist.net/character/26245/Doki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/65236.jpg?s=8b8b76215e6d87132aedece954d96b9b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/65236.webp?s=8b8b76215e6d87132aedece954d96b9b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/65236t.webp?s=8b8b76215e6d87132aedece954d96b9b"
+        }
+      },
+      "name": "Doki"
+    },
+    "role": "Main",
+    "favorites": 15,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 26246,
+      "url": "https://myanimelist.net/character/26246/Nabi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/65240.jpg?s=47d927c2d2fa0c5ec719d2ebff783226"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/65240.webp?s=47d927c2d2fa0c5ec719d2ebff783226",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/65240t.webp?s=47d927c2d2fa0c5ec719d2ebff783226"
+        }
+      },
+      "name": "Nabi"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 135107,
+      "url": "https://myanimelist.net/character/135107/Il-ho",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/294417.jpg?s=e28df34e60a3e3a6c325311cc2878b64"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/294417.webp?s=e28df34e60a3e3a6c325311cc2878b64",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/294417t.webp?s=e28df34e60a3e3a6c325311cc2878b64"
+        }
+      },
+      "name": "Il-ho"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

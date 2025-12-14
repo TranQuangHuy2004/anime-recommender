@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 215994,
+      "url": "https://myanimelist.net/character/215994/Won-joon_Lee",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/543468.jpg?s=c4e312d792b310fa07f168e31b756768"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/543468.webp?s=c4e312d792b310fa07f168e31b756768",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/543468t.webp?s=c4e312d792b310fa07f168e31b756768"
+        }
+      },
+      "name": "Lee, Won-joon"
+    },
+    "role": "Main",
+    "favorites": 18,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 215992,
+      "url": "https://myanimelist.net/character/215992/Doo-na_Lee",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/514444.jpg?s=dffaf2fa49b1741c5df7615daec72a55"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/514444.webp?s=dffaf2fa49b1741c5df7615daec72a55",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/514444t.webp?s=dffaf2fa49b1741c5df7615daec72a55"
+        }
+      },
+      "name": "Lee, Doo-na"
+    },
+    "role": "Main",
+    "favorites": 176,
+    "voice_actors": []
+  }
+]

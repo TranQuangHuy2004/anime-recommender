@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 210730,
+      "url": "https://myanimelist.net/character/210730/Feng_Luo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613950.jpg?s=0e91a90204ce5003237482aba63a90fd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613950.webp?s=0e91a90204ce5003237482aba63a90fd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/613950t.webp?s=0e91a90204ce5003237482aba63a90fd"
+        }
+      },
+      "name": "Luo, Feng"
+    },
+    "role": "Main",
+    "favorites": 49,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 248496,
+      "url": "https://myanimelist.net/character/248496/Atuka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/548614.jpg?s=2a22d87f3d2edd8bda54cb70ad501ebc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/548614.webp?s=2a22d87f3d2edd8bda54cb70ad501ebc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/548614t.webp?s=2a22d87f3d2edd8bda54cb70ad501ebc"
+        }
+      },
+      "name": "Atuka"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 226550,
+      "url": "https://myanimelist.net/character/226550/Babata",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/505971.jpg?s=6b620057e69d421d2c5c72d6b88214a1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/505971.webp?s=6b620057e69d421d2c5c72d6b88214a1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/505971t.webp?s=6b620057e69d421d2c5c72d6b88214a1"
+        }
+      },
+      "name": "Babata"
+    },
+    "role": "Supporting",
+    "favorites": 16,
+    "voice_actors": []
+  }
+]

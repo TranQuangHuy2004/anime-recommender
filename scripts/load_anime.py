@@ -123,23 +123,36 @@ class AnimeLoader:
     def bulk_insert(self):
         print("\nBulk inserting into database...")
 
-        self.db.bulk_insert_anime(self.anime_rows)
+        with tqdm(total=12, desc="Inserting To Each Table") as pbar:
+            self.db.bulk_insert_anime(self.anime_rows)
+            pbar.update(1)
 
-        self.db.bulk_insert_studios(self.studio_rows)
-        self.db.bulk_link_anime_studios(self.anime_studios)
+            self.db.bulk_insert_studios(self.studio_rows)
+            pbar.update(1)
+            self.db.bulk_link_anime_studios(self.anime_studios)
+            pbar.update(1)
 
-        self.db.bulk_insert_categories('genres', self.genre_rows)
-        self.db.bulk_link_anime_categories('anime_genres', self.anime_genres)
+            self.db.bulk_insert_categories('genres', self.genre_rows)
+            pbar.update(1)
+            self.db.bulk_link_anime_categories('anime_genres', self.anime_genres)
+            pbar.update(1)
 
-        self.db.bulk_insert_categories('themes', self.theme_rows)
-        self.db.bulk_link_anime_categories('anime_themes', self.anime_themes)
+            self.db.bulk_insert_categories('themes', self.theme_rows)
+            pbar.update(1)
+            self.db.bulk_link_anime_categories('anime_themes', self.anime_themes)
+            pbar.update(1)
 
-        self.db.bulk_insert_categories('demographics', self.demographic_rows)
-        self.db.bulk_link_anime_categories('anime_demographics', self.anime_demographics)
+            self.db.bulk_insert_categories('demographics', self.demographic_rows)
+            pbar.update(1)
+            self.db.bulk_link_anime_categories('anime_demographics', self.anime_demographics)
+            pbar.update(1)
 
-        self.db.bulk_insert_characters(self.character_rows)
-        self.db.bulk_insert_voice_actors(self.voice_actor_rows)
-        self.db.bulk_link_anime_characters_voice_actors(self.anime_characters_voice_actors)
+            self.db.bulk_insert_characters(self.character_rows)
+            pbar.update(1)
+            self.db.bulk_insert_voice_actors(self.voice_actor_rows)
+            pbar.update(1)
+            self.db.bulk_link_anime_characters_voice_actors(self.anime_characters_voice_actors)
+            pbar.update(1)
 
         print("✅ Bulk insert completed.")
 

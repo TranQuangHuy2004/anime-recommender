@@ -40,8 +40,8 @@ class AnimeFetcher:
 
                 if anime_data:
                     existing_data.extend(anime_data)
-                    anime_data = existing_data
                     print(f"✅ Appended {len(anime_data)} new anime to existing file")
+                    anime_data = existing_data
                 else:
                     print("⚠️  No new anime to append")
                     return filename
@@ -260,3 +260,8 @@ if __name__ == "__main__":
         anime_count, char_count, error_anime_id = fetcher.fetch_top_anime_with_characters(limit=args.limit)
         print(f"\nFetched: {anime_count} anime, {char_count} with characters")
         print(f"Anime that couldn't fetch characters: {error_anime_id}")
+
+        if error_anime_id:
+            print(f"\nFetching characters again for MAL IDs: {error_anime_id}")
+            for id in error_anime_id:
+                fetcher.fetch_extract_anime_characters(id)

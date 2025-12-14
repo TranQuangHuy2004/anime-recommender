@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 141354,
+      "url": "https://myanimelist.net/character/141354/Violet_Evergarden",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/345616.jpg?s=3e82e3a6e4bd2efe2336746f9fe70bfb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/345616.webp?s=3e82e3a6e4bd2efe2336746f9fe70bfb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/345616t.webp?s=3e82e3a6e4bd2efe2336746f9fe70bfb"
+        }
+      },
+      "name": "Evergarden, Violet"
+    },
+    "role": "Main",
+    "favorites": 38432,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 152271,
+      "url": "https://myanimelist.net/character/152271/Gilbert_Bougainvillea",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/409286.jpg?s=f7f6a0f36f771c0f306b9644cbce34d2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/409286.webp?s=f7f6a0f36f771c0f306b9644cbce34d2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/409286t.webp?s=f7f6a0f36f771c0f306b9644cbce34d2"
+        }
+      },
+      "name": "Bougainvillea, Gilbert"
+    },
+    "role": "Supporting",
+    "favorites": 843,
+    "voice_actors": []
+  }
+]

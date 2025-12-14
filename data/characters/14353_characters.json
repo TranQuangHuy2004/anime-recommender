@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 81853,
+      "url": "https://myanimelist.net/character/81853/Decim",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/273283.jpg?s=2ab8a93d82ab0ba682ed2d561bb84e69"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/273283.webp?s=2ab8a93d82ab0ba682ed2d561bb84e69",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/273283t.webp?s=2ab8a93d82ab0ba682ed2d561bb84e69"
+        }
+      },
+      "name": "Decim"
+    },
+    "role": "Main",
+    "favorites": 6402,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1489,
+          "url": "https://myanimelist.net/people/1489/Tomoaki_Maeno",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/85267.jpg?s=61dfbd2a138f69c43991596af5c1d60b"
+            }
+          },
+          "name": "Maeno, Tomoaki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 82037,
+      "url": "https://myanimelist.net/character/82037/Kurokami_no_Onna",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/275325.jpg?s=5f02c1ee1bb97a96bd0a4b38b2178551"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/275325.webp?s=5f02c1ee1bb97a96bd0a4b38b2178551",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/275325t.webp?s=5f02c1ee1bb97a96bd0a4b38b2178551"
+        }
+      },
+      "name": "Kurokami no Onna"
+    },
+    "role": "Main",
+    "favorites": 1430,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11787,
+          "url": "https://myanimelist.net/people/11787/Asami_Seto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/65839.jpg?s=fc10712f42c93ebbcb2e02a6b6448c30"
+            }
+          },
+          "name": "Seto, Asami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 82041,
+      "url": "https://myanimelist.net/character/82041/Otoko",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/201661.jpg?s=ff34b1a1ff124923520b359908dacab0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/201661.webp?s=ff34b1a1ff124923520b359908dacab0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/201661t.webp?s=ff34b1a1ff124923520b359908dacab0"
+        }
+      },
+      "name": "Otoko"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 513,
+          "url": "https://myanimelist.net/people/513/Yuuichi_Nakamura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/86727.jpg?s=0ed40878de8ac903e3d9decf1f57ad3d"
+            }
+          },
+          "name": "Nakamura, Yuuichi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 82039,
+      "url": "https://myanimelist.net/character/82039/Roujin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/201657.jpg?s=7550563ed923415706967b258bcf6917"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/201657.webp?s=7550563ed923415706967b258bcf6917",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/201657t.webp?s=7550563ed923415706967b258bcf6917"
+        }
+      },
+      "name": "Roujin"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 9164,
+          "url": "https://myanimelist.net/people/9164/Jun_Hazumi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/6819.jpg?s=8d2af94c64a2a56e90f0a5dd12c8b39e"
+            }
+          },
+          "name": "Hazumi, Jun"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

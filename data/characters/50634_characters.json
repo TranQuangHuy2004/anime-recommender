@@ -1,0 +1,125 @@
+[
+  {
+    "character": {
+      "mal_id": 207638,
+      "url": "https://myanimelist.net/character/207638/Hayato",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/472755.jpg?s=c919078899a1c7f3ae8a6c8399c39000"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/472755.webp?s=c919078899a1c7f3ae8a6c8399c39000",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/472755t.webp?s=c919078899a1c7f3ae8a6c8399c39000"
+        }
+      },
+      "name": "Hayato"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 206950,
+      "url": "https://myanimelist.net/character/206950/Kaede",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/466427.jpg?s=f278b1d3cd61c566ee186e6d12eca713"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/466427.webp?s=f278b1d3cd61c566ee186e6d12eca713",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/466427t.webp?s=f278b1d3cd61c566ee186e6d12eca713"
+        }
+      },
+      "name": "Kaede"
+    },
+    "role": "Main",
+    "favorites": 99,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 60840,
+          "url": "https://myanimelist.net/people/60840/Yuka_Hinata",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/83664.jpg?s=aff3fff5201d8b9c3fef7673834c6239"
+            }
+          },
+          "name": "Hinata, Yuka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 206951,
+      "url": "https://myanimelist.net/character/206951/Suzu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/466429.jpg?s=8fe454c16389367724ce5ee225ce6107"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/466429.webp?s=8fe454c16389367724ce5ee225ce6107",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/466429t.webp?s=8fe454c16389367724ce5ee225ce6107"
+        }
+      },
+      "name": "Suzu"
+    },
+    "role": "Main",
+    "favorites": 133,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 60840,
+          "url": "https://myanimelist.net/people/60840/Yuka_Hinata",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/83664.jpg?s=aff3fff5201d8b9c3fef7673834c6239"
+            }
+          },
+          "name": "Hinata, Yuka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 176360,
+      "url": "https://myanimelist.net/character/176360/Aina_Endou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/422113.jpg?s=56e8165e59f80cf3a69de7db121447ef"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/422113.webp?s=56e8165e59f80cf3a69de7db121447ef",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/422113t.webp?s=56e8165e59f80cf3a69de7db121447ef"
+        }
+      },
+      "name": "Endou, Aina"
+    },
+    "role": "Supporting",
+    "favorites": 37,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 266236,
+      "url": "https://myanimelist.net/character/266236/Tanaka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/582431.jpg?s=ec1b9a9c7bb1487638dfe7579e766aba"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/582431.webp?s=ec1b9a9c7bb1487638dfe7579e766aba",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/582431t.webp?s=ec1b9a9c7bb1487638dfe7579e766aba"
+        }
+      },
+      "name": "Tanaka"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

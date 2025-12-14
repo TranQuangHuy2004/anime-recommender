@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 235171,
+      "url": "https://myanimelist.net/character/235171/Xueqi_Lu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/611950.jpg?s=f3bde1f996588fa8c381f74731f7d2fd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/611950.webp?s=f3bde1f996588fa8c381f74731f7d2fd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/611950t.webp?s=f3bde1f996588fa8c381f74731f7d2fd"
+        }
+      },
+      "name": "Lu, Xueqi"
+    },
+    "role": "Main",
+    "favorites": 8,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 235170,
+      "url": "https://myanimelist.net/character/235170/Xiaofan_Zhang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/598192.jpg?s=fd1a95621c2c8cb8cf88217785e4a2f0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/598192.webp?s=fd1a95621c2c8cb8cf88217785e4a2f0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/598192t.webp?s=fd1a95621c2c8cb8cf88217785e4a2f0"
+        }
+      },
+      "name": "Zhang, Xiaofan"
+    },
+    "role": "Main",
+    "favorites": 16,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 260989,
+      "url": "https://myanimelist.net/character/260989/Xiao_Bai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/572375.jpg?s=70e3bbf0551e163c7028001612ad7f2f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/572375.webp?s=70e3bbf0551e163c7028001612ad7f2f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/572375t.webp?s=70e3bbf0551e163c7028001612ad7f2f"
+        }
+      },
+      "name": "Xiao Bai"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  }
+]

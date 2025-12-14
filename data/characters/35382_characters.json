@@ -1,0 +1,54 @@
+[
+  {
+    "character": {
+      "mal_id": 139242,
+      "url": "https://myanimelist.net/character/139242/Yuri_Plisetsky",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/316492.jpg?s=973de0f69c60e52bbe722f93aa21ca94"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/316492.webp?s=973de0f69c60e52bbe722f93aa21ca94",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/316492t.webp?s=973de0f69c60e52bbe722f93aa21ca94"
+        }
+      },
+      "name": "Plisetsky, Yuri"
+    },
+    "role": "Main",
+    "favorites": 4694,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1764,
+          "url": "https://myanimelist.net/people/1764/Kouki_Uchiyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/63405.jpg?s=c6fe650dcb3f7707ec5640d053365a80"
+            }
+          },
+          "name": "Uchiyama, Kouki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 143726,
+      "url": "https://myanimelist.net/character/143726/Otabek_Altin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/325879.jpg?s=f2a2b813d99556aafe4c1d079f1aec91"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/325879.webp?s=f2a2b813d99556aafe4c1d079f1aec91",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/325879t.webp?s=f2a2b813d99556aafe4c1d079f1aec91"
+        }
+      },
+      "name": "Altin, Otabek"
+    },
+    "role": "Supporting",
+    "favorites": 293,
+    "voice_actors": []
+  }
+]

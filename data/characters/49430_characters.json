@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 233590,
+      "url": "https://myanimelist.net/character/233590/Mignon",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/519644.jpg?s=8bbd3d93aa29c7d6296f38d0f05e273c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/519644.webp?s=8bbd3d93aa29c7d6296f38d0f05e273c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/519644t.webp?s=8bbd3d93aa29c7d6296f38d0f05e273c"
+        }
+      },
+      "name": "Mignon"
+    },
+    "role": "Main",
+    "favorites": 52,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 233720,
+      "url": "https://myanimelist.net/character/233720/Young-One_Oh",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/519643.jpg?s=e7de60078284b571be6a992bd1d4f185"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/519643.webp?s=e7de60078284b571be6a992bd1d4f185",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/519643t.webp?s=e7de60078284b571be6a992bd1d4f185"
+        }
+      },
+      "name": "Oh, Young-One"
+    },
+    "role": "Main",
+    "favorites": 33,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 248169,
+      "url": "https://myanimelist.net/character/248169/Coach",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/548057.jpg?s=6aae557b8a05a12ce5ab19cf51f7c783"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/548057.webp?s=6aae557b8a05a12ce5ab19cf51f7c783",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/548057t.webp?s=6aae557b8a05a12ce5ab19cf51f7c783"
+        }
+      },
+      "name": "Coach"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 248173,
+      "url": "https://myanimelist.net/character/248173/Master_Woo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/548061.jpg?s=5163cb11a5ce3824f1bcbc3d12bc02fa"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/548061.webp?s=5163cb11a5ce3824f1bcbc3d12bc02fa",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/548061t.webp?s=5163cb11a5ce3824f1bcbc3d12bc02fa"
+        }
+      },
+      "name": "Master Woo"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 248189,
+      "url": "https://myanimelist.net/character/248189/Referee",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/548082.jpg?s=8111b9543fef605a34971ee111daadab"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/548082.webp?s=8111b9543fef605a34971ee111daadab",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/548082t.webp?s=8111b9543fef605a34971ee111daadab"
+        }
+      },
+      "name": "Referee"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

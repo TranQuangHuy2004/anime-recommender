@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 1747,
+      "url": "https://myanimelist.net/character/1747/Kaito_Kuroba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/279396.jpg?s=fbac45c4b57d961ec719be569851c36a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/279396.webp?s=fbac45c4b57d961ec719be569851c36a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/279396t.webp?s=fbac45c4b57d961ec719be569851c36a"
+        }
+      },
+      "name": "Kuroba, Kaito"
+    },
+    "role": "Main",
+    "favorites": 4290,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 4162,
+      "url": "https://myanimelist.net/character/4162/Hiroshi_Agasa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/146131.jpg?s=095018c467e4b38a01aaad1dc07d8c9f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/146131.webp?s=095018c467e4b38a01aaad1dc07d8c9f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/146131t.webp?s=095018c467e4b38a01aaad1dc07d8c9f"
+        }
+      },
+      "name": "Agasa, Hiroshi"
+    },
+    "role": "Supporting",
+    "favorites": 76,
+    "voice_actors": []
+  }
+]

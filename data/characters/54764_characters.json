@@ -1,0 +1,87 @@
+[
+  {
+    "character": {
+      "mal_id": 232375,
+      "url": "https://myanimelist.net/character/232375/Totto-chan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/530835.jpg?s=d321b05e9ee060d414678614608b0a29"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/530835.webp?s=d321b05e9ee060d414678614608b0a29",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/530835t.webp?s=d321b05e9ee060d414678614608b0a29"
+        }
+      },
+      "name": "Totto-chan"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 66708,
+          "url": "https://myanimelist.net/people/66708/Liliana_Oono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/78283.jpg?s=f4ba8d6d611b240cfc69ab5dec2cc88c"
+            }
+          },
+          "name": "Oono, Liliana"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 238892,
+      "url": "https://myanimelist.net/character/238892/Sousaku_Kobayashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Kobayashi, Sousaku"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 37581,
+          "url": "https://myanimelist.net/people/37581/Kouji_Yakusho",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/39746.jpg?s=4f251d6bdaefd88c52311ededf197287"
+            }
+          },
+          "name": "Yakusho, Kouji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 263749,
+      "url": "https://myanimelist.net/character/263749/Totto-Chan_039_s_Mother",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Totto-Chan's Mother"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

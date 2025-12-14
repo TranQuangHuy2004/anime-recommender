@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 198567,
+      "url": "https://myanimelist.net/character/198567/Aether",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/550747.jpg?s=aeacf398d5b32d74cea25ca1579341f8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/550747.webp?s=aeacf398d5b32d74cea25ca1579341f8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/550747t.webp?s=aeacf398d5b32d74cea25ca1579341f8"
+        }
+      },
+      "name": "Aether"
+    },
+    "role": "Main",
+    "favorites": 62,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 194503,
+      "url": "https://myanimelist.net/character/194503/Lumine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/550734.jpg?s=b64dcfd153beaea4798dd543078a6cfe"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/550734.webp?s=b64dcfd153beaea4798dd543078a6cfe",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/550734t.webp?s=b64dcfd153beaea4798dd543078a6cfe"
+        }
+      },
+      "name": "Lumine"
+    },
+    "role": "Main",
+    "favorites": 97,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 249426,
+      "url": "https://myanimelist.net/character/249426/Dainsleif",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/613157.jpg?s=ce98666aebb35f057fc637e69fb8187a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/613157.webp?s=ce98666aebb35f057fc637e69fb8187a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/613157t.webp?s=ce98666aebb35f057fc637e69fb8187a"
+        }
+      },
+      "name": "Dainsleif"
+    },
+    "role": "Supporting",
+    "favorites": 15,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 194150,
+      "url": "https://myanimelist.net/character/194150/Paimon",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/541304.jpg?s=3d6d3ed382cf57737e1fc8d3081c4a8e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/541304.webp?s=3d6d3ed382cf57737e1fc8d3081c4a8e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/541304t.webp?s=3d6d3ed382cf57737e1fc8d3081c4a8e"
+        }
+      },
+      "name": "Paimon"
+    },
+    "role": "Supporting",
+    "favorites": 57,
+    "voice_actors": []
+  }
+]

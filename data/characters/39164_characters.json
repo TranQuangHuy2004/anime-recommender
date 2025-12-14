@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 188207,
+      "url": "https://myanimelist.net/character/188207/Hitotsume-sama",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/454154.jpg?s=822660c4ad59eaf9f36f26386526561c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/454154.webp?s=822660c4ad59eaf9f36f26386526561c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/454154t.webp?s=822660c4ad59eaf9f36f26386526561c"
+        }
+      },
+      "name": "Hitotsume-sama"
+    },
+    "role": "Main",
+    "favorites": 36,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 211666,
+      "url": "https://myanimelist.net/character/211666/Kurukuru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/475461.jpg?s=5b6dde7c8cd71bdd62ffe7db80eed82b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/475461.webp?s=5b6dde7c8cd71bdd62ffe7db80eed82b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/475461t.webp?s=5b6dde7c8cd71bdd62ffe7db80eed82b"
+        }
+      },
+      "name": "Kurukuru"
+    },
+    "role": "Main",
+    "favorites": 7,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 212914,
+      "url": "https://myanimelist.net/character/212914/Bun",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/478613.jpg?s=45c7daf48d38d2cb29ae3c868886a597"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/478613.webp?s=45c7daf48d38d2cb29ae3c868886a597",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/478613t.webp?s=45c7daf48d38d2cb29ae3c868886a597"
+        }
+      },
+      "name": "Bun"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  }
+]

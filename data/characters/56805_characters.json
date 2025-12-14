@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 196825,
+      "url": "https://myanimelist.net/character/196825/Eisen",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/523293.jpg?s=10921d054b41f3e5dd2ab5d6b46e2a2c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/523293.webp?s=10921d054b41f3e5dd2ab5d6b46e2a2c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/523293t.webp?s=10921d054b41f3e5dd2ab5d6b46e2a2c"
+        }
+      },
+      "name": "Eisen"
+    },
+    "role": "Main",
+    "favorites": 427,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 184947,
+      "url": "https://myanimelist.net/character/184947/Frieren",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/525105.jpg?s=1706604ec2ca141a172526b8dedf3177"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/525105.webp?s=1706604ec2ca141a172526b8dedf3177",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/525105t.webp?s=1706604ec2ca141a172526b8dedf3177"
+        }
+      },
+      "name": "Frieren"
+    },
+    "role": "Main",
+    "favorites": 28235,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 196826,
+      "url": "https://myanimelist.net/character/196826/Heiter",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/523294.jpg?s=5830ad246444e8b775737db4304b6de6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/523294.webp?s=5830ad246444e8b775737db4304b6de6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/523294t.webp?s=5830ad246444e8b775737db4304b6de6"
+        }
+      },
+      "name": "Heiter"
+    },
+    "role": "Main",
+    "favorites": 316,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 186854,
+      "url": "https://myanimelist.net/character/186854/Himmel",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/523295.jpg?s=4c35fb5c18a7f9544c077a4526b20512"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/523295.webp?s=4c35fb5c18a7f9544c077a4526b20512",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/523295t.webp?s=4c35fb5c18a7f9544c077a4526b20512"
+        }
+      },
+      "name": "Himmel"
+    },
+    "role": "Main",
+    "favorites": 3837,
+    "voice_actors": []
+  }
+]

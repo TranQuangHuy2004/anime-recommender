@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 7373,
+      "url": "https://myanimelist.net/character/7373/Holo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/319492.jpg?s=eb3b45d3b40b194ffc3f00449df63936"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/319492.webp?s=eb3b45d3b40b194ffc3f00449df63936",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/319492t.webp?s=eb3b45d3b40b194ffc3f00449df63936"
+        }
+      },
+      "name": "Holo"
+    },
+    "role": "Main",
+    "favorites": 29010,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 70,
+          "url": "https://myanimelist.net/people/70/Ami_Koshimizu",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/68022.jpg?s=1353d8807bbc155251b7d7feb33a9370"
+            }
+          },
+          "name": "Koshimizu, Ami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 7374,
+      "url": "https://myanimelist.net/character/7374/Kraft_Lawrence",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/545222.jpg?s=1d299d8a484e6aeffe9c0e92cfb4fb07"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/545222.webp?s=1d299d8a484e6aeffe9c0e92cfb4fb07",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/545222t.webp?s=1d299d8a484e6aeffe9c0e92cfb4fb07"
+        }
+      },
+      "name": "Lawrence, Kraft"
+    },
+    "role": "Main",
+    "favorites": 1816,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 86,
+          "url": "https://myanimelist.net/people/86/Jun_Fukuyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/82978.jpg?s=cde9943b4f954b024c9701d283f99f68"
+            }
+          },
+          "name": "Fukuyama, Jun"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 7376,
+      "url": "https://myanimelist.net/character/7376/Norah_Arendt",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/55714.jpg?s=9ff33e67e0f51c22eeadd2ae8e73a130"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/55714.webp?s=9ff33e67e0f51c22eeadd2ae8e73a130",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/55714t.webp?s=9ff33e67e0f51c22eeadd2ae8e73a130"
+        }
+      },
+      "name": "Arendt, Norah"
+    },
+    "role": "Supporting",
+    "favorites": 187,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 31,
+          "url": "https://myanimelist.net/people/31/Mai_Nakahara",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/39949.jpg?s=7203cff05ac7a2e47c2c764ff2783e61"
+            }
+          },
+          "name": "Nakahara, Mai"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

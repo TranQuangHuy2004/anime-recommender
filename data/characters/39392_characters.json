@@ -1,0 +1,120 @@
+[
+  {
+    "character": {
+      "mal_id": 192242,
+      "url": "https://myanimelist.net/character/192242/Yuuji_Tsubakihara",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/490488.jpg?s=373c1b66bfe07d0de9d2eb2c401dfe30"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/490488.webp?s=373c1b66bfe07d0de9d2eb2c401dfe30",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/490488t.webp?s=373c1b66bfe07d0de9d2eb2c401dfe30"
+        }
+      },
+      "name": "Tsubakihara, Yuuji"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 169032,
+      "url": "https://myanimelist.net/character/169032/Mira_Tsubakihara",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/401680.jpg?s=0f19dc2264b195e718b553fd0adc95b7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/401680.webp?s=0f19dc2264b195e718b553fd0adc95b7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/401680t.webp?s=0f19dc2264b195e718b553fd0adc95b7"
+        }
+      },
+      "name": "Tsubakihara, Mira"
+    },
+    "role": "Main",
+    "favorites": 328,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 8916,
+          "url": "https://myanimelist.net/people/8916/Kei_Mizusawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/39998.jpg?s=6af563dc69a72d7e637b529efc1bee90"
+            }
+          },
+          "name": "Mizusawa, Kei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 169031,
+      "url": "https://myanimelist.net/character/169031/Yuna_Tsubakihara",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/400221.jpg?s=26acc38c41bf2d90c3ed309d8d6c20e2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/400221.webp?s=26acc38c41bf2d90c3ed309d8d6c20e2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/400221t.webp?s=26acc38c41bf2d90c3ed309d8d6c20e2"
+        }
+      },
+      "name": "Tsubakihara, Yuna"
+    },
+    "role": "Main",
+    "favorites": 27,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 246,
+          "url": "https://myanimelist.net/people/246/Yuka_Inokuchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/59523.jpg?s=ba7c095e8777ab6b46f5f91231a48176"
+            }
+          },
+          "name": "Inokuchi, Yuka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 169030,
+      "url": "https://myanimelist.net/character/169030/Nina_Tsubakihara",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/400224.jpg?s=979cfd73a5eacaced460184adc5e2cd1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/400224.webp?s=979cfd73a5eacaced460184adc5e2cd1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/400224t.webp?s=979cfd73a5eacaced460184adc5e2cd1"
+        }
+      },
+      "name": "Tsubakihara, Nina"
+    },
+    "role": "Main",
+    "favorites": 34,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1133,
+          "url": "https://myanimelist.net/people/1133/Harumi_Sakurai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/54041.jpg?s=86d5eb1ff6304e458ed2e948607ff391"
+            }
+          },
+          "name": "Sakurai, Harumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "character": {
+      "mal_id": 250452,
+      "url": "https://myanimelist.net/character/250452/Firefly",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/552678.jpg?s=4c70b705abd2dfbca30fef27505abb6b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/552678.webp?s=4c70b705abd2dfbca30fef27505abb6b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/552678t.webp?s=4c70b705abd2dfbca30fef27505abb6b"
+        }
+      },
+      "name": "Firefly"
+    },
+    "role": "Main",
+    "favorites": 224,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 46249,
+          "url": "https://myanimelist.net/people/46249/Tomori_Kusunoki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/74544.jpg?s=b64ca611e2d01c0a337f4902d4e4ccbf"
+            }
+          },
+          "name": "Kusunoki, Tomori"
+        },
+        "language": "Japanese"
+      },
+      {
+        "person": {
+          "mal_id": 39127,
+          "url": "https://myanimelist.net/people/39127/Jun_Kasama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/60641.jpg?s=90bb8c64d45f8f122155c8671fea545c"
+            }
+          },
+          "name": "Kasama, Jun"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 238206,
+      "url": "https://myanimelist.net/character/238206/Kafka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/540806.jpg?s=903f06f1524591f2f6bad80720ad1d0f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/540806.webp?s=903f06f1524591f2f6bad80720ad1d0f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/540806t.webp?s=903f06f1524591f2f6bad80720ad1d0f"
+        }
+      },
+      "name": "Kafka"
+    },
+    "role": "Supporting",
+    "favorites": 160,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 93,
+          "url": "https://myanimelist.net/people/93/Shizuka_Itou",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54675.jpg?s=61c1981a572e02a64e2a313b7ef4aec0"
+            }
+          },
+          "name": "Itou, Shizuka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

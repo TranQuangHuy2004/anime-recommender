@@ -1,0 +1,116 @@
+[
+  {
+    "character": {
+      "mal_id": 192126,
+      "url": "https://myanimelist.net/character/192126/Abbey",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/491227.jpg?s=3215865800c275c6cc0ff88f66da8406"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/491227.webp?s=3215865800c275c6cc0ff88f66da8406",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/491227t.webp?s=3215865800c275c6cc0ff88f66da8406"
+        }
+      },
+      "name": "Abbey"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 192127,
+      "url": "https://myanimelist.net/character/192127/Choko",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/491226.jpg?s=a5c421d27f95ac1a3eed39998333abd4"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/491226.webp?s=a5c421d27f95ac1a3eed39998333abd4",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/491226t.webp?s=a5c421d27f95ac1a3eed39998333abd4"
+        }
+      },
+      "name": "Choko"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 192125,
+      "url": "https://myanimelist.net/character/192125/Potato",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/470028.jpg?s=a298864291d1bd1aa0d0dbca4961b1de"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/470028.webp?s=a298864291d1bd1aa0d0dbca4961b1de",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/470028t.webp?s=a298864291d1bd1aa0d0dbca4961b1de"
+        }
+      },
+      "name": "Potato"
+    },
+    "role": "Main",
+    "favorites": 41,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 192112,
+      "url": "https://myanimelist.net/character/192112/Shiromo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/491228.jpg?s=c033865264f52ef6f7a09c31a5b7ec9f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/491228.webp?s=c033865264f52ef6f7a09c31a5b7ec9f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/491228t.webp?s=c033865264f52ef6f7a09c31a5b7ec9f"
+        }
+      },
+      "name": "Shiromo"
+    },
+    "role": "Main",
+    "favorites": 13,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 192128,
+      "url": "https://myanimelist.net/character/192128/Teddy",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/488491.jpg?s=a89781d14316610545586d477cb05492"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/488491.webp?s=a89781d14316610545586d477cb05492",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/488491t.webp?s=a89781d14316610545586d477cb05492"
+        }
+      },
+      "name": "Teddy"
+    },
+    "role": "Main",
+    "favorites": 9,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 192671,
+      "url": "https://myanimelist.net/character/192671/Emergency_Molcar",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/432758.jpg?s=a21ae7463309aa5bf0241eab4ae8f4cb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/432758.webp?s=a21ae7463309aa5bf0241eab4ae8f4cb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/432758t.webp?s=a21ae7463309aa5bf0241eab4ae8f4cb"
+        }
+      },
+      "name": "Emergency Molcar"
+    },
+    "role": "Supporting",
+    "favorites": 58,
+    "voice_actors": []
+  }
+]
