@@ -136,6 +136,6 @@ if __name__ == "__main__":
     test_suggest(es_service, "madh", ["studio"])       # Madhouse studio
     test_suggest(es_service, "school", ["theme"])      # School theme
     test_suggest(es_service, "action", ["genre"])      # Action genre
-    test_suggest(es_service, "goku", ["anime"])      # Action genre
+    test_suggest(es_service, "titan", ["anime"])      # Action genre
 
     print("Testing complete!")

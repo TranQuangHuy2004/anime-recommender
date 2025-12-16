@@ -1,5 +1,6 @@
 from elasticsearch import Elasticsearch, helpers
 from elasticsearch.exceptions import NotFoundError
+from utils.helpers import extract_year_month_season
 import os
 from dotenv import load_dotenv
 from tqdm import tqdm
@@ -213,7 +214,7 @@ class ElasticsearchService:
                     "genre_names": {"type": "keyword"},
                     "theme_names": {"type": "keyword"},
                     "demographic_names": {"type": "keyword"},
-                    # "character_names": {"type": "keyword"},
+                    "character_names": {"type": "keyword"},
                     # "voice_actor_names": {"type": "keyword"},
 
                     # Computed fields
@@ -261,7 +262,16 @@ class ElasticsearchService:
                 "properties": {
                     "type": {"type": "keyword"},  # anime, character, studio, genre, voice_actor
                     "mal_id": {"type": "integer"},
-                    "name": {
+                    "main_name": {"type": "keyword", "index": False},
+                    "search_full_names": {
+                        "type": "text",
+                        "analyzer": "autocomplete_analyzer",
+                        "search_analyzer": "standard",
+                        "fields": {
+                            "keyword": {"type": "keyword"}
+                        }
+                    },
+                    "search_key_names": {
                         "type": "text",
                         "analyzer": "autocomplete_analyzer",
                         "search_analyzer": "standard",
@@ -375,87 +385,95 @@ class ElasticsearchService:
                     JOIN voice_actors va ON ac.voice_actor_id = va.mal_id
                     WHERE va.language = 'Japanese'
                     GROUP BY ac.anime_id, ac.character_id
-                )
-                SELECT
-                    a.*,
-
-                    -- Studios
-                    COALESCE(
+                ),
+                anime_studios_agg AS (
+                    SELECT
+                        ast.anime_id,
                         json_agg(DISTINCT jsonb_build_object(
                             'mal_id', s.mal_id,
                             'name', s.name
-                        )) FILTER (WHERE s.mal_id IS NOT NULL),
-                        '[]'::json
-                    ) AS studios,
-
-                    -- Genres
-                    COALESCE(
+                        )) AS studios
+                    FROM anime_studios ast
+                    JOIN studios s ON ast.studio_id = s.mal_id
+                    GROUP BY ast.anime_id
+                ),
+                anime_genres_agg AS (
+                    SELECT
+                        ag.anime_id,
                         json_agg(DISTINCT jsonb_build_object(
                             'mal_id', g.mal_id,
                             'name', g.name
-                        )) FILTER (WHERE g.mal_id IS NOT NULL),
-                        '[]'::json
-                    ) AS genres,
-
-                    -- Themes
-                    COALESCE(
+                        )) AS genres
+                    FROM anime_genres ag
+                    JOIN genres g ON ag.genre_id = g.mal_id
+                    GROUP BY ag.anime_id
+                ),
+                anime_themes_agg AS (
+                    SELECT
+                        at2.anime_id,
                         json_agg(DISTINCT jsonb_build_object(
                             'mal_id', t.mal_id,
                             'name', t.name
-                        )) FILTER (WHERE t.mal_id IS NOT NULL),
-                        '[]'::json
-                    ) AS themes,
-
-                    -- Demographics
-                    COALESCE(
+                        )) AS themes
+                    FROM anime_themes at2
+                    JOIN themes t ON at2.theme_id = t.mal_id
+                    GROUP BY at2.anime_id
+                ),
+                anime_demographics_agg AS (
+                    SELECT
+                        ad.anime_id,
                         json_agg(DISTINCT jsonb_build_object(
                             'mal_id', d.mal_id,
                             'name', d.name
-                        )) FILTER (WHERE d.mal_id IS NOT NULL),
-                        '[]'::json
-                    ) AS demographics,
-
-                    -- Top 10 characters with voice actors
-                    COALESCE(
+                        )) AS demographics
+                    FROM anime_demographics ad
+                    JOIN demographics d ON ad.demographic_id = d.mal_id
+                    GROUP BY ad.anime_id
+                ),
+                sorted_top_characters AS (
+                    SELECT
+                        tc.anime_id,
+                        tc.character_mal_id,
+                        tc.character_name,
+                        tc.character_image_url,
+                        tc.favorites,
+                        tc.role,
+                        COALESCE(cva.voice_actors, '[]'::json) AS voice_actors
+                    FROM top_characters tc
+                    LEFT JOIN character_voice_actors cva
+                        ON tc.anime_id = cva.anime_id
+                        AND tc.character_mal_id = cva.character_id
+                    ORDER BY tc.favorites DESC NULLS LAST
+                ),
+                anime_characters_agg AS (
+                    SELECT
+                        anime_id,
                         json_agg(
                             jsonb_build_object(
-                                'mal_id', tc.character_mal_id,
-                                'name', tc.character_name,
-                                'role', tc.role,
-                                'favorites', tc.favorites,
-                                'image_url', tc.character_image_url,
-                                'voice_actors', COALESCE(cva.voice_actors, '[]'::json)
+                                'mal_id', character_mal_id,
+                                'name', character_name,
+                                'role', role,
+                                'favorites', favorites,
+                                'image_url', character_image_url,
+                                'voice_actors', voice_actors
                             )
-                            ORDER BY tc.favorites DESC NULLS LAST
-                        ) FILTER (WHERE tc.character_mal_id IS NOT NULL),
-                        '[]'::json
-                    ) AS characters
-
+                        ) AS characters
+                    FROM sorted_top_characters
+                    GROUP BY anime_id
+                )
+                SELECT
+                    a.*,
+                    COALESCE(asa.studios, '[]'::json) AS studios,
+                    COALESCE(aga.genres, '[]'::json) AS genres,
+                    COALESCE(ata.themes, '[]'::json) AS themes,
+                    COALESCE(ada.demographics, '[]'::json) AS demographics,
+                    COALESCE(aca.characters, '[]'::json) AS characters
                 FROM anime a
-
-                -- Studios
-                LEFT JOIN anime_studios ast ON a.mal_id = ast.anime_id
-                LEFT JOIN studios s ON ast.studio_id = s.mal_id
-
-                -- Genres
-                LEFT JOIN anime_genres ag ON a.mal_id = ag.anime_id
-                LEFT JOIN genres g ON ag.genre_id = g.mal_id
-
-                -- Themes
-                LEFT JOIN anime_themes at2 ON a.mal_id = at2.anime_id
-                LEFT JOIN themes t ON at2.theme_id = t.mal_id
-
-                -- Demographics
-                LEFT JOIN anime_demographics ad ON a.mal_id = ad.anime_id
-                LEFT JOIN demographics d ON ad.demographic_id = d.mal_id
-
-                -- Characters
-                LEFT JOIN top_characters tc ON a.mal_id = tc.anime_id
-                LEFT JOIN character_voice_actors cva
-                    ON tc.anime_id = cva.anime_id
-                    AND tc.character_mal_id = cva.character_id
-
-                GROUP BY a.mal_id
+                LEFT JOIN anime_studios_agg asa ON a.mal_id = asa.anime_id
+                LEFT JOIN anime_genres_agg aga ON a.mal_id = aga.anime_id
+                LEFT JOIN anime_themes_agg ata ON a.mal_id = ata.anime_id
+                LEFT JOIN anime_demographics_agg ada ON a.mal_id = ada.anime_id
+                LEFT JOIN anime_characters_agg aca ON a.mal_id = aca.anime_id
                 ORDER BY a.mal_id
                 LIMIT %s OFFSET %s
                 """
@@ -494,6 +512,8 @@ class ElasticsearchService:
                         else:
                             episode_range = 'long'
 
+                    year, season = extract_year_month_season(anime.get('aired_string'))
+
                     action = {
                         "_index": self.indices['anime'],
                         "_id": anime['mal_id'],
@@ -513,8 +533,8 @@ class ElasticsearchService:
                             "duration": anime.get('duration'),
                             "duration_minutes": extract_minutes_from_duration(anime.get('duration')),
                             "rating": anime.get('rating'),
-                            "season": anime.get('season'),
-                            "year": anime.get('year'),
+                            "season": anime['season'] if anime.get('season', '') else season,
+                            "year": anime['year'] if anime.get('year', '') else year,
                             "aired_string": anime.get('aired_string'),
                             "image_url": anime.get('image_url'),
                             "trailer_url": anime.get('trailer_url'),
@@ -588,7 +608,7 @@ class ElasticsearchService:
                         WHERE ac.anime_id = a.mal_id
                         AND c.name IS NOT NULL
                         ORDER BY c.favorites DESC NULLS LAST
-                        LIMIT 10
+                        LIMIT 20
                     ) sub
                 ), 
                 '[]'::json
@@ -604,16 +624,28 @@ class ElasticsearchService:
         anime_results = db_service.execute_query(anime_query)
         for anime in anime_results:
             # Base input for anime titles
-            base_inputs = [
-                anime['title'],
-                anime['title_english'],
-                *anime.get('title_synonyms', [])
-            ]
-            base_inputs = [i for i in base_inputs if i]
+            title = anime['title']
+            title_english = anime.get('title_english') or ''
+            synonyms = anime.get('title_synonyms', []) or []  # Ensure it's always a list
+
+            fullnames = [title]
+            keynames = [title, *title.strip().split()]
+
+            if title_english:
+                fullnames.append(title_english)
+                keynames.append(title_english)
+                keynames.extend(title_english.strip().split())
+
+            if synonyms:
+                fullnames.extend(synonyms)
+                keynames.extend(synonyms)
+                for syn in synonyms:
+                    if syn:
+                        keynames.extend(syn.strip().split())
 
             # Character inputs -> Find anime based on character names
             char_inputs = set()  # Use set to avoid duplicates
-            raw_chars = anime.get('top_characters', [])[:10]  # Limit to top 10
+            raw_chars = anime.get('top_characters', [])[:20]  # Limit to top 10
 
             for full_name in raw_chars:
                 if not full_name:
@@ -634,7 +666,7 @@ class ElasticsearchService:
                         # Add last name only
                         char_inputs.add(last)
 
-            all_inputs = base_inputs + list(char_inputs)
+            keynames = keynames + list(char_inputs)
 
             actions.append({
                 "_index": self.indices['search_suggestions'],
@@ -642,13 +674,15 @@ class ElasticsearchService:
                 "_source": {
                     "type": "anime",
                     "mal_id": anime['mal_id'],
-                    "name": anime['title'],
+                    "main_name": title,
+                    "search_full_names": fullnames,
+                    "search_key_names": keynames,
                     "subtype": anime['type'],
                     "score": anime['score'],
                     "popularity": anime['popularity'],
                     "image_url": anime.get("image_url"),
                     "suggest": {
-                        "input": all_inputs,
+                        "input": title,
                         "weight": 1000 - min(anime['popularity'], 999) if anime['popularity'] else 100,
                         "contexts": {
                             "entity_type": ["anime", anime['type'] or "unknown", "global"]
@@ -656,69 +690,6 @@ class ElasticsearchService:
                     }
                 }
             })
-
-        # # 2. Characters
-        # chars_query = """
-        # SELECT
-        #     c.mal_id AS character_id,
-        #     c.name AS character_name,
-        #     json_agg(
-        #         DISTINCT jsonb_build_object(
-        #             'anime_id', a.mal_id,
-        #             'title', a.title
-        #         )
-        #     ) as anime_list,  -- ✅ All anime in one field
-        #     c.favorites,
-        #     c.image_url
-        # FROM characters c
-        # JOIN anime_characters ac ON c.mal_id = ac.character_id
-        # JOIN anime a ON ac.anime_id = a.mal_id
-        # GROUP BY c.mal_id, c.name, c.favorites, c.image_url
-        # ORDER BY c.favorites DESC
-        # LIMIT 5000
-        # """
-
-        # char_results = db_service.execute_query(chars_query)
-        # for char in char_results:
-        #     full_name = char['character_name']  # e.g., "Monkey D., Luffy"
-
-        #     # Split common patterns
-        #     extra_inputs = []
-
-        #     # If comma-separated (common for "Last, First")
-        #     if ', ' in full_name:
-        #         parts = full_name.split(', ', 1)
-        #         last = parts[0].strip()
-        #         first = parts[1].strip()
-        #         # Add reversed: "First Last"
-        #         extra_inputs.append(f"{first} {last}")
-        #         # Add first name only (most useful!)
-        #         extra_inputs.append(first)
-        #         # Add last name only (for family searches)
-        #         extra_inputs.append(last)
-        #     # Always add the disambiguated variants (they help too)
-        #     disambiguated = [f"{full_name} ({a['title']})" for a in char['anime_list'][:3]]
-        #     # If full_name already starts with common given name, no harm in duplicates
-        #     all_inputs = [full_name] + extra_inputs + disambiguated
-
-        #     actions.append({
-        #         "_index": self.indices['search_suggestions'],
-        #         "_id": f"character_{char['character_id']}",
-        #         "_source": {
-        #             "type": "character",
-        #             "mal_id": char['character_id'],
-        #             "name": char['character_name'],
-        #             "image_url": char.get("image_url"),
-        #             "suggest": {
-        #                 "input": [
-        #                     char['character_name'],
-        #                     *[f"{char['character_name']} ({a['title']})" for a in char['anime_list'][:3]]  # Top 3 anime
-        #                 ],
-        #                 "weight": min(char['favorites'] // 100, 100),
-        #                 "contexts": {"entity_type": ["character", "global"]}
-        #             }
-        #         }
-        #     })
 
         # 3. Studios
         studios_query = """
@@ -737,10 +708,12 @@ class ElasticsearchService:
                 "_source": {
                     "type": "studio",
                     "mal_id": studio['mal_id'],
-                    "name": studio['name'],
+                    "main_name": studio['name'],
+                    "search_full_names": studio['name'],
+                    "search_key_names": studio['name'].strip().split(),
                     "suggest": {
                         "input": [studio['name']],
-                        "weight": 100,
+                        "weight": 500,
                         "contexts": {"entity_type": ["studio", "global"]}
                     }
                 }
@@ -763,10 +736,12 @@ class ElasticsearchService:
                 "_source": {
                     "type": "genre",
                     "mal_id": genre['mal_id'],
-                    "name": genre['name'],
+                    "main_name": genre['name'],
+                    "search_full_names": genre['name'],
+                    "search_key_names": genre['name'].strip().split(),
                     "suggest": {
                         "input": [genre['name']],
-                        "weight": 100,
+                        "weight": 500,
                         "contexts": {"entity_type": ["genre", "global"]}
                     }
                 }
@@ -789,10 +764,12 @@ class ElasticsearchService:
                 "_source": {
                     "type": "theme",
                     "mal_id": theme['mal_id'],
-                    "name": theme['name'],
+                    "main_name": theme['name'],
+                    "search_full_names": theme['name'],
+                    "search_key_names": theme['name'].strip().split(),
                     "suggest": {
                         "input": [theme['name']],
-                        "weight": 100,
+                        "weight": 500,
                         "contexts": {"entity_type": ["theme", "global"]}
                     }
                 }
@@ -815,10 +792,13 @@ class ElasticsearchService:
                 "_source": {
                     "type": "demographic",
                     "mal_id": demographic['mal_id'],
-                    "name": demographic['name'],
+                    "main_name": demographic['name'],
+                    "search_full_names": demographic['name'],
+                    "search_key_names": demographic['name'].strip().split(),
+                    "search_name": demographic['name'],
                     "suggest": {
                         "input": [demographic['name']],
-                        "weight": 100,
+                        "weight": 500,
                         "contexts": {"entity_type": ["demographic", "global"]}
                     }
                 }
@@ -877,11 +857,12 @@ class ElasticsearchService:
         except Exception as e:
             logger.error(f"Error getting stats: {e}")
 
-    # Change search_across_all to only search anime_index
-    def search_anime(self, query, filters=None, size=50):
-        """Search only anime with optional filters"""
+    def search_anime(self, query=None, filters=None, size=50, page=1):
+        """Search anime with optional filters and pagination"""
         if not filters:
             filters = {}
+
+        from_ = (page - 1) * size
 
         search_body = {
             "query": {
@@ -890,12 +871,20 @@ class ElasticsearchService:
                     "filter": []
                 }
             },
+            "from": from_,
             "size": size,
             "sort": [
                 {"_score": {"order": "desc"}},
-                {"score": {"order": "desc"}},
-                {"popularity": {"order": "asc"}}
-            ]
+                {"popularity": {"order": "asc"}},
+                {"score": {"order": "desc"}}
+            ],
+            "aggs": {
+                "genres": {"terms": {"field": "genre_names", "size": 20}},
+                "types": {"terms": {"field": "type", "size": 10}},
+                "seasons": {"terms": {"field": "season", "size": 10}},
+                "years": {"histogram": {"field": "year", "interval": 1}},
+                "score_ranges": {"terms": {"field": "score_range", "size": 5}}
+            }
         }
 
         # Add text search
@@ -903,48 +892,266 @@ class ElasticsearchService:
             search_body["query"]["bool"]["must"].append({
                 "multi_match": {
                     "query": query,
-                    "fields": ["title^3", "title_english^2", "synopsis", "character_names"],
+                    "fields": [
+                        "title^3",
+                        "title_english^2",
+                        "synopsis",
+                        "title_synonyms.text^1.5",
+                        "character_names"
+                    ],
                     "type": "best_fields",
-                    "fuzziness": "AUTO"
+                    "fuzziness": "AUTO",
+                    "operator": "or"
                 }
             })
         else:
             search_body["query"]["bool"]["must"].append({"match_all": {}})
 
-        # Add filters...
+        # ========== FILTERS ==========
 
-        response = self.es.search(index=self.indices['anime'], body=search_body)  # ← ONLY anime_index
-        return response['hits']['hits']
+        # Type filter
+        if filters.get('type') and filters['type'] != "All":
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"type": filters['type']}
+            })
 
-    def autocomplete(self, prefix, types=None):
-        """Autocomplete suggestions"""
-        search_body = {
-            "suggest": {
-                "anime-suggest": {
-                    "prefix": prefix,
-                    "completion": {
-                        "field": "suggest",
-                        "contexts": {
-                            "entity_type": types if types else []
-                        },
-                        "size": 10,
-                        "fuzzy": {
-                            "fuzziness": 1
-                        }
-                    }
-                }
-            }
-        }
+        # Year range filter
+        if filters.get('year_from') or filters.get('year_to'):
+            year_range = {}
+            if filters.get('year_from'):
+                year_range['gte'] = filters['year_from']
+            if filters.get('year_to'):
+                year_range['lte'] = filters['year_to']
+            search_body["query"]["bool"]["filter"].append({
+                "range": {"year": year_range}
+            })
+
+        # Score filter
+        if filters.get('min_score'):
+            search_body["query"]["bool"]["filter"].append({
+                "range": {"score": {"gte": filters['min_score']}}
+            })
+
+        # Season filter
+        if filters.get('season') and filters['season'] != "All":
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"season": filters['season']}
+            })
+
+        # Status filter
+        if filters.get('status') and filters['status'] != "All":
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"status": filters['status']}
+            })
+
+        # Source filter
+        if filters.get('source') and filters['source'] != "All":
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"source": filters['source']}
+            })
+
+        # Rating filter
+        if filters.get('rating') and filters['rating'] != "All":
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"rating": filters['rating']}
+            })
+
+        # Episode count filters
+        if filters.get('min_episodes'):
+            search_body["query"]["bool"]["filter"].append({
+                "range": {"episodes": {"gte": filters['min_episodes']}}
+            })
+
+        if filters.get('max_episodes'):
+            search_body["query"]["bool"]["filter"].append({
+                "range": {"episodes": {"lte": filters['max_episodes']}}
+            })
+
+        # Duration filter (in minutes)
+        if filters.get('min_duration'):
+            search_body["query"]["bool"]["filter"].append({
+                "range": {"duration_minutes": {"gte": filters['min_duration']}}
+            })
+
+        if filters.get('max_duration'):
+            search_body["query"]["bool"]["filter"].append({
+                "range": {"duration_minutes": {"lte": filters['max_duration']}}
+            })
+
+        # Studio filter
+        if filters.get('studios'):
+            search_body["query"]["bool"]["filter"].append({
+                "terms": {"studio_names": filters['studios']}
+            })
+
+        # Genre filter
+        if filters.get('genres'):
+            search_body["query"]["bool"]["filter"].append({
+                "terms": {"genre_names": filters['genres']}
+            })
+
+        # Theme filter
+        if filters.get('themes'):
+            search_body["query"]["bool"]["filter"].append({
+                "terms": {"theme_names": filters['themes']}
+            })
+
+        # Demographic filter
+        if filters.get('demographics'):
+            search_body["query"]["bool"]["filter"].append({
+                "terms": {"demographic_names": filters['demographics']}
+            })
+
+        # Popular only filter
+        if filters.get('popular_only'):
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"is_popular": True}
+            })
+
+        # Score range filter (pre-computed)
+        if filters.get('score_range') and filters['score_range'] != "All":
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"score_range": filters['score_range']}
+            })
+
+        # Episode range filter (pre-computed)
+        if filters.get('episode_range') and filters['episode_range'] != "All":
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"episode_range": filters['episode_range']}
+            })
 
         try:
+            response = self.es.search(index=self.indices['anime'], body=search_body)
+
+            # Format results
+            results = {
+                'total': response['hits']['total']['value'],
+                'hits': [],
+                'aggregations': response.get('aggregations', {}),
+                'page': page,
+                'total_pages': (response['hits']['total']['value'] + size - 1) // size,
+                'size': size
+            }
+
+            for hit in response['hits']['hits']:
+                anime = hit['_source']
+                anime['_score'] = hit['_score']
+                results['hits'].append(anime)
+
+            return results
+
+        except Exception as e:
+            logger.error(f"Search error: {e}")
+            return {'total': 0, 'hits': [], 'aggregations': {}, 'page': page, 'total_pages': 0}
+
+    def get_search_suggestions_for_streamlit(self, searchterm, search_type="all", limit=10):
+        """
+        Search function that uses the completion suggester and always includes a "raw/full-text search" option as the first suggestion.
+        """
+        if not searchterm or len(searchterm.strip()) < 2:
+            return []
+
+        suggestions = []
+
+        # Raw search always first
+        suggestions.append((
+            f"🔍 Search for '{searchterm}'",
+            {"raw_search": True, "query": searchterm.strip()}
+        ))
+
+        try:
+            must_filters = []
+            if search_type != "all" and search_type != "All":
+                must_filters.append({
+                    "term": {"type": search_type.lower()}
+                })
+
+            body = {
+                "query": {
+                    "bool": {
+                        "must": [
+                            {
+                                "multi_match": {
+                                    "query": searchterm,
+                                    "fields": [
+                                        "search_full_names^6",
+                                        "search_key_names^4"
+                                    ],
+                                    "operator": "and",
+                                    "fuzziness": "AUTO"
+                                }
+                            }
+                        ],
+                        "filter": must_filters
+                    }
+                },
+                "size": limit
+            }
+
             response = self.es.search(
                 index=self.indices['search_suggestions'],
-                body=search_body
+                body=body
             )
-            return response['suggest']['anime-suggest'][0]['options']
+
+            hits = response['hits']['hits']
+            seen = set()
+
+            for hit in hits:
+                source = hit['_source']
+                entity_type = source['type']
+                entity_id = f"{entity_type}_{source['mal_id']}"
+
+                if entity_id in seen:
+                    continue
+                seen.add(entity_id)
+
+                display_text = self._format_suggestion_display(source, entity_type)
+
+                value_dict = {
+                    'id': source['mal_id'],
+                    'name': source['main_name'],
+                    'type': entity_type.capitalize(),
+                    'raw_type': entity_type,
+                    'score': source.get('score'),
+                    'popularity': source.get('popularity'),
+                    'image_url': source.get('image_url'),
+                    'subtype': source.get('subtype'),
+                    '_score': hit['_score'],
+                    'search_term': searchterm,
+                    'selected_via_suggestion': True,
+                }
+
+                suggestions.append((display_text, value_dict))
+
+                if len(suggestions) >= limit + 1:
+                    break
+
+            return suggestions
+
         except Exception as e:
-            logger.error(f"Autocomplete error: {e}")
-            return []
+            logger.error(f"Error in streamlit search function: {e}")
+            return suggestions
+
+    def _format_suggestion_display(self, source, entity_type):
+        """Format the display text for suggestions"""
+        t = f"{entity_type.capitalize()}:"
+        if entity_type == "anime":
+            display = f"🎬 {t} {source['main_name']}"
+            if source.get('subtype'):
+                display += f" ({source.get('subtype')})"
+            if source.get('score'):
+                display += f" ⭐ {source['score']:.1f}"
+            return display
+        elif entity_type == "studio":
+            return f"🏢 {t} {source['main_name']}"
+        elif entity_type == "genre":
+            return f"🏷️ {t} {source['main_name']}"
+        elif entity_type == "theme":
+            return f"🎭 {t} {source['main_name']}"
+        elif entity_type == "demographic":
+            return f"👥 {t} {source['main_name']}"
+        else:
+            return f"{source['main_name']}"
 
     def get_anime_by_mal_id(self, mal_id):
         """Get anime by MAL ID"""
@@ -971,10 +1178,26 @@ class ElasticsearchService:
 
         try:
             response = self.es.search(index=self.indices['anime'], body=search_body)
-            return response['hits']['hits']
+
+            # Format results consistently with search_anime()
+            results = {
+                'total': response['hits']['total']['value'],
+                'hits': [],
+                'page': 1,
+                'total_pages': (response['hits']['total']['value'] + size - 1) // size,
+                'size': size
+            }
+
+            for hit in response['hits']['hits']:
+                anime = hit['_source']
+                anime['_score'] = hit['_score']
+                results['hits'].append(anime)
+
+            return results
+
         except Exception as e:
-            logger.error(f"Error getting studio anime: {e}")
-            return []
+            logger.error(f"Genre search error: {e}")
+            return {'total': 0, 'hits': [], 'page': 1, 'total_pages': 0}
 
     def get_genre_anime(self, genre_name, size=50):
         """Get anime by genre"""
@@ -990,10 +1213,26 @@ class ElasticsearchService:
 
         try:
             response = self.es.search(index=self.indices['anime'], body=search_body)
-            return response['hits']['hits']
+
+            # Format results consistently with search_anime()
+            results = {
+                'total': response['hits']['total']['value'],
+                'hits': [],
+                'page': 1,
+                'total_pages': (response['hits']['total']['value'] + size - 1) // size,
+                'size': size
+            }
+
+            for hit in response['hits']['hits']:
+                anime = hit['_source']
+                anime['_score'] = hit['_score']
+                results['hits'].append(anime)
+
+            return results
+
         except Exception as e:
-            logger.error(f"Error getting genre anime: {e}")
-            return []
+            logger.error(f"Genre search error: {e}")
+            return {'total': 0, 'hits': [], 'page': 1, 'total_pages': 0}
 
     def get_theme_anime(self, theme_name, size=50):
         """Get anime by theme"""
@@ -1009,10 +1248,26 @@ class ElasticsearchService:
 
         try:
             response = self.es.search(index=self.indices['anime'], body=search_body)
-            return response['hits']['hits']
+
+            # Format results consistently with search_anime()
+            results = {
+                'total': response['hits']['total']['value'],
+                'hits': [],
+                'page': 1,
+                'total_pages': (response['hits']['total']['value'] + size - 1) // size,
+                'size': size
+            }
+
+            for hit in response['hits']['hits']:
+                anime = hit['_source']
+                anime['_score'] = hit['_score']
+                results['hits'].append(anime)
+
+            return results
+
         except Exception as e:
-            logger.error(f"Error getting theme anime: {e}")
-            return []
+            logger.error(f"Genre search error: {e}")
+            return {'total': 0, 'hits': [], 'page': 1, 'total_pages': 0}
 
     def get_demographic_anime(self, demographic_name, size=50):
         """Get anime by demographic"""
@@ -1028,10 +1283,111 @@ class ElasticsearchService:
 
         try:
             response = self.es.search(index=self.indices['anime'], body=search_body)
-            return response['hits']['hits']
+
+            # Format results consistently with search_anime()
+            results = {
+                'total': response['hits']['total']['value'],
+                'hits': [],
+                'page': 1,
+                'total_pages': (response['hits']['total']['value'] + size - 1) // size,
+                'size': size
+            }
+
+            for hit in response['hits']['hits']:
+                anime = hit['_source']
+                anime['_score'] = hit['_score']
+                results['hits'].append(anime)
+
+            return results
+
         except Exception as e:
-            logger.error(f"Error getting demographic anime: {e}")
-            return []
+            logger.error(f"Genre search error: {e}")
+            return {'total': 0, 'hits': [], 'page': 1, 'total_pages': 0}
+
+    def get_filter_options(self, db_service):
+        """Get all available filter options from database"""
+        options = {}
+
+        # Get all genres
+        genre_query = "SELECT name FROM genres ORDER BY name"
+        genres = db_service.execute_query(genre_query)
+        options['genres'] = [g['name'] for g in genres] if genres else []
+
+        # Get all types
+        type_query = "SELECT DISTINCT type FROM anime WHERE type IS NOT NULL ORDER BY type"
+        types = db_service.execute_query(type_query)
+        options['types'] = [t['type'] for t in types] if types else []
+
+        # Get all statuses
+        status_query = "SELECT DISTINCT status FROM anime WHERE status IS NOT NULL ORDER BY status"
+        statuses = db_service.execute_query(status_query)
+        options['statuses'] = [s['status'] for s in statuses] if statuses else []
+
+        # Get all seasons
+        season_query = "SELECT DISTINCT season FROM anime WHERE season IS NOT NULL ORDER BY season"
+        seasons = db_service.execute_query(season_query)
+        options['seasons'] = [s['season'] for s in seasons] if seasons else []
+
+        # Get all sources
+        source_query = "SELECT DISTINCT source FROM anime WHERE source IS NOT NULL ORDER BY source"
+        sources = db_service.execute_query(source_query)
+        options['sources'] = [s['source'] for s in sources] if sources else []
+
+        # Get all ratings
+        rating_query = "SELECT DISTINCT rating FROM anime WHERE rating IS NOT NULL ORDER BY rating"
+        ratings = db_service.execute_query(rating_query)
+        options['ratings'] = [r['rating'] for r in ratings] if ratings else []
+
+        # Get all studios
+        studio_query = "SELECT name FROM studios ORDER BY name"
+        studios = db_service.execute_query(studio_query)
+        options['studios'] = [s['name'] for s in studios] if studios else []
+
+        # Get year range
+        year_query = "SELECT MIN(year) as min_year, MAX(year) as max_year FROM anime WHERE year IS NOT NULL"
+        year_result = db_service.execute_query(year_query)
+        if year_result and year_result[0]['min_year']:
+            options['year_range'] = (year_result[0]['min_year'], year_result[0]['max_year'])
+
+        # Score ranges
+        options['score_ranges'] = [
+            "All", "9+", "8-9", "7-8", "6-7", "0-6"
+        ]
+
+        # Episode ranges
+        options['episode_ranges'] = [
+            "All", "movie", "short", "medium", "long"
+        ]
+
+        return options
+
+    def advanced_search(self, query=None, filters=None, sort_by="score",
+                        order="desc", page=1, size=50):
+        """Advanced search with custom sorting"""
+        if not filters:
+            filters = {}
+
+        result = self.search_anime(query, filters, size, page)
+
+        # Custom sorting (beyond default score sorting)
+        if sort_by == "popularity":
+            result['hits'] = sorted(result['hits'],
+                                    key=lambda x: x.get('popularity', 99999),
+                                    reverse=(order == "desc"))
+        elif sort_by == "year":
+            result['hits'] = sorted(result['hits'],
+                                    key=lambda x: x.get('year', 0),
+                                    reverse=(order == "desc"))
+        elif sort_by == "episodes":
+            result['hits'] = sorted(result['hits'],
+                                    key=lambda x: x.get('episodes', 0),
+                                    reverse=(order == "desc"))
+        elif sort_by == "title":
+            result['hits'] = sorted(result['hits'],
+                                    key=lambda x: x.get('title', '').lower(),
+                                    reverse=(order == "desc"))
+
+        return result
 
     def delete_indices(self):
         """Delete all indices (use with caution!)"""

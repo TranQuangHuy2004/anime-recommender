@@ -1,4 +1,7 @@
 streamlit==1.52.1
+streamlit-card==1.0.2
+streamlit-searchbox==0.1.23
+st-theme==1.2.3
 elasticsearch==8.11.0
 faiss-cpu==1.13.1
 psycopg2-binary==2.9.11
