@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 185196,
+      "url": "https://myanimelist.net/character/185196/Akane",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/415778.jpg?s=ceb36e6dfa3fa598d199c52cc2e9d58f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/415778.webp?s=ceb36e6dfa3fa598d199c52cc2e9d58f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/415778t.webp?s=ceb36e6dfa3fa598d199c52cc2e9d58f"
+        }
+      },
+      "name": "Akane"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 185199,
+      "url": "https://myanimelist.net/character/185199/Momo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/415780.jpg?s=7035c8e3cae813d7d5b1aab34bc821df"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/415780.webp?s=7035c8e3cae813d7d5b1aab34bc821df",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/415780t.webp?s=7035c8e3cae813d7d5b1aab34bc821df"
+        }
+      },
+      "name": "Momo"
+    },
+    "role": "Main",
+    "favorites": 5,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 185198,
+      "url": "https://myanimelist.net/character/185198/Yukie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/443160.jpg?s=8b25261c8c1fa65ce855171a2e792edb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/443160.webp?s=8b25261c8c1fa65ce855171a2e792edb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/443160t.webp?s=8b25261c8c1fa65ce855171a2e792edb"
+        }
+      },
+      "name": "Yukie"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 188207,
+      "url": "https://myanimelist.net/character/188207/Hitotsume-sama",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/454154.jpg?s=822660c4ad59eaf9f36f26386526561c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/454154.webp?s=822660c4ad59eaf9f36f26386526561c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/454154t.webp?s=822660c4ad59eaf9f36f26386526561c"
+        }
+      },
+      "name": "Hitotsume-sama"
+    },
+    "role": "Supporting",
+    "favorites": 36,
+    "voice_actors": []
+  }
+]

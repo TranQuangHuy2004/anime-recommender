@@ -249,7 +249,7 @@ with st.container():
 
     # Genre/Movie sections
     sections = [
-        ("Action", "genre"),
+        ("Slice of Life", "genre"),
         ("Sci-Fi", "genre"),
         ("Horror", "genre"),
         ("Comedy", "genre"),

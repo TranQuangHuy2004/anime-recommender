@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 204937,
+      "url": "https://myanimelist.net/character/204937/Kasumi_Takamine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/462126.jpg?s=d8e6e754f65275259f4305e1bf3ff0cd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/462126.webp?s=d8e6e754f65275259f4305e1bf3ff0cd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/462126t.webp?s=d8e6e754f65275259f4305e1bf3ff0cd"
+        }
+      },
+      "name": "Takamine, Kasumi"
+    },
+    "role": "Main",
+    "favorites": 23,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 204611,
+      "url": "https://myanimelist.net/character/204611/Sayuri_Takamine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/461359.jpg?s=35321becaea6b01cc94b3dfa7a125fcc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/461359.webp?s=35321becaea6b01cc94b3dfa7a125fcc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/461359t.webp?s=35321becaea6b01cc94b3dfa7a125fcc"
+        }
+      },
+      "name": "Takamine, Sayuri"
+    },
+    "role": "Main",
+    "favorites": 29,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 204610,
+      "url": "https://myanimelist.net/character/204610/Ayame_Takamine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/461358.jpg?s=ed409f3575e5f40e5e1c56f035283d17"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/461358.webp?s=ed409f3575e5f40e5e1c56f035283d17",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/461358t.webp?s=ed409f3575e5f40e5e1c56f035283d17"
+        }
+      },
+      "name": "Takamine, Ayame"
+    },
+    "role": "Main",
+    "favorites": 36,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 225908,
+      "url": "https://myanimelist.net/character/225908/Tomoya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Tomoya"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

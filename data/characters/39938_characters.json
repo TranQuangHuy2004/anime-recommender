@@ -1,0 +1,378 @@
+[
+  {
+    "character": {
+      "mal_id": 199625,
+      "url": "https://myanimelist.net/character/199625/Inu-Ou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/459957.jpg?s=8e7498429278a4a13471cf0f11f9cda1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/459957.webp?s=8e7498429278a4a13471cf0f11f9cda1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/459957t.webp?s=8e7498429278a4a13471cf0f11f9cda1"
+        }
+      },
+      "name": "Inu-Ou"
+    },
+    "role": "Main",
+    "favorites": 16,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 47551,
+          "url": "https://myanimelist.net/people/47551/Avu-chan",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/55988.jpg?s=6e61155bcfffbbe710bb5c4910d8ad44"
+            }
+          },
+          "name": "Avu-chan"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 199626,
+      "url": "https://myanimelist.net/character/199626/Tomona",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/459956.jpg?s=4ffddbc9d9f80c9e8ad0191756db045b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/459956.webp?s=4ffddbc9d9f80c9e8ad0191756db045b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/459956t.webp?s=4ffddbc9d9f80c9e8ad0191756db045b"
+        }
+      },
+      "name": "Tomona"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 20204,
+          "url": "https://myanimelist.net/people/20204/Mirai_Moriyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/22944.jpg?s=57e907c1dc4a251da08db2ce177b4f26"
+            }
+          },
+          "name": "Moriyama, Mirai"
+        },
+        "language": "Japanese"
+      },
+      {
+        "person": {
+          "mal_id": 75935,
+          "url": "https://myanimelist.net/people/75935/Taiyo_Saito",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/81069.jpg?s=7393e489703847353637780a55233eb3"
+            }
+          },
+          "name": "Saito, Taiyo"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251816,
+      "url": "https://myanimelist.net/character/251816/Yoshimitsu_Ashikaga",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/554669.jpg?s=09055358b8f30bf295568491207f071e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/554669.webp?s=09055358b8f30bf295568491207f071e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/554669t.webp?s=09055358b8f30bf295568491207f071e"
+        }
+      },
+      "name": "Ashikaga, Yoshimitsu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 27625,
+          "url": "https://myanimelist.net/people/27625/Tasuku_Emoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/29339.jpg?s=7a5be6c5f23681dda84190794633ad97"
+            }
+          },
+          "name": "Emoto, Tasuku"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251827,
+      "url": "https://myanimelist.net/character/251827/Fujiwaka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/554677.jpg?s=7a3646fe617edfa7492a1de94de605be"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/554677.webp?s=7a3646fe617edfa7492a1de94de605be",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/554677t.webp?s=7a3646fe617edfa7492a1de94de605be"
+        }
+      },
+      "name": "Fujiwaka"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 75938,
+          "url": "https://myanimelist.net/people/75938/Shoutarou_Yoshinari",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/81072.jpg?s=8d895dcd40f34b935ac8bb0cee40fd1e"
+            }
+          },
+          "name": "Yoshinari, Shoutarou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251825,
+      "url": "https://myanimelist.net/character/251825/Nariko_Hino",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/554676.jpg?s=0dc7617c50de0ae87f8418fbea5e7f5f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/554676.webp?s=0dc7617c50de0ae87f8418fbea5e7f5f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/554676t.webp?s=0dc7617c50de0ae87f8418fbea5e7f5f"
+        }
+      },
+      "name": "Hino, Nariko"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 50192,
+          "url": "https://myanimelist.net/people/50192/Misato_Matsuoka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/83837.jpg?s=416b6ce087525e775c07ecae4245c542"
+            }
+          },
+          "name": "Matsuoka, Misato"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251817,
+      "url": "https://myanimelist.net/character/251817/Inu-Ou_039_s_Father",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/554670.jpg?s=f6206d4edc56f101db2ea49a5f770928"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/554670.webp?s=f6206d4edc56f101db2ea49a5f770928",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/554670t.webp?s=f6206d4edc56f101db2ea49a5f770928"
+        }
+      },
+      "name": "Inu-Ou's Father"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 591,
+          "url": "https://myanimelist.net/people/591/Kenjirou_Tsuda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/63379.jpg?s=d67ae5e0053e31921f856e1a2b259c0e"
+            }
+          },
+          "name": "Tsuda, Kenjirou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251823,
+      "url": "https://myanimelist.net/character/251823/Inu-Ou_039_s_Mother",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/554674.jpg?s=2c8a850c862af9bdda7d094197b0b0e2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/554674.webp?s=2c8a850c862af9bdda7d094197b0b0e2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/554674t.webp?s=2c8a850c862af9bdda7d094197b0b0e2"
+        }
+      },
+      "name": "Inu-Ou's Mother"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 27017,
+          "url": "https://myanimelist.net/people/27017/Nanako_Mori",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/78046.jpg?s=c7551b88978d3d3ecc9985e262b2c6d1"
+            }
+          },
+          "name": "Mori, Nanako"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251822,
+      "url": "https://myanimelist.net/character/251822/Taniichi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/554673.jpg?s=ea165a899de20dbe33f9d8b5d7095e09"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/554673.webp?s=ea165a899de20dbe33f9d8b5d7095e09",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/554673t.webp?s=ea165a899de20dbe33f9d8b5d7095e09"
+        }
+      },
+      "name": "Taniichi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 75936,
+          "url": "https://myanimelist.net/people/75936/Yukihiro_Gotou",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/81070.jpg?s=1ae49a9c59f424bc638ab6e61d012e9c"
+            }
+          },
+          "name": "Gotou, Yukihiro"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251820,
+      "url": "https://myanimelist.net/character/251820/Teiichi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/554672.jpg?s=ce6ebe59c324bcea6a287901eeaf94e3"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/554672.webp?s=ce6ebe59c324bcea6a287901eeaf94e3",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/554672t.webp?s=ce6ebe59c324bcea6a287901eeaf94e3"
+        }
+      },
+      "name": "Teiichi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11602,
+          "url": "https://myanimelist.net/people/11602/Kensho_Yamamoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/10671.jpg?s=8d5f109b5fbc57278673e1ecfe0c5724"
+            }
+          },
+          "name": "Yamamoto, Kensho"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251824,
+      "url": "https://myanimelist.net/character/251824/Tomona_039_s_Mother",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Tomona's Mother"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 74143,
+          "url": "https://myanimelist.net/people/74143/Moe_Edamoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/80294.jpg?s=c03541efb39fc0e1c7fb91a08df00dcd"
+            }
+          },
+          "name": "Edamoto, Moe"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251818,
+      "url": "https://myanimelist.net/character/251818/Tomonas_Father",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/554671.jpg?s=560ed5d8d65f000fc9f9dac426876616"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/554671.webp?s=560ed5d8d65f000fc9f9dac426876616",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/554671t.webp?s=560ed5d8d65f000fc9f9dac426876616"
+        }
+      },
+      "name": "Tomona's Father"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 37065,
+          "url": "https://myanimelist.net/people/37065/Yutaka_Matsushige",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/39220.jpg?s=fdf2f8cbfc6cf14b03c6808fc9396e5e"
+            }
+          },
+          "name": "Matsushige, Yutaka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

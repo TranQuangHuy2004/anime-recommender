@@ -512,7 +512,12 @@ class ElasticsearchService:
                         else:
                             episode_range = 'long'
 
-                    year, season = extract_year_month_season(anime.get('aired_string'))
+                    year = None
+                    season = None
+                    result = extract_year_month_season(anime.get('aired_string'))
+                    if result:
+                        year = result[0]
+                        season = result[1]
 
                     action = {
                         "_index": self.indices['anime'],

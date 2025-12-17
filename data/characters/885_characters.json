@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 1162,
+      "url": "https://myanimelist.net/character/1162/Boy",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/561571.jpg?s=edd9b68a945394c7c5f86c97c7fd4109"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/561571.webp?s=edd9b68a945394c7c5f86c97c7fd4109",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/561571t.webp?s=edd9b68a945394c7c5f86c97c7fd4109"
+        }
+      },
+      "name": "Boy"
+    },
+    "role": "Main",
+    "favorites": 149,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 7683,
+          "url": "https://myanimelist.net/people/7683/Jinpachi_Nezu",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/11207.jpg?s=5edafda92d25dac41e07b91d8b53f8d2"
+            }
+          },
+          "name": "Nezu, Jinpachi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 1163,
+      "url": "https://myanimelist.net/character/1163/Girl",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/115315.jpg?s=271ed85dac767d147f2bfe85882e1928"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/115315.webp?s=271ed85dac767d147f2bfe85882e1928",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/115315t.webp?s=271ed85dac767d147f2bfe85882e1928"
+        }
+      },
+      "name": "Girl"
+    },
+    "role": "Main",
+    "favorites": 156,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 5108,
+          "url": "https://myanimelist.net/people/5108/Mako_Hyoudou",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/24703.jpg?s=21a943fad4a44b387a07a4e9b643910c"
+            }
+          },
+          "name": "Hyoudou, Mako"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

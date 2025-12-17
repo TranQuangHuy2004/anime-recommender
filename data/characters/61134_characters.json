@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 203219,
+      "url": "https://myanimelist.net/character/203219/Mimi_Kagari",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/485551.jpg?s=942999c1308e2189d35e40e63945696d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/485551.webp?s=942999c1308e2189d35e40e63945696d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/485551t.webp?s=942999c1308e2189d35e40e63945696d"
+        }
+      },
+      "name": "Kagari, Mimi"
+    },
+    "role": "Main",
+    "favorites": 62,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 5250,
+          "url": "https://myanimelist.net/people/5250/Rina_Hidaka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/75757.jpg?s=5e75a8c99c1b8ab92e16a74b3cf1ed49"
+            }
+          },
+          "name": "Hidaka, Rina"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 204433,
+      "url": "https://myanimelist.net/character/204433/Sheena_Totsuki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/474535.jpg?s=716150eb71a79ac5d910055eaf7548ba"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/474535.webp?s=716150eb71a79ac5d910055eaf7548ba",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/474535t.webp?s=716150eb71a79ac5d910055eaf7548ba"
+        }
+      },
+      "name": "Totsuki, Sheena"
+    },
+    "role": "Main",
+    "favorites": 50,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 34785,
+          "url": "https://myanimelist.net/people/34785/Rie_Takahashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/86541.jpg?s=1dfbd1def701d85a58bca6c72cc045ed"
+            }
+          },
+          "name": "Takahashi, Rie"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 210634,
+      "url": "https://myanimelist.net/character/210634/Ali_Maud",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/485571.jpg?s=68dc3d13acc99bd3e4a2520f7037e0c0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/485571.webp?s=68dc3d13acc99bd3e4a2520f7037e0c0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/485571t.webp?s=68dc3d13acc99bd3e4a2520f7037e0c0"
+        }
+      },
+      "name": "Maud, Ali"
+    },
+    "role": "Supporting",
+    "favorites": 10,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 5142,
+          "url": "https://myanimelist.net/people/5142/Yui_Ishikawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/69967.jpg?s=2934c5cc8f074309f2681b81624f540f"
+            }
+          },
+          "name": "Ishikawa, Yui"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 210635,
+      "url": "https://myanimelist.net/character/210635/Lizzy_Seiran",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/512602.jpg?s=11b821caa45207692b8f7db9f0d9d8c2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/512602.webp?s=11b821caa45207692b8f7db9f0d9d8c2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/512602t.webp?s=11b821caa45207692b8f7db9f0d9d8c2"
+        }
+      },
+      "name": "Seiran, Lizzy"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11787,
+          "url": "https://myanimelist.net/people/11787/Asami_Seto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/65839.jpg?s=fc10712f42c93ebbcb2e02a6b6448c30"
+            }
+          },
+          "name": "Seto, Asami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 218051,
+      "url": "https://myanimelist.net/character/218051/Akame-kun",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Akame-kun"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 199818,
+      "url": "https://myanimelist.net/character/199818/Zukin-chan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/599184.jpg?s=45709193b6c959ad573f178063757e3f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/599184.webp?s=45709193b6c959ad573f178063757e3f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/599184t.webp?s=45709193b6c959ad573f178063757e3f"
+        }
+      },
+      "name": "Zukin-chan"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

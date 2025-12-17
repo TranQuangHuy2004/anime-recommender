@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 1354,
+      "url": "https://myanimelist.net/character/1354/Kagome_Higurashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/41189.jpg?s=4911c839a746a8cc6b4ce590ebd55f72"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/41189.webp?s=4911c839a746a8cc6b4ce590ebd55f72",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/41189t.webp?s=4911c839a746a8cc6b4ce590ebd55f72"
+        }
+      },
+      "name": "Higurashi, Kagome"
+    },
+    "role": "Main",
+    "favorites": 2815,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 1353,
+      "url": "https://myanimelist.net/character/1353/Inuyasha",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/89606.jpg?s=39d20ee65f3b5bff949e2072757c02a0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/89606.webp?s=39d20ee65f3b5bff949e2072757c02a0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/89606t.webp?s=39d20ee65f3b5bff949e2072757c02a0"
+        }
+      },
+      "name": "Inuyasha"
+    },
+    "role": "Main",
+    "favorites": 7421,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 1358,
+      "url": "https://myanimelist.net/character/1358/Sesshoumaru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/41081.jpg?s=99ec992330f4b9834263b5dd54d5c855"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/41081.webp?s=99ec992330f4b9834263b5dd54d5c855",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/41081t.webp?s=99ec992330f4b9834263b5dd54d5c855"
+        }
+      },
+      "name": "Sesshoumaru"
+    },
+    "role": "Main",
+    "favorites": 7294,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 1356,
+      "url": "https://myanimelist.net/character/1356/Miroku",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/93510.jpg?s=10d1f319f3b92701c16f5ba4a921f01b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/93510.webp?s=10d1f319f3b92701c16f5ba4a921f01b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/93510t.webp?s=10d1f319f3b92701c16f5ba4a921f01b"
+        }
+      },
+      "name": "Miroku"
+    },
+    "role": "Supporting",
+    "favorites": 792,
+    "voice_actors": []
+  }
+]

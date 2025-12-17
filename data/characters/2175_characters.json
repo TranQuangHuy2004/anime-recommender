@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 88,
+      "url": "https://myanimelist.net/character/88/Hermes",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/336494.jpg?s=13d7645ac6d1024d6d4fadd215101b8a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/336494.webp?s=13d7645ac6d1024d6d4fadd215101b8a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/336494t.webp?s=13d7645ac6d1024d6d4fadd215101b8a"
+        }
+      },
+      "name": "Hermes"
+    },
+    "role": "Main",
+    "favorites": 204,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 5573,
+          "url": "https://myanimelist.net/people/5573/Ryuji_Aigase",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/11225.jpg?s=f975ce098c409edcd77b2f469dd94ca8"
+            }
+          },
+          "name": "Aigase, Ryuji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 7885,
+      "url": "https://myanimelist.net/character/7885/Inertia",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/211503.jpg?s=37b4ea8835a771f3979afdf96fc9441f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/211503.webp?s=37b4ea8835a771f3979afdf96fc9441f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/211503t.webp?s=37b4ea8835a771f3979afdf96fc9441f"
+        }
+      },
+      "name": "Inertia"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 13,
+          "url": "https://myanimelist.net/people/13/Ayako_Kawasumi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/69419.jpg?s=da47eee099d7384262cce64c64724655"
+            }
+          },
+          "name": "Kawasumi, Ayako"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 87,
+      "url": "https://myanimelist.net/character/87/Kino",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/303659.jpg?s=736ad7476a534b0c55abee640e22129a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/303659.webp?s=736ad7476a534b0c55abee640e22129a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/303659t.webp?s=736ad7476a534b0c55abee640e22129a"
+        }
+      },
+      "name": "Kino"
+    },
+    "role": "Main",
+    "favorites": 5144,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 647,
+          "url": "https://myanimelist.net/people/647/Ai_Maeda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/6900.jpg?s=50e33a018173af3eceac09267e60bbbe"
+            }
+          },
+          "name": "Maeda, Ai"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

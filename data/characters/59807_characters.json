@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 128412,
+      "url": "https://myanimelist.net/character/128412/Convoy",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/565983.jpg?s=36f206b9be7e02589083c9b2d0638775"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/565983.webp?s=36f206b9be7e02589083c9b2d0638775",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/565983t.webp?s=36f206b9be7e02589083c9b2d0638775"
+        }
+      },
+      "name": "Convoy"
+    },
+    "role": "Main",
+    "favorites": 35,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 3920,
+      "url": "https://myanimelist.net/character/3920/Megatron",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/111383.jpg?s=39c16b1b6f3ceaa047f18600cc2abbbe"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/111383.webp?s=39c16b1b6f3ceaa047f18600cc2abbbe",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/111383t.webp?s=39c16b1b6f3ceaa047f18600cc2abbbe"
+        }
+      },
+      "name": "Megatron"
+    },
+    "role": "Main",
+    "favorites": 70,
+    "voice_actors": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 188540,
+      "url": "https://myanimelist.net/character/188540/Liu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/423945.jpg?s=34055a3a1ddebc96f8e7877345ce3867"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/423945.webp?s=34055a3a1ddebc96f8e7877345ce3867",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/423945t.webp?s=34055a3a1ddebc96f8e7877345ce3867"
+        }
+      },
+      "name": "Liu"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 188533,
+      "url": "https://myanimelist.net/character/188533/Yao_Tao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/423937.jpg?s=45751ecd8d56a348d6bbfc0c1c6c7e45"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/423937.webp?s=45751ecd8d56a348d6bbfc0c1c6c7e45",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/423937t.webp?s=45751ecd8d56a348d6bbfc0c1c6c7e45"
+        }
+      },
+      "name": "Tao, Yao"
+    },
+    "role": "Main",
+    "favorites": 44,
+    "voice_actors": []
+  }
+]

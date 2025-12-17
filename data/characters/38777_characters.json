@@ -1,0 +1,35 @@
+[
+  {
+    "character": {
+      "mal_id": 164471,
+      "url": "https://myanimelist.net/character/164471/Satoru_Gojou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/422168.webp?s=7c1dfc26a9b3a6652da616a0fec7af01",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/422168t.webp?s=7c1dfc26a9b3a6652da616a0fec7af01"
+        }
+      },
+      "name": "Gojou, Satoru"
+    },
+    "role": "Main",
+    "favorites": 62969,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 513,
+          "url": "https://myanimelist.net/people/513/Yuuichi_Nakamura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/86727.jpg?s=0ed40878de8ac903e3d9decf1f57ad3d"
+            }
+          },
+          "name": "Nakamura, Yuuichi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 193347,
+      "url": "https://myanimelist.net/character/193347/Yao_Yao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/510331.jpg?s=2f847ee4f4c71d8db60fde6a3ca00ae8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/510331.webp?s=2f847ee4f4c71d8db60fde6a3ca00ae8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/510331t.webp?s=2f847ee4f4c71d8db60fde6a3ca00ae8"
+        }
+      },
+      "name": "Yao, Yao"
+    },
+    "role": "Main",
+    "favorites": 23,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 187905,
+      "url": "https://myanimelist.net/character/187905/Yuan_Zhou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/510332.jpg?s=85b24da4bd7cf32fc74908ab8cf3bf7c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/510332.webp?s=85b24da4bd7cf32fc74908ab8cf3bf7c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/510332t.webp?s=85b24da4bd7cf32fc74908ab8cf3bf7c"
+        }
+      },
+      "name": "Zhou, Yuan"
+    },
+    "role": "Main",
+    "favorites": 13,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 198664,
+      "url": "https://myanimelist.net/character/198664/Youwei_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/510330.jpg?s=cfc528ec03a82d904069b1540396f991"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/510330.webp?s=cfc528ec03a82d904069b1540396f991",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/510330t.webp?s=cfc528ec03a82d904069b1540396f991"
+        }
+      },
+      "name": "Su, Youwei"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": []
+  }
+]

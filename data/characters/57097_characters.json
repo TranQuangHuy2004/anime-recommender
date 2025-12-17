@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 247809,
+      "url": "https://myanimelist.net/character/247809/A_Shu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/547407.jpg?s=cdb59b4a246830ce7d76571849f54c07"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/547407.webp?s=cdb59b4a246830ce7d76571849f54c07",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/547407t.webp?s=cdb59b4a246830ce7d76571849f54c07"
+        }
+      },
+      "name": "Shu, A"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 247810,
+      "url": "https://myanimelist.net/character/247810/Shi_Ye",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/547408.jpg?s=69d196f8fbc1e151689651c4a46f315d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/547408.webp?s=69d196f8fbc1e151689651c4a46f315d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/547408t.webp?s=69d196f8fbc1e151689651c4a46f315d"
+        }
+      },
+      "name": "Ye, Shi"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

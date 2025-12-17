@@ -1,0 +1,54 @@
+[
+  {
+    "character": {
+      "mal_id": 223085,
+      "url": "https://myanimelist.net/character/223085/Takashi_Morita",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/585313.jpg?s=1da96cb7e647b7951f3f0d6e4381f229"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/585313.webp?s=1da96cb7e647b7951f3f0d6e4381f229",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/585313t.webp?s=1da96cb7e647b7951f3f0d6e4381f229"
+        }
+      },
+      "name": "Morita, Takashi"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 220220,
+      "url": "https://myanimelist.net/character/220220/Eri_Morita",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/585111.jpg?s=d9e78f7d5f2f8a059f1c6538e3a2aa17"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/585111.webp?s=d9e78f7d5f2f8a059f1c6538e3a2aa17",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/585111t.webp?s=d9e78f7d5f2f8a059f1c6538e3a2aa17"
+        }
+      },
+      "name": "Morita, Eri"
+    },
+    "role": "Main",
+    "favorites": 95,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 46405,
+          "url": "https://myanimelist.net/people/46405/Naoko_Yasuda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/73402.jpg?s=6a20a98293c422a13927c1682dd277ea"
+            }
+          },
+          "name": "Yasuda, Naoko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 1816,
+      "url": "https://myanimelist.net/character/1816/Sephiroth",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/82656.jpg?s=4d242c61226904ee136580068254c12a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/82656.webp?s=4d242c61226904ee136580068254c12a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/82656t.webp?s=4d242c61226904ee136580068254c12a"
+        }
+      },
+      "name": "Sephiroth"
+    },
+    "role": "Main",
+    "favorites": 1757,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 456,
+      "url": "https://myanimelist.net/character/456/Cloud_Strife",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/407815.jpg?s=58e64334b6a8323b22bc00b3241f7195"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/407815.webp?s=58e64334b6a8323b22bc00b3241f7195",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/407815t.webp?s=58e64334b6a8323b22bc00b3241f7195"
+        }
+      },
+      "name": "Strife, Cloud"
+    },
+    "role": "Main",
+    "favorites": 2993,
+    "voice_actors": []
+  }
+]

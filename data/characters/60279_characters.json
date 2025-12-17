@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 235210,
+      "url": "https://myanimelist.net/character/235210/Muwan_Li",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/612718.jpg?s=c216c4c000db6f28dc3040401e496f76"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/612718.webp?s=c216c4c000db6f28dc3040401e496f76",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/612718t.webp?s=c216c4c000db6f28dc3040401e496f76"
+        }
+      },
+      "name": "Li, Muwan"
+    },
+    "role": "Main",
+    "favorites": 18,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 235209,
+      "url": "https://myanimelist.net/character/235209/Lin_Wang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/612717.jpg?s=f0eccf0d8f977397890ce62c7b5043d1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/612717.webp?s=f0eccf0d8f977397890ce62c7b5043d1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/612717t.webp?s=f0eccf0d8f977397890ce62c7b5043d1"
+        }
+      },
+      "name": "Wang, Lin"
+    },
+    "role": "Main",
+    "favorites": 101,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 282406,
+      "url": "https://myanimelist.net/character/282406/Liguo_Xu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/610358.jpg?s=2f7523a3b3f2a2c152c840970ef26a29"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/610358.webp?s=2f7523a3b3f2a2c152c840970ef26a29",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/610358t.webp?s=2f7523a3b3f2a2c152c840970ef26a29"
+        }
+      },
+      "name": "Xu, Liguo"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

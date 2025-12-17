@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 197751,
+      "url": "https://myanimelist.net/character/197751/Gura_Gawr",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/455236.jpg?s=d03e63912a58887c45ba8e08f38cc401"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/455236.webp?s=d03e63912a58887c45ba8e08f38cc401",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/455236t.webp?s=d03e63912a58887c45ba8e08f38cc401"
+        }
+      },
+      "name": "Gawr, Gura"
+    },
+    "role": "Main",
+    "favorites": 573,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 184049,
+      "url": "https://myanimelist.net/character/184049/Marine_Houshou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/428531.jpg?s=f22a98323143ac082d3babc50ee80728"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/428531.webp?s=f22a98323143ac082d3babc50ee80728",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/428531t.webp?s=f22a98323143ac082d3babc50ee80728"
+        }
+      },
+      "name": "Houshou, Marine"
+    },
+    "role": "Main",
+    "favorites": 726,
+    "voice_actors": []
+  }
+]

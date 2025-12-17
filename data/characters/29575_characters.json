@@ -1,0 +1,139 @@
+[
+  {
+    "character": {
+      "mal_id": 124038,
+      "url": "https://myanimelist.net/character/124038/Kururu_Hiiragi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/581335.jpg?s=c6cf22a7bfc978d7a23eb11ca915a436"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/581335.webp?s=c6cf22a7bfc978d7a23eb11ca915a436",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/581335t.webp?s=c6cf22a7bfc978d7a23eb11ca915a436"
+        }
+      },
+      "name": "Hiiragi, Kururu"
+    },
+    "role": "Main",
+    "favorites": 64,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 30197,
+          "url": "https://myanimelist.net/people/30197/Minami_Momoya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/31623.jpg?s=0dbf1ddf2646c30609d2883a77179066"
+            }
+          },
+          "name": "Momoya, Minami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 127628,
+      "url": "https://myanimelist.net/character/127628/Otona_Mitsuki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/284307.jpg?s=43401e86f24a5133a95037279de07cff"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/284307.webp?s=43401e86f24a5133a95037279de07cff",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/284307t.webp?s=43401e86f24a5133a95037279de07cff"
+        }
+      },
+      "name": "Mitsuki, Otona"
+    },
+    "role": "Main",
+    "favorites": 137,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 132987,
+      "url": "https://myanimelist.net/character/132987/Keiichi_Oyamada",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/290688.jpg?s=9d70b9e700f7a8748f256280c07e4c93"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/290688.webp?s=9d70b9e700f7a8748f256280c07e4c93",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/290688t.webp?s=9d70b9e700f7a8748f256280c07e4c93"
+        }
+      },
+      "name": "Oyamada, Keiichi"
+    },
+    "role": "Main",
+    "favorites": 43,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 124039,
+      "url": "https://myanimelist.net/character/124039/Rei_Suzukawa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/568702.jpg?s=f9eae95ae370bf323be76ec96fb5e0a8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/568702.webp?s=f9eae95ae370bf323be76ec96fb5e0a8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/568702t.webp?s=f9eae95ae370bf323be76ec96fb5e0a8"
+        }
+      },
+      "name": "Suzukawa, Rei"
+    },
+    "role": "Main",
+    "favorites": 462,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 39095,
+          "url": "https://myanimelist.net/people/39095/Mitsu_Takashiro",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/84101.jpg?s=8e646ad0b885bd6173b652df5ef9345f"
+            }
+          },
+          "name": "Takashiro, Mitsu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 132112,
+      "url": "https://myanimelist.net/character/132112/Sayaka_Midou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/294825.jpg?s=d5fa36f557b9d47449dda80d0464ee6c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/294825.webp?s=d5fa36f557b9d47449dda80d0464ee6c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/294825t.webp?s=d5fa36f557b9d47449dda80d0464ee6c"
+        }
+      },
+      "name": "Midou, Sayaka"
+    },
+    "role": "Supporting",
+    "favorites": 27,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 9569,
+          "url": "https://myanimelist.net/people/9569/An_Kasuga",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/33949.jpg?s=82c95ca03468744c8247bc43a7b86533"
+            }
+          },
+          "name": "Kasuga, An"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

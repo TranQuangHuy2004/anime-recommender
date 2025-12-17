@@ -15,7 +15,7 @@ else:
     bg_color = "rgba(0, 0, 0, 0.5)"
     font_color = "rgba(255, 255, 255, 1)"
     border_card = "rgba(255, 255, 255, 0.5)"
-    linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .75))"
+    linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))"
     button_background = ""
     anime_card_background = "rgba(0, 0, 0, 0)"
 

@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 564,
+      "url": "https://myanimelist.net/character/564/Uryuu_Ishida",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/139189.jpg?s=c45c92f3d197dbbe891cfd266f487c2f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/139189.webp?s=c45c92f3d197dbbe891cfd266f487c2f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/139189t.webp?s=c45c92f3d197dbbe891cfd266f487c2f"
+        }
+      },
+      "name": "Ishida, Uryuu"
+    },
+    "role": "Main",
+    "favorites": 1834,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 5,
+      "url": "https://myanimelist.net/character/5/Ichigo_Kurosaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/512788.jpg?s=55ff462576b32a74758448436f35dcbb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/512788.webp?s=55ff462576b32a74758448436f35dcbb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/512788t.webp?s=55ff462576b32a74758448436f35dcbb"
+        }
+      },
+      "name": "Kurosaki, Ichigo"
+    },
+    "role": "Main",
+    "favorites": 36076,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 906,
+      "url": "https://myanimelist.net/character/906/Renji_Abarai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/171877.jpg?s=e4fb4773c11884cd26a4eaed44ca3f6d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/171877.webp?s=e4fb4773c11884cd26a4eaed44ca3f6d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/171877t.webp?s=e4fb4773c11884cd26a4eaed44ca3f6d"
+        }
+      },
+      "name": "Abarai, Renji"
+    },
+    "role": "Supporting",
+    "favorites": 3024,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 94183,
+      "url": "https://myanimelist.net/character/94183/Candice_Catnipp",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/246863.jpg?s=3845a2f1ff9dd855d7ded28807094407"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/246863.webp?s=3845a2f1ff9dd855d7ded28807094407",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/246863t.webp?s=3845a2f1ff9dd855d7ded28807094407"
+        }
+      },
+      "name": "Catnipp, Candice"
+    },
+    "role": "Supporting",
+    "favorites": 20,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 6,
+      "url": "https://myanimelist.net/character/6/Rukia_Kuchiki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/78215.jpg?s=2a0f7f516f3e5b213833e9f9a9de4a51"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/78215.webp?s=2a0f7f516f3e5b213833e9f9a9de4a51",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/78215t.webp?s=2a0f7f516f3e5b213833e9f9a9de4a51"
+        }
+      },
+      "name": "Kuchiki, Rukia"
+    },
+    "role": "Supporting",
+    "favorites": 9822,
+    "voice_actors": []
+  }
+]

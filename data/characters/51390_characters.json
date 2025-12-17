@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 218721,
+      "url": "https://myanimelist.net/character/218721/Yao_Li",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/615038.jpg?s=7122e5c497f264489a513bf016c60337"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/615038.webp?s=7122e5c497f264489a513bf016c60337",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/615038t.webp?s=7122e5c497f264489a513bf016c60337"
+        }
+      },
+      "name": "Li, Yao"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285185,
+      "url": "https://myanimelist.net/character/285185/Lingdang_Ding",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/615041.jpg?s=aa81bddc9f76cca0d49a328a6ea0d0e1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/615041.webp?s=aa81bddc9f76cca0d49a328a6ea0d0e1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/615041t.webp?s=aa81bddc9f76cca0d49a328a6ea0d0e1"
+        }
+      },
+      "name": "Ding, Lingdang"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285183,
+      "url": "https://myanimelist.net/character/285183/Lianlie_He",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/615039.jpg?s=840bd1e1590ad4dc9e340707c99fd6b2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/615039.webp?s=840bd1e1590ad4dc9e340707c99fd6b2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/615039t.webp?s=840bd1e1590ad4dc9e340707c99fd6b2"
+        }
+      },
+      "name": "He, Lianlie"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285184,
+      "url": "https://myanimelist.net/character/285184/Jiaxue_Si",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/615040.jpg?s=464f7444aee68fb814b521a80a58d995"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/615040.webp?s=464f7444aee68fb814b521a80a58d995",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/615040t.webp?s=464f7444aee68fb814b521a80a58d995"
+        }
+      },
+      "name": "Si, Jiaxue"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

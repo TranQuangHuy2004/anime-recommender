@@ -1,0 +1,120 @@
+[
+  {
+    "character": {
+      "mal_id": 196227,
+      "url": "https://myanimelist.net/character/196227/Chiaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/595817.jpg?s=9a78779068ae5d01d2883d2596a3a627"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/595817.webp?s=9a78779068ae5d01d2883d2596a3a627",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/595817t.webp?s=9a78779068ae5d01d2883d2596a3a627"
+        }
+      },
+      "name": "Chiaki"
+    },
+    "role": "Main",
+    "favorites": 113,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 81811,
+          "url": "https://myanimelist.net/people/81811/Ren_Hiyori",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Hiyori, Ren"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 196225,
+      "url": "https://myanimelist.net/character/196225/Nagisa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/595816.jpg?s=d80182ff518d985761ea8f42dc6c9e09"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/595816.webp?s=d80182ff518d985761ea8f42dc6c9e09",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/595816t.webp?s=d80182ff518d985761ea8f42dc6c9e09"
+        }
+      },
+      "name": "Nagisa"
+    },
+    "role": "Main",
+    "favorites": 70,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 46405,
+          "url": "https://myanimelist.net/people/46405/Naoko_Yasuda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/73402.jpg?s=6a20a98293c422a13927c1682dd277ea"
+            }
+          },
+          "name": "Yasuda, Naoko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 196224,
+      "url": "https://myanimelist.net/character/196224/Nao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/441217.jpg?s=ab0d00d9a9cb1405cdb85e6d815f2338"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/441217.webp?s=ab0d00d9a9cb1405cdb85e6d815f2338",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/441217t.webp?s=ab0d00d9a9cb1405cdb85e6d815f2338"
+        }
+      },
+      "name": "Nao"
+    },
+    "role": "Main",
+    "favorites": 9,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 196226,
+      "url": "https://myanimelist.net/character/196226/Yukiko",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/595815.jpg?s=265c5f0f76bfc73533d24ec59328757c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/595815.webp?s=265c5f0f76bfc73533d24ec59328757c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/595815t.webp?s=265c5f0f76bfc73533d24ec59328757c"
+        }
+      },
+      "name": "Yukiko"
+    },
+    "role": "Main",
+    "favorites": 71,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 62623,
+          "url": "https://myanimelist.net/people/62623/Miku_Ozaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73016.jpg?s=8edd359743e7d95cec4468314fc885a6"
+            }
+          },
+          "name": "Ozaki, Miku"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

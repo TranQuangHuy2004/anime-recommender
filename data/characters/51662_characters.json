@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 216927,
+      "url": "https://myanimelist.net/character/216927/Mio_Katou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/589734.jpg?s=e87fc5a8cf38315854ec524b5e84e00b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/589734.webp?s=e87fc5a8cf38315854ec524b5e84e00b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/589734t.webp?s=e87fc5a8cf38315854ec524b5e84e00b"
+        }
+      },
+      "name": "Katou, Mio"
+    },
+    "role": "Main",
+    "favorites": 20,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63700,
+          "url": "https://myanimelist.net/people/63700/Musubi_Aono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73577.jpg?s=f4e7278489382cf176c5147d87dde0ff"
+            }
+          },
+          "name": "Aono, Musubi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 216926,
+      "url": "https://myanimelist.net/character/216926/Tomoe_Kisaragi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/486843.jpg?s=3c477fa0a9f7668df0740acde31782f9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/486843.webp?s=3c477fa0a9f7668df0740acde31782f9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/486843t.webp?s=3c477fa0a9f7668df0740acde31782f9"
+        }
+      },
+      "name": "Kisaragi, Tomoe"
+    },
+    "role": "Main",
+    "favorites": 40,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 10811,
+          "url": "https://myanimelist.net/people/10811/Mayu_Isshiki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/9439.jpg?s=3bfeb7461a1414f0c65606cdc0233cb6"
+            }
+          },
+          "name": "Isshiki, Mayu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 216929,
+      "url": "https://myanimelist.net/character/216929/Louise_Richter",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/512787.jpg?s=ad2fc9a3d920ab2c938c5e0fed165e91"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/512787.webp?s=ad2fc9a3d920ab2c938c5e0fed165e91",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/512787t.webp?s=ad2fc9a3d920ab2c938c5e0fed165e91"
+        }
+      },
+      "name": "Richter, Louise"
+    },
+    "role": "Main",
+    "favorites": 47,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63701,
+          "url": "https://myanimelist.net/people/63701/Rin_Mitaka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/73578.jpg?s=a3e7473386c95e040e44372f4e98bbfd"
+            }
+          },
+          "name": "Mitaka, Rin"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 216928,
+      "url": "https://myanimelist.net/character/216928/Rikka_Sumeragi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/497160.jpg?s=a966e236ebad001ec244baa775b2741e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/497160.webp?s=a966e236ebad001ec244baa775b2741e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/497160t.webp?s=a966e236ebad001ec244baa775b2741e"
+        }
+      },
+      "name": "Sumeragi, Rikka"
+    },
+    "role": "Supporting",
+    "favorites": 30,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 38046,
+          "url": "https://myanimelist.net/people/38046/Yuki_Sakura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/47896.jpg?s=99c37c9429002c0486302583078bf77d"
+            }
+          },
+          "name": "Sakura, Yuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

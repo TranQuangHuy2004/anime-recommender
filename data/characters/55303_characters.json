@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 238028,
+      "url": "https://myanimelist.net/character/238028/Yuan_Jing",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/547824.jpg?s=30f78f601c0e2f395bc883e2e441fa82"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/547824.webp?s=30f78f601c0e2f395bc883e2e441fa82",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/547824t.webp?s=30f78f601c0e2f395bc883e2e441fa82"
+        }
+      },
+      "name": "Jing, Yuan"
+    },
+    "role": "Main",
+    "favorites": 60,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 212,
+          "url": "https://myanimelist.net/people/212/Daisuke_Ono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54593.jpg?s=2cd350a1a5beea92a102bb5309aabae5"
+            }
+          },
+          "name": "Ono, Daisuke"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 238029,
+      "url": "https://myanimelist.net/character/238029/Jingliu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/531849.jpg?s=bbe0f681aa0b457f914875aa1a465902"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/531849.webp?s=bbe0f681aa0b457f914875aa1a465902",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/531849t.webp?s=bbe0f681aa0b457f914875aa1a465902"
+        }
+      },
+      "name": "Jingliu"
+    },
+    "role": "Main",
+    "favorites": 31,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 57,
+          "url": "https://myanimelist.net/people/57/Houko_Kuwashima",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/74363.jpg?s=8b0e01537fb409ab0950094c36226806"
+            }
+          },
+          "name": "Kuwashima, Houko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 238030,
+      "url": "https://myanimelist.net/character/238030/Yanqing",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/540586.jpg?s=28115a808028dfd7fe6158bbfa47f585"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/540586.webp?s=28115a808028dfd7fe6158bbfa47f585",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/540586t.webp?s=28115a808028dfd7fe6158bbfa47f585"
+        }
+      },
+      "name": "Yanqing"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 158,
+          "url": "https://myanimelist.net/people/158/Marina_Inoue",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/68016.jpg?s=aa4c55f4d2b3281db36bec68900e4695"
+            }
+          },
+          "name": "Inoue, Marina"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

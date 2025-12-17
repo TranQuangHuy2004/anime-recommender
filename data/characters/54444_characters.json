@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 211202,
+      "url": "https://myanimelist.net/character/211202/Li_Han",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/613728.jpg?s=b685c43a4a44fefe93594cc44e0a2f49"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/613728.webp?s=b685c43a4a44fefe93594cc44e0a2f49",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/613728t.webp?s=b685c43a4a44fefe93594cc44e0a2f49"
+        }
+      },
+      "name": "Han, Li"
+    },
+    "role": "Main",
+    "favorites": 46,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 248842,
+      "url": "https://myanimelist.net/character/248842/Wan_Nangong",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/613855.jpg?s=4cadd393a239471ab584a203e8e841f4"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/613855.webp?s=4cadd393a239471ab584a203e8e841f4",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/613855t.webp?s=4cadd393a239471ab584a203e8e841f4"
+        }
+      },
+      "name": "Nangong, Wan"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 248846,
+      "url": "https://myanimelist.net/character/248846/Tie_Zhang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613770.jpg?s=d88690c6e55cb5344047d76b7c16b8b8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/613770.webp?s=d88690c6e55cb5344047d76b7c16b8b8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/613770t.webp?s=d88690c6e55cb5344047d76b7c16b8b8"
+        }
+      },
+      "name": "Zhang, Tie"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

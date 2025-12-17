@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 55171,
+      "url": "https://myanimelist.net/character/55171/Mutta_Nanba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/242299.jpg?s=43c662f0025596c06ff5a92227fa0167"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/242299.webp?s=43c662f0025596c06ff5a92227fa0167",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/242299t.webp?s=43c662f0025596c06ff5a92227fa0167"
+        }
+      },
+      "name": "Nanba, Mutta"
+    },
+    "role": "Main",
+    "favorites": 2259,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 125,
+          "url": "https://myanimelist.net/people/125/Hiroaki_Hirata",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/58150.jpg?s=123d1478fa407a1074a3f29b9381605e"
+            }
+          },
+          "name": "Hirata, Hiroaki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 55169,
+      "url": "https://myanimelist.net/character/55169/Hibito_Nanba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/163007.jpg?s=a14ca8b3dd246c4e5618f85562dbdc51"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/163007.webp?s=a14ca8b3dd246c4e5618f85562dbdc51",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/163007t.webp?s=a14ca8b3dd246c4e5618f85562dbdc51"
+        }
+      },
+      "name": "Nanba, Hibito"
+    },
+    "role": "Main",
+    "favorites": 161,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 857,
+          "url": "https://myanimelist.net/people/857/KENN",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/60780.jpg?s=d2c6bdba029fa22b1f89eb87c671ea5b"
+            }
+          },
+          "name": "KENN"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 105109,
+      "url": "https://myanimelist.net/character/105109/Eddie_Jay",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/281620.jpg?s=dc41196dd04efd542f43347034aa4691"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/281620.webp?s=dc41196dd04efd542f43347034aa4691",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/281620t.webp?s=dc41196dd04efd542f43347034aa4691"
+        }
+      },
+      "name": "Jay, Eddie"
+    },
+    "role": "Supporting",
+    "favorites": 6,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 459,
+          "url": "https://myanimelist.net/people/459/Kinryuu_Arimoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/87750.jpg?s=4ef7aa641bbe08b21fe42d4138c48c5a"
+            }
+          },
+          "name": "Arimoto, Kinryuu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 83925,
+      "url": "https://myanimelist.net/character/83925/Brian_Jay",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/290748.jpg?s=853fb71197e119c8106057dc0641ef54"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/290748.webp?s=853fb71197e119c8106057dc0641ef54",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/290748t.webp?s=853fb71197e119c8106057dc0641ef54"
+        }
+      },
+      "name": "Jay, Brian"
+    },
+    "role": "Supporting",
+    "favorites": 12,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 146,
+          "url": "https://myanimelist.net/people/146/Akio_Ootsuka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/58117.jpg?s=8168f341db3e6d45e2f06e8dbe4a1477"
+            }
+          },
+          "name": "Ootsuka, Akio"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

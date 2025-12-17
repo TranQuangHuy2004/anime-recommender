@@ -1,0 +1,116 @@
+[
+  {
+    "character": {
+      "mal_id": 5266,
+      "url": "https://myanimelist.net/character/5266/Touko_Aozaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/35111.jpg?s=56c8bae98fd8243170c5183b4338a284"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/35111.webp?s=56c8bae98fd8243170c5183b4338a284",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/35111t.webp?s=56c8bae98fd8243170c5183b4338a284"
+        }
+      },
+      "name": "Aozaki, Touko"
+    },
+    "role": "Main",
+    "favorites": 1029,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 5267,
+      "url": "https://myanimelist.net/character/5267/Mikiya_Kokutou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/107513.jpg?s=8c84012e6cf9b7c17f221284c47913c5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/107513.webp?s=8c84012e6cf9b7c17f221284c47913c5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/107513t.webp?s=8c84012e6cf9b7c17f221284c47913c5"
+        }
+      },
+      "name": "Kokutou, Mikiya"
+    },
+    "role": "Main",
+    "favorites": 564,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 3105,
+      "url": "https://myanimelist.net/character/3105/Shiki_Ryougi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/79870.jpg?s=5936e292e0b669b1984a4997f85b2e9d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/79870.webp?s=5936e292e0b669b1984a4997f85b2e9d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/79870t.webp?s=5936e292e0b669b1984a4997f85b2e9d"
+        }
+      },
+      "name": "Ryougi, Shiki"
+    },
+    "role": "Main",
+    "favorites": 10290,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 5269,
+      "url": "https://myanimelist.net/character/5269/Souren_Araya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/152011.jpg?s=15956cdfa7589316c0c5b00bc9585c30"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/152011.webp?s=15956cdfa7589316c0c5b00bc9585c30",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/152011t.webp?s=15956cdfa7589316c0c5b00bc9585c30"
+        }
+      },
+      "name": "Araya, Souren"
+    },
+    "role": "Supporting",
+    "favorites": 84,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 16743,
+      "url": "https://myanimelist.net/character/16743/Tomoe_Enjou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/150357.jpg?s=27655cdd270b569d69fe61a2163faa8f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/150357.webp?s=27655cdd270b569d69fe61a2163faa8f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/150357t.webp?s=27655cdd270b569d69fe61a2163faa8f"
+        }
+      },
+      "name": "Enjou, Tomoe"
+    },
+    "role": "Supporting",
+    "favorites": 77,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 5268,
+      "url": "https://myanimelist.net/character/5268/Azaka_Kokutou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/118040.jpg?s=a2d344d666166b2ec7efabb4bb955f39"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/118040.webp?s=a2d344d666166b2ec7efabb4bb955f39",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/118040t.webp?s=a2d344d666166b2ec7efabb4bb955f39"
+        }
+      },
+      "name": "Kokutou, Azaka"
+    },
+    "role": "Supporting",
+    "favorites": 86,
+    "voice_actors": []
+  }
+]

@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 from tqdm import tqdm
+from collections import Counter
 
 load_dotenv()
 
@@ -184,6 +185,7 @@ class AnimeFetcher:
                         new_anime = self.extract_anime_data(anime)
                         if not new_anime['mal_id'] in existing_ids:
                             anime_data.append(new_anime)
+                            existing_ids.add(new_anime['mal_id'])
                             total_fetched += 1
 
                         pbar.update(1)
@@ -226,6 +228,57 @@ class AnimeFetcher:
         print(f"\n✅ Successfully fetched characters for {successful_chars} anime.")
         return len(anime_data), successful_chars, error_anime_id
 
+    def find_missing_character_files(self,
+                                     anime_data_path="data/anime_data.json",
+                                     characters_dir="data/characters"
+                                     ):
+        """
+        Compare anime_data.json with characters folder and
+        return anime MAL IDs that are missing character files.
+        """
+
+        anime_data_path = Path(anime_data_path)
+        characters_dir = Path(characters_dir)
+
+        # Load anime data
+        with anime_data_path.open("r", encoding="utf-8") as f:
+            anime_list = json.load(f)
+
+        # Collect all anime MAL IDs
+        anime_ids = {anime["mal_id"] for anime in anime_list}
+
+        # Collect MAL IDs that already have character files
+        existing_character_ids = {
+            int(p.stem.replace("_characters", ""))
+            for p in characters_dir.glob("*_characters.json")
+        }
+
+        # Find missing
+        missing_ids = sorted(anime_ids - existing_character_ids)
+
+        return {
+            "total_anime": len(anime_ids),
+            "character_files_found": len(existing_character_ids),
+            "missing_count": len(missing_ids),
+            "missing_ids": missing_ids
+        }
+
+    def get_duplicate_anime_records(self, path="data/anime_data.json"):
+        with open(path, "r", encoding="utf-8") as f:
+            anime_list = json.load(f)
+
+        seen = {}
+        duplicates = []
+
+        for anime in anime_list:
+            mal_id = anime["mal_id"]
+            if mal_id in seen:
+                duplicates.append((seen[mal_id], anime))
+            else:
+                seen[mal_id] = anime
+
+        return duplicates
+
 
 if __name__ == "__main__":
     import argparse
@@ -238,6 +291,8 @@ if __name__ == "__main__":
                         help='Continue fetching and append to existing anime_data.json')
     parser.add_argument('--limit', type=int, default=None,
                         help='Total number of anime to fetch (default: None = fetch all pages)')
+    parser.add_argument('--check', dest='check', action='store_true',
+                        help='Check missing anime characters')
     args = parser.parse_args()
 
     fetcher = AnimeFetcher(
@@ -249,7 +304,14 @@ if __name__ == "__main__":
     print("FETCHING DATA FROM JIKAN API")
     print("=" * 50)
 
-    if args.mal_ids:
+    if args.check:
+        result = fetcher.find_missing_character_files()
+        print(result)
+        dupes = fetcher.get_duplicate_anime_records()
+        for original, duplicate in dupes:
+            print("Original:", original["title"])
+            print("Duplicate:", duplicate["title"])
+    elif args.mal_ids:
         # User gave specific mal_ids → fetch only these
         print(f"\nFetching characters for MAL IDs: {args.mal_ids}")
         for id in args.mal_ids:

@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 274802,
+      "url": "https://myanimelist.net/character/274802/Mia",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/598831.jpg?s=a5cc10bc6d8ac6f40c1ce7b154fa27d1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/598831.webp?s=a5cc10bc6d8ac6f40c1ce7b154fa27d1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/598831t.webp?s=a5cc10bc6d8ac6f40c1ce7b154fa27d1"
+        }
+      },
+      "name": "Mia"
+    },
+    "role": "Main",
+    "favorites": 7,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 91495,
+          "url": "https://myanimelist.net/people/91495/Miyuki_Tanaka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/86176.jpg?s=14e5a12a8475fafdd98b59179cb4504c"
+            }
+          },
+          "name": "Tanaka, Miyuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 274803,
+      "url": "https://myanimelist.net/character/274803/Nabe",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/598834.jpg?s=65b7f571a8896cbed47969753a71bf2c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/598834.webp?s=65b7f571a8896cbed47969753a71bf2c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/598834t.webp?s=65b7f571a8896cbed47969753a71bf2c"
+        }
+      },
+      "name": "Nabe"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 81750,
+          "url": "https://myanimelist.net/people/81750/Harumichi_Shitou",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Shitou, Harumichi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 258909,
+      "url": "https://myanimelist.net/character/258909/Okami-chan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/568564.jpg?s=d7fa82798a397852fb33e6318e76c487"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/568564.webp?s=d7fa82798a397852fb33e6318e76c487",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/568564t.webp?s=d7fa82798a397852fb33e6318e76c487"
+        }
+      },
+      "name": "Okami-chan"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 258908,
+      "url": "https://myanimelist.net/character/258908/Tora-chan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/568562.jpg?s=9fdf4f95071fbfc59190c89475bd4cd1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/568562.webp?s=9fdf4f95071fbfc59190c89475bd4cd1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/568562t.webp?s=9fdf4f95071fbfc59190c89475bd4cd1"
+        }
+      },
+      "name": "Tora-chan"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 14,
+      "url": "https://myanimelist.net/character/14/Itachi_Uchiha",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.webp?s=11eac9672b208175831a0da62f188622",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/284122t.webp?s=11eac9672b208175831a0da62f188622"
+        }
+      },
+      "name": "Uchiha, Itachi"
+    },
+    "role": "Main",
+    "favorites": 67134,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 412,
+          "url": "https://myanimelist.net/people/412/Hideo_Ishikawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/56721.jpg?s=4b394406fb51494060acf9ca0dd51eea"
+            }
+          },
+          "name": "Ishikawa, Hideo"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 13,
+      "url": "https://myanimelist.net/character/13/Sasuke_Uchiha",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/131317.jpg?s=9705c17dba36c2edebded3a72dc1a46e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/131317.webp?s=9705c17dba36c2edebded3a72dc1a46e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/131317t.webp?s=9705c17dba36c2edebded3a72dc1a46e"
+        }
+      },
+      "name": "Uchiha, Sasuke"
+    },
+    "role": "Main",
+    "favorites": 29800,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 16,
+          "url": "https://myanimelist.net/people/16/Noriaki_Sugiyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73289.jpg?s=429ee25324e9906db1f67a4d2e675230"
+            }
+          },
+          "name": "Sugiyama, Noriaki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 17,
+      "url": "https://myanimelist.net/character/17/Naruto_Uzumaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.webp?s=3ebac88ad166bf105d8f04894f3fb469",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/284121t.webp?s=3ebac88ad166bf105d8f04894f3fb469"
+        }
+      },
+      "name": "Uzumaki, Naruto"
+    },
+    "role": "Supporting",
+    "favorites": 86616,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 15,
+          "url": "https://myanimelist.net/people/15/Junko_Takeuchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54677.jpg?s=f3db98147778a5843a3a4ea5fb5468ee"
+            }
+          },
+          "name": "Takeuchi, Junko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

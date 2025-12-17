@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 217170,
+      "url": "https://myanimelist.net/character/217170/Kasuga",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/487268.jpg?s=7fc54437ce871cd426e7aeac7aabf9e9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/487268.webp?s=7fc54437ce871cd426e7aeac7aabf9e9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/487268t.webp?s=7fc54437ce871cd426e7aeac7aabf9e9"
+        }
+      },
+      "name": "Kasuga"
+    },
+    "role": "Main",
+    "favorites": 39,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 70708,
+          "url": "https://myanimelist.net/people/70708/Mako_Ayane",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/78555.jpg?s=06ec02d079b54496f5bd18f303c05566"
+            }
+          },
+          "name": "Ayane, Mako"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 219477,
+      "url": "https://myanimelist.net/character/219477/Kobayashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/491776.jpg?s=855c6b7d491cf9cbefeaeeab0492db2f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/491776.webp?s=855c6b7d491cf9cbefeaeeab0492db2f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/491776t.webp?s=855c6b7d491cf9cbefeaeeab0492db2f"
+        }
+      },
+      "name": "Kobayashi"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 82844,
+          "url": "https://myanimelist.net/people/82844/Midori_Eba",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Eba, Midori"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

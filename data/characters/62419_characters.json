@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 278536,
+      "url": "https://myanimelist.net/character/278536/Mid-eum_Jeong",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/604627.jpg?s=76e4cd21e99485f7f4bd4ed118dd86ac"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/604627.webp?s=76e4cd21e99485f7f4bd4ed118dd86ac",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/604627t.webp?s=76e4cd21e99485f7f4bd4ed118dd86ac"
+        }
+      },
+      "name": "Jeong, Mid-eum"
+    },
+    "role": "Main",
+    "favorites": 5,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 278535,
+      "url": "https://myanimelist.net/character/278535/Yi-Hyuk_Shin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/604626.jpg?s=f4572426f003d40f5361176e609d1b74"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/604626.webp?s=f4572426f003d40f5361176e609d1b74",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/604626t.webp?s=f4572426f003d40f5361176e609d1b74"
+        }
+      },
+      "name": "Shin, Yi-Hyuk"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": []
+  }
+]

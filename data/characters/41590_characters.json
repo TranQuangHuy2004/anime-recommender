@@ -1,0 +1,35 @@
+[
+  {
+    "character": {
+      "mal_id": 141521,
+      "url": "https://myanimelist.net/character/141521/Petelgeuse_Romanée-Conti",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/433803.jpg?s=ea96d10316206d8bee58ed1e85daa58b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/433803.webp?s=ea96d10316206d8bee58ed1e85daa58b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/433803t.webp?s=ea96d10316206d8bee58ed1e85daa58b"
+        }
+      },
+      "name": "Romanée-Conti, Petelgeuse"
+    },
+    "role": "Main",
+    "favorites": 1480,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11817,
+          "url": "https://myanimelist.net/people/11817/Yoshitsugu_Matsuoka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/87038.jpg?s=887948447abc493828708afb9ce49550"
+            }
+          },
+          "name": "Matsuoka, Yoshitsugu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

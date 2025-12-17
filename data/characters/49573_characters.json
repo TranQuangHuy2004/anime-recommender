@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 257036,
+      "url": "https://myanimelist.net/character/257036/Luo_Gan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/564764.jpg?s=2ebafcd2b0e86e01539a05532c7c38e5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/564764.webp?s=2ebafcd2b0e86e01539a05532c7c38e5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/564764t.webp?s=2ebafcd2b0e86e01539a05532c7c38e5"
+        }
+      },
+      "name": "Gan, Luo"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 257037,
+      "url": "https://myanimelist.net/character/257037/Beilu_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/564765.jpg?s=defeff4602de5cbff377dce2a4067e88"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/564765.webp?s=defeff4602de5cbff377dce2a4067e88",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/564765t.webp?s=defeff4602de5cbff377dce2a4067e88"
+        }
+      },
+      "name": "Su, Beilu"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

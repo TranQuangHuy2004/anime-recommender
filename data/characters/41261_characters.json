@@ -1,0 +1,106 @@
+[
+  {
+    "character": {
+      "mal_id": 188451,
+      "url": "https://myanimelist.net/character/188451/Aika",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/433066.jpg?s=e702a26ce54082db8000c868e55c39d8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/433066.webp?s=e702a26ce54082db8000c868e55c39d8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/433066t.webp?s=e702a26ce54082db8000c868e55c39d8"
+        }
+      },
+      "name": "Aika"
+    },
+    "role": "Main",
+    "favorites": 430,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 27149,
+          "url": "https://myanimelist.net/people/27149/Matsuri_Mizuguchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/83687.jpg?s=7d94fc38ee0761e5c8bd410aebc4b79f"
+            }
+          },
+          "name": "Mizuguchi, Matsuri"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 178957,
+      "url": "https://myanimelist.net/character/178957/Takuya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/504842.jpg?s=897f11321a8a8a8643510a2eb4a6cd92"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/504842.webp?s=897f11321a8a8a8643510a2eb4a6cd92",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/504842t.webp?s=897f11321a8a8a8643510a2eb4a6cd92"
+        }
+      },
+      "name": "Takuya"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 37605,
+          "url": "https://myanimelist.net/people/37605/Tetsuto_Furukawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/73491.jpg?s=d48bee5799ce693756c64e2719792877"
+            }
+          },
+          "name": "Furukawa, Tetsuto"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 267690,
+      "url": "https://myanimelist.net/character/267690/Daiki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/585163.jpg?s=3681e1cb867337f9a98f5f3b4becd11a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/585163.webp?s=3681e1cb867337f9a98f5f3b4becd11a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/585163t.webp?s=3681e1cb867337f9a98f5f3b4becd11a"
+        }
+      },
+      "name": "Daiki"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 267691,
+      "url": "https://myanimelist.net/character/267691/Daisuke",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/585164.jpg?s=3fcb731aad4e86b2e5f61e0b340b3757"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/585164.webp?s=3fcb731aad4e86b2e5f61e0b340b3757",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/585164t.webp?s=3fcb731aad4e86b2e5f61e0b340b3757"
+        }
+      },
+      "name": "Daisuke"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

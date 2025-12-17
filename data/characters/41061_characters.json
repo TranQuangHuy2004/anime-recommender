@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 152119,
+      "url": "https://myanimelist.net/character/152119/Rin_Shima",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/358813.jpg?s=e361e6dd3834986703774c8220a4c2e5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/358813.webp?s=e361e6dd3834986703774c8220a4c2e5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/358813t.webp?s=e361e6dd3834986703774c8220a4c2e5"
+        }
+      },
+      "name": "Shima, Rin"
+    },
+    "role": "Main",
+    "favorites": 6011,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11184,
+          "url": "https://myanimelist.net/people/11184/Nao_Touyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/86547.jpg?s=b463b327443cf58880180edf686fed13"
+            }
+          },
+          "name": "Touyama, Nao"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 157436,
+      "url": "https://myanimelist.net/character/157436/Narrator",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Narrator"
+    },
+    "role": "Supporting",
+    "favorites": 16,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 146,
+          "url": "https://myanimelist.net/people/146/Akio_Ootsuka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/58117.jpg?s=8168f341db3e6d45e2f06e8dbe4a1477"
+            }
+          },
+          "name": "Ootsuka, Akio"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 152121,
+      "url": "https://myanimelist.net/character/152121/Ena_Saitou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/337015.jpg?s=b906967b68595c05a9295f337dec4505"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/337015.webp?s=b906967b68595c05a9295f337dec4505",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/337015t.webp?s=b906967b68595c05a9295f337dec4505"
+        }
+      },
+      "name": "Saitou, Ena"
+    },
+    "role": "Supporting",
+    "favorites": 257,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 34785,
+          "url": "https://myanimelist.net/people/34785/Rie_Takahashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/86541.jpg?s=1dfbd1def701d85a58bca6c72cc045ed"
+            }
+          },
+          "name": "Takahashi, Rie"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 190981,
+      "url": "https://myanimelist.net/character/190981/Wataru_Shima",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/432262.jpg?s=7b0acbd63e99df1f47c0f20741a2aa4b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/432262.webp?s=7b0acbd63e99df1f47c0f20741a2aa4b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/432262t.webp?s=7b0acbd63e99df1f47c0f20741a2aa4b"
+        }
+      },
+      "name": "Shima, Wataru"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 79,
+          "url": "https://myanimelist.net/people/79/Takahiro_Sakurai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/85504.jpg?s=f42b57fd292f3c0a726d5674d8a9baf1"
+            }
+          },
+          "name": "Sakurai, Takahiro"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

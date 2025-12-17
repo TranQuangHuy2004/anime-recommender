@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 13784,
+      "url": "https://myanimelist.net/character/13784/Madara",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/83359.jpg?s=776074c96de8d49f34f63e975356896a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/83359.webp?s=776074c96de8d49f34f63e975356896a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/83359t.webp?s=776074c96de8d49f34f63e975356896a"
+        }
+      },
+      "name": "Madara"
+    },
+    "role": "Main",
+    "favorites": 5154,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 21,
+          "url": "https://myanimelist.net/people/21/Kazuhiko_Inoue",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/68015.jpg?s=adc8a9f5e0fde931daabdea9a3c636e3"
+            }
+          },
+          "name": "Inoue, Kazuhiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 13783,
+      "url": "https://myanimelist.net/character/13783/Takashi_Natsume",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/160755.jpg?s=f6fa63940ee97fe630df0ad5981fa308"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/160755.webp?s=f6fa63940ee97fe630df0ad5981fa308",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/160755t.webp?s=f6fa63940ee97fe630df0ad5981fa308"
+        }
+      },
+      "name": "Natsume, Takashi"
+    },
+    "role": "Main",
+    "favorites": 10331,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 118,
+          "url": "https://myanimelist.net/people/118/Hiroshi_Kamiya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/66163.jpg?s=775d0965030b624274719144d678113a"
+            }
+          },
+          "name": "Kamiya, Hiroshi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

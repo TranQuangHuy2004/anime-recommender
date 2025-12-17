@@ -1,0 +1,35 @@
+[
+  {
+    "character": {
+      "mal_id": 257073,
+      "url": "https://myanimelist.net/character/257073/Hikari_Kuroda",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/595835.jpg?s=3e5d8e01468a4a353737ff3b52791579"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/595835.webp?s=3e5d8e01468a4a353737ff3b52791579",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/595835t.webp?s=3e5d8e01468a4a353737ff3b52791579"
+        }
+      },
+      "name": "Kuroda, Hikari"
+    },
+    "role": "Main",
+    "favorites": 38,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 54297,
+          "url": "https://myanimelist.net/people/54297/Ion_Momoyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/65882.jpg?s=56465b28939eca4039cd0cc9e7c3b407"
+            }
+          },
+          "name": "Momoyama, Ion"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

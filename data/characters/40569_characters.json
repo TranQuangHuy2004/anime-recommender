@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 187711,
+      "url": "https://myanimelist.net/character/187711/Detre",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/421597.jpg?s=b82242cb3e901ee23ed9aa436665e971"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/421597.webp?s=b82242cb3e901ee23ed9aa436665e971",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/421597t.webp?s=b82242cb3e901ee23ed9aa436665e971"
+        }
+      },
+      "name": "D'etre"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 187710,
+      "url": "https://myanimelist.net/character/187710/Raison",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/421596.jpg?s=d86a826f3c07d0f0bd76674236f8e1a5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/421596.webp?s=d86a826f3c07d0f0bd76674236f8e1a5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/421596t.webp?s=d86a826f3c07d0f0bd76674236f8e1a5"
+        }
+      },
+      "name": "Raison"
+    },
+    "role": "Main",
+    "favorites": 10,
+    "voice_actors": []
+  }
+]

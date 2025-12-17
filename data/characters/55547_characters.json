@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 234580,
+      "url": "https://myanimelist.net/character/234580/Yuuichi_Kobayashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/525882.jpg?s=d5da5f4d8f164fb9c774b7f85a5414c2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/525882.webp?s=d5da5f4d8f164fb9c774b7f85a5414c2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/525882t.webp?s=d5da5f4d8f164fb9c774b7f85a5414c2"
+        }
+      },
+      "name": "Kobayashi, Yuuichi"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 57623,
+          "url": "https://myanimelist.net/people/57623/Kazuma_Hoshino",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Hoshino, Kazuma"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 215718,
+      "url": "https://myanimelist.net/character/215718/Miho_Tsujinaka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/484682.jpg?s=01d136f55bf9a5982d4a36fb18fab4fe"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/484682.webp?s=01d136f55bf9a5982d4a36fb18fab4fe",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/484682t.webp?s=01d136f55bf9a5982d4a36fb18fab4fe"
+        }
+      },
+      "name": "Tsujinaka, Miho"
+    },
+    "role": "Main",
+    "favorites": 97,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63700,
+          "url": "https://myanimelist.net/people/63700/Musubi_Aono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73577.jpg?s=f4e7278489382cf176c5147d87dde0ff"
+            }
+          },
+          "name": "Aono, Musubi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 234982,
+      "url": "https://myanimelist.net/character/234982/Shiori_Nakamura",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/522766.jpg?s=4e5c60cb77bfe741a777055333aac13a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/522766.webp?s=4e5c60cb77bfe741a777055333aac13a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/522766t.webp?s=4e5c60cb77bfe741a777055333aac13a"
+        }
+      },
+      "name": "Nakamura, Shiori"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1132,
+          "url": "https://myanimelist.net/people/1132/Ryouko_Tanaka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/59608.jpg?s=62b4cb6d173fcacd878780942bdadc56"
+            }
+          },
+          "name": "Tanaka, Ryouko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

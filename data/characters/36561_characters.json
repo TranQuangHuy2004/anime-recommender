@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 131047,
+      "url": "https://myanimelist.net/character/131047/Yan_Xiao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613870.jpg?s=ec8e67c0d6cf74b47bb64246fb1dc3aa"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/613870.webp?s=ec8e67c0d6cf74b47bb64246fb1dc3aa",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/613870t.webp?s=ec8e67c0d6cf74b47bb64246fb1dc3aa"
+        }
+      },
+      "name": "Xiao, Yan"
+    },
+    "role": "Main",
+    "favorites": 207,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 128598,
+      "url": "https://myanimelist.net/character/128598/Chen_Yao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/612478.jpg?s=844e8fcb75d77a87531ec7c6d6c2fb38"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/612478.webp?s=844e8fcb75d77a87531ec7c6d6c2fb38",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/612478t.webp?s=844e8fcb75d77a87531ec7c6d6c2fb38"
+        }
+      },
+      "name": "Yao, Chen"
+    },
+    "role": "Main",
+    "favorites": 60,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 181019,
+      "url": "https://myanimelist.net/character/181019/Yun_Yun",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/605371.jpg?s=393f21d4a0270b92f121d8ef90ca4e5d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/605371.webp?s=393f21d4a0270b92f121d8ef90ca4e5d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/605371t.webp?s=393f21d4a0270b92f121d8ef90ca4e5d"
+        }
+      },
+      "name": "Yun, Yun"
+    },
+    "role": "Main",
+    "favorites": 28,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 278200,
+      "url": "https://myanimelist.net/character/278200/Lion_King",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/604165.jpg?s=fe03acc562da70e352ba81041f8c47a0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/604165.webp?s=fe03acc562da70e352ba81041f8c47a0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/604165t.webp?s=fe03acc562da70e352ba81041f8c47a0"
+        }
+      },
+      "name": "Lion King"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285351,
+      "url": "https://myanimelist.net/character/285351/Narrator",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Narrator"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

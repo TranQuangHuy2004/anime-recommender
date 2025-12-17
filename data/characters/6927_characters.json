@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 21902,
+      "url": "https://myanimelist.net/character/21902/Yutaka_Itazu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/55087.jpg?s=93ab6239e2b346f1a78238e747f141bc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/55087.webp?s=93ab6239e2b346f1a78238e747f141bc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/55087t.webp?s=93ab6239e2b346f1a78238e747f141bc"
+        }
+      },
+      "name": "Itazu, Yutaka"
+    },
+    "role": "Main",
+    "favorites": 22,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 257,
+          "url": "https://myanimelist.net/people/257/Nobuyuki_Hiyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/10862.jpg?s=cff5bf6118c8b109868c0ce3b3d8db13"
+            }
+          },
+          "name": "Hiyama, Nobuyuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 19931,
+      "url": "https://myanimelist.net/character/19931/Saki_Morimi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/64739.jpg?s=ba2019588a8712a19a6ccf6a6ce35d1d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/64739.webp?s=ba2019588a8712a19a6ccf6a6ce35d1d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/64739t.webp?s=ba2019588a8712a19a6ccf6a6ce35d1d"
+        }
+      },
+      "name": "Morimi, Saki"
+    },
+    "role": "Main",
+    "favorites": 210,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 869,
+          "url": "https://myanimelist.net/people/869/Saori_Hayami",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/86542.jpg?s=a8e7ef2f89d3048ce8d75dfcf411e68b"
+            }
+          },
+          "name": "Hayami, Saori"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 19930,
+      "url": "https://myanimelist.net/character/19930/Akira_Takizawa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/49295.jpg?s=368f51be2ca3426e1ad77ba3892b95ac"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/49295.webp?s=368f51be2ca3426e1ad77ba3892b95ac",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/49295t.webp?s=368f51be2ca3426e1ad77ba3892b95ac"
+        }
+      },
+      "name": "Takizawa, Akira"
+    },
+    "role": "Main",
+    "favorites": 1413,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1762,
+          "url": "https://myanimelist.net/people/1762/Ryouhei_Kimura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/75520.jpg?s=d364b6ffb5da419075d6695c46a470f9"
+            }
+          },
+          "name": "Kimura, Ryouhei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 22741,
+      "url": "https://myanimelist.net/character/22741/Jintarou_Tsuji",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/55086.jpg?s=bb0c994b0b6c0b226e5fde115e9bbfbb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/55086.webp?s=bb0c994b0b6c0b226e5fde115e9bbfbb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/55086t.webp?s=bb0c994b0b6c0b226e5fde115e9bbfbb"
+        }
+      },
+      "name": "Tsuji, Jintarou"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 68,
+          "url": "https://myanimelist.net/people/68/Kouji_Yusa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/44651.jpg?s=e892568ebf149c389105360fbf279a64"
+            }
+          },
+          "name": "Yusa, Kouji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 137599,
+      "url": "https://myanimelist.net/character/137599/Shiva",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/561822.jpg?s=cecc1764fdf966b7781c212b4e0d24cf"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/561822.webp?s=cecc1764fdf966b7781c212b4e0d24cf",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/561822t.webp?s=cecc1764fdf966b7781c212b4e0d24cf"
+        }
+      },
+      "name": "Shiva"
+    },
+    "role": "Main",
+    "favorites": 190,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 150901,
+      "url": "https://myanimelist.net/character/150901/Teacher",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/411157.jpg?s=a0a5befc8b83de11d756686c90ee7e6c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/411157.webp?s=a0a5befc8b83de11d756686c90ee7e6c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/411157t.webp?s=a0a5befc8b83de11d756686c90ee7e6c"
+        }
+      },
+      "name": "Teacher"
+    },
+    "role": "Main",
+    "favorites": 609,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 230022,
+      "url": "https://myanimelist.net/character/230022/Headless_Outsider",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/511918.jpg?s=ac4e94467236e4ffb1e871a35ef0e2cf"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/511918.webp?s=ac4e94467236e4ffb1e871a35ef0e2cf",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/511918t.webp?s=ac4e94467236e4ffb1e871a35ef0e2cf"
+        }
+      },
+      "name": "Headless Outsider"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  }
+]

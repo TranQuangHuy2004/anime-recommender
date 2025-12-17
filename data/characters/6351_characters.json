@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 4605,
+      "url": "https://myanimelist.net/character/4605/Kyou_Fujibayashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/52002.jpg?s=903ab89cee99dd4d3b76784e0e443ab9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/52002.webp?s=903ab89cee99dd4d3b76784e0e443ab9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/52002t.webp?s=903ab89cee99dd4d3b76784e0e443ab9"
+        }
+      },
+      "name": "Fujibayashi, Kyou"
+    },
+    "role": "Main",
+    "favorites": 3757,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 111,
+          "url": "https://myanimelist.net/people/111/Ryou_Hirohashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/70751.jpg?s=1f0b8d803a0a15c6d313dd9d0c512982"
+            }
+          },
+          "name": "Hirohashi, Ryou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 4608,
+      "url": "https://myanimelist.net/character/4608/Ryou_Fujibayashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/256501.jpg?s=89c654dd28067c4f645bdfc7f7e1046a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/256501.webp?s=89c654dd28067c4f645bdfc7f7e1046a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/256501t.webp?s=89c654dd28067c4f645bdfc7f7e1046a"
+        }
+      },
+      "name": "Fujibayashi, Ryou"
+    },
+    "role": "Main",
+    "favorites": 232,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 239,
+          "url": "https://myanimelist.net/people/239/Akemi_Kanda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/87766.jpg?s=fa1ed7de0f5e79fabf594de4a411df15"
+            }
+          },
+          "name": "Kanda, Akemi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 4606,
+      "url": "https://myanimelist.net/character/4606/Tomoya_Okazaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/508343.jpg?s=00ca8bcdcdb86791e2095a07eb74aafa"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/508343.webp?s=00ca8bcdcdb86791e2095a07eb74aafa",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/508343t.webp?s=00ca8bcdcdb86791e2095a07eb74aafa"
+        }
+      },
+      "name": "Okazaki, Tomoya"
+    },
+    "role": "Main",
+    "favorites": 15292,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 513,
+          "url": "https://myanimelist.net/people/513/Yuuichi_Nakamura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/86727.jpg?s=0ed40878de8ac903e3d9decf1f57ad3d"
+            }
+          },
+          "name": "Nakamura, Yuuichi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 4610,
+      "url": "https://myanimelist.net/character/4610/Youhei_Sunohara",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/34967.jpg?s=c810b58ec9b3a01fbb2f325491a56b41"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/34967.webp?s=c810b58ec9b3a01fbb2f325491a56b41",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/34967t.webp?s=c810b58ec9b3a01fbb2f325491a56b41"
+        }
+      },
+      "name": "Sunohara, Youhei"
+    },
+    "role": "Supporting",
+    "favorites": 1913,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 278,
+          "url": "https://myanimelist.net/people/278/Daisuke_Sakaguchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/87084.jpg?s=6444f2f2a2cefaca41261c3a7088cf64"
+            }
+          },
+          "name": "Sakaguchi, Daisuke"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

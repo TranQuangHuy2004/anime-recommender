@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 151138,
+      "url": "https://myanimelist.net/character/151138/Legoshi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/402912.jpg?s=a1cfc7ec768ebf1a1201ea80a3562849"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/402912.webp?s=a1cfc7ec768ebf1a1201ea80a3562849",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/402912t.webp?s=a1cfc7ec768ebf1a1201ea80a3562849"
+        }
+      },
+      "name": "Legoshi"
+    },
+    "role": "Main",
+    "favorites": 8163,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 165850,
+      "url": "https://myanimelist.net/character/165850/Haru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/402716.jpg?s=76e5a28afa959ec8f446b4af3acefbed"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/402716.webp?s=76e5a28afa959ec8f446b4af3acefbed",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/402716t.webp?s=76e5a28afa959ec8f446b4af3acefbed"
+        }
+      },
+      "name": "Haru"
+    },
+    "role": "Supporting",
+    "favorites": 689,
+    "voice_actors": []
+  }
+]

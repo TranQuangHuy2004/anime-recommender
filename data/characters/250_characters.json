@@ -1,0 +1,2816 @@
+[
+  {
+    "character": {
+      "mal_id": 3893,
+      "url": "https://myanimelist.net/character/3893/Gash_Bell",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408425.jpg?s=c2791bf06f4f7cf29bff09c117605f7e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408425.webp?s=c2791bf06f4f7cf29bff09c117605f7e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/408425t.webp?s=c2791bf06f4f7cf29bff09c117605f7e"
+        }
+      },
+      "name": "Bell, Gash"
+    },
+    "role": "Main",
+    "favorites": 678,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 128,
+          "url": "https://myanimelist.net/people/128/Ikue_Ootani",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/62833.jpg?s=c8bea365fcf286356c8bc405de580e55"
+            }
+          },
+          "name": "Ootani, Ikue"
+        },
+        "language": "Japanese"
+      },
+      {
+        "person": {
+          "mal_id": 532,
+          "url": "https://myanimelist.net/people/532/Konami_Yoshida",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54469.jpg?s=98e3d4c536db0604983fcb7d70ae81b1"
+            }
+          },
+          "name": "Yoshida, Konami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 5014,
+      "url": "https://myanimelist.net/character/5014/Parco_Folgore",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/246653.jpg?s=1c61d444b69515337694d9dd64517184"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/246653.webp?s=1c61d444b69515337694d9dd64517184",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/246653t.webp?s=1c61d444b69515337694d9dd64517184"
+        }
+      },
+      "name": "Folgore, Parco"
+    },
+    "role": "Main",
+    "favorites": 192,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 64,
+          "url": "https://myanimelist.net/people/64/Hiroki_Takahashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/57086.jpg?s=76c4aa4f9cc6175c5b5b27491a7245fd"
+            }
+          },
+          "name": "Takahashi, Hiroki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 16871,
+      "url": "https://myanimelist.net/character/16871/Kanchomé",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408393.jpg?s=568ce5d01ca27533de5cc19592c50452"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408393.webp?s=568ce5d01ca27533de5cc19592c50452",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/408393t.webp?s=568ce5d01ca27533de5cc19592c50452"
+        }
+      },
+      "name": "Kanchomé"
+    },
+    "role": "Main",
+    "favorites": 46,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 488,
+          "url": "https://myanimelist.net/people/488/Masami_Kikuchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/55313.jpg?s=86be2dfeed601b343bf4a452e17b944b"
+            }
+          },
+          "name": "Kikuchi, Masami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 16130,
+      "url": "https://myanimelist.net/character/16130/Suzume_Mizuno",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408370.jpg?s=60104c019960b7e19cbbf320cbcacd7a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408370.webp?s=60104c019960b7e19cbbf320cbcacd7a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/408370t.webp?s=60104c019960b7e19cbbf320cbcacd7a"
+        }
+      },
+      "name": "Mizuno, Suzume"
+    },
+    "role": "Main",
+    "favorites": 32,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1748,
+          "url": "https://myanimelist.net/people/1748/Tomoko_Akiya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/79308.jpg?s=909ad6f289c11ddfbfd4fd94def2b921"
+            }
+          },
+          "name": "Akiya, Tomoko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 10864,
+      "url": "https://myanimelist.net/character/10864/Megumi_Ooumi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408303.jpg?s=bfea7c47a44fd5febfc5c5ccf67ae511"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408303.webp?s=bfea7c47a44fd5febfc5c5ccf67ae511",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/408303t.webp?s=bfea7c47a44fd5febfc5c5ccf67ae511"
+        }
+      },
+      "name": "Ooumi, Megumi"
+    },
+    "role": "Main",
+    "favorites": 18,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 487,
+          "url": "https://myanimelist.net/people/487/Ai_Maeda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/33445.jpg?s=3f4772cef4439908f3a1e943ececa408"
+            }
+          },
+          "name": "Maeda, Ai"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 3894,
+      "url": "https://myanimelist.net/character/3894/Kiyomaro_Takamine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/549376.jpg?s=8684ceb5604d280a532d5b7661694a33"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/549376.webp?s=8684ceb5604d280a532d5b7661694a33",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/549376t.webp?s=8684ceb5604d280a532d5b7661694a33"
+        }
+      },
+      "name": "Takamine, Kiyomaro"
+    },
+    "role": "Main",
+    "favorites": 487,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 79,
+          "url": "https://myanimelist.net/people/79/Takahiro_Sakurai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/85504.jpg?s=f42b57fd292f3c0a726d5674d8a9baf1"
+            }
+          },
+          "name": "Sakurai, Takahiro"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 8315,
+      "url": "https://myanimelist.net/character/8315/Tio",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408433.jpg?s=6f95c1aad0adb91e8bf65eaffe361d79"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408433.webp?s=6f95c1aad0adb91e8bf65eaffe361d79",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/408433t.webp?s=6f95c1aad0adb91e8bf65eaffe361d79"
+        }
+      },
+      "name": "Tio"
+    },
+    "role": "Main",
+    "favorites": 40,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 8,
+          "url": "https://myanimelist.net/people/8/Rie_Kugimiya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/63374.jpg?s=b834d16ead8ec560bcfcbc2da93ae6a2"
+            }
+          },
+          "name": "Kugimiya, Rie"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 12561,
+      "url": "https://myanimelist.net/character/12561/Umagon",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408352.jpg?s=d810b12533ad18c229499b8739b07ff8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408352.webp?s=d810b12533ad18c229499b8739b07ff8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/408352t.webp?s=d810b12533ad18c229499b8739b07ff8"
+        }
+      },
+      "name": "Umagon"
+    },
+    "role": "Main",
+    "favorites": 127,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 470,
+          "url": "https://myanimelist.net/people/470/Satomi_Koorogi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/16291.jpg?s=b465ee4faeab2e18ab8205f6f3b064f8"
+            }
+          },
+          "name": "Koorogi, Satomi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 182103,
+      "url": "https://myanimelist.net/character/182103/Albert",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/416715.jpg?s=81243deb3c4d1281451ec3ed2968fe54"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/416715.webp?s=81243deb3c4d1281451ec3ed2968fe54",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/416715t.webp?s=81243deb3c4d1281451ec3ed2968fe54"
+        }
+      },
+      "name": "Albert"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 196,
+          "url": "https://myanimelist.net/people/196/Kishou_Taniyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/68788.jpg?s=31e1db2163094a09be8f2f8879edf011"
+            }
+          },
+          "name": "Taniyama, Kishou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 36462,
+      "url": "https://myanimelist.net/character/36462/Alishie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408561.jpg?s=559c1d879fd5f182a686ae2a7303ebdb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408561.webp?s=559c1d879fd5f182a686ae2a7303ebdb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/408561t.webp?s=559c1d879fd5f182a686ae2a7303ebdb"
+        }
+      },
+      "name": "Alishie"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1,
+          "url": "https://myanimelist.net/people/1/Tomokazu_Seki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/85360.jpg?s=b35e7489e11b54fee04fbbcbc69b2edb"
+            }
+          },
+          "name": "Seki, Tomokazu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64741,
+      "url": "https://myanimelist.net/character/64741/Alvin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/170445.jpg?s=123d91d876ad7c21ffcc97e014379892"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/170445.webp?s=123d91d876ad7c21ffcc97e014379892",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/170445t.webp?s=123d91d876ad7c21ffcc97e014379892"
+        }
+      },
+      "name": "Alvin"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6097,
+          "url": "https://myanimelist.net/people/6097/Masaaki_Tsukada",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/9503.jpg?s=97c9407541e5c45626124c3aaa103bbd"
+            }
+          },
+          "name": "Tsukada, Masaaki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 124365,
+      "url": "https://myanimelist.net/character/124365/Dalia_Anjé",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/275851.jpg?s=7745187f3fc77d153b49fa3b7c225bc6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/275851.webp?s=7745187f3fc77d153b49fa3b7c225bc6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/275851t.webp?s=7745187f3fc77d153b49fa3b7c225bc6"
+        }
+      },
+      "name": "Anjé, Dalia"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 656,
+          "url": "https://myanimelist.net/people/656/Ai_Nagano",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/34693.jpg?s=bb9af939c332dd3e4083d97b6b11c6e3"
+            }
+          },
+          "name": "Nagano, Ai"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 88971,
+      "url": "https://myanimelist.net/character/88971/Arth",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/407942.jpg?s=e19da158a2cf290d163746fe0dca3f0d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/407942.webp?s=e19da158a2cf290d163746fe0dca3f0d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/407942t.webp?s=e19da158a2cf290d163746fe0dca3f0d"
+        }
+      },
+      "name": "Arth"
+    },
+    "role": "Supporting",
+    "favorites": 4,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6602,
+          "url": "https://myanimelist.net/people/6602/Hideyuki_Umezu",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/80554.jpg?s=fac93cd952f05480a0b591335b8637bf"
+            }
+          },
+          "name": "Umezu, Hideyuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 86925,
+      "url": "https://myanimelist.net/character/86925/Baransha",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408567.jpg?s=d02b361583e6f9606fcd69f167bb806b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408567.webp?s=d02b361583e6f9606fcd69f167bb806b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/408567t.webp?s=d02b361583e6f9606fcd69f167bb806b"
+        }
+      },
+      "name": "Baransha"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 130,
+          "url": "https://myanimelist.net/people/130/Yuriko_Yamaguchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/63904.jpg?s=4018e7554b1535d2fd702398a231b1aa"
+            }
+          },
+          "name": "Yamaguchi, Yuriko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 87543,
+      "url": "https://myanimelist.net/character/87543/Vincent_Bari",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/473682.jpg?s=aaa8afbc6d30bbbb80bad71477cab86d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/473682.webp?s=aaa8afbc6d30bbbb80bad71477cab86d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/473682t.webp?s=aaa8afbc6d30bbbb80bad71477cab86d"
+        }
+      },
+      "name": "Bari, Vincent"
+    },
+    "role": "Supporting",
+    "favorites": 22,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 177,
+          "url": "https://myanimelist.net/people/177/Ryoutarou_Okiayu",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/80436.jpg?s=db6e64580a47c97e72876df5c4912f4d"
+            }
+          },
+          "name": "Okiayu, Ryoutarou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 14528,
+      "url": "https://myanimelist.net/character/14528/Zeon_Bell",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408601.jpg?s=7488a6e5c8cb81a5a1bc56ee9a6de014"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408601.webp?s=7488a6e5c8cb81a5a1bc56ee9a6de014",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/408601t.webp?s=7488a6e5c8cb81a5a1bc56ee9a6de014"
+        }
+      },
+      "name": "Bell, Zeon"
+    },
+    "role": "Supporting",
+    "favorites": 58,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 622,
+          "url": "https://myanimelist.net/people/622/Urara_Takano",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/17121.jpg?s=11d1c513b9c78b9160a1dcd425b206a9"
+            }
+          },
+          "name": "Takano, Urara"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 16872,
+      "url": "https://myanimelist.net/character/16872/Sherry_Belmont",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/408377.jpg?s=5afd9f71dee5dfe98a008101a05f549a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/408377.webp?s=5afd9f71dee5dfe98a008101a05f549a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/408377t.webp?s=5afd9f71dee5dfe98a008101a05f549a"
+        }
+      },
+      "name": "Belmont, Sherry"
+    },
+    "role": "Supporting",
+    "favorites": 42,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 152,
+          "url": "https://myanimelist.net/people/152/Fumiko_Orikasa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/75768.jpg?s=c801191f8810685b11b48a9b4b45e277"
+            }
+          },
+          "name": "Orikasa, Fumiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 21126,
+      "url": "https://myanimelist.net/character/21126/Big_Boing",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/474979.jpg?s=ecaf647fa0063dc640dd012c09aff608"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/474979.webp?s=ecaf647fa0063dc640dd012c09aff608",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/474979t.webp?s=ecaf647fa0063dc640dd012c09aff608"
+        }
+      },
+      "name": "Big Boing"
+    },
+    "role": "Supporting",
+    "favorites": 7,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 656,
+          "url": "https://myanimelist.net/people/656/Ai_Nagano",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/34693.jpg?s=bb9af939c332dd3e4083d97b6b11c6e3"
+            }
+          },
+          "name": "Nagano, Ai"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 12761,
+      "url": "https://myanimelist.net/character/12761/Brago",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/525075.jpg?s=a103c1f135fcb78c74b47f2f4c21042c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/525075.webp?s=a103c1f135fcb78c74b47f2f4c21042c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/525075t.webp?s=a103c1f135fcb78c74b47f2f4c21042c"
+        }
+      },
+      "name": "Brago"
+    },
+    "role": "Supporting",
+    "favorites": 110,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 5536,
+          "url": "https://myanimelist.net/people/5536/Kazunari_Kojima",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/10355.jpg?s=be18e288ae893c77958541d89904a55b"
+            }
+          },
+          "name": "Kojima, Kazunari"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64739,
+      "url": "https://myanimelist.net/character/64739/Byonko",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408585.jpg?s=c6869f194cad6ea7c1c7ceb3f8671782"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408585.webp?s=c6869f194cad6ea7c1c7ceb3f8671782",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/408585t.webp?s=c6869f194cad6ea7c1c7ceb3f8671782"
+        }
+      },
+      "name": "Byonko"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 752,
+          "url": "https://myanimelist.net/people/752/Yasuhiro_Takato",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/32419.jpg?s=45ef11409f4198f3672a8e0b85cbf153"
+            }
+          },
+          "name": "Takato, Yasuhiro"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 65191,
+      "url": "https://myanimelist.net/character/65191/Maryl_Carunoa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/171201.jpg?s=71e990ee6ee1d929e4384847b889ca12"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/171201.webp?s=71e990ee6ee1d929e4384847b889ca12",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/171201t.webp?s=71e990ee6ee1d929e4384847b889ca12"
+        }
+      },
+      "name": "Carunoa, Maryl"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 144,
+          "url": "https://myanimelist.net/people/144/Megumi_Toyoguchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/75521.jpg?s=634a47d5ef6e346f1b835908aaf74889"
+            }
+          },
+          "name": "Toyoguchi, Megumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64743,
+      "url": "https://myanimelist.net/character/64743/Cherish",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408596.jpg?s=8c28970e93c4f17f8d6d51543bd4e480"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408596.webp?s=8c28970e93c4f17f8d6d51543bd4e480",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/408596t.webp?s=8c28970e93c4f17f8d6d51543bd4e480"
+        }
+      },
+      "name": "Cherish"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 656,
+          "url": "https://myanimelist.net/people/656/Ai_Nagano",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/34693.jpg?s=bb9af939c332dd3e4083d97b6b11c6e3"
+            }
+          },
+          "name": "Nagano, Ai"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185658,
+      "url": "https://myanimelist.net/character/185658/Chita",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/416702.jpg?s=8206bda90d9ec55962ccc1e41bfdbdae"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/416702.webp?s=8206bda90d9ec55962ccc1e41bfdbdae",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/416702t.webp?s=8206bda90d9ec55962ccc1e41bfdbdae"
+        }
+      },
+      "name": "Chita"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 93,
+          "url": "https://myanimelist.net/people/93/Shizuka_Itou",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54675.jpg?s=61c1981a572e02a64e2a313b7ef4aec0"
+            }
+          },
+          "name": "Itou, Shizuka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64747,
+      "url": "https://myanimelist.net/character/64747/Elle_Chivas",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408288.jpg?s=52d547692835eb100a9fb6b51d13a1ca"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408288.webp?s=52d547692835eb100a9fb6b51d13a1ca",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/408288t.webp?s=52d547692835eb100a9fb6b51d13a1ca"
+        }
+      },
+      "name": "Chivas, Elle"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 9,
+          "url": "https://myanimelist.net/people/9/Kotono_Mitsuishi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/75738.jpg?s=0a5dc28c215fd63def12e226bbde9305"
+            }
+          },
+          "name": "Mitsuishi, Kotono"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 176949,
+      "url": "https://myanimelist.net/character/176949/D_039_Artagnan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408597.jpg?s=9051f564c459a13f64c13f2820878821"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408597.webp?s=9051f564c459a13f64c13f2820878821",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/408597t.webp?s=9051f564c459a13f64c13f2820878821"
+        }
+      },
+      "name": "D'Artagnan"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 761,
+          "url": "https://myanimelist.net/people/761/Tesshou_Genda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/87617.jpg?s=c626dd4a60d6b5f773fa0c052f5c9455"
+            }
+          },
+          "name": "Genda, Tesshou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 258582,
+      "url": "https://myanimelist.net/character/258582/Dalmos",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/567826.jpg?s=592b7ff4d9bf3398498303ae1c64e6d7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/567826.webp?s=592b7ff4d9bf3398498303ae1c64e6d7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/567826t.webp?s=592b7ff4d9bf3398498303ae1c64e6d7"
+        }
+      },
+      "name": "Dalmos"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1481,
+          "url": "https://myanimelist.net/people/1481/Hisao_Egawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/32537.jpg?s=e0ebf6e0447e917faf5ae8e5b4e79b82"
+            }
+          },
+          "name": "Egawa, Hisao"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 73775,
+      "url": "https://myanimelist.net/character/73775/Danny",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/408630.jpg?s=317190c96340bc7a3ca51215aa50b83f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/408630.webp?s=317190c96340bc7a3ca51215aa50b83f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/408630t.webp?s=317190c96340bc7a3ca51215aa50b83f"
+        }
+      },
+      "name": "Danny"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 67,
+          "url": "https://myanimelist.net/people/67/Kappei_Yamaguchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/74474.jpg?s=c9e38b22b31fa6d4dd9d9a6d633d6cb3"
+            }
+          },
+          "name": "Yamaguchi, Kappei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 136269,
+      "url": "https://myanimelist.net/character/136269/Demolt",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408638.jpg?s=bfdb2e5ea58bc297ccbf5e45f0ae526a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408638.webp?s=bfdb2e5ea58bc297ccbf5e45f0ae526a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/408638t.webp?s=bfdb2e5ea58bc297ccbf5e45f0ae526a"
+        }
+      },
+      "name": "Demolt"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 836,
+          "url": "https://myanimelist.net/people/836/Ryuuzaburou_Ootomo",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/10127.jpg?s=50713fb59858af5a9668701332ee53b3"
+            }
+          },
+          "name": "Ootomo, Ryuuzaburou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 10799,
+      "url": "https://myanimelist.net/character/10799/Dr_Riddles",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408402.jpg?s=5d6ca8bf87bd1d09f39a1d695ec2834a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408402.webp?s=5d6ca8bf87bd1d09f39a1d695ec2834a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/408402t.webp?s=5d6ca8bf87bd1d09f39a1d695ec2834a"
+        }
+      },
+      "name": "Dr. Riddles"
+    },
+    "role": "Supporting",
+    "favorites": 18,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1128,
+          "url": "https://myanimelist.net/people/1128/Rokurou_Naya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/11492.jpg?s=59f02da218b5682870b818415adac735"
+            }
+          },
+          "name": "Naya, Rokurou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 50865,
+      "url": "https://myanimelist.net/character/50865/Dufaux",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408600.jpg?s=f62ef06429dfc6ac7c982d5152d644d6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408600.webp?s=f62ef06429dfc6ac7c982d5152d644d6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/408600t.webp?s=f62ef06429dfc6ac7c982d5152d644d6"
+        }
+      },
+      "name": "Dufaux"
+    },
+    "role": "Supporting",
+    "favorites": 10,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 112,
+          "url": "https://myanimelist.net/people/112/Hikaru_Midorikawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/76155.jpg?s=9a30973e8b9a40a1fbd4d6cf0b20d790"
+            }
+          },
+          "name": "Midorikawa, Hikaru"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 124003,
+      "url": "https://myanimelist.net/character/124003/Belgim_EO",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/408639.jpg?s=2451f2aa45ec83c8174e0ed0247e462d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/408639.webp?s=2451f2aa45ec83c8174e0ed0247e462d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/408639t.webp?s=2451f2aa45ec83c8174e0ed0247e462d"
+        }
+      },
+      "name": "E.O, Belgim"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 255,
+          "url": "https://myanimelist.net/people/255/Shigeru_Chiba",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/87607.jpg?s=2cc6f3b156bc1103e1dab3dc12eaa92e"
+            }
+          },
+          "name": "Chiba, Shigeru"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 136268,
+      "url": "https://myanimelist.net/character/136268/Faudo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/296094.jpg?s=bbe284d0f61d66bb764d37717da59b5c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/296094.webp?s=bbe284d0f61d66bb764d37717da59b5c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/296094t.webp?s=bbe284d0f61d66bb764d37717da59b5c"
+        }
+      },
+      "name": "Faudo"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 94775,
+      "url": "https://myanimelist.net/character/94775/Fein",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/408658.jpg?s=c0d39bb277a1ebcea81b1779635ab771"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/408658.webp?s=c0d39bb277a1ebcea81b1779635ab771",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/408658t.webp?s=c0d39bb277a1ebcea81b1779635ab771"
+        }
+      },
+      "name": "Fein"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 84,
+          "url": "https://myanimelist.net/people/84/Norio_Wakamoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/72590.jpg?s=9d8063189249f76d2b8af33a74dfc5c6"
+            }
+          },
+          "name": "Wakamoto, Norio"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185666,
+      "url": "https://myanimelist.net/character/185666/Garza",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/416712.jpg?s=20563458bc48ce3ae0bce7b31014ce95"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/416712.webp?s=20563458bc48ce3ae0bce7b31014ce95",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/416712t.webp?s=20563458bc48ce3ae0bce7b31014ce95"
+        }
+      },
+      "name": "Garza"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 720,
+          "url": "https://myanimelist.net/people/720/Kenta_Miyake",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/87679.jpg?s=7090996892e60d94704b4a7ed52400c6"
+            }
+          },
+          "name": "Miyake, Kenta"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 56187,
+      "url": "https://myanimelist.net/character/56187/Apollo_Genesis",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/171335.jpg?s=6abb0a7c26c799c936e53f00c1f5ce94"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/171335.webp?s=6abb0a7c26c799c936e53f00c1f5ce94",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/171335t.webp?s=6abb0a7c26c799c936e53f00c1f5ce94"
+        }
+      },
+      "name": "Genesis, Apollo"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 129,
+          "url": "https://myanimelist.net/people/129/Toshihiko_Seki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/54991.jpg?s=1ea1a2b98e493e598728f9f61c0778b6"
+            }
+          },
+          "name": "Seki, Toshihiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 240670,
+      "url": "https://myanimelist.net/character/240670/Gofure",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Gofure"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 212,
+          "url": "https://myanimelist.net/people/212/Daisuke_Ono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54593.jpg?s=2cd350a1a5beea92a102bb5309aabae5"
+            }
+          },
+          "name": "Ono, Daisuke"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185668,
+      "url": "https://myanimelist.net/character/185668/Grubb",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/416719.jpg?s=8f3e0b0613d3fbf18e10013bbd34e323"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/416719.webp?s=8f3e0b0613d3fbf18e10013bbd34e323",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/416719t.webp?s=8f3e0b0613d3fbf18e10013bbd34e323"
+        }
+      },
+      "name": "Grubb"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 583,
+          "url": "https://myanimelist.net/people/583/Akio_Suyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/41357.jpg?s=ef54d7c746e60a0f0aaf8f58cb036238"
+            }
+          },
+          "name": "Suyama, Akio"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 96723,
+      "url": "https://myanimelist.net/character/96723/Gustav",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408660.jpg?s=c42c100e579c51d1e51818029f68eba6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408660.webp?s=c42c100e579c51d1e51818029f68eba6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/408660t.webp?s=c42c100e579c51d1e51818029f68eba6"
+        }
+      },
+      "name": "Gustav"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 357,
+          "url": "https://myanimelist.net/people/357/Unshou_Ishizuka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/17135.jpg?s=5925123b8a7cf9b51a445c225442f0ef"
+            }
+          },
+          "name": "Ishizuka, Unshou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 24755,
+      "url": "https://myanimelist.net/character/24755/Shion_Hibiki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/278105.jpg?s=62311c201ecc0a1e37a5b907f7877525"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/278105.webp?s=62311c201ecc0a1e37a5b907f7877525",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/278105t.webp?s=62311c201ecc0a1e37a5b907f7877525"
+        }
+      },
+      "name": "Hibiki, Shion"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6007,
+          "url": "https://myanimelist.net/people/6007/Machiko_Toyoshima",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/25197.jpg?s=373df9ced073d6fb958342c935428954"
+            }
+          },
+          "name": "Toyoshima, Machiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 23572,
+      "url": "https://myanimelist.net/character/23572/Hyde",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408673.jpg?s=5cbca386b01f31b6a4661cdce414c092"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408673.webp?s=5cbca386b01f31b6a4661cdce414c092",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/408673t.webp?s=5cbca386b01f31b6a4661cdce414c092"
+        }
+      },
+      "name": "Hyde"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6663,
+          "url": "https://myanimelist.net/people/6663/Megumi_Urawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/27555.jpg?s=903914a0cb5b74c26562267977d1e105"
+            }
+          },
+          "name": "Urawa, Megumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64753,
+      "url": "https://myanimelist.net/character/64753/Jido",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/278374.jpg?s=61bb05ec46d16ff4357f9c453e5b4cad"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/278374.webp?s=61bb05ec46d16ff4357f9c453e5b4cad",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/278374t.webp?s=61bb05ec46d16ff4357f9c453e5b4cad"
+        }
+      },
+      "name": "Jido"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 45,
+          "url": "https://myanimelist.net/people/45/Kouji_Ishii",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/57334.jpg?s=a9227d1a8571a4f8b1170b1c923d71fb"
+            }
+          },
+          "name": "Ishii, Kouji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 59583,
+      "url": "https://myanimelist.net/character/59583/Tsuyoshi_Kaneyama",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/159775.jpg?s=15efa3c4028ccb85ca6a54ce1053258b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/159775.webp?s=15efa3c4028ccb85ca6a54ce1053258b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/159775t.webp?s=15efa3c4028ccb85ca6a54ce1053258b"
+        }
+      },
+      "name": "Kaneyama, Tsuyoshi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 133,
+          "url": "https://myanimelist.net/people/133/Wataru_Takagi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/66813.jpg?s=8e6bfcdf9a73157752bd5b1b906a1fbc"
+            }
+          },
+          "name": "Takagi, Wataru"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185674,
+      "url": "https://myanimelist.net/character/185674/Karudio",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/480350.jpg?s=45cdb49383a25e7cf855194e3dd7c1bc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/480350.webp?s=45cdb49383a25e7cf855194e3dd7c1bc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/480350t.webp?s=45cdb49383a25e7cf855194e3dd7c1bc"
+        }
+      },
+      "name": "Karudio"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 246878,
+      "url": "https://myanimelist.net/character/246878/Kazu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/546036.jpg?s=193698e788d298e64cf38278652e1e44"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/546036.webp?s=193698e788d298e64cf38278652e1e44",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/546036t.webp?s=193698e788d298e64cf38278652e1e44"
+        }
+      },
+      "name": "Kazu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 258583,
+      "url": "https://myanimelist.net/character/258583/Keith",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/567828.jpg?s=c850b6b8d186d3e898f2284420637633"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/567828.webp?s=c850b6b8d186d3e898f2284420637633",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/567828t.webp?s=c850b6b8d186d3e898f2284420637633"
+        }
+      },
+      "name": "Keith"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 262,
+          "url": "https://myanimelist.net/people/262/Kenyuu_Horiuchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/70689.jpg?s=f28e19f902460f74a534b22df5e13cb0"
+            }
+          },
+          "name": "Horiuchi, Kenyuu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 21125,
+      "url": "https://myanimelist.net/character/21125/Kid",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/408395.jpg?s=9d9e2bcde0ca13dec08f5b6284a831b6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/408395.webp?s=9d9e2bcde0ca13dec08f5b6284a831b6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/408395t.webp?s=9d9e2bcde0ca13dec08f5b6284a831b6"
+        }
+      },
+      "name": "Kid"
+    },
+    "role": "Supporting",
+    "favorites": 6,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 76,
+          "url": "https://myanimelist.net/people/76/Akemi_Okamura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/83644.jpg?s=9bc873dae9eb5df8401e0f2ee798eb95"
+            }
+          },
+          "name": "Okamura, Akemi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64923,
+      "url": "https://myanimelist.net/character/64923/Tsukushi_Kinoyama",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408602.jpg?s=30e1bfb8fa011ac6d7d76ebe4951459d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/408602.webp?s=30e1bfb8fa011ac6d7d76ebe4951459d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/408602t.webp?s=30e1bfb8fa011ac6d7d76ebe4951459d"
+        }
+      },
+      "name": "Kinoyama, Tsukushi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 119,
+          "url": "https://myanimelist.net/people/119/Yuu_Asakawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/54912.jpg?s=b4c3c54a5326af0eb05988725740b24a"
+            }
+          },
+          "name": "Asakawa, Yuu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 27670,
+      "url": "https://myanimelist.net/character/27670/Koko",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408389.jpg?s=b0ef3e2a19d4e547f865613dfa67345c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408389.webp?s=b0ef3e2a19d4e547f865613dfa67345c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/408389t.webp?s=b0ef3e2a19d4e547f865613dfa67345c"
+        }
+      },
+      "name": "Koko"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 553,
+          "url": "https://myanimelist.net/people/553/Chinami_Nishimura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/54470.jpg?s=5d85b65c0c41499d4aa208dcc6fb60d1"
+            }
+          },
+          "name": "Nishimura, Chinami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64731,
+      "url": "https://myanimelist.net/character/64731/Koruru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408359.jpg?s=f7e62c4b5b6599a1b0b0e9b97e34b15b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408359.webp?s=f7e62c4b5b6599a1b0b0e9b97e34b15b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/408359t.webp?s=f7e62c4b5b6599a1b0b0e9b97e34b15b"
+        }
+      },
+      "name": "Koruru"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 57,
+          "url": "https://myanimelist.net/people/57/Houko_Kuwashima",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/74363.jpg?s=8b0e01537fb409ab0950094c36226806"
+            }
+          },
+          "name": "Kuwashima, Houko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 59581,
+      "url": "https://myanimelist.net/character/59581/Eido_Kubozuka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408897.jpg?s=ed3d4937a413e5bfe2498b9fcfcb52c1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408897.webp?s=ed3d4937a413e5bfe2498b9fcfcb52c1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/408897t.webp?s=ed3d4937a413e5bfe2498b9fcfcb52c1"
+        }
+      },
+      "name": "Kubozuka, Eido"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 118,
+          "url": "https://myanimelist.net/people/118/Hiroshi_Kamiya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/66163.jpg?s=775d0965030b624274719144d678113a"
+            }
+          },
+          "name": "Kamiya, Hiroshi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185670,
+      "url": "https://myanimelist.net/character/185670/Papipurio_Leopardon",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/416722.jpg?s=eaa67d5abcc5615581749e8616f8c8b7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/416722.webp?s=eaa67d5abcc5615581749e8616f8c8b7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/416722t.webp?s=eaa67d5abcc5615581749e8616f8c8b7"
+        }
+      },
+      "name": "Leopardon, Papipurio"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6662,
+          "url": "https://myanimelist.net/people/6662/Michiru_Yamazaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/55088.jpg?s=5876cfe3e32a1cf8394c506c4ce17810"
+            }
+          },
+          "name": "Yamazaki, Michiru"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 32432,
+      "url": "https://myanimelist.net/character/32432/Li-En",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408337.jpg?s=1865589be4452df399309e3a795eb7d8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408337.webp?s=1865589be4452df399309e3a795eb7d8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/408337t.webp?s=1865589be4452df399309e3a795eb7d8"
+        }
+      },
+      "name": "Li-En"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 439,
+          "url": "https://myanimelist.net/people/439/Haruna_Ikezawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/55347.jpg?s=73bcd84dbb850dbd194fa8c70ab9e035"
+            }
+          },
+          "name": "Ikezawa, Haruna"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185669,
+      "url": "https://myanimelist.net/character/185669/Lupa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/416721.jpg?s=368a7c7d90c7f00728d4a434f589e465"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/416721.webp?s=368a7c7d90c7f00728d4a434f589e465",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/416721t.webp?s=368a7c7d90c7f00728d4a434f589e465"
+        }
+      },
+      "name": "Lupa"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 13451,
+          "url": "https://myanimelist.net/people/13451/Chihiro_Sakurai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/13681.jpg?s=459ae279f175de98b3d7d4447b83a80f"
+            }
+          },
+          "name": "Sakurai, Chihiro"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 42505,
+      "url": "https://myanimelist.net/character/42505/Maruss",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408669.jpg?s=9f00e570f7a52665b05d5556189b77a0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408669.webp?s=9f00e570f7a52665b05d5556189b77a0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/408669t.webp?s=9f00e570f7a52665b05d5556189b77a0"
+        }
+      },
+      "name": "Maruss"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 15,
+          "url": "https://myanimelist.net/people/15/Junko_Takeuchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54677.jpg?s=f3db98147778a5843a3a4ea5fb5468ee"
+            }
+          },
+          "name": "Takeuchi, Junko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 6685,
+      "url": "https://myanimelist.net/character/6685/Momon",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/278208.jpg?s=05685b4c2c42b77f8669c8296e8697ec"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/278208.webp?s=05685b4c2c42b77f8669c8296e8697ec",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/278208t.webp?s=05685b4c2c42b77f8669c8296e8697ec"
+        }
+      },
+      "name": "Momon"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 47,
+          "url": "https://myanimelist.net/people/47/Naozumi_Takahashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/21623.jpg?s=a24859852f7e04f56ed863724aa75e6b"
+            }
+          },
+          "name": "Takahashi, Naozumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 153469,
+      "url": "https://myanimelist.net/character/153469/Mariko_Nakamura",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408373.jpg?s=43bc62148afa77df77584327ed8616a9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408373.webp?s=43bc62148afa77df77584327ed8616a9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/408373t.webp?s=43bc62148afa77df77584327ed8616a9"
+        }
+      },
+      "name": "Nakamura, Mariko"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 10590,
+          "url": "https://myanimelist.net/people/10590/Yukiko_Hanioka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/9097.jpg?s=6aa3f85e895045aa121916bdba5b596c"
+            }
+          },
+          "name": "Hanioka, Yukiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 65255,
+      "url": "https://myanimelist.net/character/65255/Sabae_Nakata",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408372.jpg?s=3d509b01a8de75a5fd6e8d2c2edb503b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408372.webp?s=3d509b01a8de75a5fd6e8d2c2edb503b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/408372t.webp?s=3d509b01a8de75a5fd6e8d2c2edb503b"
+        }
+      },
+      "name": "Nakata, Sabae"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1501,
+          "url": "https://myanimelist.net/people/1501/Haruhi_Nanao",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/54826.jpg?s=4fcaffb062c1b61ff6aac8295edfe490"
+            }
+          },
+          "name": "Nanao, Haruhi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 125861,
+      "url": "https://myanimelist.net/character/125861/Nana",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/408678.jpg?s=2015fa99d421e8087abc9382b5dfdec8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/408678.webp?s=2015fa99d421e8087abc9382b5dfdec8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/408678t.webp?s=2015fa99d421e8087abc9382b5dfdec8"
+        }
+      },
+      "name": "Nana"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6504,
+          "url": "https://myanimelist.net/people/6504/Reiko_Suzuki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/15869.jpg?s=cba1097871c1b869d11a3b9b625d8c75"
+            }
+          },
+          "name": "Suzuki, Reiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64919,
+      "url": "https://myanimelist.net/character/64919/Naomi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408394.jpg?s=907c4dbd42f4c08829c3c33c7d8c1805"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408394.webp?s=907c4dbd42f4c08829c3c33c7d8c1805",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/408394t.webp?s=907c4dbd42f4c08829c3c33c7d8c1805"
+        }
+      },
+      "name": "Naomi"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1127,
+          "url": "https://myanimelist.net/people/1127/Kinoko_Yamada",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/11132.jpg?s=894b370ba6461dda184d359f640f919e"
+            }
+          },
+          "name": "Yamada, Kinoko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 160869,
+      "url": "https://myanimelist.net/character/160869/Nicholas",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/355663.jpg?s=f5224442799e050f9d6fa22899d837a7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/355663.webp?s=f5224442799e050f9d6fa22899d837a7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/355663t.webp?s=f5224442799e050f9d6fa22899d837a7"
+        }
+      },
+      "name": "Nicholas"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6171,
+          "url": "https://myanimelist.net/people/6171/Yuuki_Tamaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/17273.jpg?s=26c5d8c569b0c5c48867b4df273b69ff"
+            }
+          },
+          "name": "Tamaki, Yuuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64745,
+      "url": "https://myanimelist.net/character/64745/Nicole",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/408690.jpg?s=93fbf886d8de6d2ece5b34441d548248"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/408690.webp?s=93fbf886d8de6d2ece5b34441d548248",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/408690t.webp?s=93fbf886d8de6d2ece5b34441d548248"
+        }
+      },
+      "name": "Nicole"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 808,
+          "url": "https://myanimelist.net/people/808/Sayaka_Aida",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/61245.jpg?s=0f9150381afeffb2a09a799bd28b16dc"
+            }
+          },
+          "name": "Aida, Sayaka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185659,
+      "url": "https://myanimelist.net/character/185659/Nyarurato",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/416703.jpg?s=f4ffed467d0674a29b3e7a83204c7d99"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/416703.webp?s=f4ffed467d0674a29b3e7a83204c7d99",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/416703t.webp?s=f4ffed467d0674a29b3e7a83204c7d99"
+        }
+      },
+      "name": "Nyarurato"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 64735,
+      "url": "https://myanimelist.net/character/64735/Patie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408418.jpg?s=75f8800288857b73523097af5d289b04"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/408418.webp?s=75f8800288857b73523097af5d289b04",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/408418t.webp?s=75f8800288857b73523097af5d289b04"
+        }
+      },
+      "name": "Patie"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 516,
+          "url": "https://myanimelist.net/people/516/Naoko_Matsui",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/57666.jpg?s=bf2d7c20189b9cf29c099c822a36051e"
+            }
+          },
+          "name": "Matsui, Naoko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 47591,
+      "url": "https://myanimelist.net/character/47591/Coral_Q",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/416720.jpg?s=47bd2ef904a8d9d86269a697f1d01141"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/416720.webp?s=47bd2ef904a8d9d86269a697f1d01141",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/416720t.webp?s=47bd2ef904a8d9d86269a697f1d01141"
+        }
+      },
+      "name": "Q, Coral"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1518,
+          "url": "https://myanimelist.net/people/1518/Chie_Koujiro",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/13145.jpg?s=06ea29b9ecf09c846b740d150eb0e130"
+            }
+          },
+          "name": "Koujiro, Chie"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 85461,
+      "url": "https://myanimelist.net/character/85461/Rein",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/278155.jpg?s=2776ce625245990a4466487eebc89257"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/278155.webp?s=2776ce625245990a4466487eebc89257",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/278155t.webp?s=2776ce625245990a4466487eebc89257"
+        }
+      },
+      "name": "Rein"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 720,
+          "url": "https://myanimelist.net/people/720/Kenta_Miyake",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/87679.jpg?s=7090996892e60d94704b4a7ed52400c6"
+            }
+          },
+          "name": "Miyake, Kenta"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 31070,
+      "url": "https://myanimelist.net/character/31070/Reira",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408727.jpg?s=47f2bf68c2f7604721fa838a2007f8dc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/408727.webp?s=47f2bf68c2f7604721fa838a2007f8dc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/408727t.webp?s=47f2bf68c2f7604721fa838a2007f8dc"
+        }
+      },
+      "name": "Reira"
+    },
+    "role": "Supporting",
+    "favorites": 19,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 709,
+          "url": "https://myanimelist.net/people/709/Rumi_Shishido",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/30343.jpg?s=511d84fdc66c840c467cfb77e30cb3f5"
+            }
+          },
+          "name": "Shishido, Rumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185677,
+      "url": "https://myanimelist.net/character/185677/Monmon_Retsusai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/550666.jpg?s=93f0c0bf82e4efecf1ee9c59f086277c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/550666.webp?s=93f0c0bf82e4efecf1ee9c59f086277c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/550666t.webp?s=93f0c0bf82e4efecf1ee9c59f086277c"
+        }
+      },
+      "name": "Retsusai, Monmon"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 13457,
+          "url": "https://myanimelist.net/people/13457/Mari_Adachi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/16321.jpg?s=8582af99f8ae728c827def0daa9ed01a"
+            }
+          },
+          "name": "Adachi, Mari"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 38235,
+      "url": "https://myanimelist.net/character/38235/Reycom",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408315.jpg?s=cf58928d8eee7d0ee8df8ac597652d95"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/408315.webp?s=cf58928d8eee7d0ee8df8ac597652d95",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/408315t.webp?s=cf58928d8eee7d0ee8df8ac597652d95"
+        }
+      },
+      "name": "Reycom"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 746,
+          "url": "https://myanimelist.net/people/746/Motoko_Kumai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/57388.jpg?s=04317cd702e4f8d75072f72dde8560d5"
+            }
+          },
+          "name": "Kumai, Motoko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 124669,
+      "url": "https://myanimelist.net/character/124669/Riou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/276250.jpg?s=e62355d0b8d6bc80c24cda14892f3087"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/276250.webp?s=e62355d0b8d6bc80c24cda14892f3087",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/276250t.webp?s=e62355d0b8d6bc80c24cda14892f3087"
+        }
+      },
+      "name": "Riou"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 7965,
+          "url": "https://myanimelist.net/people/7965/Keiko_Yamamoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/5379.jpg?s=9f6d7b9a5957db3d9713de2498cbcbf8"
+            }
+          },
+          "name": "Yamamoto, Keiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 5735,
+      "url": "https://myanimelist.net/character/5735/Riya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408563.jpg?s=64d67a0b9df9c7ad63f6de0ad404118a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408563.webp?s=64d67a0b9df9c7ad63f6de0ad404118a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/408563t.webp?s=64d67a0b9df9c7ad63f6de0ad404118a"
+        }
+      },
+      "name": "Riya"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 808,
+          "url": "https://myanimelist.net/people/808/Sayaka_Aida",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/61245.jpg?s=0f9150381afeffb2a09a799bd28b16dc"
+            }
+          },
+          "name": "Aida, Sayaka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 136271,
+      "url": "https://myanimelist.net/character/136271/Vile_Roberto",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/296097.jpg?s=fe6bb434c6c670609efd24470e22f4f9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/296097.webp?s=fe6bb434c6c670609efd24470e22f4f9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/296097t.webp?s=fe6bb434c6c670609efd24470e22f4f9"
+        }
+      },
+      "name": "Roberto, Vile"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 629,
+          "url": "https://myanimelist.net/people/629/Issei_Futamata",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/54852.jpg?s=163601cebfcfd398c1645edf2bd4b2d0"
+            }
+          },
+          "name": "Futamata, Issei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 44991,
+      "url": "https://myanimelist.net/character/44991/Rodeux",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408900.jpg?s=a41dcd0d6f958c20e09a7c6d4bae6c19"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408900.webp?s=a41dcd0d6f958c20e09a7c6d4bae6c19",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/408900t.webp?s=a41dcd0d6f958c20e09a7c6d4bae6c19"
+        }
+      },
+      "name": "Rodeux"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 260,
+          "url": "https://myanimelist.net/people/260/Susumu_Chiba",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/55045.jpg?s=b573e4450ea0f18317111fc14be0de01"
+            }
+          },
+          "name": "Chiba, Susumu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 26710,
+      "url": "https://myanimelist.net/character/26710/Rops",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408399.jpg?s=d15d33b10bd4ce86b2545f444737693c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408399.webp?s=d15d33b10bd4ce86b2545f444737693c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/408399t.webp?s=d15d33b10bd4ce86b2545f444737693c"
+        }
+      },
+      "name": "Rops"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 29,
+          "url": "https://myanimelist.net/people/29/Mika_Kanai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/87077.jpg?s=ea3bcb1d0a7655642584bf4f1e53d435"
+            }
+          },
+          "name": "Kanai, Mika"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185675,
+      "url": "https://myanimelist.net/character/185675/Sauza",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/416728.jpg?s=cfe6f4870e81f5bc38e79dcbc12da498"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/416728.webp?s=cfe6f4870e81f5bc38e79dcbc12da498",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/416728t.webp?s=cfe6f4870e81f5bc38e79dcbc12da498"
+        }
+      },
+      "name": "Sauza"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 248,
+          "url": "https://myanimelist.net/people/248/Kumiko_Watanabe",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/16913.jpg?s=23cd85830f87a78a537ed35fb345c368"
+            }
+          },
+          "name": "Watanabe, Kumiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185676,
+      "url": "https://myanimelist.net/character/185676/Sebé",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/416731.jpg?s=a492fe96bc44998a7c85fe7d69ddcc94"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/416731.webp?s=a492fe96bc44998a7c85fe7d69ddcc94",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/416731t.webp?s=a492fe96bc44998a7c85fe7d69ddcc94"
+        }
+      },
+      "name": "Sebé"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 410,
+          "url": "https://myanimelist.net/people/410/Shinji_Kawada",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/80128.jpg?s=0f87fd03d034c7adc20e1e6e09526bd6"
+            }
+          },
+          "name": "Kawada, Shinji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 125437,
+      "url": "https://myanimelist.net/character/125437/Sekkoro",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408734.jpg?s=e457efd67671f34d14432cc35c0ad158"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/408734.webp?s=e457efd67671f34d14432cc35c0ad158",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/408734t.webp?s=e457efd67671f34d14432cc35c0ad158"
+        }
+      },
+      "name": "Sekkoro"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 638,
+          "url": "https://myanimelist.net/people/638/Yuuko_Mita",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/33037.jpg?s=df24c4dab4b6aec8001b6cae1711b6b8"
+            }
+          },
+          "name": "Mita, Yuuko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64733,
+      "url": "https://myanimelist.net/character/64733/Shiori",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408898.jpg?s=b663e45bb43f90d6e26d11cca99c8701"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/408898.webp?s=b663e45bb43f90d6e26d11cca99c8701",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/408898t.webp?s=b663e45bb43f90d6e26d11cca99c8701"
+        }
+      },
+      "name": "Shiori"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 374,
+          "url": "https://myanimelist.net/people/374/Yuka_Imai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/30923.jpg?s=0e16607ed388d7db634a6d1d5b37aa00"
+            }
+          },
+          "name": "Imai, Yuka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 33825,
+      "url": "https://myanimelist.net/character/33825/Kafka_Sunbeam",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408379.jpg?s=ffa6ecf9eb0fc570e8829bf8e3ebd1b9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408379.webp?s=ffa6ecf9eb0fc570e8829bf8e3ebd1b9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/408379t.webp?s=ffa6ecf9eb0fc570e8829bf8e3ebd1b9"
+        }
+      },
+      "name": "Sunbeam, Kafka"
+    },
+    "role": "Supporting",
+    "favorites": 4,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 936,
+          "url": "https://myanimelist.net/people/936/Hozumi_Gouda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/72327.jpg?s=a07a0b67c5f42fc703727b5ab5458470"
+            }
+          },
+          "name": "Gouda, Hozumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 59587,
+      "url": "https://myanimelist.net/character/59587/Hana_Takamine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/159779.jpg?s=d8cdfc51391de6555014edca0f7b833d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/159779.webp?s=d8cdfc51391de6555014edca0f7b833d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/159779t.webp?s=d8cdfc51391de6555014edca0f7b833d"
+        }
+      },
+      "name": "Takamine, Hana"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 496,
+          "url": "https://myanimelist.net/people/496/Wakana_Yamazaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/76439.jpg?s=be21db0406c9fe697e00c58fe6297be7"
+            }
+          },
+          "name": "Yamazaki, Wakana"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 59585,
+      "url": "https://myanimelist.net/character/59585/Seitarou_Takamine",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408772.jpg?s=93acfd206c9dbd0dd6e59297167d4f02"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/408772.webp?s=93acfd206c9dbd0dd6e59297167d4f02",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/408772t.webp?s=93acfd206c9dbd0dd6e59297167d4f02"
+        }
+      },
+      "name": "Takamine, Seitarou"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 177,
+          "url": "https://myanimelist.net/people/177/Ryoutarou_Okiayu",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/80436.jpg?s=db6e64580a47c97e72876df5c4912f4d"
+            }
+          },
+          "name": "Okiayu, Ryoutarou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 18631,
+      "url": "https://myanimelist.net/character/18631/Ted",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408780.jpg?s=425cf900818439f5f3fbaf911d047a07"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/408780.webp?s=425cf900818439f5f3fbaf911d047a07",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/408780t.webp?s=425cf900818439f5f3fbaf911d047a07"
+        }
+      },
+      "name": "Ted"
+    },
+    "role": "Supporting",
+    "favorites": 14,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 15,
+          "url": "https://myanimelist.net/people/15/Junko_Takeuchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54677.jpg?s=f3db98147778a5843a3a4ea5fb5468ee"
+            }
+          },
+          "name": "Takeuchi, Junko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 64737,
+      "url": "https://myanimelist.net/character/64737/Uluru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/275520.jpg?s=97ebeac42365e1f0e95af0c9abd6d8e2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/275520.webp?s=97ebeac42365e1f0e95af0c9abd6d8e2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/275520t.webp?s=97ebeac42365e1f0e95af0c9abd6d8e2"
+        }
+      },
+      "name": "Uluru"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 97,
+          "url": "https://myanimelist.net/people/97/Kousuke_Toriumi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/56756.jpg?s=da69abd19900e74ae5817ffc973cb65a"
+            }
+          },
+          "name": "Toriumi, Kousuke"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 6956,
+      "url": "https://myanimelist.net/character/6956/Victoream",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408785.jpg?s=47f32da21c5324ee373b800d34e99606"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408785.webp?s=47f32da21c5324ee373b800d34e99606",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/408785t.webp?s=47f32da21c5324ee373b800d34e99606"
+        }
+      },
+      "name": "Victoream"
+    },
+    "role": "Supporting",
+    "favorites": 26,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 84,
+          "url": "https://myanimelist.net/people/84/Norio_Wakamoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/72590.jpg?s=9d8063189249f76d2b8af33a74dfc5c6"
+            }
+          },
+          "name": "Wakamoto, Norio"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 16873,
+      "url": "https://myanimelist.net/character/16873/Wonlay",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408335.jpg?s=0b2d7211cab61ed7c438706f3a36f63d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/408335.webp?s=0b2d7211cab61ed7c438706f3a36f63d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/408335t.webp?s=0b2d7211cab61ed7c438706f3a36f63d"
+        }
+      },
+      "name": "Wonlay"
+    },
+    "role": "Supporting",
+    "favorites": 18,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 17,
+          "url": "https://myanimelist.net/people/17/Akira_Ishida",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/62624.jpg?s=e177139a222a21c2cd73e39e54187aef"
+            }
+          },
+          "name": "Ishida, Akira"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 145485,
+      "url": "https://myanimelist.net/character/145485/Hiroshi_Yamanaka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/314818.jpg?s=92a59012ae2c0bd9a528a322b1b75987"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/314818.webp?s=92a59012ae2c0bd9a528a322b1b75987",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/314818t.webp?s=92a59012ae2c0bd9a528a322b1b75987"
+        }
+      },
+      "name": "Yamanaka, Hiroshi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 738,
+          "url": "https://myanimelist.net/people/738/Kazunari_Tanaka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/17731.jpg?s=d75d67d35cc91f3f32ffd8b1c573ffeb"
+            }
+          },
+          "name": "Tanaka, Kazunari"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 185671,
+      "url": "https://myanimelist.net/character/185671/Zoboron",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/416723.jpg?s=1434c8068fb2869f8d4214c7b4e319a5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/416723.webp?s=1434c8068fb2869f8d4214c7b4e319a5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/416723t.webp?s=1434c8068fb2869f8d4214c7b4e319a5"
+        }
+      },
+      "name": "Zoboron"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 36456,
+      "url": "https://myanimelist.net/character/36456/Zofis",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/408605.jpg?s=3df42d266b589234b9d423890760179b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/408605.webp?s=3df42d266b589234b9d423890760179b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/408605t.webp?s=3df42d266b589234b9d423890760179b"
+        }
+      },
+      "name": "Zofis"
+    },
+    "role": "Supporting",
+    "favorites": 4,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 483,
+          "url": "https://myanimelist.net/people/483/Toshiko_Fujita",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/17189.jpg?s=fb5a0b5d15057b591333b21490fb5ce2"
+            }
+          },
+          "name": "Fujita, Toshiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]
