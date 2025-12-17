@@ -8,9 +8,13 @@ class AnimeCard:
 
     def show_anime_details(self, mal_id):
         st.session_state.selected_anime = mal_id
-        st.switch_page("pages/4_🎬_Anime_Details.py")
+        # st.switch_page("pages/1_🏠_Home.py")
+        query = {
+            'mal_id': f"{mal_id}"
+        }
+        st.switch_page("pages/4_🎬_Anime_Details.py", query_params=query)
 
-    def create_anime_card(self, anime, keyword, idx,):
+    def create_anime_card(self, anime, keyword, idx, height=250):
         """Generates a single anime card."""
         # Create a card container
         with st.container(border=True, key=f"individual_anime_card_{keyword}_{idx}"):
@@ -24,7 +28,7 @@ class AnimeCard:
                         "padding": "0",
                         "margin": "0",
                         "width": "100%",
-                        "height": "250px",
+                        "height": f"{height}px",
                         "border-radius": "0",
                     },
                     "filter": {

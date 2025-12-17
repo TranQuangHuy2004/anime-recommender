@@ -5,6 +5,7 @@ from components.anime_card import AnimeCard
 from streamlit_searchbox import st_searchbox
 from streamlit_theme import st_theme
 
+st.query_params.clear()
 # Detect current theme
 theme = st_theme()
 
