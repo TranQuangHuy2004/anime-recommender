@@ -26,7 +26,9 @@ class AnimeLoader:
 
         self.character_rows = []
         self.voice_actor_rows = []
-        self.anime_characters_voice_actors = []
+
+        self.anime_characters = []  # (anime_id, character_id, role)
+        self.anime_characters_voice_actors = []  # (anime_id, character_id, voice_actor_id)
 
     def build_staging_lists(self):
         print("\nBuilding staging lists...")
@@ -89,8 +91,14 @@ class AnimeLoader:
                     char['mal_id'],
                     char['name'],
                     char['images']['webp']['image_url'] if char.get('images', {}).get('webp', {}).get('image_url', {}) else char['images']['jpg']['image_url'],
-                    entry.get('role'),
                     entry.get('favorites')
+                ))
+
+                # anime ↔ character (role lives here)
+                self.anime_characters.append((
+                    mal_id,
+                    char['mal_id'],
+                    entry.get('role')
                 ))
 
                 # voice actor table
@@ -149,6 +157,8 @@ class AnimeLoader:
 
             self.db.bulk_insert_characters(self.character_rows)
             pbar.update(1)
+            self.db.bulk_link_anime_characters(self.anime_characters)
+            pbar.update(1)
             self.db.bulk_insert_voice_actors(self.voice_actor_rows)
             pbar.update(1)
             self.db.bulk_link_anime_characters_voice_actors(self.anime_characters_voice_actors)
@@ -164,7 +174,7 @@ class AnimeLoader:
 
     def run(self):
         self.build_staging_lists()
-        print(self.character_rows[0])
+        # print(self.character_rows[:400])
         self.bulk_insert()
 
 

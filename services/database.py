@@ -272,50 +272,43 @@ class Database:
 
     # ========== CHARACTER METHODS ==========
 
-    def insert_character(self, character_data):
-        query = """
-        INSERT INTO characters (mal_id, name, image_url, role, favorites)
-        VALUES (%s, %s, %s, %s, %s)
-        ON CONFLICT (mal_id) DO UPDATE SET
-            name = EXCLUDED.name,
-            image_url = EXCLUDED.image_url,
-            role = EXCLUDED.role,
-            favorites = EXCLUDED.favorites
-        RETURNING id
-        """
-
-        with self.get_connection() as conn:
-            with conn.cursor() as cur:
-                cur.execute(query, (
-                    character_data['mal_id'],
-                    character_data['name'],
-                    character_data['image_url'],
-                    character_data['role'],
-                    character_data['favorites']
-                ))
-                result = cur.fetchone()
-                return result['id'] if result else None
-
     def bulk_insert_characters(self, character_rows):
         """
-        Insert or update MANY character rows at once using execute_values
-
-        :param character_rows: list of tuples
+        character_rows:
+        (mal_id, name, image_url, favorites)
         """
 
         query = """
-        INSERT INTO characters (mal_id, name, image_url, role, favorites)
+        INSERT INTO characters (mal_id, name, image_url, favorites)
         VALUES %s
         ON CONFLICT (mal_id) DO UPDATE SET
             name = EXCLUDED.name,
             image_url = EXCLUDED.image_url,
-            role = EXCLUDED.role,
             favorites = EXCLUDED.favorites
         """
 
         with self.get_connection() as conn:
             with conn.cursor() as cur:
                 execute_values(cur, query, character_rows)
+
+    # ========== ANIME-CHARACTER METHODS ==========
+
+    def bulk_link_anime_characters(self, anime_characters):
+        """
+        anime_characters:
+        (anime_id, character_id, role)
+        """
+
+        query = """
+        INSERT INTO anime_characters (anime_id, character_id, role)
+        VALUES %s
+        ON CONFLICT (anime_id, character_id)
+        DO UPDATE SET role = EXCLUDED.role
+        """
+
+        with self.get_connection() as conn:
+            with conn.cursor() as cur:
+                execute_values(cur, query, anime_characters)
 
     # ========== VOICE ACTOR METHODS ==========
 
@@ -361,27 +354,19 @@ class Database:
 
     # ========== ANIME-CHARACTER-VOICE ACTOR LINK ==========
 
-    def link_anime_character_voice(self, anime_id, character_id, voice_actor_id):
-        query = """
-        INSERT INTO anime_characters (anime_id, character_id, voice_actor_id)
-        VALUES (%s, %s, %s)
-        ON CONFLICT (anime_id, character_id, voice_actor_id) DO NOTHING
+    def bulk_link_anime_characters_voice_actors(self, rows):
         """
-        self.execute_query(query, (anime_id, character_id, voice_actor_id))
-
-    def bulk_link_anime_characters_voice_actors(self, anime_characters_voice_actors):
-        """
-        Insert or update MANY anime_characters_voice_actors rows at once using execute_values
-
-        :param anime_characters_voice_actors: list of tuples
+        rows:
+        (anime_id, character_id, voice_actor_id)
         """
 
         query = """
-        INSERT INTO anime_characters (anime_id, character_id, voice_actor_id)
+        INSERT INTO anime_character_voice_actors
+            (anime_id, character_id, voice_actor_id)
         VALUES %s
-        ON CONFLICT (anime_id, character_id, voice_actor_id) DO NOTHING
+        ON CONFLICT DO NOTHING
         """
 
         with self.get_connection() as conn:
             with conn.cursor() as cur:
-                execute_values(cur, query, anime_characters_voice_actors)
+                execute_values(cur, query, rows)

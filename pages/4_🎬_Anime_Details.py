@@ -8,14 +8,14 @@ if theme and theme["base"] == "light":
     bg_color = "rgba(200, 200, 200, 0.75)"
     font_color = "rgba(0, 0, 0, 1)"
     border_card = "rgba(0, 0, 0, 0.2)"
-    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.7))"
+    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 1))"
     button_background = "rgba(255, 255, 255, 0.75)"
     anime_card_background = "rgba(255, 255, 255, 0.5)"
 else:
     bg_color = "rgba(0, 0, 0, 0.5)"
     font_color = "rgba(255, 255, 255, 1)"
     border_card = "rgba(255, 255, 255, 0.5)"
-    linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1))"
+    linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .75))"
     button_background = ""
     anime_card_background = "rgba(0, 0, 0, 0)"
 
@@ -58,67 +58,101 @@ st.markdown(f"""
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
     max-width: 1400px;
 }}
+
+.st-key-title-container [data-testid="stCaptionContainer"] {{
+    font-size: 1rem;
+    margin-top: 1rem
+}}
+
+.st-key-main-content p {{
+    font-size: 1.1rem;
+}}
+
+.st-key-main-content p strong {{
+    margin-right: 0.5rem
+}}
+
+.st-key-title-container [data-testid="stMarkdown"] {{
+    margin-top: -2rem
+}}
+
+.st-key-metadata, .st-key-studio-container {{
+    margin: 0.5rem 0;
+}}
+
+.st-key-synopsis-container [data-testid="stBaseButton-secondary"] {{
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid white
+}}
+
 """, unsafe_allow_html=True)
 
 # Display anime details
-col1, col2 = st.columns([1, 2])
+col1, col2 = st.columns([2, 5], gap="medium")
 
 with col1:
     with st.container(horizontal_alignment="center"):
         if anime.get('image_url'):
-            st.image(anime['image_url'], width="content")
+            st.image(anime['image_url'], width="stretch")
         if anime.get('trailer_url'):
             st.markdown("**Trailer**")
-            st.video(anime['trailer_url'], width=300)
-
-        # Quick stats
-        with st.container(horizontal=True, vertical_alignment="center"):
-            st.metric("Score", f"{anime.get('score', 'N/A')}")
-            st.metric("Rank", f"#{anime.get('popularity', 'N/A')}")
+            st.video(anime['trailer_url'], width="stretch")
 
 with col2:
-    # Titles
-    st.title(anime['title'])
-    if anime.get('title_english'):
-        st.subheader(anime['title_english'])
-    if anime.get('title_japanese'):
-        st.write(f"Japanese: {anime['title_japanese']}")
+    with st.container(key="main-content"):
+        with st.container(key="title-container"):
+            st.title(anime['title'])
+            if anime.get('title_english'):
+                st.caption(anime['title_english'])
+            st.markdown("---")
 
-    # Metadata
-    cols = st.columns([1, 1, 1, 2])
-    with cols[0]:
-        st.write(f"**Type:** {anime.get('type', 'N/A')}")
-    with cols[1]:
-        st.write(f"**Episodes:** {anime.get('episodes', 'N/A')}")
-    with cols[2]:
-        st.write(f"**Status:** {anime.get('status', 'N/A')}")
-    with cols[3]:
-        st.write(f"**Aired:** {anime.get('aired_string', 'N/A')}")
+        # Metadata
+        with st.container(horizontal=True, key="metadata"):
+            st.write(f"**Episodes:** {anime.get('episodes', 'N/A')}")
+            st.write(f"**Status:** {anime.get('status', 'N/A')}")
+            st.write(f"**Aired:** {anime.get('aired_string', 'N/A')}")
+            st.write(f"**Duration:** {anime.get('duration', 'N/A')}")
+            st.write(f"**Rating:** {anime.get('rating', 'N/A')}")
 
-    # Categories with links
-    if anime.get('studios'):
-        st.write("**Studios:**")
-        cols = st.columns(4)
-        for idx, studio in enumerate(anime['studios'][:4]):
-            with cols[idx % 4]:
-                if st.button(f"🏢 {studio['name']}", key=f"studio_{idx}"):
-                    st.session_state.filter_type = "studio"
-                    st.session_state.filter_value = studio
-                    st.switch_page("pages/2_🔍_Search.py")
+        # Categories with links
+        if anime.get('studios'):
+            with st.container(key="studio-container"):
+                st.write("**Studios:**")
+                for idx, studio in enumerate(anime['studios']):
+                    if st.button(f"🏢 {studio['name']}", key=f"studio_{idx}"):
+                        st.session_state.filter_type = "studio"
+                        st.session_state.filter_value = studio
+                        st.switch_page("pages/2_🔍_Search.py")
 
-    if anime.get('genres'):
-        st.write("**Genres:**")
-        cols = st.columns(4)
-        for idx, genre in enumerate(anime['genres'][:8]):
-            with cols[idx % 4]:
-                if st.button(f"🎭 {genre['name']}", key=f"genre_{idx}"):
-                    st.session_state.filter_type = "genre"
-                    st.session_state.filter_value = genre
-                    st.switch_page("pages/2_🔍_Search.py")
+        if anime.get('genres'):
+            with st.container(key="genre-container"):
+                st.write("**Genres:**")
+                with st.container(key="genre-list", horizontal=True, width="content"):
+                    for idx, genre in enumerate(anime['genres']):
+                        if st.button(f"🎭 {genre['name']}", key=f"genre_{idx}"):
+                            st.session_state.filter_type = "genre"
+                            st.session_state.filter_value = genre
+                            st.switch_page("pages/2_🔍_Search.py")
 
-    # Synopsis
-    st.subheader("Synopsis")
-    st.write(anime.get('synopsis', 'No synopsis available'))
+        # Synopsis
+        with st.container(key="synopsis-container"):
+            st.subheader("Synopsis")
+            synopsis = anime.get('synopsis', "No synopsis available.")
+            preview_text = synopsis[:600] + "..."
+            if len(preview_text) < len(synopsis):
+                if "expanded" not in st.session_state:
+                    st.session_state.expanded = False
+                # Display truncated text
+                st.write(preview_text if not st.session_state.expanded else synopsis)
+                # Toggle button
+                col_1, col_2, col_3 = st.columns([1, 2, 1])
+                with col_2:
+                    if st.button("⇓" if not st.session_state.expanded else "⇑", width="stretch", ):
+                        st.session_state.expanded = not st.session_state.expanded
+                        st.rerun()
+            else:
+                st.write(synopsis)
 
 # Characters Section
 st.markdown("---")

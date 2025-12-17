@@ -357,7 +357,7 @@ class ElasticsearchService:
                         c.name AS character_name,
                         c.image_url AS character_image_url,
                         c.favorites,
-                        c.role,
+                        ac.role,
                         ROW_NUMBER() OVER (
                             PARTITION BY ac.anime_id
                             ORDER BY c.favorites DESC NULLS LAST
@@ -372,8 +372,8 @@ class ElasticsearchService:
                 ),
                 character_voice_actors AS (
                     SELECT
-                        ac.anime_id,
-                        ac.character_id,
+                        acva.anime_id,
+                        acva.character_id,
                         json_agg(
                             DISTINCT jsonb_build_object(
                                 'mal_id', va.mal_id,
@@ -381,10 +381,10 @@ class ElasticsearchService:
                                 'image_url', va.image_url
                             )
                         ) AS voice_actors
-                    FROM anime_characters ac
-                    JOIN voice_actors va ON ac.voice_actor_id = va.mal_id
+                    FROM anime_character_voice_actors acva
+                    JOIN voice_actors va ON acva.voice_actor_id = va.mal_id
                     WHERE va.language = 'Japanese'
-                    GROUP BY ac.anime_id, ac.character_id
+                    GROUP BY acva.anime_id, acva.character_id
                 ),
                 anime_studios_agg AS (
                     SELECT

@@ -88,7 +88,6 @@ CREATE TABLE IF NOT EXISTS characters (
     mal_id INTEGER PRIMARY KEY,
     name VARCHAR(200) NOT NULL,
     image_url VARCHAR(500),
-    role VARCHAR(100),
     favorites INTEGER,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -106,9 +105,17 @@ CREATE TABLE IF NOT EXISTS voice_actors (
 CREATE TABLE IF NOT EXISTS anime_characters (
     anime_id INTEGER REFERENCES anime(mal_id) ON DELETE CASCADE,
     character_id INTEGER REFERENCES characters(mal_id) ON DELETE CASCADE,
+    role VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (anime_id, character_id)
+);
+
+CREATE TABLE IF NOT EXISTS anime_character_voice_actors (
+    anime_id INTEGER REFERENCES anime(mal_id) ON DELETE CASCADE,
+    character_id INTEGER REFERENCES characters(mal_id) ON DELETE CASCADE,
     voice_actor_id INTEGER REFERENCES voice_actors(mal_id) ON DELETE CASCADE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE(anime_id, character_id, voice_actor_id)
+    PRIMARY KEY (anime_id, character_id, voice_actor_id)
 );
 
 -- Indexes for performance
@@ -125,10 +132,12 @@ CREATE INDEX IF NOT EXISTS idx_anime_demographics_anime_id ON anime_demographics
 CREATE INDEX IF NOT EXISTS idx_anime_demographics_demographic_id ON anime_demographics(demographic_id);
 
 CREATE INDEX IF NOT EXISTS idx_anime_characters_anime_id ON anime_characters(anime_id);
-CREATE INDEX IF NOT EXISTS idx_anime_characters_character_id ON anime_characters(character_id);
-CREATE INDEX IF NOT EXISTS idx_anime_characters_voice_actor_id ON anime_characters(voice_actor_id);
 
-CREATE INDEX IF NOT EXISTS idx_characters_favorites ON characters(favorites DESC);
+CREATE INDEX IF NOT EXISTS idx_characters_favorites_desc ON characters(favorites DESC);
+
+CREATE INDEX IF NOT EXISTS idx_acva_anime_id ON anime_character_voice_actors (anime_id);
+CREATE INDEX IF NOT EXISTS idx_acva_character_id ON anime_character_voice_actors (character_id);
+CREATE INDEX IF NOT EXISTS idx_acva_voice_actor_id ON anime_character_voice_actors (voice_actor_id);
 
 -- CREATE INDEX IF NOT EXISTS idx_anime_score ON anime(score DESC);
 -- CREATE INDEX IF NOT EXISTS idx_anime_popularity ON anime(popularity);
