@@ -45,17 +45,17 @@ services:
       timeout: 10s
       retries: 3
   # Optional: PGAdmin (Database GUI)
-  pgadmin:
-    image: dpage/pgadmin4
-    container_name: anime-pgadmin
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@anime.com
-      PGADMIN_DEFAULT_PASSWORD: admin123
-    ports:
-      - "5050:80"
-    volumes:
-      - pgadmin_data:/var/lib/pgadmin
-    restart: unless-stopped
+  # pgadmin:
+  #   image: dpage/pgadmin4
+  #   container_name: anime-pgadmin
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: admin@anime.com
+  #     PGADMIN_DEFAULT_PASSWORD: admin123
+  #   ports:
+  #     - "5050:80"
+  #   volumes:
+  #     - pgadmin_data:/var/lib/pgadmin
+  #   restart: unless-stopped
   # # Optional: Kibana (Elasticsearch GUI)
   # kibana:
   #   image: kibana:8.11.0

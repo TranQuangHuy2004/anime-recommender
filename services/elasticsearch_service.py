@@ -69,28 +69,17 @@ class ElasticsearchService:
                         "anime_analyzer": {
                             "type": "custom",
                             "tokenizer": "standard",
-                            "filter": ["lowercase", "asciifolding", "english_stop", "english_stemmer"]
-                        },
-                        "japanese_analyzer": {
-                            "type": "custom",
-                            "tokenizer": "standard",
-                            "filter": ["lowercase", "asciifolding", "ja_stop"]
+                            "filter": ["lowercase", "asciifolding", "english_stop", "english_stemmer", "edge_ngram_filter"]
                         }
-                        # "edge_ngram_analyzer": {
-                        #     "type": "custom",
-                        #     "tokenizer": "standard",
-                        #     "filter": ["lowercase", "edge_ngram_filter"]
-                        # }
                     },
                     "filter": {
-                        # "edge_ngram_filter": {
-                        #     "type": "edge_ngram",
-                        #     "min_gram": 2,
-                        #     "max_gram": 10
-                        # },
+                        "edge_ngram_filter": {
+                            "type": "edge_ngram",
+                            "min_gram": 2,
+                            "max_gram": 10
+                        },
                         "english_stop": {"type": "stop", "stopwords": "_english_"},
-                        "english_stemmer": {"type": "stemmer", "language": "english"},
-                        "ja_stop": {"type": "stop", "stopwords": ["の", "に", "は", "を", "た", "が", "で", "て", "と", "し", "れ", "さ", "ある"]}
+                        "english_stemmer": {"type": "stemmer", "language": "english"}
                     }
                 }
             },
@@ -100,34 +89,24 @@ class ElasticsearchService:
                     "mal_id": {"type": "integer"},
 
                     # Titles
-                    "title": {
+                    "title": {"type": "keyword", "index": False},
+                    "title_english": {"type": "keyword", "index": False},
+                    "title_japanese": {"type": "keyword", "index": False},
+                    "title_synonyms": {"type": "keyword", "index": False},
+                    "search_full_names": {
                         "type": "text",
                         "analyzer": "anime_analyzer",
-                        "fields": {
-                            "keyword": {"type": "keyword"},
-                            "japanese": {"type": "text", "analyzer": "japanese_analyzer"},
-                            # "suggest": {"type": "completion"}
-                        }
-                    },
-                    "title_english": {
-                        "type": "text",
-                        "analyzer": "anime_analyzer",
-                        "fields": {
-                            "keyword": {"type": "keyword"}
-                            # "suggest": {"type": "completion"}
-                        }
-                    },
-                    "title_japanese": {
-                        "type": "text",
-                        "analyzer": "japanese_analyzer",
+                        "search_analyzer": "standard",
                         "fields": {
                             "keyword": {"type": "keyword"}
                         }
                     },
-                    "title_synonyms": {
-                        "type": "keyword",  # Each array item is separate exact value
+                    "search_key_names": {
+                        "type": "text",
+                        "analyzer": "anime_analyzer",
+                        "search_analyzer": "standard",
                         "fields": {
-                            "text": {"type": "text", "analyzer": "anime_analyzer"}  # For fuzzy search
+                            "keyword": {"type": "keyword"}
                         }
                     },
 
@@ -214,7 +193,7 @@ class ElasticsearchService:
                     "genre_names": {"type": "keyword"},
                     "theme_names": {"type": "keyword"},
                     "demographic_names": {"type": "keyword"},
-                    "character_names": {"type": "keyword"},
+                    # "character_names": {"type": "keyword"},
                     # "voice_actor_names": {"type": "keyword"},
 
                     # Computed fields
@@ -260,7 +239,7 @@ class ElasticsearchService:
             },
             "mappings": {
                 "properties": {
-                    "type": {"type": "keyword"},  # anime, character, studio, genre, voice_actor
+                    "category": {"type": "keyword"},  # anime, studio, genre, theme, demographic
                     "mal_id": {"type": "integer"},
                     "main_name": {"type": "keyword", "index": False},
                     "search_full_names": {
@@ -519,6 +498,51 @@ class ElasticsearchService:
                         year = result[0]
                         season = result[1]
 
+                    # Base input for anime titles
+                    title = anime['title']
+                    title_english = anime.get('title_english') or ''
+                    synonyms = anime.get('title_synonyms', []) or []  # Ensure it's always a list
+
+                    fullnames = [title]
+                    keynames = [title, *title.strip().split()]
+
+                    if title_english:
+                        fullnames.append(title_english)
+                        keynames.append(title_english)
+                        keynames.extend(title_english.strip().split())
+
+                    if synonyms:
+                        fullnames.extend(synonyms)
+                        keynames.extend(synonyms)
+                        for syn in synonyms:
+                            if syn:
+                                keynames.extend(syn.strip().split())
+
+                    # Character inputs -> Find anime based on character names
+                    char_inputs = set()  # Use set to avoid duplicates
+                    raw_chars = anime.get('characters', [])
+                    for char in raw_chars:
+                        full_name = char.get('name', '')
+                        if not full_name:
+                            continue
+                        full_name = full_name.strip()
+                        # Always add the raw/official name
+                        char_inputs.add(full_name)
+                        # Reversal logic for "Last, First" formats (common on MAL)
+                        if ', ' in full_name:
+                            parts = full_name.split(', ', 1)
+                            if len(parts) == 2:
+                                last = parts[0].strip()
+                                first = parts[1].strip()
+                                # Add "First Last" (Western order)
+                                char_inputs.add(f"{first} {last}")
+                                # Add first name only (most common user search!)
+                                char_inputs.add(first)
+                                # Add last name only
+                                char_inputs.add(last)
+
+                    keynames = keynames + list(char_inputs)
+
                     action = {
                         "_index": self.indices['anime'],
                         "_id": anime['mal_id'],
@@ -528,13 +552,15 @@ class ElasticsearchService:
                             "title_english": anime['title_english'],
                             "title_japanese": anime['title_japanese'],
                             "title_synonyms": anime.get('title_synonyms', []),
+                            "search_full_names": fullnames,
+                            "search_key_names": keynames,
                             "synopsis": anime.get('synopsis', ''),
                             "type": anime.get('type'),
                             "source": anime.get('source'),
                             "status": anime.get('status'),
                             "score": anime.get('score'),
                             "popularity": anime.get('popularity'),
-                            "episodes": anime.get('episodes'),
+                            "episodes": anime.get('episodes', 0),
                             "duration": anime.get('duration'),
                             "duration_minutes": extract_minutes_from_duration(anime.get('duration')),
                             "rating": anime.get('rating'),
@@ -556,7 +582,7 @@ class ElasticsearchService:
                             "genre_names": [g['name'] for g in anime.get('genres', [])],
                             "theme_names": [t['name'] for t in anime.get('themes', [])],
                             "demographic_names": [d['name'] for d in anime.get('demographics', [])],
-                            "character_names": [c['name'] for c in anime.get('characters', [])],
+                            # "character_names": [c['name'] for c in anime.get('characters', [])],
                             # "voice_actor_names": list(set(
                             #     va['name']
                             #     for c in anime.get('characters', [])
@@ -650,7 +676,7 @@ class ElasticsearchService:
 
             # Character inputs -> Find anime based on character names
             char_inputs = set()  # Use set to avoid duplicates
-            raw_chars = anime.get('top_characters', [])[:20]  # Limit to top 10
+            raw_chars = anime.get('top_characters', [])[:10]  # Limit to top 10
 
             for full_name in raw_chars:
                 if not full_name:
@@ -677,7 +703,7 @@ class ElasticsearchService:
                 "_index": self.indices['search_suggestions'],
                 "_id": f"anime_{anime['mal_id']}",
                 "_source": {
-                    "type": "anime",
+                    "category": "anime",
                     "mal_id": anime['mal_id'],
                     "main_name": title,
                     "search_full_names": fullnames,
@@ -711,7 +737,7 @@ class ElasticsearchService:
                 "_index": self.indices['search_suggestions'],
                 "_id": f"studio_{studio['mal_id']}",
                 "_source": {
-                    "type": "studio",
+                    "category": "studio",
                     "mal_id": studio['mal_id'],
                     "main_name": studio['name'],
                     "search_full_names": studio['name'],
@@ -739,7 +765,7 @@ class ElasticsearchService:
                 "_index": self.indices['search_suggestions'],
                 "_id": f"genre_{genre['mal_id']}",
                 "_source": {
-                    "type": "genre",
+                    "category": "genre",
                     "mal_id": genre['mal_id'],
                     "main_name": genre['name'],
                     "search_full_names": genre['name'],
@@ -767,7 +793,7 @@ class ElasticsearchService:
                 "_index": self.indices['search_suggestions'],
                 "_id": f"theme_{theme['mal_id']}",
                 "_source": {
-                    "type": "theme",
+                    "category": "theme",
                     "mal_id": theme['mal_id'],
                     "main_name": theme['name'],
                     "search_full_names": theme['name'],
@@ -795,7 +821,7 @@ class ElasticsearchService:
                 "_index": self.indices['search_suggestions'],
                 "_id": f"demographic_{demographic['mal_id']}",
                 "_source": {
-                    "type": "demographic",
+                    "category": "demographic",
                     "mal_id": demographic['mal_id'],
                     "main_name": demographic['name'],
                     "search_full_names": demographic['name'],
@@ -898,15 +924,13 @@ class ElasticsearchService:
                 "multi_match": {
                     "query": query,
                     "fields": [
-                        "title^3",
-                        "title_english^2",
-                        "synopsis",
-                        "title_synonyms.text^1.5",
-                        "character_names"
+                        "search_full_names^2",
+                        "search_full_names.keyword^1",
+                        "search_key_names^3",
+                        "search_key_names.keyword^4"
                     ],
-                    "type": "best_fields",
-                    "fuzziness": "AUTO",
-                    "operator": "or"
+                    "operator": "and",
+                    "fuzziness": "AUTO"
                 }
             })
         else:
@@ -918,6 +942,12 @@ class ElasticsearchService:
         if filters.get('type') and filters['type'] != "All":
             search_body["query"]["bool"]["filter"].append({
                 "term": {"type": filters['type']}
+            })
+
+        # Year filter
+        if filters.get('year'):
+            search_body["query"]["bool"]["filter"].append({
+                "term": {"year": filters['year']}
             })
 
         # Year range filter
@@ -1049,7 +1079,7 @@ class ElasticsearchService:
             logger.error(f"Search error: {e}")
             return {'total': 0, 'hits': [], 'aggregations': {}, 'page': page, 'total_pages': 0}
 
-    def get_search_suggestions_for_streamlit(self, searchterm, search_type="all", limit=10):
+    def get_search_suggestions_for_streamlit(self, searchterm, search_category="all", limit=10):
         """
         Search function that uses the completion suggester and always includes a "raw/full-text search" option as the first suggestion.
         """
@@ -1066,9 +1096,9 @@ class ElasticsearchService:
 
         try:
             must_filters = []
-            if search_type != "all" and search_type != "All":
+            if search_category != "all" and search_category != "All":
                 must_filters.append({
-                    "term": {"type": search_type.lower()}
+                    "term": {"category": search_category.lower()}
                 })
 
             body = {
@@ -1079,8 +1109,10 @@ class ElasticsearchService:
                                 "multi_match": {
                                     "query": searchterm,
                                     "fields": [
-                                        "search_full_names^6",
-                                        "search_key_names^4"
+                                        "search_full_names^2",
+                                        "search_full_names.keyword^1",
+                                        "search_key_names^3",
+                                        "search_key_names.keyword^4"
                                     ],
                                     "operator": "and",
                                     "fuzziness": "AUTO"
@@ -1090,7 +1122,12 @@ class ElasticsearchService:
                         "filter": must_filters
                     }
                 },
-                "size": limit
+                "size": limit,
+                "sort": [
+                    {"_score": {"order": "desc"}},
+                    {"popularity": {"order": "asc"}},
+                    {"score": {"order": "desc"}}
+                ]
             }
 
             response = self.es.search(
@@ -1103,7 +1140,7 @@ class ElasticsearchService:
 
             for hit in hits:
                 source = hit['_source']
-                entity_type = source['type']
+                entity_type = source['category']
                 entity_id = f"{entity_type}_{source['mal_id']}"
 
                 if entity_id in seen:
@@ -1115,8 +1152,8 @@ class ElasticsearchService:
                 value_dict = {
                     'id': source['mal_id'],
                     'name': source['main_name'],
-                    'type': entity_type.capitalize(),
-                    'raw_type': entity_type,
+                    'category': entity_type.capitalize(),
+                    'raw_category': entity_type,
                     'score': source.get('score'),
                     'popularity': source.get('popularity'),
                     'image_url': source.get('image_url'),
@@ -1366,7 +1403,7 @@ class ElasticsearchService:
 
         return options
 
-    def advanced_search(self, query=None, filters=None, sort_by="score",
+    def advanced_search(self, query=None, filters=None, sort_by="relevance",
                         order="desc", page=1, size=50):
         """Advanced search with custom sorting"""
         if not filters:
@@ -1377,7 +1414,11 @@ class ElasticsearchService:
         # Custom sorting (beyond default score sorting)
         if sort_by == "popularity":
             result['hits'] = sorted(result['hits'],
-                                    key=lambda x: x.get('popularity', 99999),
+                                    key=lambda x: x.get('popularity', 100),
+                                    reverse=(order == "desc"))
+        elif sort_by == "score":
+            result['hits'] = sorted(result['hits'],
+                                    key=lambda x: x.get('score', 5),
                                     reverse=(order == "desc"))
         elif sort_by == "year":
             result['hits'] = sorted(result['hits'],
@@ -1385,7 +1426,7 @@ class ElasticsearchService:
                                     reverse=(order == "desc"))
         elif sort_by == "episodes":
             result['hits'] = sorted(result['hits'],
-                                    key=lambda x: x.get('episodes', 0),
+                                    key=lambda x: (x.get('episodes') is None, x.get('episodes', 0)),
                                     reverse=(order == "desc"))
         elif sort_by == "title":
             result['hits'] = sorted(result['hits'],

@@ -2,10 +2,13 @@ import streamlit as st
 from services.database import Database
 from services.elasticsearch_service import ElasticsearchService
 from components.anime_card import AnimeCard
-from streamlit_searchbox import st_searchbox
 from streamlit_theme import st_theme
+from components.search_bar import render_search_bar
+import utils.helpers as helper
+from utils.session_manager import SessionManager
 
 st.query_params.clear()
+
 # Detect current theme
 theme = st_theme()
 
@@ -13,14 +16,14 @@ if theme and theme["base"] == "light":
     bg_color = "rgba(200, 200, 200, 0.75)"
     font_color = "rgba(0, 0, 0, 1)"
     border_card = "rgba(0, 0, 0, 0.2)"
-    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.7))"
-    button_background = "rgba(255, 255, 255, 0.75)"
+    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 1))"
+    button_background = "rgba(255, 255, 255, 0.5)"
     anime_card_background = "rgba(255, 255, 255, 0.5)"
 else:
-    bg_color = "rgba(0, 0, 0, 0.75)"
+    bg_color = "rgba(0, 0, 0, 0.5)"
     font_color = "rgba(255, 255, 255, 1)"
     border_card = "rgba(255, 255, 255, 0.5)"
-    linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7))"
+    linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))"
     button_background = ""
     anime_card_background = "rgba(0, 0, 0, 0)"
 
@@ -33,30 +36,8 @@ st.set_page_config(
 )
 
 
-# Initialize services with caching
-@st.cache_resource
-def init_db():
-    return Database()
-
-
-@st.cache_resource
-def init_es():
-    return ElasticsearchService()
-
-
-# Store in session state
-if 'db' not in st.session_state:
-    st.session_state.db = init_db()
-if 'es' not in st.session_state:
-    st.session_state.es = init_es()
-if 'nav_to_page' not in st.session_state:
-    st.session_state.nav_to_page = None
-
-# Handle navigation
-if st.session_state.nav_to_page:
-    target_page = st.session_state.nav_to_page
-    st.session_state.nav_to_page = None
-    st.switch_page(f"pages/{target_page}")
+# Initialize services
+SessionManager()
 
 # Custom CSS
 st.markdown(f"""
@@ -142,53 +123,6 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 
-# Search suggestions function
-def get_search_suggestions(searchterm: str) -> list:
-    if not searchterm or len(searchterm.strip()) < 2:
-        return []
-    return st.session_state.es.get_search_suggestions_for_streamlit(
-        searchterm=searchterm,
-        search_type=st.session_state.search_category,
-        limit=15
-    )
-
-
-# Unified submit handler (handles both selected suggestion and raw enter)
-def on_search_submit(value):
-    if value is None:
-        return
-
-    if isinstance(value, str):  # Raw text submitted via Enter
-        query = value.strip()
-        if query:
-            st.session_state.search_query = query
-            st.session_state.nav_to_page = "2_🔍_Search.py"
-            st.rerun()
-        return
-
-    # Raw search option selected (or auto-selected on Enter)
-    if value.get('raw_search'):
-        query = value['query']
-        if query:
-            st.session_state.search_query = query
-            # Raw search is general (full-text across all anime fields)
-            st.session_state.search_type = "All"
-            st.session_state.nav_to_page = "2_🔍_Search.py"
-            st.rerun()
-        return
-
-    # Specific entity selected
-    entity_type = value.get('raw_type', '').lower()
-    if entity_type == 'anime':
-        st.session_state.selected_anime = value['id']
-        st.session_state.nav_to_page = "4_🎬_Anime_Details.py"
-    else:
-        st.session_state.search_query = value['name']
-        st.session_state.search_type = value['type']  # e.g., "Studio", "Genre", etc.
-        st.session_state.nav_to_page = "2_🔍_Search.py"
-    st.rerun()
-
-
 # Main content
 with st.container():
     st.title("🎌 Anime Recommender")
@@ -197,39 +131,7 @@ with st.container():
     st.markdown("#### Search Anime")
 
     # Search bar layout
-    search_col1, search_col2, search_col3 = st.columns([1, 4, 1])
-
-    with search_col1:
-        search_category_ui = st.selectbox(
-            "Category",
-            ["All", "Anime", "Studio", "Genre", "Theme", "Demographic"],
-            label_visibility="collapsed",
-            key="search_category_ui"
-        )
-        # Store normalized value for suggestion filtering
-        st.session_state.search_category = "all" if search_category_ui == "All" else search_category_ui.lower()
-
-    with search_col2:
-        # Dynamic placeholder based on category
-        if search_category_ui == "All":
-            placeholder = "Search anime, characters, studios, genres..."
-        else:
-            placeholder = f"Search {search_category_ui.lower()}..."
-
-        st_searchbox(
-            search_function=get_search_suggestions,
-            placeholder=placeholder,
-            key="main_search_box",
-            clear_on_submit=True,
-            submit_function=on_search_submit,
-            debounce=200,
-            rerun_on_update=True,
-        )
-
-    with search_col3:
-        # Advanced search button
-        if st.button("⚙️ Advanced Search", use_container_width=True, type="secondary"):
-            st.switch_page("pages/3_⚙️_Advanced_Search.py")
+    render_search_bar(st.session_state.es)
 
     st.markdown("---")
     anime_card = AnimeCard()
@@ -241,6 +143,11 @@ with st.container():
             with st.container(horizontal=True, key="anime_card_grid_popular"):
                 for idx, anime in enumerate(popular_results['hits'][:15]):
                     anime_card.create_anime_card(anime, "pop", idx)
+
+            col1, col2, col3 = st.columns([1, 3, 1])
+            with col2:
+                if st.button(f"View All Popular Anime →", key=f"view_all_pop", use_container_width=True):
+                    helper.apply_filters({}, SessionManager)
         else:
             st.info("No popular anime found.")
     except Exception as e:
@@ -264,7 +171,7 @@ with st.container():
                 results = st.session_state.es.search_anime("", filters={"type": "Movie"}, size=10)
             else:
                 st.subheader(f"{name} Anime")
-                results = st.session_state.es.get_genre_anime(name, size=10)
+                results = st.session_state.es.search_anime("", filters={"genres": [name]}, size=10)
 
             if results and results.get('hits'):
                 with st.container(horizontal=True, key=f"anime_card_grid_{name.lower()}"):
@@ -276,12 +183,13 @@ with st.container():
                 with col2:
                     if st.button(f"View All {name} →", key=f"view_all_{name}", use_container_width=True):
                         if filter_type == "type":
-                            st.session_state.filter_type = "type"
-                            st.session_state.filter_value = "Movie"
+                            helper.apply_filters({
+                                "type": name
+                            }, SessionManager)
                         else:
-                            st.session_state.filter_type = "genre"
-                            st.session_state.filter_value = name
-                        st.switch_page("pages/2_🔍_Search.py")
+                            helper.apply_filters({
+                                "genres": [name]  # Must be a list
+                            }, SessionManager)
             else:
                 st.info(f"No {name.lower()} anime found.")
         except Exception as e:

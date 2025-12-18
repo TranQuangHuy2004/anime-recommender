@@ -3,6 +3,8 @@ from streamlit_theme import st_theme
 from components.anime_card import AnimeCard
 from services.database import Database
 from services.elasticsearch_service import ElasticsearchService
+import utils.helpers as helper
+from utils.session_manager import SessionManager
 
 # Detect current theme
 theme = st_theme()
@@ -29,35 +31,14 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+SessionManager()
 
-# Initialize services with caching
-@st.cache_resource
-def init_db():
-    return Database()
-
-
-@st.cache_resource
-def init_es():
-    return ElasticsearchService()
-
-
-# Store in session state
-if 'db' not in st.session_state:
-    st.session_state.db = init_db()
-if 'es' not in st.session_state:
-    st.session_state.es = init_es()
-
-# Get anime ID from session state or query params
-if 'selected_anime' not in st.session_state:
-    if 'mal_id' not in st.query_params:
-        st.error("No anime selected")
-        st.stop()
-    else:
-        anime_id = st.query_params['mal_id']
-        st.session_state.selected_anime = anime_id
-else:
-    anime_id = st.session_state.get('selected_anime')
-
+anime_id = SessionManager.get_selected_anime()
+if not anime_id:
+    anime_id = st.query_params.get('mal_id')
+if not anime_id:
+    st.error("No anime selected")
+    st.stop()
 
 # Get anime from anime_index
 anime = st.session_state.es.get_anime_by_mal_id(anime_id)
@@ -186,26 +167,23 @@ st.markdown(f"""
 
 """, unsafe_allow_html=True)
 
-
-def apply_filters(filters: dict):
-    """
-    Apply search filters using a dictionary.
-    Example:
-    {
-        "genre": {"mal_id": 1, "name": "Action"},
-        "season": "fall",
-        "year": 2023
-    }
-    """
-    st.session_state.search_filters = filters
-    st.switch_page("pages/2_🔍_Search.py")
-
-
 # Navigation Buttons
 with st.container(horizontal=True):
     if st.button("🏠 Home"):
+        SessionManager.set('search_query', '')
+        SessionManager.set('search_type', 'All')
+        SessionManager.set('search_filters', {})
+        SessionManager.set('sort_order', 'desc')
+        SessionManager.set('sort_by', 'relevence')
+        SessionManager.set('current_page', 1)
         st.switch_page("pages/1_🏠_Home.py")
     if st.button("🔍 Search more"):
+        SessionManager.set('search_query', '')
+        SessionManager.set('search_type', 'All')
+        SessionManager.set('search_filters', {})
+        SessionManager.set('sort_order', 'desc')
+        SessionManager.set('sort_by', 'relevence')
+        SessionManager.set('current_page', 1)
         st.switch_page("pages/2_🔍_Search.py")
 
 # Display anime details
@@ -252,9 +230,9 @@ with col2:
                 st.write("**Studios:**")
                 for idx, studio in enumerate(anime['studios']):
                     if st.button(f"🏢 {studio['name']}", key=f"studio_{idx}"):
-                        apply_filters({
-                            "studio": studio
-                        })
+                        helper.apply_filters({
+                            "studios": [studio['name']]  # Must be a list
+                        }, SessionManager)
 
         if anime.get('genres'):
             with st.container(key="genre-container"):
@@ -262,9 +240,9 @@ with col2:
                 with st.container(key="genre-list", horizontal=True, width="content"):
                     for idx, genre in enumerate(anime['genres']):
                         if st.button(f"🎭 {genre['name']}", key=f"genre_{idx}"):
-                            apply_filters({
-                                "genre": genre
-                            })
+                            helper.apply_filters({
+                                "genres": [genre['name']]  # Must be a list
+                            }, SessionManager)
 
         # Synopsis
         with st.container(key="synopsis-container"):
@@ -286,31 +264,43 @@ with col2:
                 st.write(synopsis)
 
     with st.expander(label="More info"):
+        # ── Title Japanese ─────────────────────────────
+        with st.container(horizontal=True, width="content"):
+            st.markdown("**Title Japanese**:")
+            st.write(anime.get("title_japanese", "-"))
+        # ── Title Synonyms ─────────────────────────────
+        with st.container(horizontal=True, width="content"):
+            st.markdown("**Title Synonyms**:")
+            if anime.get("title_synonyms"):
+                with st.container(width="content"):
+                    for idx, syn in enumerate(anime['title_synonyms'], start=1):
+                        st.write(f"{syn}")
+
         # ── Type ─────────────────────────────
         st.markdown("**Type**")
         if anime.get("type"):
             if st.button(f"📺 {anime['type']}", key="type-btn"):
-                apply_filters({
-                    "type": anime['type']
-                })
+                helper.apply_filters({
+                    "type": anime['type']  # Single value is OK for type
+                }, SessionManager)
 
         # ── Season + Year ────────────────────
         st.markdown("**Season**")
         if anime.get("season") and anime.get("year"):
             season_label = f"🌸 {anime['season'].title()} {anime['year']}"
             if st.button(season_label, key="season-btn"):
-                apply_filters({
-                    "season": anime["season"],
-                    "year": anime["year"]
-                })
+                helper.apply_filters({
+                    "season": anime["season"],  # Single value
+                    "year": anime["year"]  # Single value
+                }, SessionManager)
 
         # ── Source ───────────────────────────
         st.markdown("**Source**")
         if anime.get("source"):
             if st.button(f"📚 {anime['source']}", key="source-btn"):
-                apply_filters({
-                    "source": anime["source"]
-                })
+                helper.apply_filters({
+                    "source": anime["source"]  # Single value
+                }, SessionManager)
 
         # ── Themes ───────────────────────────
         st.markdown("**Themes**")
@@ -321,9 +311,9 @@ with col2:
                         f"✨ {theme['name']}",
                         key=f"theme_{theme['mal_id']}_{idx}"
                     ):
-                        apply_filters({
-                            "theme": theme
-                        })
+                        helper.apply_filters({
+                            "themes": [theme['name']]  # Must be a list
+                        }, SessionManager)
 
         # ── Demographics ─────────────────────
         st.markdown("**Demographics**")
@@ -334,26 +324,9 @@ with col2:
                         f"👥 {demo['name']}",
                         key=f"demo_{demo['mal_id']}_{idx}"
                     ):
-                        apply_filters({
-                            "demographic": demo
-                        })
-
-        # # ── Score & Popularity ───────────────
-        # st.markdown("**Metrics**")
-
-        # col_score, col_pop = st.columns(2)
-
-        # with col_score:
-        #     st.metric(
-        #         label="⭐ Score",
-        #         value=anime.get("score", "N/A")
-        #     )
-
-        # with col_pop:
-        #     st.metric(
-        #         label="🔥 Popularity",
-        #         value=f"#{anime.get('popularity')}" if anime.get("popularity") else "N/A"
-        #     )
+                        helper.apply_filters({
+                            "demographics": [demo['name']]  # Must be a list
+                        }, SessionManager)
 
 # Characters Section
 st.markdown("---")

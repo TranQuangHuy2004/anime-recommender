@@ -1,10 +1,10 @@
+# pages/2_🔍_Search.py
 import streamlit as st
 from streamlit_theme import st_theme
 from components.search_bar import render_search_bar
 from services.database import Database
 from services.elasticsearch_service import ElasticsearchService
 from components.anime_card import AnimeCard
-from utils.session_manager import SessionManager
 
 # Clear query params at start
 st.query_params.clear()
@@ -35,8 +35,38 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-SessionManager()
-SessionManager.init_search_state()
+# Initialize services with caching
+
+
+@st.cache_resource
+def init_db():
+    return Database()
+
+
+@st.cache_resource
+def init_es():
+    return ElasticsearchService()
+
+
+# Store in session state
+if 'db' not in st.session_state:
+    st.session_state.db = init_db()
+if 'es' not in st.session_state:
+    st.session_state.es = init_es()
+
+# Initialize session state variables if they don't exist
+if 'search_query' not in st.session_state:
+    st.session_state.search_query = ''
+if 'search_type' not in st.session_state:
+    st.session_state.search_type = 'All'
+if 'search_filters' not in st.session_state:
+    st.session_state.search_filters = {}
+if 'current_page' not in st.session_state:
+    st.session_state.current_page = 1
+if 'sort_by' not in st.session_state:
+    st.session_state.sort_by = 'relevance'
+if 'sort_order' not in st.session_state:
+    st.session_state.sort_order = 'desc'
 
 # Custom CSS
 st.markdown(f"""
@@ -98,39 +128,23 @@ st.markdown(f"""
 if st.button("🏠 Home"):
     st.switch_page("pages/1_🏠_Home.py")
 
-st.title("Search Results")
+title = ""
+for key, value in st.session_state.search_filters.items():
+    if isinstance(value, list):
+        title += (f"{', '.join(value)} ")
+    else:
+        title += f"{value.title() if isinstance(value, str) else value} "
+if title:
+    st.title(f"{title}- Anime")
+else:
+    st.title("Popular Anime")
 
 render_search_bar(st.session_state.es)
 
-# # Check for filter parameters from other pages
-# if 'filter_type' in st.session_state and 'filter_value' in st.session_state:
-#     filter_type = st.session_state.get('filter_type')
-#     filter_value = st.session_state.get('filter_value')
-
-#     # Convert to search_filters format used by elasticsearch_service
-#     if filter_type == 'genre':
-#         st.session_state.search_filters = {'genres': [filter_value]}
-#     elif filter_type == 'type':
-#         st.session_state.search_filters = {'type': filter_value}
-#     elif filter_type == 'studio':
-#         st.session_state.search_filters = {'studios': [filter_value]}
-#     elif filter_type == 'theme':
-#         st.session_state.search_filters = {'themes': [filter_value]}
-#     elif filter_type == 'demographic':
-#         st.session_state.search_filters = {'demographics': [filter_value]}
-#     elif filter_type == 'source':
-#         st.session_state.search_filters = {'source': filter_value}
-#     elif filter_type == 'season' and 'filter_year' in st.session_state:
-#         st.session_state.search_filters = {
-#             'season': filter_value,
-#             'year': st.session_state.get('filter_year')
-#         }
-
-#     # Clear the temporary filter variables
-#     st.session_state.pop('filter_type', None)
-#     st.session_state.pop('filter_value', None)
-#     st.session_state.pop('filter_year', None)
-
+# Also check for search_filters from page 4
+if 'search_filters' in st.session_state and st.session_state.search_filters:
+    # We already have filters from page 4, so use them directly
+    pass
 
 # Show what we're searching for
 st.subheader("Search Criteria")
@@ -154,71 +168,6 @@ with col_info2:
                 st.write(f"- {key}: {value}")
     else:
         st.write("**Active Filters:** None")
-
-# # Filter sidebar
-# with st.sidebar:
-#     st.header("🔧 Filters")
-
-#     # Get filter options from database
-#     filter_options = st.session_state.es.get_filter_options(st.session_state.db)
-
-#     # Type filter
-#     types = ["All"] + filter_options.get('types', [])
-#     selected_type = st.selectbox("Type", types, index=0)
-
-#     # Year range
-#     if 'year_range' in filter_options:
-#         min_year, max_year = filter_options['year_range']
-#         year_range = st.slider("Year Range", min_year, max_year, (min_year, max_year))
-
-#     # Genre multi-select
-#     genres = filter_options.get('genres', [])
-#     selected_genres = st.multiselect("Genres", genres)
-
-#     # Studio multi-select
-#     studios = filter_options.get('studios', [])
-#     selected_studios = st.multiselect("Studios", studios)
-
-#     # Score range
-#     min_score = st.slider("Minimum Score", 0.0, 10.0, 0.0, 0.1)
-
-#     # Status filter
-#     statuses = ["All"] + filter_options.get('statuses', [])
-#     selected_status = st.selectbox("Status", statuses, index=0)
-
-#     # Apply filters button
-#     if st.button("Apply Filters", type="primary"):
-#         filters = {}
-
-#         if selected_type != "All":
-#             filters['type'] = selected_type
-
-#         if year_range and year_range[0] > min_year or year_range[1] < max_year:
-#             filters['year_from'] = year_range[0]
-#             filters['year_to'] = year_range[1]
-
-#         if selected_genres:
-#             filters['genres'] = selected_genres
-
-#         if selected_studios:
-#             filters['studios'] = selected_studios
-
-#         if min_score > 0:
-#             filters['min_score'] = min_score
-
-#         if selected_status != "All":
-#             filters['status'] = selected_status
-
-#         # Merge with existing search_filters
-#         st.session_state.search_filters.update(filters)
-#         st.session_state.current_page = 1
-#         st.rerun()
-
-#     # Clear filters button
-#     if st.button("Clear All Filters"):
-#         st.session_state.search_filters = {}
-#         st.session_state.current_page = 1
-#         st.rerun()
 
 # Main content area
 st.markdown("---")
@@ -324,6 +273,38 @@ try:
         if total_pages > 1:
             st.markdown("---")
             st.write(f"**Page {st.session_state.current_page} of {total_pages}**")
+
+            # # Pagination controls
+            # with st.container(key="pagination_container_bottom", horizontal=True):
+            #     if st.button("⮜⮜", key="first-bottom", help="First") and st.session_state.current_page > 1:
+            #         st.session_state.current_page = 1
+            #         st.rerun()
+            #     if st.button("⮜", key="previous-bottom", help="Previous") and st.session_state.current_page > 1:
+            #         st.session_state.current_page -= 1
+            #         st.rerun()
+
+            #     page_options = list(range(1, min(total_pages, 20) + 1))
+            #     if st.session_state.current_page > 20:
+            #         page_options = [st.session_state.current_page]
+
+            #     new_page = st.selectbox(
+            #         "Page",
+            #         page_options,
+            #         index=page_options.index(st.session_state.current_page) if st.session_state.current_page in page_options else 0,
+            #         label_visibility="collapsed",
+            #         key="selectbox-bottom",
+            #         help="Select page"
+            #     )
+            #     if new_page != st.session_state.current_page:
+            #         st.session_state.current_page = new_page
+            #         st.rerun()
+
+            #     if st.button("⮞", key="next-bottom", help="Next") and st.session_state.current_page < total_pages:
+            #         st.session_state.current_page += 1
+            #         st.rerun()
+            #     if st.button("⮞⮞", key="last-bottom", help="Last") and st.session_state.current_page < total_pages:
+            #         st.session_state.current_page = total_pages
+            #         st.rerun()
 
     else:
         st.warning("⚠️ No results found. Try adjusting your search criteria.")
