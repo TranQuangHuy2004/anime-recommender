@@ -1,8 +1,7 @@
 import streamlit as st
 from streamlit_theme import st_theme
 from components.anime_card import AnimeCard
-from services.database import Database
-from services.elasticsearch_service import ElasticsearchService
+from components.random_button import random_anime_button
 import utils.helpers as helper
 from utils.session_manager import SessionManager
 
@@ -165,26 +164,33 @@ st.markdown(f"""
     background-color: {button_background}
 }}
 
+.st-key-random-button  p {{
+    font-size: 2rem;
+}}
+
 """, unsafe_allow_html=True)
 
 # Navigation Buttons
-with st.container(horizontal=True):
-    if st.button("🏠 Home"):
-        SessionManager.set('search_query', '')
-        SessionManager.set('search_type', 'All')
-        SessionManager.set('search_filters', {})
-        SessionManager.set('sort_order', 'desc')
-        SessionManager.set('sort_by', 'relevence')
-        SessionManager.set('current_page', 1)
-        st.switch_page("pages/1_🏠_Home.py")
-    if st.button("🔍 Search more"):
-        SessionManager.set('search_query', '')
-        SessionManager.set('search_type', 'All')
-        SessionManager.set('search_filters', {})
-        SessionManager.set('sort_order', 'desc')
-        SessionManager.set('sort_by', 'relevence')
-        SessionManager.set('current_page', 1)
-        st.switch_page("pages/2_🔍_Search.py")
+with st.container(horizontal=True, vertical_alignment="center"):
+    with st.container(horizontal=True):
+        if st.button("🏠 Home"):
+            SessionManager.set('search_query', '')
+            SessionManager.set('search_type', 'All')
+            SessionManager.set('search_filters', {})
+            SessionManager.set('sort_order', 'desc')
+            SessionManager.set('sort_by', 'relevence')
+            SessionManager.set('current_page', 1)
+            st.switch_page("pages/1_🏠_Home.py")
+        if st.button("🔍 Search more"):
+            SessionManager.set('search_query', '')
+            SessionManager.set('search_type', 'All')
+            SessionManager.set('search_filters', {})
+            SessionManager.set('sort_order', 'desc')
+            SessionManager.set('sort_by', 'relevence')
+            SessionManager.set('current_page', 1)
+            st.switch_page("pages/2_🔍_Search.py")
+
+    random_anime_button()
 
 # Display anime details
 col1, col2 = st.columns([2, 5], gap="medium")
@@ -248,20 +254,7 @@ with col2:
         with st.container(key="synopsis-container"):
             st.subheader("Synopsis")
             synopsis = anime.get('synopsis', "No synopsis available.")
-            preview_text = synopsis[:600] + "..."
-            if len(preview_text) < len(synopsis):
-                if "expanded" not in st.session_state:
-                    st.session_state.expanded = False
-                # Display truncated text
-                st.write(preview_text if not st.session_state.expanded else synopsis)
-                # Toggle button
-                col_1, col_2, col_3 = st.columns([1, 2, 1])
-                with col_2:
-                    if st.button("⇓" if not st.session_state.expanded else "⇑", width="stretch"):
-                        st.session_state.expanded = not st.session_state.expanded
-                        st.rerun()
-            else:
-                st.write(synopsis)
+            st.write(synopsis)
 
     with st.expander(label="More info"):
         # ── Title Japanese ─────────────────────────────

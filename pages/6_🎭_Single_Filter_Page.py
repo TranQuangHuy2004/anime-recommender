@@ -3,6 +3,7 @@ import streamlit as st
 from streamlit_theme import st_theme
 from components.search_bar import render_search_bar
 from components.anime_card import AnimeCard
+from components.random_button import random_anime_button
 from utils.session_manager import SessionManager
 
 # Clear query params at start
@@ -91,12 +92,17 @@ st.markdown(f"""
     font-size: 1.5rem;
 }}
 
+.st-key-random-button  p {{
+    font-size: 2rem;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
-
-if st.button("🏠 Home"):
-    st.switch_page("pages/1_🏠_Home.py")
+with st.container(horizontal=True, vertical_alignment="center", horizontal_alignment="distribute"):
+    if st.button("🏠 Home"):
+        st.switch_page("pages/1_🏠_Home.py")
+    random_anime_button()
 
 title = ""
 for key, value in st.session_state.search_filters.items():

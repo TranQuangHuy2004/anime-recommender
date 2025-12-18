@@ -2,6 +2,7 @@ import streamlit as st
 from components.anime_card import AnimeCard
 from streamlit_theme import st_theme
 from components.search_bar import render_search_bar
+from components.random_button import random_anime_button
 import utils.helpers as helper
 from utils.session_manager import SessionManager
 
@@ -22,7 +23,7 @@ else:
     font_color = "rgba(255, 255, 255, 1)"
     border_card = "rgba(255, 255, 255, 0.5)"
     linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))"
-    button_background = ""
+    button_background = "rgb(19, 23, 32, 0.5)"
     anime_card_background = "rgba(0, 0, 0, 0)"
 
 # Page configuration
@@ -117,14 +118,22 @@ st.markdown(f"""
 [data-testid="stMetricValue"] {{
     font-size: 1.5rem;
 }}
+
+.st-key-random-button  p {{
+    font-size: 2rem;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
 
 # Main content
 with st.container():
-    st.title("🎌 Anime Recommender")
-    st.markdown("##### Discover your next favorite anime")
+    with st.container(horizontal=True, vertical_alignment="center"):
+        with st.container():
+            st.title("🎌 Anime Recommender")
+            st.markdown("##### Discover your next favorite anime")
+        random_anime_button()
 
     st.markdown("#### Search Anime")
 

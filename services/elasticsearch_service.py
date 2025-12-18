@@ -70,15 +70,10 @@ class ElasticsearchService:
                         "anime_analyzer": {
                             "type": "custom",
                             "tokenizer": "standard",
-                            "filter": ["lowercase", "asciifolding", "english_stop", "english_stemmer", "edge_ngram_filter"]
+                            "filter": ["lowercase", "asciifolding", "english_stop", "english_stemmer"]
                         }
                     },
                     "filter": {
-                        "edge_ngram_filter": {
-                            "type": "edge_ngram",
-                            "min_gram": 2,
-                            "max_gram": 10
-                        },
                         "english_stop": {"type": "stop", "stopwords": "_english_"},
                         "english_stemmer": {"type": "stemmer", "language": "english"}
                     }
@@ -226,7 +221,7 @@ class ElasticsearchService:
                         "autocomplete_analyzer": {
                             "type": "custom",
                             "tokenizer": "standard",
-                            "filter": ["lowercase", "autocomplete_filter"]
+                            "filter": ["lowercase", "autocomplete_filter", "english_stop", "english_stemmer", "asciifolding"]
                         }
                     },
                     "filter": {
@@ -234,7 +229,9 @@ class ElasticsearchService:
                             "type": "edge_ngram",
                             "min_gram": 2,
                             "max_gram": 10
-                        }
+                        },
+                        "english_stop": {"type": "stop", "stopwords": "_english_"},
+                        "english_stemmer": {"type": "stemmer", "language": "english"}
                     }
                 }
             },
@@ -524,7 +521,7 @@ class ElasticsearchService:
 
                     # Character inputs -> Find anime based on character names
                     char_inputs = set()  # Use set to avoid duplicates
-                    raw_chars = anime.get('characters', [])
+                    raw_chars = anime.get('characters', [])[:5]
                     for char in raw_chars:
                         full_name = char.get('name', '')
                         if not full_name:
@@ -683,7 +680,7 @@ class ElasticsearchService:
 
             # Character inputs -> Find anime based on character names
             char_inputs = set()  # Use set to avoid duplicates
-            raw_chars = anime.get('top_characters', [])[:10]  # Limit to top 10
+            raw_chars = anime.get('top_characters', [])[:5]  # Limit to top 10
 
             for full_name in raw_chars:
                 if not full_name:
@@ -932,6 +929,7 @@ class ElasticsearchService:
                     "query": query,
                     "fields": [
                         "search_key_names",
+                        "search_key_name.keyword^2"
                     ],
                     "operator": "and",
                     "fuzziness": "AUTO"
@@ -1117,6 +1115,7 @@ class ElasticsearchService:
                                     "query": searchterm,
                                     "fields": [
                                         "search_key_names",
+                                        "search_key_name.keyword^2"
                                     ],
                                     "operator": "and",
                                     "fuzziness": "AUTO"
