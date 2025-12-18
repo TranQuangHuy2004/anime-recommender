@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 187523,
+      "url": "https://myanimelist.net/character/187523/Sheng_Wang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/494791.jpg?s=31b2cca7b29c34a65058167c1328a347"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/494791.webp?s=31b2cca7b29c34a65058167c1328a347",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/494791t.webp?s=31b2cca7b29c34a65058167c1328a347"
+        }
+      },
+      "name": "Wang, Sheng"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 220715,
+      "url": "https://myanimelist.net/character/220715/Xu_Ling",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/494784.jpg?s=ed44cab591902067a0da2c70a10532ac"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/494784.webp?s=ed44cab591902067a0da2c70a10532ac",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/494784t.webp?s=ed44cab591902067a0da2c70a10532ac"
+        }
+      },
+      "name": "Ling, Xu"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 223320,
+      "url": "https://myanimelist.net/character/223320/Ming_Song",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/499358.jpg?s=e9c82ed896ebf456e658c0bda3b149f6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/499358.webp?s=e9c82ed896ebf456e658c0bda3b149f6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/499358t.webp?s=e9c82ed896ebf456e658c0bda3b149f6"
+        }
+      },
+      "name": "Song, Ming"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 223319,
+      "url": "https://myanimelist.net/character/223319/Yan_Song",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/499357.jpg?s=3ede68f23ed32fe1a65b830870a8cb5d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/499357.webp?s=3ede68f23ed32fe1a65b830870a8cb5d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/499357t.webp?s=3ede68f23ed32fe1a65b830870a8cb5d"
+        }
+      },
+      "name": "Song, Yan"
+    },
+    "role": "Supporting",
+    "favorites": 4,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 220703,
+      "url": "https://myanimelist.net/character/220703/Gao_Yao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/494770.jpg?s=73621144450d6b4a2efbe99ed562fd97"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/494770.webp?s=73621144450d6b4a2efbe99ed562fd97",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/494770t.webp?s=73621144450d6b4a2efbe99ed562fd97"
+        }
+      },
+      "name": "Yao, Gao"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": []
+  }
+]

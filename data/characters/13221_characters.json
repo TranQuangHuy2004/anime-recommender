@@ -1,0 +1,153 @@
+[
+  {
+    "character": {
+      "mal_id": 67105,
+      "url": "https://myanimelist.net/character/67105/Ryuuto_Henge",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/197359.jpg?s=c554751b246a656e323f74b088034f65"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/197359.webp?s=c554751b246a656e323f74b088034f65",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/197359t.webp?s=c554751b246a656e323f74b088034f65"
+        }
+      },
+      "name": "Henge, Ryuuto"
+    },
+    "role": "Main",
+    "favorites": 25,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 66641,
+      "url": "https://myanimelist.net/character/66641/Shamsiel_Shahar",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/522072.jpg?s=ed50943da854648b5b559939ef0a1d3c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/522072.webp?s=ed50943da854648b5b559939ef0a1d3c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/522072t.webp?s=ed50943da854648b5b559939ef0a1d3c"
+        }
+      },
+      "name": "Shahar, Shamsiel"
+    },
+    "role": "Main",
+    "favorites": 209,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 10475,
+          "url": "https://myanimelist.net/people/10475/Miyu_Inoue",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/8941.jpg?s=e61877eb014cf87005e264152eebba03"
+            }
+          },
+          "name": "Inoue, Miyu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 66639,
+      "url": "https://myanimelist.net/character/66639/Roxanne_De_Dejiiru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/197357.jpg?s=f4abaa180102b1bcbf93ed07653f345e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/197357.webp?s=f4abaa180102b1bcbf93ed07653f345e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/197357t.webp?s=f4abaa180102b1bcbf93ed07653f345e"
+        }
+      },
+      "name": "De Dejiiru, Roxanne"
+    },
+    "role": "Supporting",
+    "favorites": 62,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11609,
+          "url": "https://myanimelist.net/people/11609/Hasumi_Itou",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/10679.jpg?s=7c6d035bd27dd7d694583a6f95522970"
+            }
+          },
+          "name": "Itou, Hasumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 67099,
+      "url": "https://myanimelist.net/character/67099/Isis_Petrovna_Elenskaya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/197353.jpg?s=a1cfec50538711158bf9ba61041770b0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/197353.webp?s=a1cfec50538711158bf9ba61041770b0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/197353t.webp?s=a1cfec50538711158bf9ba61041770b0"
+        }
+      },
+      "name": "Petrovna Elenskaya, Isis"
+    },
+    "role": "Supporting",
+    "favorites": 13,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 14491,
+          "url": "https://myanimelist.net/people/14491/Alice_Sakurai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/14945.jpg?s=875224117809bcbce02e6e91587a768c"
+            }
+          },
+          "name": "Sakurai, Alice"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 67097,
+      "url": "https://myanimelist.net/character/67097/Gladys_von_Wackenheim",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/513372.jpg?s=36471ed4a6c322360e1d40da9f00c466"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/513372.webp?s=36471ed4a6c322360e1d40da9f00c466",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/513372t.webp?s=36471ed4a6c322360e1d40da9f00c466"
+        }
+      },
+      "name": "von Wackenheim, Gladys"
+    },
+    "role": "Supporting",
+    "favorites": 21,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 26067,
+          "url": "https://myanimelist.net/people/26067/Yuki_Sakata",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/28337.jpg?s=4e6031b4ea155250ba887702207e137a"
+            }
+          },
+          "name": "Sakata, Yuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

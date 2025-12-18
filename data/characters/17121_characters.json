@@ -1,0 +1,120 @@
+[
+  {
+    "character": {
+      "mal_id": 80869,
+      "url": "https://myanimelist.net/character/80869/Kouji_Okamura",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/245559.jpg?s=727edda8b05b788ce013f191b9e302f9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/245559.webp?s=727edda8b05b788ce013f191b9e302f9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/245559t.webp?s=727edda8b05b788ce013f191b9e302f9"
+        }
+      },
+      "name": "Okamura, Kouji"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1251,
+          "url": "https://myanimelist.net/people/1251/Shinji_Ogawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/79006.jpg?s=f798b346592c8a23e7a0c0f71968a554"
+            }
+          },
+          "name": "Ogawa, Shinji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 80867,
+      "url": "https://myanimelist.net/character/80867/Aya_Okamura",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/199429.jpg?s=7e56beda7bbba7bbb8ae232496c422e8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/199429.webp?s=7e56beda7bbba7bbb8ae232496c422e8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/199429t.webp?s=7e56beda7bbba7bbb8ae232496c422e8"
+        }
+      },
+      "name": "Okamura, Aya"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1016,
+          "url": "https://myanimelist.net/people/1016/Satomi_Hanamura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/42999.jpg?s=dcd1562714dbe2dd70e55dc9b05b7d39"
+            }
+          },
+          "name": "Hanamura, Satomi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 92055,
+      "url": "https://myanimelist.net/character/92055/Mii-san",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/245555.jpg?s=a57ad47ad96077cd102f93229de6ae28"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/245555.webp?s=a57ad47ad96077cd102f93229de6ae28",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/245555t.webp?s=a57ad47ad96077cd102f93229de6ae28"
+        }
+      },
+      "name": "Mii-san"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1067,
+          "url": "https://myanimelist.net/people/1067/Fumi_Hirano",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/64727.jpg?s=9e92feac0eb4ab8087aa6df7bc07ab19"
+            }
+          },
+          "name": "Hirano, Fumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 80871,
+      "url": "https://myanimelist.net/character/80871/Minako_Okamura",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/219759.jpg?s=12bdf00f2d30c0d21301447905825915"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/219759.webp?s=12bdf00f2d30c0d21301447905825915",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/219759t.webp?s=12bdf00f2d30c0d21301447905825915"
+        }
+      },
+      "name": "Okamura, Minako"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

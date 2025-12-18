@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 201549,
+      "url": "https://myanimelist.net/character/201549/Jing_Helian",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/453075.jpg?s=e37150bd69c29a3bac677271c36a3dfe"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/453075.webp?s=e37150bd69c29a3bac677271c36a3dfe",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/453075t.webp?s=e37150bd69c29a3bac677271c36a3dfe"
+        }
+      },
+      "name": "Helian, Jing"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 170122,
+      "url": "https://myanimelist.net/character/170122/Chunyu_Xia",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/454521.jpg?s=48ab3f8020978b00689e92187537f2c3"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/454521.webp?s=48ab3f8020978b00689e92187537f2c3",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/454521t.webp?s=48ab3f8020978b00689e92187537f2c3"
+        }
+      },
+      "name": "Xia, Chunyu"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 183546,
+      "url": "https://myanimelist.net/character/183546/Jinxuan_Ye",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/412026.jpg?s=85334eb53269bd0d923626b5daece47b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/412026.webp?s=85334eb53269bd0d923626b5daece47b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/412026t.webp?s=85334eb53269bd0d923626b5daece47b"
+        }
+      },
+      "name": "Ye, Jinxuan"
+    },
+    "role": "Main",
+    "favorites": 18,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 183550,
+      "url": "https://myanimelist.net/character/183550/Songqi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/452647.jpg?s=2c869b8c69e308b2cf31556322651209"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/452647.webp?s=2c869b8c69e308b2cf31556322651209",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/452647t.webp?s=2c869b8c69e308b2cf31556322651209"
+        }
+      },
+      "name": "Songqi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 183549,
+      "url": "https://myanimelist.net/character/183549/Qixuan_Zhao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/412033.jpg?s=97cbf77a433fa13f578da259a29b5794"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/412033.webp?s=97cbf77a433fa13f578da259a29b5794",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/412033t.webp?s=97cbf77a433fa13f578da259a29b5794"
+        }
+      },
+      "name": "Zhao, Qixuan"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

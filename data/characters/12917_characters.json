@@ -1,0 +1,116 @@
+[
+  {
+    "character": {
+      "mal_id": 56507,
+      "url": "https://myanimelist.net/character/56507/Greenie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/155807.jpg?s=71e94618c30938b5e5046e8c5ca59002"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/155807.webp?s=71e94618c30938b5e5046e8c5ca59002",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/155807t.webp?s=71e94618c30938b5e5046e8c5ca59002"
+        }
+      },
+      "name": "Greenie"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 56505,
+      "url": "https://myanimelist.net/character/56505/Leafie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/155805.jpg?s=ea82bd4a460cc55b6606031fbfdc76fb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/155805.webp?s=ea82bd4a460cc55b6606031fbfdc76fb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/155805t.webp?s=ea82bd4a460cc55b6606031fbfdc76fb"
+        }
+      },
+      "name": "Leafie"
+    },
+    "role": "Main",
+    "favorites": 5,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 57651,
+      "url": "https://myanimelist.net/character/57651/Mr_Otter",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/239963.jpg?s=4762a4b3bf4b4944b6691d5127e46ee0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/239963.webp?s=4762a4b3bf4b4944b6691d5127e46ee0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/239963t.webp?s=4762a4b3bf4b4944b6691d5127e46ee0"
+        }
+      },
+      "name": "Mr. Otter"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 56509,
+      "url": "https://myanimelist.net/character/56509/One-eyed_Weasel",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/155809.jpg?s=3df013c7f71a4cd7d8b9416e319493ef"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/155809.webp?s=3df013c7f71a4cd7d8b9416e319493ef",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/155809t.webp?s=3df013c7f71a4cd7d8b9416e319493ef"
+        }
+      },
+      "name": "One-eyed Weasel"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 57647,
+      "url": "https://myanimelist.net/character/57647/Rooster",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/531961.jpg?s=2b251a28b45b30463a081aa1e5e46f45"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/531961.webp?s=2b251a28b45b30463a081aa1e5e46f45",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/531961t.webp?s=2b251a28b45b30463a081aa1e5e46f45"
+        }
+      },
+      "name": "Rooster"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 57649,
+      "url": "https://myanimelist.net/character/57649/Wanderer",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/161065.jpg?s=06ccca91d663d10fa37550a6c2b21590"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/161065.webp?s=06ccca91d663d10fa37550a6c2b21590",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/161065t.webp?s=06ccca91d663d10fa37550a6c2b21590"
+        }
+      },
+      "name": "Wanderer"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": []
+  }
+]

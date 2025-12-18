@@ -1,0 +1,120 @@
+[
+  {
+    "character": {
+      "mal_id": 268,
+      "url": "https://myanimelist.net/character/268/Mei_Kusakabe",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/278460.jpg?s=0216f66cf958a7fff48fa0684f241446"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/278460.webp?s=0216f66cf958a7fff48fa0684f241446",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/278460t.webp?s=0216f66cf958a7fff48fa0684f241446"
+        }
+      },
+      "name": "Kusakabe, Mei"
+    },
+    "role": "Main",
+    "favorites": 190,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 387,
+          "url": "https://myanimelist.net/people/387/Chika_Sakamoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/67721.jpg?s=1b70e2418d7194d2ec50ea7553fcd906"
+            }
+          },
+          "name": "Sakamoto, Chika"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 271,
+      "url": "https://myanimelist.net/character/271/Nekobus",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/55346.jpg?s=0ed54a495bd13ea923336892346569be"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/55346.webp?s=0ed54a495bd13ea923336892346569be",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/55346t.webp?s=0ed54a495bd13ea923336892346569be"
+        }
+      },
+      "name": "Nekobus"
+    },
+    "role": "Main",
+    "favorites": 492,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 110037,
+      "url": "https://myanimelist.net/character/110037/Grandmother_Nekobasu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/270013.jpg?s=cb0dc9109fa645b6b925082553563b20"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/270013.webp?s=cb0dc9109fa645b6b925082553563b20",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/270013t.webp?s=cb0dc9109fa645b6b925082553563b20"
+        }
+      },
+      "name": "Grandmother Nekobasu"
+    },
+    "role": "Supporting",
+    "favorites": 9,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1870,
+          "url": "https://myanimelist.net/people/1870/Hayao_Miyazaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54606.jpg?s=df6b814f92e697051376fb9c4e12b5e4"
+            }
+          },
+          "name": "Miyazaki, Hayao"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 269,
+      "url": "https://myanimelist.net/character/269/Totoro",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/81225.jpg?s=b938ee3d7d7778b5536d2958480f1372"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/81225.webp?s=b938ee3d7d7778b5536d2958480f1372",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/81225t.webp?s=b938ee3d7d7778b5536d2958480f1372"
+        }
+      },
+      "name": "Totoro"
+    },
+    "role": "Supporting",
+    "favorites": 3586,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1870,
+          "url": "https://myanimelist.net/people/1870/Hayao_Miyazaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/54606.jpg?s=df6b814f92e697051376fb9c4e12b5e4"
+            }
+          },
+          "name": "Miyazaki, Hayao"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 2071,
+      "url": "https://myanimelist.net/character/2071/Keiichirou_Akizuki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/111352.jpg?s=690c3be3bdb0096267e885af36e7f0e5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/111352.webp?s=690c3be3bdb0096267e885af36e7f0e5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/111352t.webp?s=690c3be3bdb0096267e885af36e7f0e5"
+        }
+      },
+      "name": "Akizuki, Keiichirou"
+    },
+    "role": "Main",
+    "favorites": 17,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6,
+          "url": "https://myanimelist.net/people/6/Toshiyuki_Morikawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/63480.jpg?s=7c4ff13fff8b48d09d99c31b44690de4"
+            }
+          },
+          "name": "Morikawa, Toshiyuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 6665,
+      "url": "https://myanimelist.net/character/6665/Touma_Kusaka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/71015.jpg?s=7bd15301db9e69827d0eefb92520f796"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/71015.webp?s=7bd15301db9e69827d0eefb92520f796",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/71015t.webp?s=7bd15301db9e69827d0eefb92520f796"
+        }
+      },
+      "name": "Kusaka, Touma"
+    },
+    "role": "Main",
+    "favorites": 11,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 22,
+          "url": "https://myanimelist.net/people/22/Shinichiro_Miki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/70845.jpg?s=e42a999f8be9def3040f7476a82b6bbe"
+            }
+          },
+          "name": "Miki, Shinichiro"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 6666,
+      "url": "https://myanimelist.net/character/6666/Masanoshin_Aizawa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/10237.jpg?s=833d7571d9cefb0e40717d08a8e42591"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/10237.webp?s=833d7571d9cefb0e40717d08a8e42591",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/10237t.webp?s=833d7571d9cefb0e40717d08a8e42591"
+        }
+      },
+      "name": "Aizawa, Masanoshin"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 178,
+          "url": "https://myanimelist.net/people/178/Shoutarou_Morikubo",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/74245.jpg?s=80ea6820253642364ac2bbd78fa1fd98"
+            }
+          },
+          "name": "Morikubo, Shoutarou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

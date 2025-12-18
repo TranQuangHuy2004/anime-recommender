@@ -1,0 +1,144 @@
+[
+  {
+    "character": {
+      "mal_id": 164255,
+      "url": "https://myanimelist.net/character/164255/A_Miao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/366775.jpg?s=80e316e46e12caa8fe75f75e4c97c383"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/366775.webp?s=80e316e46e12caa8fe75f75e4c97c383",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/366775t.webp?s=80e316e46e12caa8fe75f75e4c97c383"
+        }
+      },
+      "name": "A Miao"
+    },
+    "role": "Main",
+    "favorites": 45,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 15919,
+          "url": "https://myanimelist.net/people/15919/Ayumu_Murase",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/76639.jpg?s=28619ccdbffaa0a597366aef47a94585"
+            }
+          },
+          "name": "Murase, Ayumu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 164254,
+      "url": "https://myanimelist.net/character/164254/Da_Shu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/366776.jpg?s=aea02ea0757e5de2a12e6879d670e06f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/366776.webp?s=aea02ea0757e5de2a12e6879d670e06f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/366776t.webp?s=aea02ea0757e5de2a12e6879d670e06f"
+        }
+      },
+      "name": "Da Shu"
+    },
+    "role": "Main",
+    "favorites": 8,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 33995,
+          "url": "https://myanimelist.net/people/33995/Yuuma_Uchida",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/74452.jpg?s=cdb1644d7355e1bae87f9c9db3dc9e73"
+            }
+          },
+          "name": "Uchida, Yuuma"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 181368,
+      "url": "https://myanimelist.net/character/181368/Granny",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/406984.jpg?s=5a725efbede42c873fca396929d90280"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/406984.webp?s=5a725efbede42c873fca396929d90280",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/406984t.webp?s=5a725efbede42c873fca396929d90280"
+        }
+      },
+      "name": "Granny"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 169117,
+      "url": "https://myanimelist.net/character/169117/Ivan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Ivan"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 164921,
+      "url": "https://myanimelist.net/character/164921/Jin_Zhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/370369.jpg?s=6c359ea18fab6bc122c4dcedc93e40ea"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/370369.webp?s=6c359ea18fab6bc122c4dcedc93e40ea",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/370369t.webp?s=6c359ea18fab6bc122c4dcedc93e40ea"
+        }
+      },
+      "name": "Jin Zhu"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 164919,
+      "url": "https://myanimelist.net/character/164919/Xia_Dong",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/370368.jpg?s=655a40a06f2286eeb48ee0315579afe8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/370368.webp?s=655a40a06f2286eeb48ee0315579afe8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/370368t.webp?s=655a40a06f2286eeb48ee0315579afe8"
+        }
+      },
+      "name": "Xia Dong"
+    },
+    "role": "Supporting",
+    "favorites": 9,
+    "voice_actors": []
+  }
+]

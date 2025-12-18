@@ -1,0 +1,116 @@
+[
+  {
+    "character": {
+      "mal_id": 188955,
+      "url": "https://myanimelist.net/character/188955/Ha_Eun_Baek",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/457899.jpg?s=943e8186e191ade1bbfcb420d553f1ec"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/457899.webp?s=943e8186e191ade1bbfcb420d553f1ec",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/457899t.webp?s=943e8186e191ade1bbfcb420d553f1ec"
+        }
+      },
+      "name": "Baek, Ha Eun"
+    },
+    "role": "Main",
+    "favorites": 8,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 187294,
+      "url": "https://myanimelist.net/character/187294/Wook_Kim",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/457896.jpg?s=ef72ded1046721e5120a8f7c69a8729a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/457896.webp?s=ef72ded1046721e5120a8f7c69a8729a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/457896t.webp?s=ef72ded1046721e5120a8f7c69a8729a"
+        }
+      },
+      "name": "Kim, Wook"
+    },
+    "role": "Main",
+    "favorites": 9,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 186266,
+      "url": "https://myanimelist.net/character/186266/Yeo_Reum_Lee",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/457897.jpg?s=10f701e68588888bff32be94b75c06d6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/457897.webp?s=10f701e68588888bff32be94b75c06d6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/457897t.webp?s=10f701e68588888bff32be94b75c06d6"
+        }
+      },
+      "name": "Lee, Yeo Reum"
+    },
+    "role": "Main",
+    "favorites": 11,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 188953,
+      "url": "https://myanimelist.net/character/188953/Yeon_Woo_Lee",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/457898.jpg?s=de958356956df80723c5774a23c8872d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/457898.webp?s=de958356956df80723c5774a23c8872d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/457898t.webp?s=de958356956df80723c5774a23c8872d"
+        }
+      },
+      "name": "Lee, Yeon Woo"
+    },
+    "role": "Main",
+    "favorites": 5,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 203213,
+      "url": "https://myanimelist.net/character/203213/Ye_Na_Seo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/457891.jpg?s=97d5d9ada7143eb77848f453174534f3"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/457891.webp?s=97d5d9ada7143eb77848f453174534f3",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/457891t.webp?s=97d5d9ada7143eb77848f453174534f3"
+        }
+      },
+      "name": "Seo, Ye Na"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 203212,
+      "url": "https://myanimelist.net/character/203212/Gun_Ha_Yoon",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/457890.jpg?s=a0832bcd0f009f23038963e27ba4de09"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/457890.webp?s=a0832bcd0f009f23038963e27ba4de09",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/457890t.webp?s=a0832bcd0f009f23038963e27ba4de09"
+        }
+      },
+      "name": "Yoon, Gun Ha"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

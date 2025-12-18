@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 62945,
+      "url": "https://myanimelist.net/character/62945/Yukari_Akiyama",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/220639.jpg?s=a6104b4d855e53b732dc0d2b07443be2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/220639.webp?s=a6104b4d855e53b732dc0d2b07443be2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/220639t.webp?s=a6104b4d855e53b732dc0d2b07443be2"
+        }
+      },
+      "name": "Akiyama, Yukari"
+    },
+    "role": "Main",
+    "favorites": 1476,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 17009,
+          "url": "https://myanimelist.net/people/17009/Ikumi_Nakagami",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/30369.jpg?s=7d81e8b529eaf4c0efa01b4ade4e1a03"
+            }
+          },
+          "name": "Nakagami, Ikumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 160162,
+      "url": "https://myanimelist.net/character/160162/Rena_Andou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/419961.jpg?s=7dc43efe00530f494a05ada4b4071a42"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/419961.webp?s=7dc43efe00530f494a05ada4b4071a42",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/419961t.webp?s=7dc43efe00530f494a05ada4b4071a42"
+        }
+      },
+      "name": "Andou, Rena"
+    },
+    "role": "Main",
+    "favorites": 51,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11492,
+          "url": "https://myanimelist.net/people/11492/Minami_Tsuda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/70892.jpg?s=420a704a6347d9a4956e057149d94e07"
+            }
+          },
+          "name": "Tsuda, Minami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 170107,
+      "url": "https://myanimelist.net/character/170107/Marie",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/559248.jpg?s=d84367c78d6c40af9bfb3215f3aaa76d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/559248.webp?s=d84367c78d6c40af9bfb3215f3aaa76d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/559248t.webp?s=d84367c78d6c40af9bfb3215f3aaa76d"
+        }
+      },
+      "name": "Marie"
+    },
+    "role": "Main",
+    "favorites": 36,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 12016,
+          "url": "https://myanimelist.net/people/12016/Yumi_Hara",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/76069.jpg?s=12457976f42d8460bff9a265644e0397"
+            }
+          },
+          "name": "Hara, Yumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 161625,
+      "url": "https://myanimelist.net/character/161625/Ruka_Oshida",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/419962.jpg?s=f707da1c076af74b16720e405dd7a3a6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/419962.webp?s=f707da1c076af74b16720e405dd7a3a6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/419962t.webp?s=f707da1c076af74b16720e405dd7a3a6"
+        }
+      },
+      "name": "Oshida, Ruka"
+    },
+    "role": "Main",
+    "favorites": 11,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11030,
+          "url": "https://myanimelist.net/people/11030/Chika_Anzai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/83524.jpg?s=2641940d9fb63cc4b36385262a5ef079"
+            }
+          },
+          "name": "Anzai, Chika"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

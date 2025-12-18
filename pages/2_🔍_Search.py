@@ -149,7 +149,7 @@ with col_controls2:
     st.session_state.sort_order = "desc" if sort_order == "Descending" else "asc"
 
 with col_controls3:
-    results_per_page = st.selectbox("Results per page", [20, 50, 100], index=0)
+    results_per_page = st.selectbox("Results per page", [10, 20, 50, 100], index=0)
 
 
 # Perform search based on current state
@@ -227,9 +227,7 @@ try:
     else:
         st.warning("⚠️ No results found. Try adjusting your search criteria.")
         if st.button("Clear search and filters"):
-            st.session_state.search_query = ''
-            st.session_state.search_filters = {}
-            st.session_state.current_page = 1
+            SessionManager.clear_all()
             st.rerun()
 
 except Exception as e:

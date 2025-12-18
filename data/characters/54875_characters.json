@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 284751,
+      "url": "https://myanimelist.net/character/284751/Yi_Ning",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/614373.jpg?s=7571c9ce7e517c17f05345cc5f437179"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/614373.webp?s=7571c9ce7e517c17f05345cc5f437179",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/614373t.webp?s=7571c9ce7e517c17f05345cc5f437179"
+        }
+      },
+      "name": "Ning, Yi"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 284752,
+      "url": "https://myanimelist.net/character/284752/Taner_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/614374.jpg?s=9cae6ac480afce29cba28cd4977c19eb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/614374.webp?s=9cae6ac480afce29cba28cd4977c19eb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/614374t.webp?s=9cae6ac480afce29cba28cd4977c19eb"
+        }
+      },
+      "name": "Su, Taner"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

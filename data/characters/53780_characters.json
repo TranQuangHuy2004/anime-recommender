@@ -1,0 +1,116 @@
+[
+  {
+    "character": {
+      "mal_id": 1742,
+      "url": "https://myanimelist.net/character/1742/Conan_Edogawa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/308347.jpg?s=64a1c90d214d76cb4901d83ae78b4630"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/308347.webp?s=64a1c90d214d76cb4901d83ae78b4630",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/308347t.webp?s=64a1c90d214d76cb4901d83ae78b4630"
+        }
+      },
+      "name": "Edogawa, Conan"
+    },
+    "role": "Main",
+    "favorites": 7680,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 1743,
+      "url": "https://myanimelist.net/character/1743/Ai_Haibara",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/146141.jpg?s=5ee426d03c7d0f377a9cd99b6a5f7122"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/146141.webp?s=5ee426d03c7d0f377a9cd99b6a5f7122",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/146141t.webp?s=5ee426d03c7d0f377a9cd99b6a5f7122"
+        }
+      },
+      "name": "Haibara, Ai"
+    },
+    "role": "Main",
+    "favorites": 2631,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 62041,
+      "url": "https://myanimelist.net/character/62041/Tooru_Amuro",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/244969.jpg?s=77d6ee1e5967e383963f7c336778beef"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/244969.webp?s=77d6ee1e5967e383963f7c336778beef",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/244969t.webp?s=77d6ee1e5967e383963f7c336778beef"
+        }
+      },
+      "name": "Amuro, Tooru"
+    },
+    "role": "Supporting",
+    "favorites": 716,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 6305,
+      "url": "https://myanimelist.net/character/6305/Gin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/291944.jpg?s=79c92cb7ab0f21476a09965c0629cf50"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/291944.webp?s=79c92cb7ab0f21476a09965c0629cf50",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/291944t.webp?s=79c92cb7ab0f21476a09965c0629cf50"
+        }
+      },
+      "name": "Gin"
+    },
+    "role": "Supporting",
+    "favorites": 456,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 6307,
+      "url": "https://myanimelist.net/character/6307/Vermouth",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/249669.jpg?s=1cb492d6dc969a8d5d8732a408087341"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/249669.webp?s=1cb492d6dc969a8d5d8732a408087341",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/249669t.webp?s=1cb492d6dc969a8d5d8732a408087341"
+        }
+      },
+      "name": "Vermouth"
+    },
+    "role": "Supporting",
+    "favorites": 467,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 6306,
+      "url": "https://myanimelist.net/character/6306/Vodka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/146117.jpg?s=e7a86fea9515c7a86a7d3bb85eeda881"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/146117.webp?s=e7a86fea9515c7a86a7d3bb85eeda881",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/146117t.webp?s=e7a86fea9515c7a86a7d3bb85eeda881"
+        }
+      },
+      "name": "Vodka"
+    },
+    "role": "Supporting",
+    "favorites": 10,
+    "voice_actors": []
+  }
+]

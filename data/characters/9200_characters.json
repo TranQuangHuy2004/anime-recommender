@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 142473,
+      "url": "https://myanimelist.net/character/142473/Jeong_Ho_Min",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/356710.jpg?s=0da8a1c238bea9c32f63b94cb4c9df52"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/356710.webp?s=0da8a1c238bea9c32f63b94cb4c9df52",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/356710t.webp?s=0da8a1c238bea9c32f63b94cb4c9df52"
+        }
+      },
+      "name": "Min, Jeong Ho"
+    },
+    "role": "Main",
+    "favorites": 22,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 26214,
+      "url": "https://myanimelist.net/character/26214/Jang_Geum_Seo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/356697.jpg?s=d7e372ce1c773900d046a5ba5dc8de63"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/356697.webp?s=d7e372ce1c773900d046a5ba5dc8de63",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/356697t.webp?s=d7e372ce1c773900d046a5ba5dc8de63"
+        }
+      },
+      "name": "Seo, Jang Geum"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 190746,
+      "url": "https://myanimelist.net/character/190746/Han_Sang_Goong",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/428365.jpg?s=215db6a594376736c0b5de7f507a57b2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/428365.webp?s=215db6a594376736c0b5de7f507a57b2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/428365t.webp?s=215db6a594376736c0b5de7f507a57b2"
+        }
+      },
+      "name": "Han Sang Goong"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 275741,
+      "url": "https://myanimelist.net/character/275741/_Su_Ro__Jang_",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/600463.jpg?s=cab106b761004e00f530f29e450625e9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/600463.webp?s=cab106b761004e00f530f29e450625e9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/600463t.webp?s=cab106b761004e00f530f29e450625e9"
+        }
+      },
+      "name": "Jang , Su Ro"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 275737,
+      "url": "https://myanimelist.net/character/275737/Yeonsaeng_Lee",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/600455.jpg?s=3146b7c1acf87c167be090a034100629"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/600455.webp?s=3146b7c1acf87c167be090a034100629",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/600455t.webp?s=3146b7c1acf87c167be090a034100629"
+        }
+      },
+      "name": "Lee, Yeonsaeng"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

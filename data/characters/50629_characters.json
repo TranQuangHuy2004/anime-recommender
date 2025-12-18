@@ -1,0 +1,116 @@
+[
+  {
+    "character": {
+      "mal_id": 195069,
+      "url": "https://myanimelist.net/character/195069/Wujie_Lei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/438385.jpg?s=ae15136a68a15a1405a397728de86fb9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/438385.webp?s=ae15136a68a15a1405a397728de86fb9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/438385t.webp?s=ae15136a68a15a1405a397728de86fb9"
+        }
+      },
+      "name": "Lei, Wujie"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 195072,
+      "url": "https://myanimelist.net/character/195072/Lian_Tang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/438388.jpg?s=fc9d0b95f3dd796ade1b88fb40780a3a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/438388.webp?s=fc9d0b95f3dd796ade1b88fb40780a3a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/438388t.webp?s=fc9d0b95f3dd796ade1b88fb40780a3a"
+        }
+      },
+      "name": "Tang, Lian"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 195070,
+      "url": "https://myanimelist.net/character/195070/Se_Xiao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/438386.jpg?s=706db04d1707280b4a17832d2461dc96"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/438386.webp?s=706db04d1707280b4a17832d2461dc96",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/438386t.webp?s=706db04d1707280b4a17832d2461dc96"
+        }
+      },
+      "name": "Xiao, Se"
+    },
+    "role": "Main",
+    "favorites": 14,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 237020,
+      "url": "https://myanimelist.net/character/237020/Mingxuan_Luo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/529897.jpg?s=0b65ccbdb26537584f6e4a681e776fbe"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/529897.webp?s=0b65ccbdb26537584f6e4a681e776fbe",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/529897t.webp?s=0b65ccbdb26537584f6e4a681e776fbe"
+        }
+      },
+      "name": "Luo, Mingxuan"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 195074,
+      "url": "https://myanimelist.net/character/195074/Qianluo_Sikong",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/438390.jpg?s=07441d0a7d0f589921ddd99cc3c3152a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/438390.webp?s=07441d0a7d0f589921ddd99cc3c3152a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/438390t.webp?s=07441d0a7d0f589921ddd99cc3c3152a"
+        }
+      },
+      "name": "Sikong, Qianluo"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 195076,
+      "url": "https://myanimelist.net/character/195076/Wuxin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/438392.jpg?s=99f2cde900d9406eb4b4c071663693cc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/438392.webp?s=99f2cde900d9406eb4b4c071663693cc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/438392t.webp?s=99f2cde900d9406eb4b4c071663693cc"
+        }
+      },
+      "name": "Wuxin"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": []
+  }
+]

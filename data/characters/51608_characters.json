@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 197751,
+      "url": "https://myanimelist.net/character/197751/Gura_Gawr",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/455236.jpg?s=d03e63912a58887c45ba8e08f38cc401"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/455236.webp?s=d03e63912a58887c45ba8e08f38cc401",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/455236t.webp?s=d03e63912a58887c45ba8e08f38cc401"
+        }
+      },
+      "name": "Gawr, Gura"
+    },
+    "role": "Main",
+    "favorites": 572,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 209476,
+      "url": "https://myanimelist.net/character/209476/Calliope_Mori",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/483016.jpg?s=38049e7ee7decebb1e153e5d2f87cbb4"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/483016.webp?s=38049e7ee7decebb1e153e5d2f87cbb4",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/483016t.webp?s=38049e7ee7decebb1e153e5d2f87cbb4"
+        }
+      },
+      "name": "Mori, Calliope"
+    },
+    "role": "Main",
+    "favorites": 127,
+    "voice_actors": []
+  }
+]

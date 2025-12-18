@@ -1,0 +1,120 @@
+[
+  {
+    "character": {
+      "mal_id": 232470,
+      "url": "https://myanimelist.net/character/232470/Mahnaria",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/516949.jpg?s=d328c97105902471cdaea2a81107918b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/516949.webp?s=d328c97105902471cdaea2a81107918b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/516949t.webp?s=d328c97105902471cdaea2a81107918b"
+        }
+      },
+      "name": "Mahnaria"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1548,
+          "url": "https://myanimelist.net/people/1548/Oma_Ichimura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/10001.jpg?s=a437aafd8e1a8cb40a6baf87e0f3224b"
+            }
+          },
+          "name": "Ichimura, Oma"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 232467,
+      "url": "https://myanimelist.net/character/232467/Mana",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/516946.jpg?s=a9e592e4d4f90268b0b466fc1eff1de3"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/516946.webp?s=a9e592e4d4f90268b0b466fc1eff1de3",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/516946t.webp?s=a9e592e4d4f90268b0b466fc1eff1de3"
+        }
+      },
+      "name": "Mana"
+    },
+    "role": "Main",
+    "favorites": 11,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63717,
+          "url": "https://myanimelist.net/people/63717/Yona_Osamu",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Osamu, Yona"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 232472,
+      "url": "https://myanimelist.net/character/232472/Kazu_Notus",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/516951.jpg?s=4cf5bd7d833ae9482ed9714c542534a9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/516951.webp?s=4cf5bd7d833ae9482ed9714c542534a9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/516951t.webp?s=4cf5bd7d833ae9482ed9714c542534a9"
+        }
+      },
+      "name": "Notus, Kazu"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 232468,
+      "url": "https://myanimelist.net/character/232468/Tieru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/516947.jpg?s=ad9e6c547f48b23b1fb3dc6e32cc005c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/516947.webp?s=ad9e6c547f48b23b1fb3dc6e32cc005c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/516947t.webp?s=ad9e6c547f48b23b1fb3dc6e32cc005c"
+        }
+      },
+      "name": "Tieru"
+    },
+    "role": "Main",
+    "favorites": 7,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 81811,
+          "url": "https://myanimelist.net/people/81811/Ren_Hiyori",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Hiyori, Ren"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

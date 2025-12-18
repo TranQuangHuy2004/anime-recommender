@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 2757,
+      "url": "https://myanimelist.net/character/2757/Lunar_Edomae",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/43337.jpg?s=9dd11ab307a11d7005d71873bac38f1c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/43337.webp?s=9dd11ab307a11d7005d71873bac38f1c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/43337t.webp?s=9dd11ab307a11d7005d71873bac38f1c"
+        }
+      },
+      "name": "Edomae, Lunar"
+    },
+    "role": "Main",
+    "favorites": 141,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 5426,
+      "url": "https://myanimelist.net/character/5426/Edomae",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/82397.jpg?s=6a877205b070d2cbd4457622b26692a5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/82397.webp?s=6a877205b070d2cbd4457622b26692a5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/82397t.webp?s=6a877205b070d2cbd4457622b26692a5"
+        }
+      },
+      "name": "Edomae"
+    },
+    "role": "Main",
+    "favorites": 44,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 18131,
+      "url": "https://myanimelist.net/character/18131/Saturn",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/45643.jpg?s=6d4aa88e0c80f33b99efb78d1db90f8e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/45643.webp?s=6d4aa88e0c80f33b99efb78d1db90f8e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/45643t.webp?s=6d4aa88e0c80f33b99efb78d1db90f8e"
+        }
+      },
+      "name": "Saturn"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

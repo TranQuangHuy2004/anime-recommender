@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 195339,
+      "url": "https://myanimelist.net/character/195339/Bojji",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/534710.jpg?s=f06d9ed521525ad3b13b92ff5ecae436"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/534710.webp?s=f06d9ed521525ad3b13b92ff5ecae436",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/534710t.webp?s=f06d9ed521525ad3b13b92ff5ecae436"
+        }
+      },
+      "name": "Bojji"
+    },
+    "role": "Main",
+    "favorites": 5221,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 195340,
+      "url": "https://myanimelist.net/character/195340/Kage",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/451498.jpg?s=f5968a13a170d31eb7545065c001f31f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/451498.webp?s=f5968a13a170d31eb7545065c001f31f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/451498t.webp?s=f5968a13a170d31eb7545065c001f31f"
+        }
+      },
+      "name": "Kage"
+    },
+    "role": "Main",
+    "favorites": 742,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 200585,
+      "url": "https://myanimelist.net/character/200585/Shiina",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/460022.jpg?s=86f557e368d239f1a07e37ba421effe7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/460022.webp?s=86f557e368d239f1a07e37ba421effe7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/460022t.webp?s=86f557e368d239f1a07e37ba421effe7"
+        }
+      },
+      "name": "Shiina"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

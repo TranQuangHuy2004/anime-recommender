@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 209610,
+      "url": "https://myanimelist.net/character/209610/Zhong_Bai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/470838.jpg?s=b9ddc2435f7b578a81deac4a23f54757"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/470838.webp?s=b9ddc2435f7b578a81deac4a23f54757",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/470838t.webp?s=b9ddc2435f7b578a81deac4a23f54757"
+        }
+      },
+      "name": "Bai, Zhong"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 209608,
+      "url": "https://myanimelist.net/character/209608/Tang_Fang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/470834.jpg?s=59eb2de9b9d752cea2c7ac1eb33edc45"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/470834.webp?s=59eb2de9b9d752cea2c7ac1eb33edc45",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/470834t.webp?s=59eb2de9b9d752cea2c7ac1eb33edc45"
+        }
+      },
+      "name": "Fang, Tang"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 260097,
+      "url": "https://myanimelist.net/character/260097/Nanzhu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Nanzhu"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 260098,
+      "url": "https://myanimelist.net/character/260098/Yan_Shi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/571425.jpg?s=5105914f442bd117659f87755ada21d4"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/571425.webp?s=5105914f442bd117659f87755ada21d4",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/571425t.webp?s=5105914f442bd117659f87755ada21d4"
+        }
+      },
+      "name": "Shi, Yan"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

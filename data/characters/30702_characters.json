@@ -1,0 +1,35 @@
+[
+  {
+    "character": {
+      "mal_id": 127942,
+      "url": "https://myanimelist.net/character/127942/Maria",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/281209.jpg?s=8dfdeebe49abb48241181a39240a28bd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/281209.webp?s=8dfdeebe49abb48241181a39240a28bd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/281209t.webp?s=8dfdeebe49abb48241181a39240a28bd"
+        }
+      },
+      "name": "Maria"
+    },
+    "role": "Main",
+    "favorites": 135,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 10392,
+          "url": "https://myanimelist.net/people/10392/Hatsumi_Takada",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/83950.jpg?s=de1e725f2df4582849d8e35fb2a82a9e"
+            }
+          },
+          "name": "Takada, Hatsumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

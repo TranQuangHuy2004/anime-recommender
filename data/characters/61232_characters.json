@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 271199,
+      "url": "https://myanimelist.net/character/271199/Shinji_Izumi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/593848.jpg?s=105e12719eb2b714e2c0dc1d28267ee3"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/593848.webp?s=105e12719eb2b714e2c0dc1d28267ee3",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/593848t.webp?s=105e12719eb2b714e2c0dc1d28267ee3"
+        }
+      },
+      "name": "Izumi, Shinji"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 246262,
+      "url": "https://myanimelist.net/character/246262/Chika_Kitamura",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/593851.jpg?s=0ce4793a56d60f969c6de60c2f0d6672"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/593851.webp?s=0ce4793a56d60f969c6de60c2f0d6672",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/593851t.webp?s=0ce4793a56d60f969c6de60c2f0d6672"
+        }
+      },
+      "name": "Kitamura, Chika"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 271200,
+      "url": "https://myanimelist.net/character/271200/Hina_Ryuuzaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/593849.jpg?s=00ebed1cadeb5e1ba8dd27217706acdb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/593849.webp?s=00ebed1cadeb5e1ba8dd27217706acdb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/593849t.webp?s=00ebed1cadeb5e1ba8dd27217706acdb"
+        }
+      },
+      "name": "Ryuuzaki, Hina"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 271198,
+      "url": "https://myanimelist.net/character/271198/Hana_Sakurai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/593850.jpg?s=4188a3561faa3d874a48961861365dda"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/593850.webp?s=4188a3561faa3d874a48961861365dda",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/593850t.webp?s=4188a3561faa3d874a48961861365dda"
+        }
+      },
+      "name": "Sakurai, Hana"
+    },
+    "role": "Main",
+    "favorites": 7,
+    "voice_actors": []
+  }
+]

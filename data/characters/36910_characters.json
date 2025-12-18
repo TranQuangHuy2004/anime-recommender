@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 80677,
+      "url": "https://myanimelist.net/character/80677/Geng_Wu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/233123.jpg?s=f05178ba81bb49d6ca2b9555dd8c2f9f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/233123.webp?s=f05178ba81bb49d6ca2b9555dd8c2f9f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/233123t.webp?s=f05178ba81bb49d6ca2b9555dd8c2f9f"
+        }
+      },
+      "name": "Wu, Geng"
+    },
+    "role": "Main",
+    "favorites": 145,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 88747,
+      "url": "https://myanimelist.net/character/88747/Bai_Cai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/214879.jpg?s=9e317072dfb25ffdb2320282e4ae58a5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/214879.webp?s=9e317072dfb25ffdb2320282e4ae58a5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/214879t.webp?s=9e317072dfb25ffdb2320282e4ae58a5"
+        }
+      },
+      "name": "Bai Cai"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 80683,
+      "url": "https://myanimelist.net/character/80683/Yu_Zi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/199077.jpg?s=721b31d48d2bd2a266849e09493a1e79"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/199077.webp?s=721b31d48d2bd2a266849e09493a1e79",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/199077t.webp?s=721b31d48d2bd2a266849e09493a1e79"
+        }
+      },
+      "name": "Zi, Yu"
+    },
+    "role": "Supporting",
+    "favorites": 49,
+    "voice_actors": []
+  }
+]

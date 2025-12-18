@@ -1,0 +1,120 @@
+[
+  {
+    "character": {
+      "mal_id": 195681,
+      "url": "https://myanimelist.net/character/195681/Chiyo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/461520.jpg?s=1d63f77e5a70d3e5d042f60df7983b70"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/461520.webp?s=1d63f77e5a70d3e5d042f60df7983b70",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/461520t.webp?s=1d63f77e5a70d3e5d042f60df7983b70"
+        }
+      },
+      "name": "Chiyo"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11641,
+          "url": "https://myanimelist.net/people/11641/Misaki_Kuno",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/62089.jpg?s=b58839f5a11815e4c1b0c250fea0d145"
+            }
+          },
+          "name": "Kuno, Misaki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 201935,
+      "url": "https://myanimelist.net/character/201935/Tsumugi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Tsumugi"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 14409,
+          "url": "https://myanimelist.net/people/14409/Emi_Nitta",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/54076.jpg?s=9eee949ec5268dca49d34f8ebf0a0edb"
+            }
+          },
+          "name": "Nitta, Emi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 195682,
+      "url": "https://myanimelist.net/character/195682/Yoru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/445293.jpg?s=69a9538c88ab90a2c77a8c6742bfe627"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/445293.webp?s=69a9538c88ab90a2c77a8c6742bfe627",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/445293t.webp?s=69a9538c88ab90a2c77a8c6742bfe627"
+        }
+      },
+      "name": "Yoru"
+    },
+    "role": "Main",
+    "favorites": 7,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 95,
+          "url": "https://myanimelist.net/people/95/Junichi_Suwabe",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/66059.jpg?s=56de4187bd125aa0eae974783d7b69ae"
+            }
+          },
+          "name": "Suwabe, Junichi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 201814,
+      "url": "https://myanimelist.net/character/201814/Akatsuki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Akatsuki"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

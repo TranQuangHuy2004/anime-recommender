@@ -1,0 +1,139 @@
+[
+  {
+    "character": {
+      "mal_id": 2066,
+      "url": "https://myanimelist.net/character/2066/Kaori_Makimura",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/249971.jpg?s=9e339a90a9aea87ff83a7039ee26ee7a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/249971.webp?s=9e339a90a9aea87ff83a7039ee26ee7a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/249971t.webp?s=9e339a90a9aea87ff83a7039ee26ee7a"
+        }
+      },
+      "name": "Makimura, Kaori"
+    },
+    "role": "Main",
+    "favorites": 191,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 420,
+          "url": "https://myanimelist.net/people/420/Kazue_Ikura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/64651.jpg?s=178aed270c0d3224cff077ec7d0f8822"
+            }
+          },
+          "name": "Ikura, Kazue"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 2065,
+      "url": "https://myanimelist.net/character/2065/Ryou_Saeba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/249973.jpg?s=42d0c4c6174476473d5de8c9629d2519"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/249973.webp?s=42d0c4c6174476473d5de8c9629d2519",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/249973t.webp?s=42d0c4c6174476473d5de8c9629d2519"
+        }
+      },
+      "name": "Saeba, Ryou"
+    },
+    "role": "Main",
+    "favorites": 1600,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 416,
+          "url": "https://myanimelist.net/people/416/Akira_Kamiya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/40558.jpg?s=cc82b6acdb339a8e409a9ebe0971a9ce"
+            }
+          },
+          "name": "Kamiya, Akira"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 2068,
+      "url": "https://myanimelist.net/character/2068/Hayato_Ijuuin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/59471.jpg?s=7dfe0f3708310fd599d8ae36be74712d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/59471.webp?s=7dfe0f3708310fd599d8ae36be74712d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/59471t.webp?s=7dfe0f3708310fd599d8ae36be74712d"
+        }
+      },
+      "name": "Ijuuin, Hayato"
+    },
+    "role": "Supporting",
+    "favorites": 57,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 761,
+          "url": "https://myanimelist.net/people/761/Tesshou_Genda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/87617.jpg?s=c626dd4a60d6b5f773fa0c052f5c9455"
+            }
+          },
+          "name": "Genda, Tesshou"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 61529,
+      "url": "https://myanimelist.net/character/61529/Miki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/163995.jpg?s=7229df929b5f5cecfc0d9abc19c953e4"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/163995.webp?s=7229df929b5f5cecfc0d9abc19c953e4",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/163995t.webp?s=7229df929b5f5cecfc0d9abc19c953e4"
+        }
+      },
+      "name": "Miki"
+    },
+    "role": "Supporting",
+    "favorites": 5,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 2069,
+      "url": "https://myanimelist.net/character/2069/Saeko_Nogami",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/226177.jpg?s=19c1ea444bfba2dcb9a4e2eec0c039be"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/226177.webp?s=19c1ea444bfba2dcb9a4e2eec0c039be",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/226177t.webp?s=19c1ea444bfba2dcb9a4e2eec0c039be"
+        }
+      },
+      "name": "Nogami, Saeko"
+    },
+    "role": "Supporting",
+    "favorites": 82,
+    "voice_actors": []
+  }
+]

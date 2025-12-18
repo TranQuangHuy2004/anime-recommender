@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 210608,
+      "url": "https://myanimelist.net/character/210608/Ziya_Jiang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/473300.jpg?s=87dfca20a6c389507d5bcd11a2b1f064"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/473300.webp?s=87dfca20a6c389507d5bcd11a2b1f064",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/473300t.webp?s=87dfca20a6c389507d5bcd11a2b1f064"
+        }
+      },
+      "name": "Jiang, Ziya"
+    },
+    "role": "Main",
+    "favorites": 8,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 210607,
+      "url": "https://myanimelist.net/character/210607/Jiuwei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/473299.jpg?s=04f86c075cb3796dcfa30516e3496cdb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/473299.webp?s=04f86c075cb3796dcfa30516e3496cdb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/473299t.webp?s=04f86c075cb3796dcfa30516e3496cdb"
+        }
+      },
+      "name": "Jiuwei"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 210609,
+      "url": "https://myanimelist.net/character/210609/Jiu_Xiao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/473301.jpg?s=3778c27461d19678906b314e65711261"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/473301.webp?s=3778c27461d19678906b314e65711261",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/473301t.webp?s=3778c27461d19678906b314e65711261"
+        }
+      },
+      "name": "Xiao, Jiu"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 196175,
+      "url": "https://myanimelist.net/character/196175/Nezha",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/515890.jpg?s=03d13f0b559af3e2ee60ea8d1cc5cee9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/515890.webp?s=03d13f0b559af3e2ee60ea8d1cc5cee9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/515890t.webp?s=03d13f0b559af3e2ee60ea8d1cc5cee9"
+        }
+      },
+      "name": "Nezha"
+    },
+    "role": "Supporting",
+    "favorites": 17,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 210606,
+      "url": "https://myanimelist.net/character/210606/Gongbao_Shen",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/473298.jpg?s=013644ba8d14ddf4d3aa9816a9791eea"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/473298.webp?s=013644ba8d14ddf4d3aa9816a9791eea",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/473298t.webp?s=013644ba8d14ddf4d3aa9816a9791eea"
+        }
+      },
+      "name": "Shen, Gongbao"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

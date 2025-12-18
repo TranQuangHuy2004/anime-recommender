@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 238045,
+      "url": "https://myanimelist.net/character/238045/Qingxue_Fang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/529091.jpg?s=25978f190f53672afb4e910f32702a4d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/529091.webp?s=25978f190f53672afb4e910f32702a4d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/529091t.webp?s=25978f190f53672afb4e910f32702a4d"
+        }
+      },
+      "name": "Fang, Qingxue"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 238044,
+      "url": "https://myanimelist.net/character/238044/Han_Fang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/529090.jpg?s=019dfef5c2532c03f5ab71c3a6d3f3be"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/529090.webp?s=019dfef5c2532c03f5ab71c3a6d3f3be",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/529090t.webp?s=019dfef5c2532c03f5ab71c3a6d3f3be"
+        }
+      },
+      "name": "Fang, Han"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  }
+]

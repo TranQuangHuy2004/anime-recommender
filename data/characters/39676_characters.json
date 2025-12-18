@@ -1,0 +1,116 @@
+[
+  {
+    "character": {
+      "mal_id": 192553,
+      "url": "https://myanimelist.net/character/192553/Moting_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/432448.jpg?s=d8f4f38b34493e2c9463b2df118ed832"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/432448.webp?s=d8f4f38b34493e2c9463b2df118ed832",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/432448t.webp?s=d8f4f38b34493e2c9463b2df118ed832"
+        }
+      },
+      "name": "Su, Moting"
+    },
+    "role": "Main",
+    "favorites": 24,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 219558,
+      "url": "https://myanimelist.net/character/219558/Dikui_Xing",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/492020.jpg?s=1873cae68903755f2b80d6a402ac312f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/492020.webp?s=1873cae68903755f2b80d6a402ac312f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/492020t.webp?s=1873cae68903755f2b80d6a402ac312f"
+        }
+      },
+      "name": "Xing, Dikui"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 212702,
+      "url": "https://myanimelist.net/character/212702/Tianji_Xing",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/478013.jpg?s=9d3df6e11da3bb2d3522330525b710f1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/478013.webp?s=9d3df6e11da3bb2d3522330525b710f1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/478013t.webp?s=9d3df6e11da3bb2d3522330525b710f1"
+        }
+      },
+      "name": "Xing, Tianji"
+    },
+    "role": "Main",
+    "favorites": 17,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 219807,
+      "url": "https://myanimelist.net/character/219807/Zhengshen_Fude",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/492705.jpg?s=17d843b89c05cfc4c7747adac9d90956"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/492705.webp?s=17d843b89c05cfc4c7747adac9d90956",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/492705t.webp?s=17d843b89c05cfc4c7747adac9d90956"
+        }
+      },
+      "name": "Fude, Zhengshen"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 232966,
+      "url": "https://myanimelist.net/character/232966/Father_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/517914.jpg?s=beada574fa7c6dc36f1e9f93dd648ef7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/517914.webp?s=beada574fa7c6dc36f1e9f93dd648ef7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/517914t.webp?s=beada574fa7c6dc36f1e9f93dd648ef7"
+        }
+      },
+      "name": "Su, Father"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 232965,
+      "url": "https://myanimelist.net/character/232965/Mother_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/517912.jpg?s=035e16c95d2a1e873f2a9e8fc7b6a908"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/517912.webp?s=035e16c95d2a1e873f2a9e8fc7b6a908",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/517912t.webp?s=035e16c95d2a1e873f2a9e8fc7b6a908"
+        }
+      },
+      "name": "Su, Mother"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

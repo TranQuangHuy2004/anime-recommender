@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 117911,
+      "url": "https://myanimelist.net/character/117911/Katsuki_Bakugou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/299406.jpg?s=7ce7f3b38b2ebe0fd31b3a313fa14fe9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/299406.webp?s=7ce7f3b38b2ebe0fd31b3a313fa14fe9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/299406t.webp?s=7ce7f3b38b2ebe0fd31b3a313fa14fe9"
+        }
+      },
+      "name": "Bakugou, Katsuki"
+    },
+    "role": "Main",
+    "favorites": 23678,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 270,
+          "url": "https://myanimelist.net/people/270/Nobuhiko_Okamoto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/48785.jpg?s=22fe4347c06c07461a12c6bae5687bfb"
+            }
+          },
+          "name": "Okamoto, Nobuhiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 117909,
+      "url": "https://myanimelist.net/character/117909/Izuku_Midoriya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg?s=6a448d3702c1d3185ed7ad8f0b8484f0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.webp?s=6a448d3702c1d3185ed7ad8f0b8484f0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/299404t.webp?s=6a448d3702c1d3185ed7ad8f0b8484f0"
+        }
+      },
+      "name": "Midoriya, Izuku"
+    },
+    "role": "Main",
+    "favorites": 25928,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 21971,
+          "url": "https://myanimelist.net/people/21971/Daiki_Yamashita",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/74376.jpg?s=eb24f77b6bd4041ac4f1e798b6d72a78"
+            }
+          },
+          "name": "Yamashita, Daiki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 174327,
+      "url": "https://myanimelist.net/character/174327/Katsuma_Shimano",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/390860.jpg?s=d50108ab4e711efb2b2fdba2d0d9badf"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/390860.webp?s=d50108ab4e711efb2b2fdba2d0d9badf",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/390860t.webp?s=d50108ab4e711efb2b2fdba2d0d9badf"
+        }
+      },
+      "name": "Shimano, Katsuma"
+    },
+    "role": "Main",
+    "favorites": 9,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 671,
+          "url": "https://myanimelist.net/people/671/Yuka_Terasaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/35199.jpg?s=aacfd5ca6c4e50dfaf902f371ed0aff6"
+            }
+          },
+          "name": "Terasaki, Yuka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 174326,
+      "url": "https://myanimelist.net/character/174326/Mahoro_Shimano",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/390859.jpg?s=41c9ceeee56a3d9b59b621e7b280b7f2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/390859.webp?s=41c9ceeee56a3d9b59b621e7b280b7f2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/390859t.webp?s=41c9ceeee56a3d9b59b621e7b280b7f2"
+        }
+      },
+      "name": "Shimano, Mahoro"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11661,
+          "url": "https://myanimelist.net/people/11661/Tomoyo_Kurosawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/85261.jpg?s=4d2e74adca76c823ca5f4188997158e6"
+            }
+          },
+          "name": "Kurosawa, Tomoyo"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

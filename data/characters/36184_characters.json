@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 192967,
+      "url": "https://myanimelist.net/character/192967/Yuxiu_Bai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/457392.jpg?s=2a8c13435f1dc2c45925741d8e947a4a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/457392.webp?s=2a8c13435f1dc2c45925741d8e947a4a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/457392t.webp?s=2a8c13435f1dc2c45925741d8e947a4a"
+        }
+      },
+      "name": "Bai, Yuxiu"
+    },
+    "role": "Main",
+    "favorites": 20,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 192968,
+      "url": "https://myanimelist.net/character/192968/Linger_Feng",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/457391.jpg?s=f35da395a13598e1e6b6873c1e8dbddc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/457391.webp?s=f35da395a13598e1e6b6873c1e8dbddc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/457391t.webp?s=f35da395a13598e1e6b6873c1e8dbddc"
+        }
+      },
+      "name": "Feng, Ling'er"
+    },
+    "role": "Main",
+    "favorites": 9,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 207202,
+      "url": "https://myanimelist.net/character/207202/Chen_Feiyan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/467080.jpg?s=b6a688727030e0d7ef518dc5291859cf"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/467080.webp?s=b6a688727030e0d7ef518dc5291859cf",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/467080t.webp?s=b6a688727030e0d7ef518dc5291859cf"
+        }
+      },
+      "name": "Feiyan, Chen"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

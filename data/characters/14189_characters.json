@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 30273,
+      "url": "https://myanimelist.net/character/30273/Yuuko_Kanoe",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/164633.jpg?s=672509dd635f19df94d2b3e6c9e08104"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/164633.webp?s=672509dd635f19df94d2b3e6c9e08104",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/164633t.webp?s=672509dd635f19df94d2b3e6c9e08104"
+        }
+      },
+      "name": "Kanoe, Yuuko"
+    },
+    "role": "Main",
+    "favorites": 4194,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 12016,
+          "url": "https://myanimelist.net/people/12016/Yumi_Hara",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/76069.jpg?s=12457976f42d8460bff9a265644e0397"
+            }
+          },
+          "name": "Hara, Yumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 39417,
+      "url": "https://myanimelist.net/character/39417/Kirie_Kanoe",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/162175.jpg?s=98cef9aafac8383e502e1b570d793d32"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/162175.webp?s=98cef9aafac8383e502e1b570d793d32",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/162175t.webp?s=98cef9aafac8383e502e1b570d793d32"
+        }
+      },
+      "name": "Kanoe, Kirie"
+    },
+    "role": "Main",
+    "favorites": 82,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 413,
+          "url": "https://myanimelist.net/people/413/Eri_Kitamura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/65502.jpg?s=3d9de87e9369564d3dd2c05170665afa"
+            }
+          },
+          "name": "Kitamura, Eri"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 34471,
+      "url": "https://myanimelist.net/character/34471/Teiichi_Niiya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/163717.jpg?s=8067b92441997f1a25dc3cc1b7cb3385"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/163717.webp?s=8067b92441997f1a25dc3cc1b7cb3385",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/163717t.webp?s=8067b92441997f1a25dc3cc1b7cb3385"
+        }
+      },
+      "name": "Niiya, Teiichi"
+    },
+    "role": "Main",
+    "favorites": 110,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 556,
+          "url": "https://myanimelist.net/people/556/Tsubasa_Yonaga",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/56775.jpg?s=3d7744317b5784de6b0d4d40c7e6bae3"
+            }
+          },
+          "name": "Yonaga, Tsubasa"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 42926,
+      "url": "https://myanimelist.net/character/42926/Momoe_Okonogi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/164635.jpg?s=31ed32215cd39a603aacc93fe41f4607"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/164635.webp?s=31ed32215cd39a603aacc93fe41f4607",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/164635t.webp?s=31ed32215cd39a603aacc93fe41f4607"
+        }
+      },
+      "name": "Okonogi, Momoe"
+    },
+    "role": "Main",
+    "favorites": 20,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 207,
+          "url": "https://myanimelist.net/people/207/Misato_Fukuen",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/64813.jpg?s=36d1b926891264c42b629a0a0135abfa"
+            }
+          },
+          "name": "Fukuen, Misato"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

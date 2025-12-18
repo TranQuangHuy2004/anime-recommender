@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 496,
+      "url": "https://myanimelist.net/character/496/Shirou_Emiya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/173271.jpg?s=74059f2718fb3dafbc6f487382c2fa6e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/173271.webp?s=74059f2718fb3dafbc6f487382c2fa6e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/173271t.webp?s=74059f2718fb3dafbc6f487382c2fa6e"
+        }
+      },
+      "name": "Emiya, Shirou"
+    },
+    "role": "Main",
+    "favorites": 7002,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 16,
+          "url": "https://myanimelist.net/people/16/Noriaki_Sugiyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73289.jpg?s=429ee25324e9906db1f67a4d2e675230"
+            }
+          },
+          "name": "Sugiyama, Noriaki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 497,
+      "url": "https://myanimelist.net/character/497/Saber",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/275276.jpg?s=4eba6ea0e7bc9054777e616f944eaec0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/275276.webp?s=4eba6ea0e7bc9054777e616f944eaec0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/275276t.webp?s=4eba6ea0e7bc9054777e616f944eaec0"
+        }
+      },
+      "name": "Saber"
+    },
+    "role": "Main",
+    "favorites": 32962,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 13,
+          "url": "https://myanimelist.net/people/13/Ayako_Kawasumi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/69419.jpg?s=da47eee099d7384262cce64c64724655"
+            }
+          },
+          "name": "Kawasumi, Ayako"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 498,
+      "url": "https://myanimelist.net/character/498/Rin_Toosaka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/270529.jpg?s=706a118549bd43c8f2e405d2225499a0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/270529.webp?s=706a118549bd43c8f2e405d2225499a0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/270529t.webp?s=706a118549bd43c8f2e405d2225499a0"
+        }
+      },
+      "name": "Toosaka, Rin"
+    },
+    "role": "Main",
+    "favorites": 24986,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 116,
+          "url": "https://myanimelist.net/people/116/Kana_Ueda",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/67826.jpg?s=91b5c6966dd0e8581e81608c11a0fe72"
+            }
+          },
+          "name": "Ueda, Kana"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

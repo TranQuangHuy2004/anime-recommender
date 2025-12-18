@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 205711,
+      "url": "https://myanimelist.net/character/205711/Fei_Hou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/611177.jpg?s=4b2d7407dbf075bfb47a5e78f6d80a08"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/611177.webp?s=4b2d7407dbf075bfb47a5e78f6d80a08",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/611177t.webp?s=4b2d7407dbf075bfb47a5e78f6d80a08"
+        }
+      },
+      "name": "Hou, Fei"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 205709,
+      "url": "https://myanimelist.net/character/205709/Li_Jiang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/596954.jpg?s=20502258aba42c123f20bf11db85d66b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/596954.webp?s=20502258aba42c123f20bf11db85d66b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/596954t.webp?s=20502258aba42c123f20bf11db85d66b"
+        }
+      },
+      "name": "Jiang, Li"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 167178,
+      "url": "https://myanimelist.net/character/167178/Yu_Qin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/407666.jpg?s=0fa12e716c8b808c80d5349c292b351f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/407666.webp?s=0fa12e716c8b808c80d5349c292b351f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/407666t.webp?s=0fa12e716c8b808c80d5349c292b351f"
+        }
+      },
+      "name": "Qin, Yu"
+    },
+    "role": "Main",
+    "favorites": 8,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 187262,
+      "url": "https://myanimelist.net/character/187262/Yu_Hei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/477866.jpg?s=f1c36d6a4ed72d5bb5106110d6ebee15"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/477866.webp?s=f1c36d6a4ed72d5bb5106110d6ebee15",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/477866t.webp?s=f1c36d6a4ed72d5bb5106110d6ebee15"
+        }
+      },
+      "name": "Hei, Yu"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

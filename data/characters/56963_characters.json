@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 281395,
+      "url": "https://myanimelist.net/character/281395/Fei_Gu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/614997.jpg?s=4fd3208aaeab43fe28459f064dd03165"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/614997.webp?s=4fd3208aaeab43fe28459f064dd03165",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/614997t.webp?s=4fd3208aaeab43fe28459f064dd03165"
+        }
+      },
+      "name": "Gu, Fei"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285147,
+      "url": "https://myanimelist.net/character/285147/Han_Jia_Gongzi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/615000.jpg?s=57ccd20a0bcacdbb6d9a8943d68783be"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/615000.webp?s=57ccd20a0bcacdbb6d9a8943d68783be",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/615000t.webp?s=57ccd20a0bcacdbb6d9a8943d68783be"
+        }
+      },
+      "name": "Han Jia Gongzi"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285145,
+      "url": "https://myanimelist.net/character/285145/Jian_Gui",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/614998.jpg?s=d5204ec6ab27a522ecbc0ce5cdf602ab"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/614998.webp?s=d5204ec6ab27a522ecbc0ce5cdf602ab",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/614998t.webp?s=d5204ec6ab27a522ecbc0ce5cdf602ab"
+        }
+      },
+      "name": "Jian Gui"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285146,
+      "url": "https://myanimelist.net/character/285146/Xiaotian_Xi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/614999.jpg?s=22f8853cafed496d7e3640038d898fcb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/614999.webp?s=22f8853cafed496d7e3640038d898fcb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/614999t.webp?s=22f8853cafed496d7e3640038d898fcb"
+        }
+      },
+      "name": "Xi, Xiaotian"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285148,
+      "url": "https://myanimelist.net/character/285148/Xi_Yao_Wu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/615001.jpg?s=2f04c74960dc91aa5a4dd289b03fc57d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/615001.webp?s=2f04c74960dc91aa5a4dd289b03fc57d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/615001t.webp?s=2f04c74960dc91aa5a4dd289b03fc57d"
+        }
+      },
+      "name": "Xi Yao Wu"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 16341,
+      "url": "https://myanimelist.net/character/16341/Yu_Jin_Jeong",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/109215.jpg?s=3cae51656f702c134b41b0e5c67393be"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/109215.webp?s=3cae51656f702c134b41b0e5c67393be",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/109215t.webp?s=3cae51656f702c134b41b0e5c67393be"
+        }
+      },
+      "name": "Jeong, Yu Jin"
+    },
+    "role": "Main",
+    "favorites": 8,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 32383,
+      "url": "https://myanimelist.net/character/32383/Sang-Hyuk_Kim",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/109217.jpg?s=79717a30a280b27b125802d0e8969b43"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/109217.webp?s=79717a30a280b27b125802d0e8969b43",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/109217t.webp?s=79717a30a280b27b125802d0e8969b43"
+        }
+      },
+      "name": "Kim, Sang-Hyuk"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 16340,
+      "url": "https://myanimelist.net/character/16340/Min_Hyung_Lee",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/109216.jpg?s=e6f698784952e28265ef3bded8bcc690"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/109216.webp?s=e6f698784952e28265ef3bded8bcc690",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/109216t.webp?s=e6f698784952e28265ef3bded8bcc690"
+        }
+      },
+      "name": "Lee, Min Hyung"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 27104,
+      "url": "https://myanimelist.net/character/27104/Chelin_Oh",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/88650.jpg?s=c2f5e564108f475661ec1e1f1f5ec334"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/88650.webp?s=c2f5e564108f475661ec1e1f1f5ec334",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/88650t.webp?s=c2f5e564108f475661ec1e1f1f5ec334"
+        }
+      },
+      "name": "Oh, Chelin"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

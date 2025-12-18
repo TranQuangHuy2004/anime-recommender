@@ -1,0 +1,120 @@
+[
+  {
+    "character": {
+      "mal_id": 193721,
+      "url": "https://myanimelist.net/character/193721/Sae_Hinata",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/467663.jpg?s=04d07b83a0a593878ee462172a3190c2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/467663.webp?s=04d07b83a0a593878ee462172a3190c2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/467663t.webp?s=04d07b83a0a593878ee462172a3190c2"
+        }
+      },
+      "name": "Hinata, Sae"
+    },
+    "role": "Main",
+    "favorites": 15,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 27149,
+          "url": "https://myanimelist.net/people/27149/Matsuri_Mizuguchi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/83687.jpg?s=7d94fc38ee0761e5c8bd410aebc4b79f"
+            }
+          },
+          "name": "Mizuguchi, Matsuri"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 194032,
+      "url": "https://myanimelist.net/character/194032/Izumi_Nogami",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/467885.jpg?s=03870cc23e7b3830d1194642c01ac86e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/467885.webp?s=03870cc23e7b3830d1194642c01ac86e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/467885t.webp?s=03870cc23e7b3830d1194642c01ac86e"
+        }
+      },
+      "name": "Nogami, Izumi"
+    },
+    "role": "Main",
+    "favorites": 70,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63039,
+          "url": "https://myanimelist.net/people/63039/Aoi_Tokio",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/63322.jpg?s=c46139d2016a16be2a3a51b482d2cc3f"
+            }
+          },
+          "name": "Tokio, Aoi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 202540,
+      "url": "https://myanimelist.net/character/202540/Minako_Sanada",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/467887.jpg?s=2b95e96afffbb9a8283037ecca8aff63"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/467887.webp?s=2b95e96afffbb9a8283037ecca8aff63",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/467887t.webp?s=2b95e96afffbb9a8283037ecca8aff63"
+        }
+      },
+      "name": "Sanada, Minako"
+    },
+    "role": "Main",
+    "favorites": 20,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1548,
+          "url": "https://myanimelist.net/people/1548/Oma_Ichimura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/10001.jpg?s=a437aafd8e1a8cb40a6baf87e0f3224b"
+            }
+          },
+          "name": "Ichimura, Oma"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 202733,
+      "url": "https://myanimelist.net/character/202733/Tazaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/456709.jpg?s=6a255a6777f40aed4e77541067f43133"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/456709.webp?s=6a255a6777f40aed4e77541067f43133",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/456709t.webp?s=6a255a6777f40aed4e77541067f43133"
+        }
+      },
+      "name": "Tazaki"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": []
+  }
+]

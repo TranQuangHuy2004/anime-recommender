@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 120797,
+      "url": "https://myanimelist.net/character/120797/Yurine_Hayasaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/499313.jpg?s=78e085c596128568c7f310a2eba82f68"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/499313.webp?s=78e085c596128568c7f310a2eba82f68",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/499313t.webp?s=78e085c596128568c7f310a2eba82f68"
+        }
+      },
+      "name": "Hayasaki, Yurine"
+    },
+    "role": "Main",
+    "favorites": 93,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 5175,
+          "url": "https://myanimelist.net/people/5175/Aiko_Ookubo",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/40052.jpg?s=6105ca0e06666de44163e3fc89d98336"
+            }
+          },
+          "name": "Ookubo, Aiko"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 120791,
+      "url": "https://myanimelist.net/character/120791/Mio_Hayasaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/499312.jpg?s=24d3ef543aa290f0137e4f611d75281d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/499312.webp?s=24d3ef543aa290f0137e4f611d75281d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/499312t.webp?s=24d3ef543aa290f0137e4f611d75281d"
+        }
+      },
+      "name": "Hayasaki, Mio"
+    },
+    "role": "Main",
+    "favorites": 139,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 37874,
+          "url": "https://myanimelist.net/people/37874/Tomoe_Jinbo",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/77398.jpg?s=14daa4a91629dd0492c08ba522a77f2f"
+            }
+          },
+          "name": "Jinbo, Tomoe"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 120795,
+      "url": "https://myanimelist.net/character/120795/Noemi_Hayasaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/399580.jpg?s=12f569646d699484ebe2d9cc9f368e2b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/399580.webp?s=12f569646d699484ebe2d9cc9f368e2b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/399580t.webp?s=12f569646d699484ebe2d9cc9f368e2b"
+        }
+      },
+      "name": "Hayasaki, Noemi"
+    },
+    "role": "Supporting",
+    "favorites": 19,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 37591,
+          "url": "https://myanimelist.net/people/37591/Maki_Tomonaga",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/40773.jpg?s=736a6f75afd2eb1e7a6d62d0357309af"
+            }
+          },
+          "name": "Tomonaga, Maki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 120793,
+      "url": "https://myanimelist.net/character/120793/Naru_Hayasaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/399581.jpg?s=89a69ba347a899a98a83f20ba0591714"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/399581.webp?s=89a69ba347a899a98a83f20ba0591714",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/399581t.webp?s=89a69ba347a899a98a83f20ba0591714"
+        }
+      },
+      "name": "Hayasaki, Naru"
+    },
+    "role": "Supporting",
+    "favorites": 13,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 12716,
+          "url": "https://myanimelist.net/people/12716/Mei_Misonoo",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/36977.jpg?s=d903eef15cf0512c5720369162f9cf56"
+            }
+          },
+          "name": "Misonoo, Mei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

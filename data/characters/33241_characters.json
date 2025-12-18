@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 141992,
+      "url": "https://myanimelist.net/character/141992/Chiharu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/420214.jpg?s=2e02de4b4e3e04898bdf289d8bf5c629"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/420214.webp?s=2e02de4b4e3e04898bdf289d8bf5c629",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/420214t.webp?s=2e02de4b4e3e04898bdf289d8bf5c629"
+        }
+      },
+      "name": "Chiharu"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 11787,
+          "url": "https://myanimelist.net/people/11787/Asami_Seto",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/65839.jpg?s=fc10712f42c93ebbcb2e02a6b6448c30"
+            }
+          },
+          "name": "Seto, Asami"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 141991,
+      "url": "https://myanimelist.net/character/141991/Eita",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/449967.jpg?s=7541625278ae881c5e10cb89b8c0167b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/449967.webp?s=7541625278ae881c5e10cb89b8c0167b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/449967t.webp?s=7541625278ae881c5e10cb89b8c0167b"
+        }
+      },
+      "name": "Eita"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 88,
+          "url": "https://myanimelist.net/people/88/Miyu_Irino",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/80313.jpg?s=9dce08c51de682061b953fd6d2cf263f"
+            }
+          },
+          "name": "Irino, Miyu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

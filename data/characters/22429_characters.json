@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 135479,
+      "url": "https://myanimelist.net/character/135479/Kanzaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/389419.jpg?s=7fa5e5cd577e6a65b0d536a6b17191d9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/389419.webp?s=7fa5e5cd577e6a65b0d536a6b17191d9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/389419t.webp?s=7fa5e5cd577e6a65b0d536a6b17191d9"
+        }
+      },
+      "name": "Kanzaki"
+    },
+    "role": "Main",
+    "favorites": 18,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 27179,
+          "url": "https://myanimelist.net/people/27179/Isuke_Natsumura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/69978.jpg?s=f27debc8f72ce57d7f7e01066f9b0763"
+            }
+          },
+          "name": "Natsumura, Isuke"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 104119,
+      "url": "https://myanimelist.net/character/104119/Mari_Setagaya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/315968.jpg?s=b09c14c17f79908a8afea80dfac9bac8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/315968.webp?s=b09c14c17f79908a8afea80dfac9bac8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/315968t.webp?s=b09c14c17f79908a8afea80dfac9bac8"
+        }
+      },
+      "name": "Setagaya, Mari"
+    },
+    "role": "Main",
+    "favorites": 864,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6509,
+          "url": "https://myanimelist.net/people/6509/Maki_Kobayashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/83952.jpg?s=cd9834075f480599d46cb21358a1f792"
+            }
+          },
+          "name": "Kobayashi, Maki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 225909,
+      "url": "https://myanimelist.net/character/225909/Nishihiro",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/504848.jpg?s=c72d3ded2a2ac5da5d3a8f1dd62c629e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/504848.webp?s=c72d3ded2a2ac5da5d3a8f1dd62c629e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/504848t.webp?s=c72d3ded2a2ac5da5d3a8f1dd62c629e"
+        }
+      },
+      "name": "Nishihiro"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 27177,
+          "url": "https://myanimelist.net/people/27177/Yuuji_Masuoka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Masuoka, Yuuji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 225910,
+      "url": "https://myanimelist.net/character/225910/Suda",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/504849.jpg?s=3c254c0c45cbdbb74155f7b079dd58a8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/504849.webp?s=3c254c0c45cbdbb74155f7b079dd58a8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/504849t.webp?s=3c254c0c45cbdbb74155f7b079dd58a8"
+        }
+      },
+      "name": "Suda"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 82133,
+          "url": "https://myanimelist.net/people/82133/Triple_B",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Triple B"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

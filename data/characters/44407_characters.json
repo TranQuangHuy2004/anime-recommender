@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 218050,
+      "url": "https://myanimelist.net/character/218050/2P",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/489195.jpg?s=0df4ab93aa67ad4ca622f2cf88fd3aed"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/489195.webp?s=0df4ab93aa67ad4ca622f2cf88fd3aed",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/489195t.webp?s=0df4ab93aa67ad4ca622f2cf88fd3aed"
+        }
+      },
+      "name": "2P"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 218049,
+      "url": "https://myanimelist.net/character/218049/E2",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/489194.jpg?s=6b4f8025d33e9dc665650ed2b8f3014c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/489194.webp?s=6b4f8025d33e9dc665650ed2b8f3014c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/489194t.webp?s=6b4f8025d33e9dc665650ed2b8f3014c"
+        }
+      },
+      "name": "E2"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

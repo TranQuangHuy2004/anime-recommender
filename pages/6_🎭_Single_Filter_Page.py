@@ -214,9 +214,7 @@ try:
     else:
         st.warning("⚠️ No results found. Try adjusting your search criteria.")
         if st.button("Clear search and filters"):
-            st.session_state.search_query = ''
-            st.session_state.search_filters = {}
-            st.session_state.current_page = 1
+            SessionManager.clear_all()
             st.rerun()
 
 except Exception as e:

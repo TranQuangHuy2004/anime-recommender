@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 216772,
+      "url": "https://myanimelist.net/character/216772/Torinira",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/534387.jpg?s=c8853b0d393a6be15de3ecbe38bb325d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/534387.webp?s=c8853b0d393a6be15de3ecbe38bb325d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/534387t.webp?s=c8853b0d393a6be15de3ecbe38bb325d"
+        }
+      },
+      "name": "Torinira"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 216770,
+      "url": "https://myanimelist.net/character/216770/Uniguri",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/551183.jpg?s=304634581183427e0e392a19108e4b4d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/551183.webp?s=304634581183427e0e392a19108e4b4d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/551183t.webp?s=304634581183427e0e392a19108e4b4d"
+        }
+      },
+      "name": "Uniguri"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  }
+]

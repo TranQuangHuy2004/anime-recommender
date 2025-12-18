@@ -1,0 +1,54 @@
+[
+  {
+    "character": {
+      "mal_id": 264643,
+      "url": "https://myanimelist.net/character/264643/Nao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/581782.jpg?s=95b7e318ae935de400cf0d39485f8f6e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/581782.webp?s=95b7e318ae935de400cf0d39485f8f6e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/581782t.webp?s=95b7e318ae935de400cf0d39485f8f6e"
+        }
+      },
+      "name": "Nao"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 91671,
+          "url": "https://myanimelist.net/people/91671/Yuzu_Hachimitsu",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/87988.jpg?s=c7fbff179dd16457a37204b0a8eb909d"
+            }
+          },
+          "name": "Hachimitsu, Yuzu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 264644,
+      "url": "https://myanimelist.net/character/264644/Shota",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/579756.jpg?s=cbb581f5118407690811fb6349c547f7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/579756.webp?s=cbb581f5118407690811fb6349c547f7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/579756t.webp?s=cbb581f5118407690811fb6349c547f7"
+        }
+      },
+      "name": "Shota"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

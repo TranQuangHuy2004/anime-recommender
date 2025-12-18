@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 8565,
+      "url": "https://myanimelist.net/character/8565/Seiichirou_Kitano",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/328833.jpg?s=7eede7907dca4cea47625dd4f7a835bc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/328833.webp?s=7eede7907dca4cea47625dd4f7a835bc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/328833t.webp?s=7eede7907dca4cea47625dd4f7a835bc"
+        }
+      },
+      "name": "Kitano, Seiichirou"
+    },
+    "role": "Main",
+    "favorites": 547,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 157,
+          "url": "https://myanimelist.net/people/157/Nobuo_Tobita",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/25253.jpg?s=22aa729d935dc0986a1a1076e55d9bd3"
+            }
+          },
+          "name": "Tobita, Nobuo"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 35733,
+      "url": "https://myanimelist.net/character/35733/Seikichi_Kuroda",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/97335.jpg?s=4ae5bb33f30a2797b8a0df98bfc34f5f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/97335.webp?s=4ae5bb33f30a2797b8a0df98bfc34f5f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/97335t.webp?s=4ae5bb33f30a2797b8a0df98bfc34f5f"
+        }
+      },
+      "name": "Kuroda, Seikichi"
+    },
+    "role": "Main",
+    "favorites": 9,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 45,
+          "url": "https://myanimelist.net/people/45/Kouji_Ishii",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/57334.jpg?s=a9227d1a8571a4f8b1170b1c923d71fb"
+            }
+          },
+          "name": "Ishii, Kouji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 12015,
+      "url": "https://myanimelist.net/character/12015/Yuuji_Takehisa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/381323.jpg?s=77ecf314dd3940241ad5ada646cfd7cc"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/381323.webp?s=77ecf314dd3940241ad5ada646cfd7cc",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/381323t.webp?s=77ecf314dd3940241ad5ada646cfd7cc"
+        }
+      },
+      "name": "Takehisa, Yuuji"
+    },
+    "role": "Main",
+    "favorites": 58,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1412,
+          "url": "https://myanimelist.net/people/1412/Kyousei_Tsukui",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/16261.jpg?s=76292dbd2c97a6e9767d4d354fa8c507"
+            }
+          },
+          "name": "Tsukui, Kyousei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 8567,
+      "url": "https://myanimelist.net/character/8567/Ryouko_Koiso",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/328827.jpg?s=d0324d60a3e371f189edaeb2a18b2d13"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/328827.webp?s=d0324d60a3e371f189edaeb2a18b2d13",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/328827t.webp?s=d0324d60a3e371f189edaeb2a18b2d13"
+        }
+      },
+      "name": "Koiso, Ryouko"
+    },
+    "role": "Supporting",
+    "favorites": 32,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 959,
+          "url": "https://myanimelist.net/people/959/Tomo_Sakurai",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/70337.jpg?s=b9de7dbb97dec04ab4986058d3df0df2"
+            }
+          },
+          "name": "Sakurai, Tomo"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

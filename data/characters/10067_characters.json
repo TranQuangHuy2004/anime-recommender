@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 91277,
+      "url": "https://myanimelist.net/character/91277/Danshi_A",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/219219.jpg?s=f644f1de61f0ebd490dcedb12b0da735"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/219219.webp?s=f644f1de61f0ebd490dcedb12b0da735",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/219219t.webp?s=f644f1de61f0ebd490dcedb12b0da735"
+        }
+      },
+      "name": "Danshi A"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 7512,
+          "url": "https://myanimelist.net/people/7512/Kenji_Akabane",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/74988.jpg?s=f1b2bbff52b9609959dee68e0b751fa9"
+            }
+          },
+          "name": "Akabane, Kenji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 24502,
+      "url": "https://myanimelist.net/character/24502/Yuzuru_Otonashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/434995.jpg?s=170bf5e9aef67401b17f69ddc8991f7c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/434995.webp?s=170bf5e9aef67401b17f69ddc8991f7c",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/434995t.webp?s=170bf5e9aef67401b17f69ddc8991f7c"
+        }
+      },
+      "name": "Otonashi, Yuzuru"
+    },
+    "role": "Main",
+    "favorites": 2995,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 118,
+          "url": "https://myanimelist.net/people/118/Hiroshi_Kamiya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/66163.jpg?s=775d0965030b624274719144d678113a"
+            }
+          },
+          "name": "Kamiya, Hiroshi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

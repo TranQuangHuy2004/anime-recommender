@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 273764,
+      "url": "https://myanimelist.net/character/273764/Zhao_Liner",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/596784.jpg?s=e3eb8d94fda221f673e8090874d95a4a"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/596784.webp?s=e3eb8d94fda221f673e8090874d95a4a",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/596784t.webp?s=e3eb8d94fda221f673e8090874d95a4a"
+        }
+      },
+      "name": "Liner, Zhao"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 277643,
+      "url": "https://myanimelist.net/character/277643/Chen_Xiao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/603468.jpg?s=eea9b5f23c3c64407dab3ef70b666c18"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/603468.webp?s=eea9b5f23c3c64407dab3ef70b666c18",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/603468t.webp?s=eea9b5f23c3c64407dab3ef70b666c18"
+        }
+      },
+      "name": "Xiao, Chen"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 265526,
+      "url": "https://myanimelist.net/character/265526/Qing_Cheng_Yan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/581170.jpg?s=1ea285aba0814e9c30fe51a8ead27e19"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/581170.webp?s=1ea285aba0814e9c30fe51a8ead27e19",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/581170t.webp?s=1ea285aba0814e9c30fe51a8ead27e19"
+        }
+      },
+      "name": "Yan, Qing Cheng"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": []
+  }
+]

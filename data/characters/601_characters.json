@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 16694,
+      "url": "https://myanimelist.net/character/16694/Nyako",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/105102.jpg?s=446710c7da811b7919d4403dbf390773"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/105102.webp?s=446710c7da811b7919d4403dbf390773",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/105102t.webp?s=446710c7da811b7919d4403dbf390773"
+        }
+      },
+      "name": "Nyako"
+    },
+    "role": "Main",
+    "favorites": 151,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 16695,
+      "url": "https://myanimelist.net/character/16695/Nyatta",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/56429.jpg?s=bcdde61fce8add258230b54ba4ea789e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/56429.webp?s=bcdde61fce8add258230b54ba4ea789e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/56429t.webp?s=bcdde61fce8add258230b54ba4ea789e"
+        }
+      },
+      "name": "Nyatta"
+    },
+    "role": "Main",
+    "favorites": 77,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 33383,
+      "url": "https://myanimelist.net/character/33383/Pig",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/90296.jpg?s=59d127564451d84a693f9ff7155ec714"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/90296.webp?s=59d127564451d84a693f9ff7155ec714",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/90296t.webp?s=59d127564451d84a693f9ff7155ec714"
+        }
+      },
+      "name": "Pig"
+    },
+    "role": "Supporting",
+    "favorites": 30,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 38882,
+      "url": "https://myanimelist.net/character/38882/Water_Elephant",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/106493.jpg?s=c9e1ec1593465f5ea5e0a4ca9e6e9f51"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/106493.webp?s=c9e1ec1593465f5ea5e0a4ca9e6e9f51",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/106493t.webp?s=c9e1ec1593465f5ea5e0a4ca9e6e9f51"
+        }
+      },
+      "name": "Water Elephant"
+    },
+    "role": "Supporting",
+    "favorites": 19,
+    "voice_actors": []
+  }
+]

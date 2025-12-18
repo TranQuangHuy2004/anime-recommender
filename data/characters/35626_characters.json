@@ -1,0 +1,97 @@
+[
+  {
+    "character": {
+      "mal_id": 153175,
+      "url": "https://myanimelist.net/character/153175/Nie_Li",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/395400.jpg?s=3d6557a344c7a688ed071d3b7eeb89a2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/395400.webp?s=3d6557a344c7a688ed071d3b7eeb89a2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/395400t.webp?s=3d6557a344c7a688ed071d3b7eeb89a2"
+        }
+      },
+      "name": "Li, Nie"
+    },
+    "role": "Main",
+    "favorites": 148,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 176414,
+      "url": "https://myanimelist.net/character/176414/Lu_Piao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/413794.jpg?s=976945eb116afc4dded14a19e5216fcd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/413794.webp?s=976945eb116afc4dded14a19e5216fcd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/413794t.webp?s=976945eb116afc4dded14a19e5216fcd"
+        }
+      },
+      "name": "Piao, Lu"
+    },
+    "role": "Supporting",
+    "favorites": 4,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 176412,
+      "url": "https://myanimelist.net/character/176412/Ninger_Xiao",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/461196.jpg?s=2d5fd8b6c3db5b725056e078f25697ff"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/461196.webp?s=2d5fd8b6c3db5b725056e078f25697ff",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/461196t.webp?s=2d5fd8b6c3db5b725056e078f25697ff"
+        }
+      },
+      "name": "Xiao, Ninger"
+    },
+    "role": "Supporting",
+    "favorites": 27,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 176411,
+      "url": "https://myanimelist.net/character/176411/Ziyun_Ye",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/413792.jpg?s=a8da52f6ce21a51374d21b77dfc1e0aa"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/413792.webp?s=a8da52f6ce21a51374d21b77dfc1e0aa",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/413792t.webp?s=a8da52f6ce21a51374d21b77dfc1e0aa"
+        }
+      },
+      "name": "Ye, Ziyun"
+    },
+    "role": "Supporting",
+    "favorites": 12,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 176413,
+      "url": "https://myanimelist.net/character/176413/Du_Ze",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/413795.jpg?s=c306a92f7e8bbdf2e62ffbeee6e21b08"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/413795.webp?s=c306a92f7e8bbdf2e62ffbeee6e21b08",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/413795t.webp?s=c306a92f7e8bbdf2e62ffbeee6e21b08"
+        }
+      },
+      "name": "Ze, Du"
+    },
+    "role": "Supporting",
+    "favorites": 6,
+    "voice_actors": []
+  }
+]

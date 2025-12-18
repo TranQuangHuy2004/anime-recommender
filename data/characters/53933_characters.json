@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 222409,
+      "url": "https://myanimelist.net/character/222409/Takuya_Amano",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/497694.jpg?s=7bcf197c0c29a9f728c52025363b9d1b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/497694.webp?s=7bcf197c0c29a9f728c52025363b9d1b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/497694t.webp?s=7bcf197c0c29a9f728c52025363b9d1b"
+        }
+      },
+      "name": "Amano, Takuya"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1764,
+          "url": "https://myanimelist.net/people/1764/Kouki_Uchiyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/63405.jpg?s=c6fe650dcb3f7707ec5640d053365a80"
+            }
+          },
+          "name": "Uchiyama, Kouki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 222410,
+      "url": "https://myanimelist.net/character/222410/Haruka_Kishi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/497693.jpg?s=fa89e833fcbdd9e986ee0b9be3962af5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/497693.webp?s=fa89e833fcbdd9e986ee0b9be3962af5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/497693t.webp?s=fa89e833fcbdd9e986ee0b9be3962af5"
+        }
+      },
+      "name": "Kishi, Haruka"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 5142,
+          "url": "https://myanimelist.net/people/5142/Yui_Ishikawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/69967.jpg?s=2934c5cc8f074309f2681b81624f540f"
+            }
+          },
+          "name": "Ishikawa, Yui"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 222411,
+      "url": "https://myanimelist.net/character/222411/Tsubasa_Miyake",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/497695.jpg?s=61847bd59c958f8a9d57e872b9a31ca8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/497695.webp?s=61847bd59c958f8a9d57e872b9a31ca8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/497695t.webp?s=61847bd59c958f8a9d57e872b9a31ca8"
+        }
+      },
+      "name": "Miyake, Tsubasa"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 922,
+          "url": "https://myanimelist.net/people/922/Daisuke_Fujita",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/80266.jpg?s=6650e65ae9938e2995e9cb886ed87b04"
+            }
+          },
+          "name": "Fujita, Daisuke"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

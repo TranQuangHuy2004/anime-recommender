@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 217910,
+      "url": "https://myanimelist.net/character/217910/Linger_Huo",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613055.jpg?s=7b1f901c7e02424d4b54a5d8c75fd2e7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/613055.webp?s=7b1f901c7e02424d4b54a5d8c75fd2e7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/613055t.webp?s=7b1f901c7e02424d4b54a5d8c75fd2e7"
+        }
+      },
+      "name": "Huo, Linger"
+    },
+    "role": "Main",
+    "favorites": 11,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 217906,
+      "url": "https://myanimelist.net/character/217906/Hao_Shi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613047.jpg?s=ba7cca72c1d6b47a31f54705424af9fb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/613047.webp?s=ba7cca72c1d6b47a31f54705424af9fb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/613047t.webp?s=ba7cca72c1d6b47a31f54705424af9fb"
+        }
+      },
+      "name": "Shi, Hao"
+    },
+    "role": "Main",
+    "favorites": 50,
+    "voice_actors": []
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 193065,
+      "url": "https://myanimelist.net/character/193065/Hitomi_Kurumizawa",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/433502.jpg?s=43eb0d61b45fc9e7e96b7905f91842d4"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/433502.webp?s=43eb0d61b45fc9e7e96b7905f91842d4",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/433502t.webp?s=43eb0d61b45fc9e7e96b7905f91842d4"
+        }
+      },
+      "name": "Kurumizawa, Hitomi"
+    },
+    "role": "Main",
+    "favorites": 8,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63700,
+          "url": "https://myanimelist.net/people/63700/Musubi_Aono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73577.jpg?s=f4e7278489382cf176c5147d87dde0ff"
+            }
+          },
+          "name": "Aono, Musubi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 193066,
+      "url": "https://myanimelist.net/character/193066/Natsume",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/433503.jpg?s=0df7ffa6bb9c565be6521260f5d15630"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/433503.webp?s=0df7ffa6bb9c565be6521260f5d15630",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/433503t.webp?s=0df7ffa6bb9c565be6521260f5d15630"
+        }
+      },
+      "name": "Natsume"
+    },
+    "role": "Main",
+    "favorites": 19,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 8916,
+          "url": "https://myanimelist.net/people/8916/Kei_Mizusawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/39998.jpg?s=6af563dc69a72d7e637b529efc1bee90"
+            }
+          },
+          "name": "Mizusawa, Kei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

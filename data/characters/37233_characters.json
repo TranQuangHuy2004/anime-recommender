@@ -1,0 +1,106 @@
+[
+  {
+    "character": {
+      "mal_id": 162726,
+      "url": "https://myanimelist.net/character/162726/Rina_Komiya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/402068.jpg?s=071b0413c2958da7e3fed16bc821ae59"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/402068.webp?s=071b0413c2958da7e3fed16bc821ae59",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/402068t.webp?s=071b0413c2958da7e3fed16bc821ae59"
+        }
+      },
+      "name": "Komiya, Rina"
+    },
+    "role": "Main",
+    "favorites": 33,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 162725,
+      "url": "https://myanimelist.net/character/162725/Anna_Komiya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/402095.jpg?s=3532a64849e12b0ff49edd0f7452b42d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/402095.webp?s=3532a64849e12b0ff49edd0f7452b42d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/402095t.webp?s=3532a64849e12b0ff49edd0f7452b42d"
+        }
+      },
+      "name": "Komiya, Anna"
+    },
+    "role": "Main",
+    "favorites": 22,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 69546,
+          "url": "https://myanimelist.net/people/69546/Rika_Fujino",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/77851.jpg?s=80040af3c9ca9c383a012c85756664aa"
+            }
+          },
+          "name": "Fujino, Rika"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 162724,
+      "url": "https://myanimelist.net/character/162724/Yuriya_Komiya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/402096.jpg?s=5fde212c567754e3c6bfb8c236e4c0f2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/402096.webp?s=5fde212c567754e3c6bfb8c236e4c0f2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/402096t.webp?s=5fde212c567754e3c6bfb8c236e4c0f2"
+        }
+      },
+      "name": "Komiya, Yuriya"
+    },
+    "role": "Main",
+    "favorites": 49,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 37874,
+          "url": "https://myanimelist.net/people/37874/Tomoe_Jinbo",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/77398.jpg?s=14daa4a91629dd0492c08ba522a77f2f"
+            }
+          },
+          "name": "Jinbo, Tomoe"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 162721,
+      "url": "https://myanimelist.net/character/162721/Takashi_Komiya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Komiya, Takashi"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

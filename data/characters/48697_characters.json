@@ -1,0 +1,139 @@
+[
+  {
+    "character": {
+      "mal_id": 210370,
+      "url": "https://myanimelist.net/character/210370/_Mikoshiba",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/472684.jpg?s=e9005a164696862ddf82db8b6ff03001"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/472684.webp?s=e9005a164696862ddf82db8b6ff03001",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/472684t.webp?s=e9005a164696862ddf82db8b6ff03001"
+        }
+      },
+      "name": "Mikoshiba"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 210371,
+      "url": "https://myanimelist.net/character/210371/Sayaka_Himegami",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/478743.jpg?s=b681f94ffd8145ba04499c02930fbab9"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/478743.webp?s=b681f94ffd8145ba04499c02930fbab9",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/478743t.webp?s=b681f94ffd8145ba04499c02930fbab9"
+        }
+      },
+      "name": "Himegami, Sayaka"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 8954,
+          "url": "https://myanimelist.net/people/8954/Ringo_Aoba",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/33209.jpg?s=34aae014057753faf08e734b98f53572"
+            }
+          },
+          "name": "Aoba, Ringo"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 212968,
+      "url": "https://myanimelist.net/character/212968/Fumika_Saitou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/478744.jpg?s=5c4474bfdffb8f8f745b19dc17d0b168"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/478744.webp?s=5c4474bfdffb8f8f745b19dc17d0b168",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/478744t.webp?s=5c4474bfdffb8f8f745b19dc17d0b168"
+        }
+      },
+      "name": "Saitou, Fumika"
+    },
+    "role": "Main",
+    "favorites": 7,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 88963,
+          "url": "https://myanimelist.net/people/88963/Kanna_Natsuki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+            }
+          },
+          "name": "Natsuki, Kanna"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 212969,
+      "url": "https://myanimelist.net/character/212969/Riko_Watanabe",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/478745.jpg?s=26292e6c73388a10e0e3ce49476961a1"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/478745.webp?s=26292e6c73388a10e0e3ce49476961a1",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/478745t.webp?s=26292e6c73388a10e0e3ce49476961a1"
+        }
+      },
+      "name": "Watanabe, Riko"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 204780,
+      "url": "https://myanimelist.net/character/204780/Yuri_Shibasaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/461786.jpg?s=c3ef84afeed0503acb454907a0d7d837"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/461786.webp?s=c3ef84afeed0503acb454907a0d7d837",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/461786t.webp?s=c3ef84afeed0503acb454907a0d7d837"
+        }
+      },
+      "name": "Shibasaki, Yuri"
+    },
+    "role": "Supporting",
+    "favorites": 11,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 6509,
+          "url": "https://myanimelist.net/people/6509/Maki_Kobayashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/83952.jpg?s=cd9834075f480599d46cb21358a1f792"
+            }
+          },
+          "name": "Kobayashi, Maki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

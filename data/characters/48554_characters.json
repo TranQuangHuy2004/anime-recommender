@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 196017,
+      "url": "https://myanimelist.net/character/196017/Ibuki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/478155.jpg?s=4f6407d50aac579b814df88fed2900f7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/478155.webp?s=4f6407d50aac579b814df88fed2900f7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/478155t.webp?s=4f6407d50aac579b814df88fed2900f7"
+        }
+      },
+      "name": "Ibuki"
+    },
+    "role": "Main",
+    "favorites": 28,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 164219,
+      "url": "https://myanimelist.net/character/164219/Louis",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/402505.jpg?s=744ce295a7ec67aab578d383be6d73cf"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/402505.webp?s=744ce295a7ec67aab578d383be6d73cf",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/402505t.webp?s=744ce295a7ec67aab578d383be6d73cf"
+        }
+      },
+      "name": "Louis"
+    },
+    "role": "Main",
+    "favorites": 1183,
+    "voice_actors": []
+  }
+]

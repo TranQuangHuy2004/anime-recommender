@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 73881,
+      "url": "https://myanimelist.net/character/73881/Tadaomi_Karasuma",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/274437.jpg?s=fa798e32b777aa47fd7b7766fd5e09fd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/274437.webp?s=fa798e32b777aa47fd7b7766fd5e09fd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/274437t.webp?s=fa798e32b777aa47fd7b7766fd5e09fd"
+        }
+      },
+      "name": "Karasuma, Tadaomi"
+    },
+    "role": "Main",
+    "favorites": 780,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 2,
+          "url": "https://myanimelist.net/people/2/Tomokazu_Sugita",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/81054.jpg?s=b097749c915d7b524a6aab22bdace0e7"
+            }
+          },
+          "name": "Sugita, Tomokazu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 65643,
+      "url": "https://myanimelist.net/character/65643/Koro-sensei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/277325.jpg?s=b5dc88d579b22b0533d1215667f1c98f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/277325.webp?s=b5dc88d579b22b0533d1215667f1c98f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/277325t.webp?s=b5dc88d579b22b0533d1215667f1c98f"
+        }
+      },
+      "name": "Koro-sensei"
+    },
+    "role": "Main",
+    "favorites": 20107,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 86,
+          "url": "https://myanimelist.net/people/86/Jun_Fukuyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/82978.jpg?s=cde9943b4f954b024c9701d283f99f68"
+            }
+          },
+          "name": "Fukuyama, Jun"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 65645,
+      "url": "https://myanimelist.net/character/65645/Nagisa_Shiota",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/303282.jpg?s=79aebfa97017fd839f9654dbecba6391"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/303282.webp?s=79aebfa97017fd839f9654dbecba6391",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/303282t.webp?s=79aebfa97017fd839f9654dbecba6391"
+        }
+      },
+      "name": "Shiota, Nagisa"
+    },
+    "role": "Main",
+    "favorites": 8085,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 9593,
+          "url": "https://myanimelist.net/people/9593/Mai_Fuchigami",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/80637.jpg?s=020bc45c97766784fe13c5f3c6b41dc3"
+            }
+          },
+          "name": "Fuchigami, Mai"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 85291,
+      "url": "https://myanimelist.net/character/85291/Kaede_Kayano",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/274395.jpg?s=dfd03903055f7bbedaf8a3970af589cd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/274395.webp?s=dfd03903055f7bbedaf8a3970af589cd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/274395t.webp?s=dfd03903055f7bbedaf8a3970af589cd"
+        }
+      },
+      "name": "Kayano, Kaede"
+    },
+    "role": "Supporting",
+    "favorites": 782,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 19834,
+          "url": "https://myanimelist.net/people/19834/Aya_Suzaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/65603.jpg?s=751bcab04090dff1064104daa90fdcfc"
+            }
+          },
+          "name": "Suzaki, Aya"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

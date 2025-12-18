@@ -1,0 +1,59 @@
+[
+  {
+    "character": {
+      "mal_id": 176132,
+      "url": "https://myanimelist.net/character/176132/Xiao_Lan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/395077.jpg?s=fbac37ed57e5e65a260aa7baa3bca8f0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/3/395077.webp?s=fbac37ed57e5e65a260aa7baa3bca8f0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/3/395077t.webp?s=fbac37ed57e5e65a260aa7baa3bca8f0"
+        }
+      },
+      "name": "Xiao Lan"
+    },
+    "role": "Main",
+    "favorites": 14,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 176131,
+      "url": "https://myanimelist.net/character/176131/Xiao_Lu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/395076.jpg?s=b7977b0595464e7c1cc3467412475e76"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/395076.webp?s=b7977b0595464e7c1cc3467412475e76",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/395076t.webp?s=b7977b0595464e7c1cc3467412475e76"
+        }
+      },
+      "name": "Xiao Lu"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 283649,
+      "url": "https://myanimelist.net/character/283649/Baijin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/612262.jpg?s=81cf51da030ebf2f1707ddd965897695"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/612262.webp?s=81cf51da030ebf2f1707ddd965897695",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/612262t.webp?s=81cf51da030ebf2f1707ddd965897695"
+        }
+      },
+      "name": "Baijin"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]

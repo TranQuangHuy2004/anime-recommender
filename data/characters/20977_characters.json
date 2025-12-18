@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 76710,
+      "url": "https://myanimelist.net/character/76710/Toshinari_Seki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/240973.jpg?s=e3faeb7ec740bc836ae06c0a78ef5258"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/240973.webp?s=e3faeb7ec740bc836ae06c0a78ef5258",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/240973t.webp?s=e3faeb7ec740bc836ae06c0a78ef5258"
+        }
+      },
+      "name": "Seki, Toshinari"
+    },
+    "role": "Main",
+    "favorites": 300,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 356,
+          "url": "https://myanimelist.net/people/356/Hiro_Shimono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/61089.jpg?s=c9dae79a33ab91f39790f65dbdf60d5c"
+            }
+          },
+          "name": "Shimono, Hiro"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 76714,
+      "url": "https://myanimelist.net/character/76714/Rumi_Yokoi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/233445.jpg?s=b43cbcc02f5ec46cf2da8edde902f151"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/233445.webp?s=b43cbcc02f5ec46cf2da8edde902f151",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/233445t.webp?s=b43cbcc02f5ec46cf2da8edde902f151"
+        }
+      },
+      "name": "Yokoi, Rumi"
+    },
+    "role": "Main",
+    "favorites": 191,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 185,
+          "url": "https://myanimelist.net/people/185/Kana_Hanazawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/69318.jpg?s=afd1edec82f25a1c57b35262f417412c"
+            }
+          },
+          "name": "Hanazawa, Kana"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 99319,
+      "url": "https://myanimelist.net/character/99319/Tani",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/237863.jpg?s=1067aabd92243db3117ea5404ec99cf5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/237863.webp?s=1067aabd92243db3117ea5404ec99cf5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/237863t.webp?s=1067aabd92243db3117ea5404ec99cf5"
+        }
+      },
+      "name": "Tani"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 68,
+          "url": "https://myanimelist.net/people/68/Kouji_Yusa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/44651.jpg?s=e892568ebf149c389105360fbf279a64"
+            }
+          },
+          "name": "Yusa, Kouji"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

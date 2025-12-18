@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 6689,
+      "url": "https://myanimelist.net/character/6689/Ebichu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/334093.jpg?s=8c20b68f84089c8412fc1b08a57ff6e7"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/334093.webp?s=8c20b68f84089c8412fc1b08a57ff6e7",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/334093t.webp?s=8c20b68f84089c8412fc1b08a57ff6e7"
+        }
+      },
+      "name": "Ebichu"
+    },
+    "role": "Main",
+    "favorites": 405,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 9,
+          "url": "https://myanimelist.net/people/9/Kotono_Mitsuishi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/75738.jpg?s=0a5dc28c215fd63def12e226bbde9305"
+            }
+          },
+          "name": "Mitsuishi, Kotono"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 6691,
+      "url": "https://myanimelist.net/character/6691/Owner",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/384942.jpg?s=2417d881d9acd45882105a23f2508a9b"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/384942.webp?s=2417d881d9acd45882105a23f2508a9b",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/384942t.webp?s=2417d881d9acd45882105a23f2508a9b"
+        }
+      },
+      "name": "Owner"
+    },
+    "role": "Main",
+    "favorites": 10,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 437,
+          "url": "https://myanimelist.net/people/437/Michie_Tomizawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/31367.jpg?s=26a4ddd623b00f3a6ed14d1df5916a35"
+            }
+          },
+          "name": "Tomizawa, Michie"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 6690,
+      "url": "https://myanimelist.net/character/6690/Kaishounashi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/10634.jpg?s=280ebd2a65121a70937f5e61379c7e62"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/10634.webp?s=280ebd2a65121a70937f5e61379c7e62",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/10634t.webp?s=280ebd2a65121a70937f5e61379c7e62"
+        }
+      },
+      "name": "Kaishounashi"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 1,
+          "url": "https://myanimelist.net/people/1/Tomokazu_Seki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/85360.jpg?s=b35e7489e11b54fee04fbbcbc69b2edb"
+            }
+          },
+          "name": "Seki, Tomokazu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 14355,
+      "url": "https://myanimelist.net/character/14355/Maa-kun",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/28416.jpg?s=825ad68acab99e7460c8a160c2b30850"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/10/28416.webp?s=825ad68acab99e7460c8a160c2b30850",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/10/28416t.webp?s=825ad68acab99e7460c8a160c2b30850"
+        }
+      },
+      "name": "Maa-kun"
+    },
+    "role": "Supporting",
+    "favorites": 8,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 399,
+          "url": "https://myanimelist.net/people/399/Mitsuo_Iwata",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/24250.jpg?s=c692293faba36a68fa12aeab65ddbb95"
+            }
+          },
+          "name": "Iwata, Mitsuo"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

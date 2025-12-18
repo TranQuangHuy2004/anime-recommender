@@ -1023,22 +1023,25 @@ class ElasticsearchService:
                 "terms": {"studio_names": filters['studios']}
             })
 
-        # Genre filter
+        # Genre filter - AND logic
         if filters.get('genres'):
+            genre_filters = [{"term": {"genre_names": genre}} for genre in filters['genres']]
             search_body["query"]["bool"]["filter"].append({
-                "terms": {"genre_names": filters['genres']}
+                "bool": {"must": genre_filters}
             })
 
-        # Theme filter
+        # Theme filter - AND logic
         if filters.get('themes'):
+            theme_filters = [{"term": {"theme_names": theme}} for theme in filters['themes']]
             search_body["query"]["bool"]["filter"].append({
-                "terms": {"theme_names": filters['themes']}
+                "bool": {"must": theme_filters}
             })
 
-        # Demographic filter
+        # Demographic filter - AND logic
         if filters.get('demographics'):
+            demo_filters = [{"term": {"demographic_names": demo}} for demo in filters['demographics']]
             search_body["query"]["bool"]["filter"].append({
-                "terms": {"demographic_names": filters['demographics']}
+                "bool": {"must": demo_filters}
             })
 
         # Popular only filter

@@ -1,0 +1,101 @@
+[
+  {
+    "character": {
+      "mal_id": 192962,
+      "url": "https://myanimelist.net/character/192962/Ayaka",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/433251.jpg?s=730538af5910616ff7b03ad599649dfa"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/433251.webp?s=730538af5910616ff7b03ad599649dfa",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/433251t.webp?s=730538af5910616ff7b03ad599649dfa"
+        }
+      },
+      "name": "Ayaka"
+    },
+    "role": "Main",
+    "favorites": 47,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 54297,
+          "url": "https://myanimelist.net/people/54297/Ion_Momoyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/65882.jpg?s=56465b28939eca4039cd0cc9e7c3b407"
+            }
+          },
+          "name": "Momoyama, Ion"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 192964,
+      "url": "https://myanimelist.net/character/192964/Chiaki",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/433253.jpg?s=3df15988eca5288ab290bed676e29374"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/433253.webp?s=3df15988eca5288ab290bed676e29374",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/433253t.webp?s=3df15988eca5288ab290bed676e29374"
+        }
+      },
+      "name": "Chiaki"
+    },
+    "role": "Main",
+    "favorites": 12,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 9876,
+          "url": "https://myanimelist.net/people/9876/Hiromi_Igarashi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/60165.jpg?s=46de02c10cffec36a49c56a76e095158"
+            }
+          },
+          "name": "Igarashi, Hiromi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 192963,
+      "url": "https://myanimelist.net/character/192963/Fuyuno",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/433252.jpg?s=3cc76c2ca4d14dc6442257e89087c4c8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/8/433252.webp?s=3cc76c2ca4d14dc6442257e89087c4c8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/8/433252t.webp?s=3cc76c2ca4d14dc6442257e89087c4c8"
+        }
+      },
+      "name": "Fuyuno"
+    },
+    "role": "Main",
+    "favorites": 33,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63701,
+          "url": "https://myanimelist.net/people/63701/Rin_Mitaka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/73578.jpg?s=a3e7473386c95e040e44372f4e98bbfd"
+            }
+          },
+          "name": "Mitaka, Rin"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

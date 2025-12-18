@@ -1,0 +1,73 @@
+[
+  {
+    "character": {
+      "mal_id": 199689,
+      "url": "https://myanimelist.net/character/199689/Noboru_Mitarai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/449346.jpg?s=633e886a5b09bfbc58bf1fe7fcb9aff6"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/449346.webp?s=633e886a5b09bfbc58bf1fe7fcb9aff6",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/449346t.webp?s=633e886a5b09bfbc58bf1fe7fcb9aff6"
+        }
+      },
+      "name": "Mitarai, Noboru"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 83395,
+      "url": "https://myanimelist.net/character/83395/Keiko_Mitarai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/329137.jpg?s=e8f385bd7d404a8cab7a623aa387c2f5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/329137.webp?s=e8f385bd7d404a8cab7a623aa387c2f5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/329137t.webp?s=e8f385bd7d404a8cab7a623aa387c2f5"
+        }
+      },
+      "name": "Mitarai, Keiko"
+    },
+    "role": "Main",
+    "favorites": 272,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 8916,
+          "url": "https://myanimelist.net/people/8916/Kei_Mizusawa",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/39998.jpg?s=6af563dc69a72d7e637b529efc1bee90"
+            }
+          },
+          "name": "Mizusawa, Kei"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 251480,
+      "url": "https://myanimelist.net/character/251480/Keiko___Noboru_039_s_Mother",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/554100.jpg?s=c81b1d29a7e38a8246ab45a15a817ad2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/554100.webp?s=c81b1d29a7e38a8246ab45a15a817ad2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/554100t.webp?s=c81b1d29a7e38a8246ab45a15a817ad2"
+        }
+      },
+      "name": "Keiko & Noboru's Mother"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  }
+]

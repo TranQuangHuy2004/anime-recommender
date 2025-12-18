@@ -1,0 +1,78 @@
+[
+  {
+    "character": {
+      "mal_id": 199348,
+      "url": "https://myanimelist.net/character/199348/Feng_Lin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/490440.jpg?s=b5ce2e9525a029cf54ec2014eee050df"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/490440.webp?s=b5ce2e9525a029cf54ec2014eee050df",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/490440t.webp?s=b5ce2e9525a029cf54ec2014eee050df"
+        }
+      },
+      "name": "Lin, Feng"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 233525,
+      "url": "https://myanimelist.net/character/233525/Qianyu_Lei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/519162.jpg?s=bcf40122ae2010a43a5b5a84c6059362"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/519162.webp?s=bcf40122ae2010a43a5b5a84c6059362",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/519162t.webp?s=bcf40122ae2010a43a5b5a84c6059362"
+        }
+      },
+      "name": "Lei, Qianyu"
+    },
+    "role": "Supporting",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 218715,
+      "url": "https://myanimelist.net/character/218715/Xianger_Lin",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/519156.jpg?s=5259c5de7b825be938b60080bf778d25"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/519156.webp?s=5259c5de7b825be938b60080bf778d25",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/519156t.webp?s=5259c5de7b825be938b60080bf778d25"
+        }
+      },
+      "name": "Lin, Xianger"
+    },
+    "role": "Supporting",
+    "favorites": 3,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 218720,
+      "url": "https://myanimelist.net/character/218720/Qingyi_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/519158.jpg?s=e816f407b0c92aa781d7112df19b7339"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/519158.webp?s=e816f407b0c92aa781d7112df19b7339",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/519158t.webp?s=e816f407b0c92aa781d7112df19b7339"
+        }
+      },
+      "name": "Su, Qingyi"
+    },
+    "role": "Supporting",
+    "favorites": 2,
+    "voice_actors": []
+  }
+]

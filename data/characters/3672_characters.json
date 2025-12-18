@@ -1,0 +1,134 @@
+[
+  {
+    "character": {
+      "mal_id": 9658,
+      "url": "https://myanimelist.net/character/9658/Luckyman",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/16996.jpg?s=2f03904548877465d84e0704e0fb7c1e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/16996.webp?s=2f03904548877465d84e0704e0fb7c1e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/16996t.webp?s=2f03904548877465d84e0704e0fb7c1e"
+        }
+      },
+      "name": "Luckyman"
+    },
+    "role": "Main",
+    "favorites": 13,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 75,
+          "url": "https://myanimelist.net/people/75/Mayumi_Tanaka",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73373.jpg?s=5f12d8c1574269f19104f2dfc9188ef2"
+            }
+          },
+          "name": "Tanaka, Mayumi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 9660,
+      "url": "https://myanimelist.net/character/9660/Superstarman",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/16998.jpg?s=9b958eee090ced0faf96f8da69da5a37"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/16998.webp?s=9b958eee090ced0faf96f8da69da5a37",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/16998t.webp?s=9b958eee090ced0faf96f8da69da5a37"
+        }
+      },
+      "name": "Superstarman"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 694,
+          "url": "https://myanimelist.net/people/694/Tetsuya_Iwanaga",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/87415.jpg?s=bff498c33f279029f1daa7485e86aa21"
+            }
+          },
+          "name": "Iwanaga, Tetsuya"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 255693,
+      "url": "https://myanimelist.net/character/255693/Birdman",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+          "small_image_url": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c"
+        }
+      },
+      "name": "Birdman"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 255,
+          "url": "https://myanimelist.net/people/255/Shigeru_Chiba",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/87607.jpg?s=2cc6f3b156bc1103e1dab3dc12eaa92e"
+            }
+          },
+          "name": "Chiba, Shigeru"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 9659,
+      "url": "https://myanimelist.net/character/9659/Endeavorman",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/16997.jpg?s=5256bbc05382532d6722f51f8aa420f3"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/11/16997.webp?s=5256bbc05382532d6722f51f8aa420f3",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/11/16997t.webp?s=5256bbc05382532d6722f51f8aa420f3"
+        }
+      },
+      "name": "Endeavorman"
+    },
+    "role": "Supporting",
+    "favorites": 6,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 255,
+          "url": "https://myanimelist.net/people/255/Shigeru_Chiba",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/87607.jpg?s=2cc6f3b156bc1103e1dab3dc12eaa92e"
+            }
+          },
+          "name": "Chiba, Shigeru"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

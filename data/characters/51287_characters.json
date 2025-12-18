@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 283750,
+      "url": "https://myanimelist.net/character/283750/Jolene_Moon",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/612370.jpg?s=221f618b1014df791a9c867618154169"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/612370.webp?s=221f618b1014df791a9c867618154169",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/612370t.webp?s=221f618b1014df791a9c867618154169"
+        }
+      },
+      "name": "Moon, Jolene"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 237070,
+      "url": "https://myanimelist.net/character/237070/Dewey_Roland",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/527362.jpg?s=4fd259b565cede64b4fa197c13f919a0"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/13/527362.webp?s=4fd259b565cede64b4fa197c13f919a0",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/13/527362t.webp?s=4fd259b565cede64b4fa197c13f919a0"
+        }
+      },
+      "name": "Roland, Dewey"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": []
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "character": {
+      "mal_id": 71827,
+      "url": "https://myanimelist.net/character/71827/Yuki_Misono",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/340829.jpg?s=58f63c177215e0d8c82e90e44b43edf8"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/12/340829.webp?s=58f63c177215e0d8c82e90e44b43edf8",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/12/340829t.webp?s=58f63c177215e0d8c82e90e44b43edf8"
+        }
+      },
+      "name": "Misono, Yuki"
+    },
+    "role": "Main",
+    "favorites": 31,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 20673,
+          "url": "https://myanimelist.net/people/20673/Akane_Sanada",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/40026.jpg?s=d2a9c5fc611843832c6d268ba8486cc2"
+            }
+          },
+          "name": "Sanada, Akane"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 73415,
+      "url": "https://myanimelist.net/character/73415/Seiichi_Sakonji",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/185817.jpg?s=27ae53fc11f04decd5c16f7d61f5f733"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/185817.webp?s=27ae53fc11f04decd5c16f7d61f5f733",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/185817t.webp?s=27ae53fc11f04decd5c16f7d61f5f733"
+        }
+      },
+      "name": "Sakonji, Seiichi"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 68857,
+      "url": "https://myanimelist.net/character/68857/Maki_Sanjou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/328990.jpg?s=16fd07febf28c96199543d1ffc68d9ee"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/4/328990.webp?s=16fd07febf28c96199543d1ffc68d9ee",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/4/328990t.webp?s=16fd07febf28c96199543d1ffc68d9ee"
+        }
+      },
+      "name": "Sanjou, Maki"
+    },
+    "role": "Main",
+    "favorites": 109,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 26067,
+          "url": "https://myanimelist.net/people/26067/Yuki_Sakata",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/28337.jpg?s=4e6031b4ea155250ba887702207e137a"
+            }
+          },
+          "name": "Sakata, Yuki"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "character": {
+      "mal_id": 256651,
+      "url": "https://myanimelist.net/character/256651/Daisuke",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/563822.jpg?s=05dde1a80abf6618693f4b3b513d8ffb"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/563822.webp?s=05dde1a80abf6618693f4b3b513d8ffb",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/563822t.webp?s=05dde1a80abf6618693f4b3b513d8ffb"
+        }
+      },
+      "name": "Daisuke"
+    },
+    "role": "Main",
+    "favorites": 1,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 256648,
+      "url": "https://myanimelist.net/character/256648/Chisato_Honjou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/563819.jpg?s=e52211bd282f81934a8dda6d72ba7130"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/14/563819.webp?s=e52211bd282f81934a8dda6d72ba7130",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/14/563819t.webp?s=e52211bd282f81934a8dda6d72ba7130"
+        }
+      },
+      "name": "Honjou, Chisato"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 66012,
+          "url": "https://myanimelist.net/people/66012/Haruto_Tsuruya",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/75473.jpg?s=65063c20b4b31b7b677716b50fa0ae36"
+            }
+          },
+          "name": "Tsuruya, Haruto"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 256646,
+      "url": "https://myanimelist.net/character/256646/Mitsuki_Inoue",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/563817.jpg?s=e16ff128d09e5be6d72a2c35a416f4f5"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/563817.webp?s=e16ff128d09e5be6d72a2c35a416f4f5",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/563817t.webp?s=e16ff128d09e5be6d72a2c35a416f4f5"
+        }
+      },
+      "name": "Inoue, Mitsuki"
+    },
+    "role": "Main",
+    "favorites": 2,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 256644,
+      "url": "https://myanimelist.net/character/256644/Fuuka_Izumi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/563815.jpg?s=840d1cb6f7fb11321b0a072d66f1bc3d"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/563815.webp?s=840d1cb6f7fb11321b0a072d66f1bc3d",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/563815t.webp?s=840d1cb6f7fb11321b0a072d66f1bc3d"
+        }
+      },
+      "name": "Izumi, Fuuka"
+    },
+    "role": "Main",
+    "favorites": 3,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 256643,
+      "url": "https://myanimelist.net/character/256643/Nagisa_Morishita",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/563814.jpg?s=a260dd40d84489f613bd9187069a166f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/563814.webp?s=a260dd40d84489f613bd9187069a166f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/563814t.webp?s=a260dd40d84489f613bd9187069a166f"
+        }
+      },
+      "name": "Morishita, Nagisa"
+    },
+    "role": "Main",
+    "favorites": 4,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63700,
+          "url": "https://myanimelist.net/people/63700/Musubi_Aono",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/73577.jpg?s=f4e7278489382cf176c5147d87dde0ff"
+            }
+          },
+          "name": "Aono, Musubi"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

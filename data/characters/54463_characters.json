@@ -1,0 +1,35 @@
+[
+  {
+    "character": {
+      "mal_id": 10138,
+      "url": "https://myanimelist.net/character/10138/Thorfinn",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/309871.jpg?s=faa6eee1fc55878afbc1625baf0c9f3e"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/309871.webp?s=faa6eee1fc55878afbc1625baf0c9f3e",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/309871t.webp?s=faa6eee1fc55878afbc1625baf0c9f3e"
+        }
+      },
+      "name": "Thorfinn"
+    },
+    "role": "Main",
+    "favorites": 33786,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 24875,
+          "url": "https://myanimelist.net/people/24875/Yuuto_Uemura",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/87350.jpg?s=837a0801cd7494c12a2f4f5fa73de90c"
+            }
+          },
+          "name": "Uemura, Yuuto"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

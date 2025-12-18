@@ -1,0 +1,68 @@
+[
+  {
+    "character": {
+      "mal_id": 244763,
+      "url": "https://myanimelist.net/character/244763/The_Herta",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/587530.jpg?s=71bff8b61a2e95aa9e0d6ca7941439c2"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/16/587530.webp?s=71bff8b61a2e95aa9e0d6ca7941439c2",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/16/587530t.webp?s=71bff8b61a2e95aa9e0d6ca7941439c2"
+        }
+      },
+      "name": "The Herta"
+    },
+    "role": "Main",
+    "favorites": 85,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 13643,
+          "url": "https://myanimelist.net/people/13643/Haruka_Yamazaki",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/37083.jpg?s=1a68f34e2390ee5013404523db12f8c8"
+            }
+          },
+          "name": "Yamazaki, Haruka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  },
+  {
+    "character": {
+      "mal_id": 239102,
+      "url": "https://myanimelist.net/character/239102/Ruan_Mei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/541162.jpg?s=72e4982c5e0b0204cb87d28a7bbed558"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/6/541162.webp?s=72e4982c5e0b0204cb87d28a7bbed558",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/6/541162t.webp?s=72e4982c5e0b0204cb87d28a7bbed558"
+        }
+      },
+      "name": "Ruan Mei"
+    },
+    "role": "Supporting",
+    "favorites": 18,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 19884,
+          "url": "https://myanimelist.net/people/19884/Saori_Oonishi",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/63372.jpg?s=7196ab8b73f70136efe126d1c808b9bd"
+            }
+          },
+          "name": "Oonishi, Saori"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 214369,
+      "url": "https://myanimelist.net/character/214369/Qingcang_Dongfang",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/482077.jpg?s=7879201eaec8a40c5112f60fa891c576"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/482077.webp?s=7879201eaec8a40c5112f60fa891c576",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/482077t.webp?s=7879201eaec8a40c5112f60fa891c576"
+        }
+      },
+      "name": "Dongfang, Qingcang"
+    },
+    "role": "Main",
+    "favorites": 14,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 218163,
+      "url": "https://myanimelist.net/character/218163/Xiao_Lan_Hua",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/489332.jpg?s=5b6a17c6121f4678e9fb5639b0659afd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/2/489332.webp?s=5b6a17c6121f4678e9fb5639b0659afd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/2/489332t.webp?s=5b6a17c6121f4678e9fb5639b0659afd"
+        }
+      },
+      "name": "Lan Hua, Xiao"
+    },
+    "role": "Main",
+    "favorites": 6,
+    "voice_actors": []
+  }
+]

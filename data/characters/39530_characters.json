@@ -1,0 +1,54 @@
+[
+  {
+    "character": {
+      "mal_id": 178358,
+      "url": "https://myanimelist.net/character/178358/Ayami",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/433623.jpg?s=1461b657d4665c46890835c49f475ada"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/9/433623.webp?s=1461b657d4665c46890835c49f475ada",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/9/433623t.webp?s=1461b657d4665c46890835c49f475ada"
+        }
+      },
+      "name": "Ayami"
+    },
+    "role": "Main",
+    "favorites": 46,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 178357,
+      "url": "https://myanimelist.net/character/178357/Megumi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/418639.jpg?s=30dc6310609f859f5368dd885d3f9145"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/418639.webp?s=30dc6310609f859f5368dd885d3f9145",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/418639t.webp?s=30dc6310609f859f5368dd885d3f9145"
+        }
+      },
+      "name": "Megumi"
+    },
+    "role": "Main",
+    "favorites": 71,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 63176,
+          "url": "https://myanimelist.net/people/63176/Sayaka_Matsuyama",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/3/67119.jpg?s=f5fbc60be3f82c3e28e648706c0c7bc9"
+            }
+          },
+          "name": "Matsuyama, Sayaka"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

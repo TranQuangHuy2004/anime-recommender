@@ -1,0 +1,40 @@
+[
+  {
+    "character": {
+      "mal_id": 285011,
+      "url": "https://myanimelist.net/character/285011/Feng_Chu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/614787.jpg?s=bfb7cce1519af942d2de74387a6266ca"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/7/614787.webp?s=bfb7cce1519af942d2de74387a6266ca",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/7/614787t.webp?s=bfb7cce1519af942d2de74387a6266ca"
+        }
+      },
+      "name": "Chu, Feng"
+    },
+    "role": "Main",
+    "favorites": 0,
+    "voice_actors": []
+  },
+  {
+    "character": {
+      "mal_id": 285016,
+      "url": "https://myanimelist.net/character/285016/Rou_Su",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/614788.jpg?s=3ef8300a7bfc672dbbedfc58f48075cd"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/5/614788.webp?s=3ef8300a7bfc672dbbedfc58f48075cd",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/5/614788t.webp?s=3ef8300a7bfc672dbbedfc58f48075cd"
+        }
+      },
+      "name": "Su, Rou"
+    },
+    "role": "Supporting",
+    "favorites": 0,
+    "voice_actors": []
+  }
+]
