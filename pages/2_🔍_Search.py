@@ -104,7 +104,15 @@ with st.container(horizontal=True, vertical_alignment="center", horizontal_align
 
 st.title("Search Results")
 
-render_search_bar(st.session_state.es)
+with st.container():
+    render_search_bar(st.session_state.es)
+    if st.button("🗑️ Clear text search and filters", width="stretch"):
+        # Clear all advanced filters
+        st.session_state.advanced_filters = {}
+        SessionManager.reset_search()
+        SessionManager.clear_search_filters()
+        st.success("All filters cleared!")
+        st.rerun()
 
 # Show what we're searching for
 st.subheader("Search Criteria")

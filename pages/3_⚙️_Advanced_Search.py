@@ -2,6 +2,7 @@
 import streamlit as st
 from streamlit_theme import st_theme
 from components.search_bar import render_search_bar
+from components.random_button import random_anime_button
 from utils.session_manager import SessionManager
 import utils.helpers as helper
 
@@ -87,17 +88,24 @@ st.markdown(f"""
     background: {bg_color}
 }}
 
+.st-key-random-button  p {{
+    font-size: 2rem;
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
 # Header
-with st.container(horizontal=True):
-    if st.button("🏠 Home"):
-        SessionManager.navigate_to("1_🏠_Home.py")
-        st.rerun()
-    if st.button("🔍 Basic Search"):
-        SessionManager.navigate_to("2_🔍_Search.py")
-        st.rerun()
+with st.container(horizontal=True, vertical_alignment="center"):
+    with st.container(horizontal=True):
+        if st.button("🏠 Home"):
+            SessionManager.navigate_to("1_🏠_Home.py")
+            st.rerun()
+        if st.button("🔍 Basic Search"):
+            SessionManager.navigate_to("2_🔍_Search.py")
+            st.rerun()
+
+    random_anime_button()
 
 st.title("⚙️ Advanced Search")
 st.markdown("Fine-tune your anime discovery with detailed filters")
