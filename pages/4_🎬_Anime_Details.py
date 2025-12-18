@@ -13,7 +13,7 @@ if theme and theme["base"] == "light":
     bg_color = "rgba(200, 200, 200, 0.75)"
     font_color = "rgba(0, 0, 0, 1)"
     border_card = "rgba(0, 0, 0, 0.2)"
-    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 1))"
+    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.75))"
     button_background = "rgba(255, 255, 255, 0.5)"
     anime_card_background = "rgba(255, 255, 255, 0.5)"
 else:

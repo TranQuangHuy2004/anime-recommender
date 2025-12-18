@@ -2,6 +2,7 @@ from elasticsearch import Elasticsearch, helpers
 from elasticsearch.exceptions import NotFoundError
 from utils.helpers import extract_year_month_season
 import os
+import re
 from dotenv import load_dotenv
 from tqdm import tqdm
 import logging
@@ -504,19 +505,22 @@ class ElasticsearchService:
                     synonyms = anime.get('title_synonyms', []) or []  # Ensure it's always a list
 
                     fullnames = [title]
-                    keynames = [title, *title.strip().split()]
+                    title_tokens = [t for t in re.split(r"[ /]+", title.strip()) if t]
+                    keynames = [title] + title_tokens
 
                     if title_english:
                         fullnames.append(title_english)
                         keynames.append(title_english)
-                        keynames.extend(title_english.strip().split())
+                        title_english_tokens = [t for t in re.split(r"[ /]+", title_english.strip()) if t]
+                        keynames.extend(title_english_tokens)
 
                     if synonyms:
                         fullnames.extend(synonyms)
                         keynames.extend(synonyms)
                         for syn in synonyms:
                             if syn:
-                                keynames.extend(syn.strip().split())
+                                title_syn_tokens = [t for t in re.split(r"[ /]+", syn.strip()) if t]
+                                keynames.extend(title_syn_tokens)
 
                     # Character inputs -> Find anime based on character names
                     char_inputs = set()  # Use set to avoid duplicates
@@ -660,19 +664,22 @@ class ElasticsearchService:
             synonyms = anime.get('title_synonyms', []) or []  # Ensure it's always a list
 
             fullnames = [title]
-            keynames = [title, *title.strip().split()]
+            title_tokens = [t for t in re.split(r"[ /]+", title.strip()) if t]
+            keynames = [title] + title_tokens
 
             if title_english:
                 fullnames.append(title_english)
                 keynames.append(title_english)
-                keynames.extend(title_english.strip().split())
+                title_english_tokens = [t for t in re.split(r"[ /]+", title_english.strip()) if t]
+                keynames.extend(title_english_tokens)
 
             if synonyms:
                 fullnames.extend(synonyms)
                 keynames.extend(synonyms)
                 for syn in synonyms:
                     if syn:
-                        keynames.extend(syn.strip().split())
+                        title_syn_tokens = [t for t in re.split(r"[ /]+", syn.strip()) if t]
+                        keynames.extend(title_syn_tokens)
 
             # Character inputs -> Find anime based on character names
             char_inputs = set()  # Use set to avoid duplicates
@@ -924,10 +931,7 @@ class ElasticsearchService:
                 "multi_match": {
                     "query": query,
                     "fields": [
-                        "search_full_names^2",
-                        "search_full_names.keyword^1",
-                        "search_key_names^3",
-                        "search_key_names.keyword^4"
+                        "search_key_names",
                     ],
                     "operator": "and",
                     "fuzziness": "AUTO"
@@ -1109,10 +1113,7 @@ class ElasticsearchService:
                                 "multi_match": {
                                     "query": searchterm,
                                     "fields": [
-                                        "search_full_names^2",
-                                        "search_full_names.keyword^1",
-                                        "search_key_names^3",
-                                        "search_key_names.keyword^4"
+                                        "search_key_names",
                                     ],
                                     "operator": "and",
                                     "fuzziness": "AUTO"
@@ -1354,6 +1355,18 @@ class ElasticsearchService:
         genre_query = "SELECT name FROM genres ORDER BY name"
         genres = db_service.execute_query(genre_query)
         options['genres'] = [g['name'] for g in genres] if genres else []
+
+        # Get all themes
+        theme_query = "SELECT name FROM themes ORDER BY name"
+        themes = db_service.execute_query(theme_query)
+        options['themes'] = [t['name'] for t in themes] if themes else []
+        options['theme_names'] = options['themes']  # Alias for compatibility
+
+        # Get all demographics
+        demo_query = "SELECT name FROM demographics ORDER BY name"
+        demos = db_service.execute_query(demo_query)
+        options['demographics'] = [d['name'] for d in demos] if demos else []
+        options['demographic_names'] = options['demographics']  # Alias for compatibility
 
         # Get all types
         type_query = "SELECT DISTINCT type FROM anime WHERE type IS NOT NULL ORDER BY type"

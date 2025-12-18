@@ -1,8 +1,6 @@
 import streamlit as st
 from streamlit_theme import st_theme
 from components.search_bar import render_search_bar
-from services.database import Database
-from services.elasticsearch_service import ElasticsearchService
 from components.anime_card import AnimeCard
 from utils.session_manager import SessionManager
 
@@ -16,11 +14,11 @@ if theme and theme["base"] == "light":
     bg_color = "rgba(200, 200, 200, 0.75)"
     font_color = "rgba(0, 0, 0, 1)"
     border_card = "rgba(0, 0, 0, 0.2)"
-    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 1))"
+    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.75))"
     button_background = "rgba(255, 255, 255, 0.5)"
     anime_card_background = "rgba(255, 255, 255, 0.5)"
 else:
-    bg_color = "rgba(0, 0, 0, 0.5)"
+    bg_color = "rgba(0, 0, 0, 0.75)"
     font_color = "rgba(255, 255, 255, 1)"
     border_card = "rgba(255, 255, 255, 0.5)"
     linear_gradient = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))"
@@ -102,36 +100,6 @@ st.title("Search Results")
 
 render_search_bar(st.session_state.es)
 
-# # Check for filter parameters from other pages
-# if 'filter_type' in st.session_state and 'filter_value' in st.session_state:
-#     filter_type = st.session_state.get('filter_type')
-#     filter_value = st.session_state.get('filter_value')
-
-#     # Convert to search_filters format used by elasticsearch_service
-#     if filter_type == 'genre':
-#         st.session_state.search_filters = {'genres': [filter_value]}
-#     elif filter_type == 'type':
-#         st.session_state.search_filters = {'type': filter_value}
-#     elif filter_type == 'studio':
-#         st.session_state.search_filters = {'studios': [filter_value]}
-#     elif filter_type == 'theme':
-#         st.session_state.search_filters = {'themes': [filter_value]}
-#     elif filter_type == 'demographic':
-#         st.session_state.search_filters = {'demographics': [filter_value]}
-#     elif filter_type == 'source':
-#         st.session_state.search_filters = {'source': filter_value}
-#     elif filter_type == 'season' and 'filter_year' in st.session_state:
-#         st.session_state.search_filters = {
-#             'season': filter_value,
-#             'year': st.session_state.get('filter_year')
-#         }
-
-#     # Clear the temporary filter variables
-#     st.session_state.pop('filter_type', None)
-#     st.session_state.pop('filter_value', None)
-#     st.session_state.pop('filter_year', None)
-
-
 # Show what we're searching for
 st.subheader("Search Criteria")
 col_info1, col_info2 = st.columns(2)
@@ -155,76 +123,11 @@ with col_info2:
     else:
         st.write("**Active Filters:** None")
 
-# # Filter sidebar
-# with st.sidebar:
-#     st.header("🔧 Filters")
-
-#     # Get filter options from database
-#     filter_options = st.session_state.es.get_filter_options(st.session_state.db)
-
-#     # Type filter
-#     types = ["All"] + filter_options.get('types', [])
-#     selected_type = st.selectbox("Type", types, index=0)
-
-#     # Year range
-#     if 'year_range' in filter_options:
-#         min_year, max_year = filter_options['year_range']
-#         year_range = st.slider("Year Range", min_year, max_year, (min_year, max_year))
-
-#     # Genre multi-select
-#     genres = filter_options.get('genres', [])
-#     selected_genres = st.multiselect("Genres", genres)
-
-#     # Studio multi-select
-#     studios = filter_options.get('studios', [])
-#     selected_studios = st.multiselect("Studios", studios)
-
-#     # Score range
-#     min_score = st.slider("Minimum Score", 0.0, 10.0, 0.0, 0.1)
-
-#     # Status filter
-#     statuses = ["All"] + filter_options.get('statuses', [])
-#     selected_status = st.selectbox("Status", statuses, index=0)
-
-#     # Apply filters button
-#     if st.button("Apply Filters", type="primary"):
-#         filters = {}
-
-#         if selected_type != "All":
-#             filters['type'] = selected_type
-
-#         if year_range and year_range[0] > min_year or year_range[1] < max_year:
-#             filters['year_from'] = year_range[0]
-#             filters['year_to'] = year_range[1]
-
-#         if selected_genres:
-#             filters['genres'] = selected_genres
-
-#         if selected_studios:
-#             filters['studios'] = selected_studios
-
-#         if min_score > 0:
-#             filters['min_score'] = min_score
-
-#         if selected_status != "All":
-#             filters['status'] = selected_status
-
-#         # Merge with existing search_filters
-#         st.session_state.search_filters.update(filters)
-#         st.session_state.current_page = 1
-#         st.rerun()
-
-#     # Clear filters button
-#     if st.button("Clear All Filters"):
-#         st.session_state.search_filters = {}
-#         st.session_state.current_page = 1
-#         st.rerun()
-
 # Main content area
 st.markdown("---")
 
 # Sort and pagination controls
-col_controls1, col_controls2, col_controls3, col_controls4 = st.columns([2, 1, 1, 1])
+col_controls1, col_controls2, col_controls3 = st.columns([2, 1, 1])
 
 with col_controls1:
     sort_options = {
@@ -248,8 +151,6 @@ with col_controls2:
 with col_controls3:
     results_per_page = st.selectbox("Results per page", [20, 50, 100], index=0)
 
-with col_controls4:
-    st.write("")  # Spacer
 
 # Perform search based on current state
 try:
@@ -276,6 +177,17 @@ try:
         end_idx = min(st.session_state.current_page * results_per_page, total_results)
 
         st.caption(f"Showing results {start_idx:,} - {end_idx:,} of {total_results:,}")
+
+        st.markdown("---")
+
+        # Display anime cards
+        anime_card = AnimeCard()
+        for idx, anime in enumerate(hits):
+            # Create a full-width container for each anime
+            anime_card.create_anime_card_1(anime, "hit", idx)
+
+            # Divider between cards (except last one)
+            st.markdown("---")
 
         # Pagination controls
         if total_pages > 1:
@@ -308,21 +220,8 @@ try:
                     st.session_state.current_page = total_pages
                     st.rerun()
 
-        st.markdown("---")
-
-        # Display anime cards
-        anime_card = AnimeCard()
-        for idx, anime in enumerate(hits):
-            # Create a full-width container for each anime
-            anime_card.create_anime_card_1(anime, "hit", idx)
-
-            # Divider between cards (except last one)
-            if idx < len(hits) - 1:
-                st.markdown("---")
-
         # Bottom pagination (if many results)
         if total_pages > 1:
-            st.markdown("---")
             st.write(f"**Page {st.session_state.current_page} of {total_pages}**")
 
     else:

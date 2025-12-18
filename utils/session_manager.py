@@ -5,15 +5,25 @@ from services.database import Database
 import json
 
 
+@st.cache_resource
+def init_db():
+    return Database()
+
+
+@st.cache_resource
+def init_es():
+    return ElasticsearchService()
+
+
 class SessionManager:
     """Helper class to manage Streamlit session state with type safety and defaults"""
 
     def __init__(self):
         """Initialize the session manager"""
         if 'es' not in st.session_state:
-            st.session_state.es = ElasticsearchService()
+            st.session_state.es = init_es()
         if 'db' not in st.session_state:
-            st.session_state.db = Database()
+            st.session_state.db = init_db()
         pass
 
     # ========== BASIC GET/SET OPERATIONS ==========
@@ -184,8 +194,7 @@ class SessionManager:
             'filter_value': None,
             'filter_year': None,
             'selected_anime': None,
-            'nav_to_page': None,
-            'expanded': False
+            'nav_to_page': None
         }
 
         for key, default in defaults.items():
@@ -253,3 +262,19 @@ class SessionManager:
     def clear_selected_anime() -> None:
         """Clear the selected anime"""
         SessionManager.delete('selected_anime')
+
+    # ========== NAVIGATION HELPERS ==========
+    @staticmethod
+    def navigate_to(page: str) -> None:
+        """Navigate to a different page"""
+        SessionManager.set('nav_to_page', page)
+
+    @staticmethod
+    def should_navigate() -> Optional[str]:
+        """Check if navigation is pending and return target page"""
+        return SessionManager.get('nav_to_page')
+
+    @staticmethod
+    def clear_navigation() -> None:
+        """Clear pending navigation"""
+        SessionManager.delete('nav_to_page')

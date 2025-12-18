@@ -4,7 +4,7 @@ import utils.helpers as helper
 from utils.session_manager import SessionManager
 
 
-def render_search_bar(es_service):
+def render_search_bar(es_service, advanced=True, stay=False):
     """
     Reusable search bar for Home + Search pages
     """
@@ -35,6 +35,7 @@ def render_search_bar(es_service):
                 SessionManager.set('sort_order', 'desc')
                 SessionManager.set('sort_by', 'relevance')
                 SessionManager.set('current_page', 1)
+
                 st.switch_page("pages/2_🔍_Search.py")
             return
 
@@ -54,7 +55,7 @@ def render_search_bar(es_service):
             return
 
         # Entity selected
-        entity_type = value.get("raw_type", "").lower()
+        entity_type = value.get("raw_category", "").lower()
         if entity_type == "anime":
             # Set selected anime
             SessionManager.set_selected_anime(value["id"])
@@ -66,43 +67,152 @@ def render_search_bar(es_service):
             SessionManager.set('sort_by', 'relevance')
             SessionManager.set('current_page', 1)
 
-            st.switch_page("pages/4_🎬_Anime_Details.py")
+            query = {
+                'mal_id': f"{value["id"]}"
+            }
+            st.switch_page("pages/4_🎬_Anime_Details.py", query_params=query)
+        else:
+            helper.apply_filters({
+                f"{value["category"].lower()}s": [value["name"]]
+            }, SessionManager)
+
+    def on_search_submit_stay(value):
+        if value is None:
+            return
+
+        # Raw text submitted via Enter
+        if isinstance(value, str):
+            query = value.strip()
+            if query:
+                # Set search parameters
+                SessionManager.set('search_query', query)
+                SessionManager.set('search_type', 'All')
+                SessionManager.set('search_filters', {})
+                SessionManager.set('sort_order', 'desc')
+                SessionManager.set('sort_by', 'relevance')
+                SessionManager.set('current_page', 1)
+            return
+
+        # Raw search option
+        if value.get("raw_search"):
+            query = value["query"]
+            if query:
+                # Set search parameters
+                SessionManager.set('search_query', query)
+                SessionManager.set('search_type', 'All')
+                SessionManager.set('search_filters', {})
+                SessionManager.set('sort_order', 'desc')
+                SessionManager.set('sort_by', 'relevance')
+                SessionManager.set('current_page', 1)
+            return
+
+        # Entity selected
+        entity_type = value.get("raw_category", "").lower()
+        if entity_type == "anime":
+            # Set selected anime
+            SessionManager.set_selected_anime(value["id"])
+            # Clear search state
+            SessionManager.set('search_query', '')
+            SessionManager.set('search_type', 'All')
+            SessionManager.set('search_filters', {})
+            SessionManager.set('sort_order', 'desc')
+            SessionManager.set('sort_by', 'relevance')
+            SessionManager.set('current_page', 1)
+
+            query = {
+                'mal_id': f"{value["id"]}"
+            }
+            st.switch_page("pages/4_🎬_Anime_Details.py", query_params=query)
         else:
             helper.apply_filters({
                 f"{value["category"].lower()}s": [value["name"]]
             }, SessionManager)
 
     # --- UI ---
-    col1, col2, col3 = st.columns([1, 4, 1])
+    if advanced:
+        col1, col2, col3 = st.columns([1, 4, 1])
 
-    with col1:
-        search_category_ui = st.selectbox(
-            "Category",
-            ["All", "Anime", "Studio", "Genre", "Theme", "Demographic"],
-            label_visibility="collapsed",
-            key="search_category_ui"
-        )
-        st.session_state.search_category = (
-            "all" if search_category_ui == "All" else search_category_ui.lower()
-        )
+        with col1:
+            search_category_ui = st.selectbox(
+                "Category",
+                ["All", "Anime", "Studio", "Genre", "Theme", "Demographic"],
+                label_visibility="collapsed",
+                key="search_category_ui"
+            )
+            st.session_state.search_category = (
+                "all" if search_category_ui == "All" else search_category_ui.lower()
+            )
 
-    with col2:
-        placeholder = (
-            "Search anime, characters, studios, genres..."
-            if search_category_ui == "All"
-            else f"Search {search_category_ui.lower()}..."
-        )
+        with col2:
+            placeholder = (
+                "Search anime, characters, studios, genres..."
+                if search_category_ui == "All"
+                else f"Search {search_category_ui.lower()}..."
+            )
 
-        st_searchbox(
-            search_function=get_search_suggestions,
-            placeholder=placeholder,
-            key="global_search_box",
-            clear_on_submit=True,
-            submit_function=on_search_submit,
-            debounce=200,
-            rerun_on_update=True,
-        )
+            if not stay:
+                st_searchbox(
+                    search_function=get_search_suggestions,
+                    placeholder=placeholder,
+                    key="global_search_box",
+                    clear_on_submit=True,
+                    submit_function=on_search_submit,
+                    debounce=200,
+                    rerun_on_update=True,
+                )
+            else:
+                st_searchbox(
+                    search_function=get_search_suggestions,
+                    placeholder=placeholder,
+                    key="global_search_box",
+                    clear_on_submit=False,
+                    submit_function=on_search_submit_stay,
+                    debounce=200,
+                    rerun_on_update=True,
+                )
 
-    with col3:
-        if st.button("⚙️ Advanced Search", use_container_width=True):
-            st.switch_page("pages/3_⚙️_Advanced_Search.py")
+        with col3:
+            if st.button("⚙️ Advanced Search", use_container_width=True):
+                st.switch_page("pages/3_⚙️_Advanced_Search.py")
+
+    else:
+        col1, col2 = st.columns([1, 7])
+
+        with col1:
+            search_category_ui = st.selectbox(
+                "Category",
+                ["All", "Anime", "Studio", "Genre", "Theme", "Demographic"],
+                label_visibility="collapsed",
+                key="search_category_ui"
+            )
+            st.session_state.search_category = (
+                "all" if search_category_ui == "All" else search_category_ui.lower()
+            )
+
+        with col2:
+            placeholder = (
+                "Search anime, characters, studios, genres..."
+                if search_category_ui == "All"
+                else f"Search {search_category_ui.lower()}..."
+            )
+
+            if not stay:
+                st_searchbox(
+                    search_function=get_search_suggestions,
+                    placeholder=placeholder,
+                    key="global_search_box",
+                    clear_on_submit=True,
+                    submit_function=on_search_submit,
+                    debounce=200,
+                    rerun_on_update=True,
+                )
+            else:
+                st_searchbox(
+                    search_function=get_search_suggestions,
+                    placeholder=placeholder,
+                    key="global_search_box",
+                    clear_on_submit=False,
+                    submit_function=on_search_submit_stay,
+                    debounce=200,
+                    rerun_on_update=True,
+                )

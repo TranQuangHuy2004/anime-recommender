@@ -2,9 +2,8 @@
 import streamlit as st
 from streamlit_theme import st_theme
 from components.search_bar import render_search_bar
-from services.database import Database
-from services.elasticsearch_service import ElasticsearchService
 from components.anime_card import AnimeCard
+from utils.session_manager import SessionManager
 
 # Clear query params at start
 st.query_params.clear()
@@ -16,7 +15,7 @@ if theme and theme["base"] == "light":
     bg_color = "rgba(200, 200, 200, 0.75)"
     font_color = "rgba(0, 0, 0, 1)"
     border_card = "rgba(0, 0, 0, 0.2)"
-    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 1))"
+    linear_gradient = "linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.75))"
     button_background = "rgba(255, 255, 255, 0.5)"
     anime_card_background = "rgba(255, 255, 255, 0.5)"
 else:
@@ -36,37 +35,8 @@ st.set_page_config(
 )
 
 # Initialize services with caching
-
-
-@st.cache_resource
-def init_db():
-    return Database()
-
-
-@st.cache_resource
-def init_es():
-    return ElasticsearchService()
-
-
-# Store in session state
-if 'db' not in st.session_state:
-    st.session_state.db = init_db()
-if 'es' not in st.session_state:
-    st.session_state.es = init_es()
-
-# Initialize session state variables if they don't exist
-if 'search_query' not in st.session_state:
-    st.session_state.search_query = ''
-if 'search_type' not in st.session_state:
-    st.session_state.search_type = 'All'
-if 'search_filters' not in st.session_state:
-    st.session_state.search_filters = {}
-if 'current_page' not in st.session_state:
-    st.session_state.current_page = 1
-if 'sort_by' not in st.session_state:
-    st.session_state.sort_by = 'relevance'
-if 'sort_order' not in st.session_state:
-    st.session_state.sort_order = 'desc'
+SessionManager()
+SessionManager.init_search_state()
 
 # Custom CSS
 st.markdown(f"""
@@ -141,39 +111,11 @@ else:
 
 render_search_bar(st.session_state.es)
 
-# Also check for search_filters from page 4
-if 'search_filters' in st.session_state and st.session_state.search_filters:
-    # We already have filters from page 4, so use them directly
-    pass
-
-# Show what we're searching for
-st.subheader("Search Criteria")
-col_info1, col_info2 = st.columns(2)
-with col_info1:
-    if st.session_state.search_query:
-        st.write(f"**Text Search:** '{st.session_state.search_query}'")
-    else:
-        st.write("**Text Search:** None")
-
-    if st.session_state.search_type != 'All':
-        st.write(f"**Search Type:** {st.session_state.search_type}")
-
-with col_info2:
-    if st.session_state.search_filters:
-        st.write("**Active Filters:**")
-        for key, value in st.session_state.search_filters.items():
-            if isinstance(value, list):
-                st.write(f"- {key}: {', '.join(value)}")
-            else:
-                st.write(f"- {key}: {value}")
-    else:
-        st.write("**Active Filters:** None")
-
 # Main content area
 st.markdown("---")
 
 # Sort and pagination controls
-col_controls1, col_controls2, col_controls3, col_controls4 = st.columns([2, 1, 1, 1])
+col_controls1, col_controls2, col_controls3 = st.columns([2, 1, 1])
 
 with col_controls1:
     sort_options = {
@@ -195,10 +137,7 @@ with col_controls2:
     st.session_state.sort_order = "desc" if sort_order == "Descending" else "asc"
 
 with col_controls3:
-    results_per_page = st.selectbox("Results per page", [20, 50, 100], index=0)
-
-with col_controls4:
-    st.write("")  # Spacer
+    results_per_page = st.selectbox("Results per page", [10, 20, 50, 100], index=0)
 
 # Perform search based on current state
 try:
@@ -225,6 +164,16 @@ try:
         end_idx = min(st.session_state.current_page * results_per_page, total_results)
 
         st.caption(f"Showing results {start_idx:,} - {end_idx:,} of {total_results:,}")
+
+        st.markdown("---")
+
+        # Display anime cards
+        anime_card = AnimeCard()
+        for idx, anime in enumerate(hits):
+            # Create a full-width container for each anime
+            anime_card.create_anime_card_1(anime, "hit", idx)
+
+            st.markdown("---")
 
         # Pagination controls
         if total_pages > 1:
@@ -257,54 +206,10 @@ try:
                     st.session_state.current_page = total_pages
                     st.rerun()
 
-        st.markdown("---")
-
-        # Display anime cards
-        anime_card = AnimeCard()
-        for idx, anime in enumerate(hits):
-            # Create a full-width container for each anime
-            anime_card.create_anime_card_1(anime, "hit", idx)
-
-            # Divider between cards (except last one)
-            if idx < len(hits) - 1:
-                st.markdown("---")
-
         # Bottom pagination (if many results)
         if total_pages > 1:
             st.markdown("---")
             st.write(f"**Page {st.session_state.current_page} of {total_pages}**")
-
-            # # Pagination controls
-            # with st.container(key="pagination_container_bottom", horizontal=True):
-            #     if st.button("⮜⮜", key="first-bottom", help="First") and st.session_state.current_page > 1:
-            #         st.session_state.current_page = 1
-            #         st.rerun()
-            #     if st.button("⮜", key="previous-bottom", help="Previous") and st.session_state.current_page > 1:
-            #         st.session_state.current_page -= 1
-            #         st.rerun()
-
-            #     page_options = list(range(1, min(total_pages, 20) + 1))
-            #     if st.session_state.current_page > 20:
-            #         page_options = [st.session_state.current_page]
-
-            #     new_page = st.selectbox(
-            #         "Page",
-            #         page_options,
-            #         index=page_options.index(st.session_state.current_page) if st.session_state.current_page in page_options else 0,
-            #         label_visibility="collapsed",
-            #         key="selectbox-bottom",
-            #         help="Select page"
-            #     )
-            #     if new_page != st.session_state.current_page:
-            #         st.session_state.current_page = new_page
-            #         st.rerun()
-
-            #     if st.button("⮞", key="next-bottom", help="Next") and st.session_state.current_page < total_pages:
-            #         st.session_state.current_page += 1
-            #         st.rerun()
-            #     if st.button("⮞⮞", key="last-bottom", help="Last") and st.session_state.current_page < total_pages:
-            #         st.session_state.current_page = total_pages
-            #         st.rerun()
 
     else:
         st.warning("⚠️ No results found. Try adjusting your search criteria.")
