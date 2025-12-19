@@ -15,7 +15,7 @@ class AnimeFetcher:
     Fetch and Save Anime as JSON
     '''
 
-    def __init__(self, continue_fetching=False, start_page=1):
+    def __init__(self, continue_fetching=True, start_page=1):
         self.base_url = os.getenv("JIKAN_BASE_URL", "https://api.jikan.moe/v4")
         self.delay = 0.5  # Rate limiting delay
         self.continue_fetching = continue_fetching
@@ -29,7 +29,7 @@ class AnimeFetcher:
         self.anime_dir.mkdir(parents=True, exist_ok=True)
         self.characters_dir.mkdir(parents=True, exist_ok=True)
 
-    def save_anime_json(self, anime_data, continue_fetching=False):
+    def save_anime_json(self, anime_data, continue_fetching=True):
         """Save anime data as JSON file"""
         filename = self.anime_dir / "anime_data.json"
 
