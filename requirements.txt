@@ -3,13 +3,10 @@ streamlit-card==1.0.2
 streamlit-searchbox==0.1.23
 st-theme==1.2.3
 elasticsearch==8.11.0
-faiss-cpu==1.13.1
 psycopg2-binary==2.9.11
-# jikanpy-v4==1.0.2
 python-dotenv==1.2.1
 pandas==2.3.3
 numpy==2.3.5
 requests==2.32.5
-sentence-transformers==5.1.2
 tqdm==4.67.1
 pydantic==2.12.5

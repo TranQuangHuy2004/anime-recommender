@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+data/
+node_modules/
+.elastic/
+.postgres/
+.streamlit/
