@@ -38,6 +38,7 @@ st.set_page_config(
 # Initialize services with caching
 SessionManager()
 SessionManager.init_search_state()
+SessionManager.delete('random_themes')
 
 # Custom CSS
 st.markdown(f"""

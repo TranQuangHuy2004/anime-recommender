@@ -5,6 +5,7 @@ from components.search_bar import render_search_bar
 from components.random_button import random_anime_button
 import utils.helpers as helper
 from utils.session_manager import SessionManager
+import random
 
 st.query_params.clear()
 
@@ -162,12 +163,19 @@ with st.container():
 
     st.markdown("---")
 
-    # Genre/Movie sections
+    if 'random_themes' not in st.session_state:
+        # Fetch themes from database
+        theme_query = "SELECT name FROM themes ORDER BY name"
+        themes = st.session_state.db.execute_query(theme_query)
+        options = [g['name'] for g in themes] if themes else []
+
+        st.session_state.random_themes = random.sample(options, 4)
+
     sections = [
-        ("Slice of Life", "genre"),
-        ("Sci-Fi", "genre"),
-        ("Horror", "genre"),
-        ("Comedy", "genre"),
+        (f"{st.session_state.random_themes[0]}", "theme"),
+        (f"{st.session_state.random_themes[1]}", "theme"),
+        (f"{st.session_state.random_themes[2]}", "theme"),
+        (f"{st.session_state.random_themes[3]}", "theme"),
         ("Movie", "type")
     ]
 
@@ -178,7 +186,7 @@ with st.container():
                 results = st.session_state.es.search_anime("", filters={"type": "Movie"}, size=10)
             else:
                 st.subheader(f"{name} Anime")
-                results = st.session_state.es.search_anime("", filters={"genres": [name]}, size=10)
+                results = st.session_state.es.search_anime("", filters={"themes": [name]}, size=10)
 
             if results and results.get('hits'):
                 with st.container(horizontal=True, key=f"anime_card_grid_{name.lower()}"):
@@ -195,7 +203,7 @@ with st.container():
                             }, SessionManager)
                         else:
                             helper.apply_filters({
-                                "genres": [name]  # Must be a list
+                                "themes": [name]  # Must be a list
                             }, SessionManager)
             else:
                 st.info(f"No {name.lower()} anime found.")

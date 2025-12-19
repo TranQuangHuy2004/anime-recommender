@@ -47,6 +47,7 @@ SessionManager()
 # Initialize session state
 SessionManager.init_search_state()
 SessionManager.clear_search_filters()
+SessionManager.delete('random_themes')
 
 # Custom CSS for better styling
 st.markdown(f"""

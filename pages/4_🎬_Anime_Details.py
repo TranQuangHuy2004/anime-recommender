@@ -31,6 +31,7 @@ st.set_page_config(
 )
 
 SessionManager()
+SessionManager.delete('random_themes')
 
 anime_id = SessionManager.get_selected_anime()
 if not anime_id:

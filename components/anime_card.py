@@ -15,6 +15,7 @@ class AnimeCard:
         SessionManager.set('sort_order', 'desc')
         SessionManager.set('sort_by', 'relevence')
         SessionManager.set('current_page', 1)
+        SessionManager.delete('random_themes')
         query = {
             'mal_id': f"{mal_id}"
         }
@@ -59,6 +60,7 @@ class AnimeCard:
                 SessionManager.set('sort_order', 'desc')
                 SessionManager.set('sort_by', 'relevence')
                 SessionManager.set('current_page', 1)
+                SessionManager.delete('random_themes')
                 query = {
                     'mal_id': f"{anime['mal_id']}"
                 }

@@ -12,7 +12,6 @@ def random_anime_button(label="🎲"):
             es = st.session_state.es
             count_response = es.es.count(index=es.indices['anime'])
             total_anime = count_response['count']
-            print(total_anime)
 
             if total_anime == 0:
                 st.error("No anime in database")
@@ -20,8 +19,6 @@ def random_anime_button(label="🎲"):
 
             # Pick random offset
             random_offset = random.randint(0, total_anime - 1)
-            print(random_offset)
-
             # Get anime at random offset
             query = {
                 "query": {"match_all": {}},

@@ -36,6 +36,7 @@ st.set_page_config(
 
 SessionManager()
 SessionManager.init_search_state()
+SessionManager.delete('random_themes')
 
 # Custom CSS
 st.markdown(f"""

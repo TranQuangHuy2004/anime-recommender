@@ -70,5 +70,4 @@ services:
 
 volumes:
   postgres_data:
-  elasticsearch_data:
-  pgadmin_data:
+  elasticsearch_data: # pgadmin_data:
