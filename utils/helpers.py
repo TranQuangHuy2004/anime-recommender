@@ -18,7 +18,7 @@ def extract_year_month_season(date_str):
 
     season = get_season(month)
 
-    return int(year), season
+    return [int(year), season]
 
 
 def get_season(month):

@@ -1,0 +1,35 @@
+[
+  {
+    "character": {
+      "mal_id": 672,
+      "url": "https://myanimelist.net/character/672/Gintoki_Sakata",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/241479.jpg?s=cec74d9d5f4f68fae78ef00ac0b2b40f"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/characters/15/241479.webp?s=cec74d9d5f4f68fae78ef00ac0b2b40f",
+          "small_image_url": "https://cdn.myanimelist.net/images/characters/15/241479t.webp?s=cec74d9d5f4f68fae78ef00ac0b2b40f"
+        }
+      },
+      "name": "Sakata, Gintoki"
+    },
+    "role": "Main",
+    "favorites": 75810,
+    "voice_actors": [
+      {
+        "person": {
+          "mal_id": 2,
+          "url": "https://myanimelist.net/people/2/Tomokazu_Sugita",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/1/81054.jpg?s=b097749c915d7b524a6aab22bdace0e7"
+            }
+          },
+          "name": "Sugita, Tomokazu"
+        },
+        "language": "Japanese"
+      }
+    ]
+  }
+]

@@ -493,7 +493,9 @@ class ElasticsearchService:
                     season = None
                     result = extract_year_month_season(anime.get('aired_string'))
                     if result:
-                        year = result[0]
+                        year = int(result[0])
+                        if not isinstance(year, int):
+                            return
                         season = result[1]
 
                     # Base input for anime titles
@@ -565,8 +567,8 @@ class ElasticsearchService:
                             "duration": anime.get('duration'),
                             "duration_minutes": extract_minutes_from_duration(anime.get('duration')),
                             "rating": anime.get('rating'),
-                            "season": anime['season'] if anime.get('season', '') else season,
-                            "year": anime['year'] if anime.get('year', '') else year,
+                            "season": anime['season'] if anime.get('season', None) else season,
+                            "year": anime['year'] if anime.get('year', None) else year,
                             "aired_string": anime.get('aired_string'),
                             "image_url": anime.get('image_url'),
                             "trailer_url": anime.get('trailer_url'),
@@ -929,7 +931,6 @@ class ElasticsearchService:
                     "query": query,
                     "fields": [
                         "search_key_names",
-                        "search_key_name.keyword^2"
                     ],
                     "operator": "and",
                     "fuzziness": "AUTO"
@@ -1115,7 +1116,6 @@ class ElasticsearchService:
                                     "query": searchterm,
                                     "fields": [
                                         "search_key_names",
-                                        "search_key_name.keyword^2"
                                     ],
                                     "operator": "and",
                                     "fuzziness": "AUTO"
@@ -1437,7 +1437,7 @@ class ElasticsearchService:
                                     reverse=(order == "desc"))
         elif sort_by == "year":
             result['hits'] = sorted(result['hits'],
-                                    key=lambda x: x.get('year', 0),
+                                    key=lambda x: (x.get('year') is None, x.get('year', 0)),
                                     reverse=(order == "desc"))
         elif sort_by == "episodes":
             result['hits'] = sorted(result['hits'],

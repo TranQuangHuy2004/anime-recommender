@@ -164,7 +164,17 @@ with col_controls2:
     st.session_state.sort_order = "desc" if sort_order == "Descending" else "asc"
 
 with col_controls3:
-    results_per_page = st.selectbox("Results per page", [10, 20, 50, 100], index=0)
+    def on_results_per_page_change():
+        if 'results_per_page_previous' in st.session_state:
+            if st.session_state.results_per_page != st.session_state.results_per_page_previous:
+                st.session_state.current_page = 1
+        # Update the previous value
+        st.session_state.results_per_page_previous = st.session_state.results_per_page
+    # Store initial value if not exists
+    if 'results_per_page_previous' not in st.session_state:
+        st.session_state.results_per_page_previous = 10
+    results_per_page = st.selectbox("Results per page", [10, 20, 50, 100], index=0, on_change=on_results_per_page_change)
+    st.session_state.results_per_page = results_per_page
 
 
 # Perform search based on current state
