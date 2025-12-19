@@ -16,7 +16,7 @@ load_dotenv()
 
 class ElasticsearchService:
     def __init__(self):
-        self.host = os.getenv("ES_HOST", "localhost")
+        self.host = os.getenv("ES_HOST", "elasticsearch")
         self.port = os.getenv("ES_PORT", "9200")
 
         # Define all indices

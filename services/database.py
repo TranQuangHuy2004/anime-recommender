@@ -20,7 +20,7 @@ class Database:
 
     def __init__(self):
         self.conn_params = {
-            "host": os.getenv("DB_HOST", "localhost"),
+            "host": os.getenv("DB_HOST", "postgres"),
             "port": os.getenv("DB_PORT", "5432"),
             "database": os.getenv("DB_NAME", "anime_db"),
             "user": os.getenv("DB_USER", "anime_user"),
