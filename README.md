@@ -97,6 +97,7 @@ docker compose ps
 
 All services should be **running / healthy**.
 
+
 #### ⏱️ First-Time Setup Time
 
 **Important: The first run may take several minutes.**
