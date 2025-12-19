@@ -139,7 +139,7 @@ Example:
 docker compose run --rm app python -m scripts.fetch_anime --continue --limit 1000 --page 121
 ```
 
-This will continue fetching 1000 anime with characters from page 121 (Jikan API only fetch 25 anime per page) and extend the existing data.
+This will continue fetching 1000 anime with characters starting from page 121 (Jikan API only fetch 25 anime per page) and extend the existing data.
 
 ---
 
